@@ -472,19 +472,24 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   useEffect(() => {
     if (lines.length === 0 || properties.length === 0) return;
     const needsEnrich = properties.some(
-      p => (p.nearestDistM === 0 || p.nearestSubDistM === 0) && p.lat !== 0
+      p => p.lat !== 0 && (
+        p.nearestDistM === 0 ||
+        p.nearestSubDistM === 0 ||
+        p.nearestSubCapMw === null  // 容量未設定でも再計算
+      )
     );
     if (!needsEnrich) return;
     const enriched = properties.map(p => {
       if (p.lat === 0) return p;
-      const needsLine = p.nearestDistM === 0;
-      const needsSub  = p.nearestSubDistM === 0;
-      if (!needsLine && !needsSub) return p;
+      const needsLine   = p.nearestDistM === 0;
+      const needsSub    = p.nearestSubDistM === 0;
+      const needsSubCap = p.nearestSubCapMw === null;
+      if (!needsLine && !needsSub && !needsSubCap) return p;
       const nb  = needsLine ? nearestLine(p.lat, p.lng, lines, capByLineId) : null;
-      const sub = needsSub  ? nearestSubstation(p.lat, p.lng)               : null;
+      const sub = (needsSub || needsSubCap) ? nearestSubstation(p.lat, p.lng) : null;
       return {
         ...p,
-        ...(nb  ? { nearestLineName: nb.name,  nearestLineKv: nb.kv,  nearestDistM: nb.distM, nearestCapMw: nb.capMw } : {}),
+        ...(nb  ? { nearestLineName: nb.name, nearestLineKv: nb.kv, nearestDistM: nb.distM, nearestCapMw: nb.capMw } : {}),
         ...(sub ? { nearestSubName: sub.name, nearestSubKv: sub.kv, nearestSubDistM: sub.distM, nearestSubCapMw: sub.capMw } : {}),
       };
     });
@@ -492,7 +497,11 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
     enriched
       .filter((p, i) => {
         const orig = properties[i];
-        return p.lat !== 0 && (orig?.nearestDistM === 0 || orig?.nearestSubDistM === 0);
+        return p.lat !== 0 && (
+          orig?.nearestDistM === 0 ||
+          orig?.nearestSubDistM === 0 ||
+          orig?.nearestSubCapMw === null
+        );
       })
       .forEach(p => {
         fetch('/api/homes-properties', {
@@ -500,10 +509,10 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             id: p.id,
-            nearestLineName: p.nearestLineName,
-            nearestLineKv:   p.nearestLineKv,
-            nearestDistM:    p.nearestDistM,
-            nearestCapMw:    p.nearestCapMw,
+            nearestLineName:  p.nearestLineName,
+            nearestLineKv:    p.nearestLineKv,
+            nearestDistM:     p.nearestDistM,
+            nearestCapMw:     p.nearestCapMw,
             nearestSubName:   p.nearestSubName,
             nearestSubDistM:  p.nearestSubDistM,
             nearestSubKv:     p.nearestSubKv,
