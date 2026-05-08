@@ -125,7 +125,9 @@ function appReducer(state: AppState, action: AppAction): AppState {
 
 export default function Home() {
   const [state, dispatch] = useReducer(appReducer, initialState);
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(
+    () => typeof window !== 'undefined' && window.innerWidth < 768
+  );
   const [showInfo, setShowInfo] = useState(false);
   const [showPropertyList, setShowPropertyList] = useState(false);
   const [candidatesFallback, setCandidatesFallback] = useState(false);
@@ -352,7 +354,7 @@ export default function Home() {
         <div
           className={clsx(
             "flex-shrink-0 transition-all duration-300 overflow-hidden border-r border-slate-800",
-            sidebarCollapsed ? "w-0" : "w-[400px]"
+            sidebarCollapsed ? "w-0" : "w-full md:w-[400px]"
           )}
         >
           <div className="w-[400px] h-full">
