@@ -147,29 +147,39 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
   const [showAdd, setShowAdd] = useState(false);
 
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem(HOMES_STORAGE_KEY);
-      setProperties(saved ? JSON.parse(saved) : []);
-    } catch { setProperties([]); }
+    fetch('/api/homes-properties')
+      .then(r => r.json())
+      .then(data => setProperties(data))
+      .catch(() => setProperties([]));
   }, []);
 
-  function save(list: HomesProperty[]) {
-    setProperties(list);
-    try { localStorage.setItem(HOMES_STORAGE_KEY, JSON.stringify(list)); } catch {}
-  }
-
-  function handleAdd(p: HomesProperty) {
-    save([...properties, p]);
+  async function handleAdd(p: HomesProperty) {
+    await fetch('/api/homes-properties', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(p),
+    }).catch(() => {});
+    setProperties(prev => [...prev, p]);
     setShowAdd(false);
   }
 
-  function handleRemove(id: string) {
-    save(properties.filter(p => p.id !== id));
+  async function handleRemove(id: string) {
+    await fetch('/api/homes-properties', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id }),
+    }).catch(() => {});
+    setProperties(prev => prev.filter(p => p.id !== id));
   }
 
-  function handleRemoveAll() {
+  async function handleRemoveAll() {
     if (!window.confirm(`登録済み ${properties.length} 件をすべて削除しますか？`)) return;
-    save([]);
+    await fetch('/api/homes-properties', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ all: true }),
+    }).catch(() => {});
+    setProperties([]);
   }
 
   const distLabel = (m: number) =>

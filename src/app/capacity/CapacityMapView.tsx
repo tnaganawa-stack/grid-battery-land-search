@@ -6,7 +6,7 @@ import { MapContainer, TileLayer, Polyline, Tooltip, Marker, useMap } from "reac
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import gridCapacityAll from "@/data/grid_capacity_all.json";
-import { HOMES_STORAGE_KEY, type HomesProperty } from "@/components/PropertyListModal";
+import { type HomesProperty } from "@/components/PropertyListModal";
 
 // Leafletデフォルトアイコン修正
 delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
@@ -403,12 +403,14 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [lines, setLines]       = useState<TransmissionLine[]>([]);
   const [loading, setLoading]   = useState(true);
   const [addressPin, setAddressPin] = useState<{ lat: number; lng: number; label: string } | null>(null);
-  const [properties, setProperties] = useState<HomesProperty[]>(() => {
-    try {
-      const saved = localStorage.getItem(HOMES_STORAGE_KEY);
-      return saved ? JSON.parse(saved) : [];
-    } catch { return []; }
-  });
+  const [properties, setProperties] = useState<HomesProperty[]>([]);
+
+  useEffect(() => {
+    fetch('/api/homes-properties')
+      .then(r => r.json())
+      .then(data => setProperties(data))
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     fetch("/api/real-data/transmission-lines", { cache: "no-store" })
@@ -430,7 +432,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
     return m;
   }, [lines]);
 
-  // 送電線データ読み込み後、nearestLine 未計算の物件を自動補完して localStorage に書き戻す
+  // 送電線データ読み込み後、nearestLine 未計算の物件を自動補完して DB に書き戻す
   useEffect(() => {
     if (lines.length === 0 || properties.length === 0) return;
     const needsEnrich = properties.some(p => p.nearestDistM === 0 && p.lat !== 0);
@@ -441,7 +443,21 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       return { ...p, nearestLineName: nb.name, nearestLineKv: nb.kv, nearestDistM: nb.distM, nearestCapMw: nb.capMw };
     });
     setProperties(enriched);
-    try { localStorage.setItem(HOMES_STORAGE_KEY, JSON.stringify(enriched)); } catch { /* ignore */ }
+    enriched
+      .filter((p, i) => properties[i]?.nearestDistM === 0 && p.lat !== 0)
+      .forEach(p => {
+        fetch('/api/homes-properties', {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            id: p.id,
+            nearestLineName: p.nearestLineName,
+            nearestLineKv: p.nearestLineKv,
+            nearestDistM: p.nearestDistM,
+            nearestCapMw: p.nearestCapMw,
+          }),
+        }).catch(() => {});
+      });
   }, [lines, capByLineId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 66kV以上 かつ 空き容量あり（> 0 MW）の線のみ描画
