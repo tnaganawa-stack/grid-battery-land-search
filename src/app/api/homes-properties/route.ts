@@ -14,6 +14,9 @@ function rowToProperty(row: Record<string, unknown>): HomesProperty {
     nearestLineKv: (row.nearest_line_kv as number) ?? 0,
     nearestDistM: (row.nearest_dist_m as number) ?? 0,
     nearestCapMw: row.nearest_cap_mw as number | null,
+    nearestSubName: (row.nearest_sub_name as string) ?? '',
+    nearestSubDistM: (row.nearest_sub_dist_m as number) ?? 0,
+    nearestSubKv: (row.nearest_sub_kv as number) ?? 0,
   }
 }
 
@@ -34,11 +37,13 @@ export async function POST(request: Request) {
     const sql = getDb()
     await sql`
       INSERT INTO homes_properties
-        (id, address, price_men, area_sqm, lat, lng, nearest_line_name, nearest_line_kv, nearest_dist_m, nearest_cap_mw)
+        (id, address, price_men, area_sqm, lat, lng, nearest_line_name, nearest_line_kv, nearest_dist_m, nearest_cap_mw,
+         nearest_sub_name, nearest_sub_dist_m, nearest_sub_kv)
       VALUES
         (${body.id}, ${body.address}, ${body.priceMen ?? null}, ${body.areaSqm ?? null},
          ${body.lat}, ${body.lng}, ${body.nearestLineName ?? ''}, ${body.nearestLineKv ?? 0},
-         ${body.nearestDistM ?? 0}, ${body.nearestCapMw ?? null})
+         ${body.nearestDistM ?? 0}, ${body.nearestCapMw ?? null},
+         ${body.nearestSubName ?? ''}, ${body.nearestSubDistM ?? 0}, ${body.nearestSubKv ?? 0})
       ON CONFLICT (id) DO NOTHING
     `
     return NextResponse.json({ ok: true })
@@ -54,10 +59,13 @@ export async function PATCH(request: Request) {
     const sql = getDb()
     await sql`
       UPDATE homes_properties SET
-        nearest_line_name = ${body.nearestLineName},
-        nearest_line_kv   = ${body.nearestLineKv},
-        nearest_dist_m    = ${body.nearestDistM},
-        nearest_cap_mw    = ${body.nearestCapMw ?? null}
+        nearest_line_name  = ${body.nearestLineName},
+        nearest_line_kv    = ${body.nearestLineKv},
+        nearest_dist_m     = ${body.nearestDistM},
+        nearest_cap_mw     = ${body.nearestCapMw ?? null},
+        nearest_sub_name   = ${body.nearestSubName ?? ''},
+        nearest_sub_dist_m = ${body.nearestSubDistM ?? 0},
+        nearest_sub_kv     = ${body.nearestSubKv ?? 0}
       WHERE id = ${body.id}
     `
     return NextResponse.json({ ok: true })

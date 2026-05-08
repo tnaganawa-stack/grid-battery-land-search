@@ -6,6 +6,7 @@ import { MapContainer, TileLayer, Polyline, Tooltip, Marker, useMap } from "reac
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import gridCapacityAll from "@/data/grid_capacity_all.json";
+import substationsData from "@/data/substations.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
 
 // Leafletデフォルトアイコン修正
@@ -76,6 +77,30 @@ function ptSegDist(
   const ex = (px - projX) * cosLat * DEG_TO_M;
   const ey = (py - projY) * DEG_TO_M;
   return Math.sqrt(ex * ex + ey * ey);
+}
+
+// ─── 変電所ルックアップ ───────────────────────────────────────
+type SubstationItem = {
+  id: string;
+  name: string;
+  coordinates: { lat: number; lng: number };
+  voltageKv: number;
+};
+
+function nearestSubstation(
+  lat: number, lng: number
+): { name: string; kv: number; distM: number } {
+  let best = { name: "", kv: 0, distM: Infinity };
+  for (const sub of substationsData as SubstationItem[]) {
+    const cosLat = Math.cos((lat * Math.PI) / 180);
+    const dx = (sub.coordinates.lng - lng) * cosLat * DEG_TO_M;
+    const dy = (sub.coordinates.lat - lat) * DEG_TO_M;
+    const d = Math.sqrt(dx * dx + dy * dy);
+    if (d < best.distM) {
+      best = { name: sub.name, kv: sub.voltageKv, distM: d };
+    }
+  }
+  return best;
 }
 
 function nearestLine(
@@ -432,19 +457,32 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
     return m;
   }, [lines]);
 
-  // 送電線データ読み込み後、nearestLine 未計算の物件を自動補完して DB に書き戻す
+  // 送電線データ読み込み後、未計算の物件を自動補完して DB に書き戻す（送電線 + 変電所）
   useEffect(() => {
     if (lines.length === 0 || properties.length === 0) return;
-    const needsEnrich = properties.some(p => p.nearestDistM === 0 && p.lat !== 0);
+    const needsEnrich = properties.some(
+      p => (p.nearestDistM === 0 || p.nearestSubDistM === 0) && p.lat !== 0
+    );
     if (!needsEnrich) return;
     const enriched = properties.map(p => {
-      if (p.nearestDistM > 0 || p.lat === 0) return p;
-      const nb = nearestLine(p.lat, p.lng, lines, capByLineId);
-      return { ...p, nearestLineName: nb.name, nearestLineKv: nb.kv, nearestDistM: nb.distM, nearestCapMw: nb.capMw };
+      if (p.lat === 0) return p;
+      const needsLine = p.nearestDistM === 0;
+      const needsSub  = p.nearestSubDistM === 0;
+      if (!needsLine && !needsSub) return p;
+      const nb  = needsLine ? nearestLine(p.lat, p.lng, lines, capByLineId) : null;
+      const sub = needsSub  ? nearestSubstation(p.lat, p.lng)               : null;
+      return {
+        ...p,
+        ...(nb  ? { nearestLineName: nb.name,  nearestLineKv: nb.kv,  nearestDistM: nb.distM, nearestCapMw: nb.capMw } : {}),
+        ...(sub ? { nearestSubName:  sub.name, nearestSubKv:  sub.kv, nearestSubDistM: sub.distM }                     : {}),
+      };
     });
     setProperties(enriched);
     enriched
-      .filter((p, i) => properties[i]?.nearestDistM === 0 && p.lat !== 0)
+      .filter((p, i) => {
+        const orig = properties[i];
+        return p.lat !== 0 && (orig?.nearestDistM === 0 || orig?.nearestSubDistM === 0);
+      })
       .forEach(p => {
         fetch('/api/homes-properties', {
           method: 'PATCH',
@@ -452,9 +490,12 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           body: JSON.stringify({
             id: p.id,
             nearestLineName: p.nearestLineName,
-            nearestLineKv: p.nearestLineKv,
-            nearestDistM: p.nearestDistM,
-            nearestCapMw: p.nearestCapMw,
+            nearestLineKv:   p.nearestLineKv,
+            nearestDistM:    p.nearestDistM,
+            nearestCapMw:    p.nearestCapMw,
+            nearestSubName:  p.nearestSubName,
+            nearestSubDistM: p.nearestSubDistM,
+            nearestSubKv:    p.nearestSubKv,
           }),
         }).catch(() => {});
       });
@@ -578,17 +619,28 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                 </div>
                 {p.nearestDistM > 0 && (
                   <>
-                    <p style={{ color: "#374151" }}>最寄送電線: <b>{p.nearestLineName}</b>（{p.nearestLineKv}kV）</p>
+                    <p style={{ color: "#374151", marginTop: 4 }}>🔌 最寄送電線: <b>{p.nearestLineName}</b>（{p.nearestLineKv}kV）</p>
                     <p style={{ color: "#374151" }}>
-                      距離: <b style={{ color: p.nearestDistM < 500 ? "#16a34a" : p.nearestDistM < 2000 ? "#f97316" : "#ef4444" }}>
+                      　距離: <b style={{ color: p.nearestDistM < 500 ? "#16a34a" : p.nearestDistM < 2000 ? "#f97316" : "#ef4444" }}>
                         {p.nearestDistM < 1000 ? `${Math.round(p.nearestDistM)}m` : `${(p.nearestDistM / 1000).toFixed(1)}km`}
                       </b>
                     </p>
                     <p style={{ color: "#374151" }}>
-                      空き容量: <b style={{ color: p.nearestCapMw && p.nearestCapMw > 0 ? "#16a34a" : "#ef4444" }}>
+                      　空き容量: <b style={{ color: p.nearestCapMw && p.nearestCapMw > 0 ? "#16a34a" : "#ef4444" }}>
                         {p.nearestCapMw != null ? `${p.nearestCapMw}MW` : "不明"}
                       </b>
                     </p>
+                  </>
+                )}
+                {p.nearestSubDistM > 0 && (
+                  <>
+                    <p style={{ color: "#374151", marginTop: 4 }}>🏭 最寄変電所: <b>{p.nearestSubName}</b>（{p.nearestSubKv}kV）</p>
+                    <p style={{ color: "#374151" }}>
+                      　距離: <b style={{ color: p.nearestSubDistM < 500 ? "#16a34a" : p.nearestSubDistM < 2000 ? "#f97316" : "#ef4444" }}>
+                        {p.nearestSubDistM < 1000 ? `${Math.round(p.nearestSubDistM)}m` : `${(p.nearestSubDistM / 1000).toFixed(1)}km`}
+                      </b>
+                    </p>
+                    <p style={{ color: "#9ca3af", fontSize: 10 }}>　空き容量: 要確認（OCCTO未連携）</p>
                   </>
                 )}
               </div>

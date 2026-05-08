@@ -16,6 +16,9 @@ export interface HomesProperty {
   nearestLineKv: number;
   nearestDistM: number;
   nearestCapMw: number | null;
+  nearestSubName: string;
+  nearestSubDistM: number;
+  nearestSubKv: number;
 }
 
 // ─── CSV エクスポート ─────────────────────────────────────────
@@ -98,6 +101,7 @@ function AddForm({ onAdd }: { onAdd: (p: HomesProperty) => void }) {
       areaSqm: area ? parseFloat(area) : null,
       lat: pos.lat, lng: pos.lng,
       nearestLineName: "", nearestLineKv: 0, nearestDistM: 0, nearestCapMw: null,
+      nearestSubName: "", nearestSubDistM: 0, nearestSubKv: 0,
     });
     setAddress(""); setPrice(""); setArea("");
     setLoading(false);
@@ -256,7 +260,7 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
             <table className="w-full text-[11px] border-collapse">
               <thead className="sticky top-0 bg-slate-50 z-10">
                 <tr>
-                  {["住所", "土地面積", "価格", "最寄送電線", "電圧", "最短距離", "空き容量", ""].map(h => (
+                  {["住所", "土地面積", "価格", "最寄送電線", "電圧(線)", "送電線距離", "空き容量(線)", "最寄変電所", "電圧(変)", "変電所距離", ""].map(h => (
                     <th key={h} className="text-left px-3 py-2.5 text-[10px] font-semibold text-slate-700 border-b border-slate-200 whitespace-nowrap">
                       {h}
                     </th>
@@ -292,6 +296,19 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
                       {p.nearestDistM > 0
                         ? (p.nearestCapMw != null ? `${p.nearestCapMw} MW` : "不明")
                         : <span className="text-slate-400 text-[10px]">未計算</span>}
+                    </td>
+                    <td className="px-3 py-2.5 text-slate-900 max-w-[160px]">
+                      <span title={p.nearestSubName}>
+                        {p.nearestSubDistM > 0
+                          ? (p.nearestSubName.length > 14 ? p.nearestSubName.slice(0, 14) + "…" : p.nearestSubName)
+                          : <span className="text-slate-400 text-[10px]">未計算</span>}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2.5 text-slate-800 whitespace-nowrap">
+                      {p.nearestSubDistM > 0 && p.nearestSubKv ? `${p.nearestSubKv} kV` : "—"}
+                    </td>
+                    <td className="px-3 py-2.5 font-bold whitespace-nowrap" style={{ color: distColor(p.nearestSubDistM) }}>
+                      {distLabel(p.nearestSubDistM)}
                     </td>
                     <td className="px-3 py-2.5">
                       <button
