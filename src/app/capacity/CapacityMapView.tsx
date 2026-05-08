@@ -7,6 +7,7 @@ import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import gridCapacityAll from "@/data/grid_capacity_all.json";
 import substationsData from "@/data/substations.json";
+import subCapData from "@/data/substation_capacity.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
 
 // Leafletデフォルトアイコン修正
@@ -87,17 +88,27 @@ type SubstationItem = {
   voltageKv: number;
 };
 
+const SUB_CAP_MAP = new Map<string, number>(
+  Object.entries(subCapData as Record<string, number>)
+);
+
+function lookupSubCap(name: string): number | null {
+  const key = name.replace(/変電所$/, '').trim();
+  const v = SUB_CAP_MAP.get(key);
+  return v !== undefined ? v : null;
+}
+
 function nearestSubstation(
   lat: number, lng: number
-): { name: string; kv: number; distM: number } {
-  let best = { name: "", kv: 0, distM: Infinity };
+): { name: string; kv: number; distM: number; capMw: number | null } {
+  let best = { name: "", kv: 0, distM: Infinity, capMw: null as number | null };
   for (const sub of substationsData as SubstationItem[]) {
     const cosLat = Math.cos((lat * Math.PI) / 180);
     const dx = (sub.coordinates.lng - lng) * cosLat * DEG_TO_M;
     const dy = (sub.coordinates.lat - lat) * DEG_TO_M;
     const d = Math.sqrt(dx * dx + dy * dy);
     if (d < best.distM) {
-      best = { name: sub.name, kv: sub.voltageKv, distM: d };
+      best = { name: sub.name, kv: sub.voltageKv, distM: d, capMw: lookupSubCap(sub.name) };
     }
   }
   return best;
@@ -474,7 +485,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       return {
         ...p,
         ...(nb  ? { nearestLineName: nb.name,  nearestLineKv: nb.kv,  nearestDistM: nb.distM, nearestCapMw: nb.capMw } : {}),
-        ...(sub ? { nearestSubName:  sub.name, nearestSubKv:  sub.kv, nearestSubDistM: sub.distM }                     : {}),
+        ...(sub ? { nearestSubName: sub.name, nearestSubKv: sub.kv, nearestSubDistM: sub.distM, nearestSubCapMw: sub.capMw } : {}),
       };
     });
     setProperties(enriched);
@@ -493,9 +504,10 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
             nearestLineKv:   p.nearestLineKv,
             nearestDistM:    p.nearestDistM,
             nearestCapMw:    p.nearestCapMw,
-            nearestSubName:  p.nearestSubName,
-            nearestSubDistM: p.nearestSubDistM,
-            nearestSubKv:    p.nearestSubKv,
+            nearestSubName:   p.nearestSubName,
+            nearestSubDistM:  p.nearestSubDistM,
+            nearestSubKv:     p.nearestSubKv,
+            nearestSubCapMw:  p.nearestSubCapMw,
           }),
         }).catch(() => {});
       });
@@ -640,7 +652,11 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                         {p.nearestSubDistM < 1000 ? `${Math.round(p.nearestSubDistM)}m` : `${(p.nearestSubDistM / 1000).toFixed(1)}km`}
                       </b>
                     </p>
-                    <p style={{ color: "#9ca3af", fontSize: 10 }}>　空き容量: 要確認（OCCTO未連携）</p>
+                    <p style={{ color: "#374151" }}>
+                      　空き容量: <b style={{ color: p.nearestSubCapMw == null ? "#9ca3af" : p.nearestSubCapMw > 0 ? "#16a34a" : "#ef4444" }}>
+                        {p.nearestSubCapMw != null ? `${p.nearestSubCapMw} MW` : "要確認"}
+                      </b>
+                    </p>
                   </>
                 )}
               </div>

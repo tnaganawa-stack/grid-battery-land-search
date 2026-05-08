@@ -19,6 +19,7 @@ export interface HomesProperty {
   nearestSubName: string;
   nearestSubDistM: number;
   nearestSubKv: number;
+  nearestSubCapMw: number | null;
 }
 
 // ─── CSV エクスポート ─────────────────────────────────────────
@@ -101,7 +102,7 @@ function AddForm({ onAdd }: { onAdd: (p: HomesProperty) => void }) {
       areaSqm: area ? parseFloat(area) : null,
       lat: pos.lat, lng: pos.lng,
       nearestLineName: "", nearestLineKv: 0, nearestDistM: 0, nearestCapMw: null,
-      nearestSubName: "", nearestSubDistM: 0, nearestSubKv: 0,
+      nearestSubName: "", nearestSubDistM: 0, nearestSubKv: 0, nearestSubCapMw: null,
     });
     setAddress(""); setPrice(""); setArea("");
     setLoading(false);
@@ -260,7 +261,7 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
             <table className="w-full text-[11px] border-collapse">
               <thead className="sticky top-0 bg-slate-50 z-10">
                 <tr>
-                  {["住所", "土地面積", "価格", "最寄送電線", "電圧(線)", "送電線距離", "空き容量(線)", "最寄変電所", "電圧(変)", "変電所距離", ""].map(h => (
+                  {["住所", "土地面積", "価格", "最寄送電線", "電圧(線)", "送電線距離", "空き容量(線)", "最寄変電所", "電圧(変)", "変電所距離", "空き容量(変)", ""].map(h => (
                     <th key={h} className="text-left px-3 py-2.5 text-[10px] font-semibold text-slate-700 border-b border-slate-200 whitespace-nowrap">
                       {h}
                     </th>
@@ -309,6 +310,11 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
                     </td>
                     <td className="px-3 py-2.5 font-bold whitespace-nowrap" style={{ color: distColor(p.nearestSubDistM) }}>
                       {distLabel(p.nearestSubDistM)}
+                    </td>
+                    <td className="px-3 py-2.5 font-bold whitespace-nowrap" style={{ color: capColor(p.nearestSubCapMw) }}>
+                      {p.nearestSubDistM > 0
+                        ? (p.nearestSubCapMw != null ? `${p.nearestSubCapMw} MW` : "要確認")
+                        : <span className="text-slate-400 text-[10px]">未計算</span>}
                     </td>
                     <td className="px-3 py-2.5">
                       <button
