@@ -311,6 +311,14 @@ export default function Home() {
         </div>
 
         <div className="relative ml-auto flex items-center gap-2">
+          <a
+            href="/properties/new"
+            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-[11px] font-medium text-green-300 bg-green-500/10 border border-green-500/30 rounded-lg hover:bg-green-500/20 transition-all"
+            title="物件を新規登録"
+          >
+            <ClipboardList size={11} />
+            物件登録
+          </a>
           <button
             onClick={() => setShowPropertyList(true)}
             className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-[11px] font-medium text-indigo-300 bg-indigo-500/10 border border-indigo-500/30 rounded-lg hover:bg-indigo-500/20 transition-all"
