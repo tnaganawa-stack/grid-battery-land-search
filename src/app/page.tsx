@@ -315,29 +315,29 @@ export default function Home() {
         <div className="relative ml-auto flex items-center gap-2">
           <a
             href="/properties/new"
-            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-[11px] font-medium text-green-300 bg-green-500/10 border border-green-500/30 rounded-lg hover:bg-green-500/20 transition-all"
+            className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 text-[11px] font-medium text-green-300 bg-green-500/10 border border-green-500/30 rounded-lg hover:bg-green-500/20 transition-all"
             title="物件を新規登録"
           >
-            <ClipboardList size={11} />
-            物件登録
+            <ClipboardList size={13} />
+            <span className="hidden sm:inline">物件登録</span>
           </a>
           <button
             onClick={() => setShowPropertyList(true)}
-            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-[11px] font-medium text-indigo-300 bg-indigo-500/10 border border-indigo-500/30 rounded-lg hover:bg-indigo-500/20 transition-all"
+            className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 text-[11px] font-medium text-indigo-300 bg-indigo-500/10 border border-indigo-500/30 rounded-lg hover:bg-indigo-500/20 transition-all"
             title="登録物件リストを開く"
           >
-            <ClipboardList size={11} />
-            物件リスト
+            <ClipboardList size={13} />
+            <span className="hidden sm:inline">物件リスト</span>
           </button>
           <a
             href="/capacity"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 text-[11px] font-medium text-amber-300 bg-amber-500/10 border border-amber-500/30 rounded-lg hover:bg-amber-500/20 transition-all"
+            className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 text-[11px] font-medium text-amber-300 bg-amber-500/10 border border-amber-500/30 rounded-lg hover:bg-amber-500/20 transition-all"
             title="系統空き容量マップを別タブで開く"
           >
-            <Zap size={11} />
-            空き容量マップ
+            <Zap size={13} />
+            <span className="hidden sm:inline">空き容量マップ</span>
           </a>
           <button
             onClick={() => setShowInfo(!showInfo)}
