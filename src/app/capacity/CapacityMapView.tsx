@@ -92,16 +92,16 @@ const SUB_CAP_MAP = new Map<string, number>(
   Object.entries(subCapData as Record<string, number>)
 );
 
-function lookupSubCap(name: string): number | null {
+function lookupSubCap(name: string): number {
   const key = name.replace(/変電所$/, '').trim();
   const v = SUB_CAP_MAP.get(key);
-  return v !== undefined ? v : null;
+  return v !== undefined ? v : -1; // -1 = データなし（未収録変電所）
 }
 
 function nearestSubstation(
   lat: number, lng: number
 ): { name: string; kv: number; distM: number; capMw: number | null } {
-  let best = { name: "", kv: 0, distM: Infinity, capMw: null as number | null };
+  let best = { name: "", kv: 0, distM: Infinity, capMw: -1 as number };
   for (const sub of substationsData as SubstationItem[]) {
     const cosLat = Math.cos((lat * Math.PI) / 180);
     const dx = (sub.coordinates.lng - lng) * cosLat * DEG_TO_M;
@@ -469,13 +469,14 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   }, [lines]);
 
   // 送電線データ読み込み後、未計算の物件を自動補完して DB に書き戻す（送電線 + 変電所）
+  // null = 未計算, -1 = 計算済みだがデータなし（無限ループ防止）
   useEffect(() => {
     if (lines.length === 0 || properties.length === 0) return;
     const needsEnrich = properties.some(
       p => p.lat !== 0 && (
         p.nearestDistM === 0 ||
         p.nearestSubDistM === 0 ||
-        p.nearestSubCapMw === null  // 容量未設定でも再計算
+        p.nearestSubCapMw === null
       )
     );
     if (!needsEnrich) return;
@@ -485,8 +486,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       const needsSub    = p.nearestSubDistM === 0;
       const needsSubCap = p.nearestSubCapMw === null;
       if (!needsLine && !needsSub && !needsSubCap) return p;
-      const nb  = needsLine ? nearestLine(p.lat, p.lng, lines, capByLineId) : null;
-      const sub = (needsSub || needsSubCap) ? nearestSubstation(p.lat, p.lng) : null;
+      const nb  = needsLine              ? nearestLine(p.lat, p.lng, lines, capByLineId) : null;
+      const sub = (needsSub || needsSubCap) ? nearestSubstation(p.lat, p.lng)            : null;
       return {
         ...p,
         ...(nb  ? { nearestLineName: nb.name, nearestLineKv: nb.kv, nearestDistM: nb.distM, nearestCapMw: nb.capMw } : {}),
@@ -520,7 +521,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           }),
         }).catch(() => {});
       });
-  }, [lines, capByLineId]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [lines, capByLineId, properties]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 66kV以上 かつ 空き容量あり（> 0 MW）の線のみ描画
   const matchedLines = useMemo(() => {
@@ -662,8 +663,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                       </b>
                     </p>
                     <p style={{ color: "#374151" }}>
-                      　空き容量: <b style={{ color: p.nearestSubCapMw == null ? "#9ca3af" : p.nearestSubCapMw > 0 ? "#16a34a" : "#ef4444" }}>
-                        {p.nearestSubCapMw != null ? `${p.nearestSubCapMw} MW` : "要確認"}
+                      　空き容量: <b style={{ color: p.nearestSubCapMw == null || p.nearestSubCapMw < 0 ? "#9ca3af" : p.nearestSubCapMw > 0 ? "#16a34a" : "#ef4444" }}>
+                        {p.nearestSubCapMw == null ? "未計算" : p.nearestSubCapMw < 0 ? "要確認" : `${p.nearestSubCapMw} MW`}
                       </b>
                     </p>
                   </>

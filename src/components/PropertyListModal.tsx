@@ -311,9 +311,9 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
                     <td className="px-3 py-2.5 font-bold whitespace-nowrap" style={{ color: distColor(p.nearestSubDistM) }}>
                       {distLabel(p.nearestSubDistM)}
                     </td>
-                    <td className="px-3 py-2.5 font-bold whitespace-nowrap" style={{ color: capColor(p.nearestSubCapMw) }}>
+                    <td className="px-3 py-2.5 font-bold whitespace-nowrap" style={{ color: p.nearestSubCapMw != null && p.nearestSubCapMw >= 0 ? capColor(p.nearestSubCapMw) : "#94a3b8" }}>
                       {p.nearestSubDistM > 0
-                        ? (p.nearestSubCapMw != null ? `${p.nearestSubCapMw} MW` : "要確認")
+                        ? (p.nearestSubCapMw == null ? "未計算" : p.nearestSubCapMw < 0 ? "要確認" : `${p.nearestSubCapMw} MW`)
                         : <span className="text-slate-400 text-[10px]">未計算</span>}
                     </td>
                     <td className="px-3 py-2.5">
