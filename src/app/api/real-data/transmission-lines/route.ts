@@ -1,0 +1,80 @@
+/**
+ * GET /api/real-data/transmission-lines
+ * 関東全域154kV+ (静的JSON) + 県別66kV/77kV (静的JSON×9県) をマージして即時返却
+ */
+
+import { NextResponse } from "next/server";
+import { MOCK_TRANSMISSION_LINES } from "@/lib/mockData";
+import * as fs from "fs";
+import * as path from "path";
+import type { TransmissionLine } from "@/types";
+
+const DATA_DIR = path.join(process.cwd(), "src", "data");
+
+const KANTO_LINES_PATH = path.join(DATA_DIR, "transmission_lines_kanto.json");
+
+// 県別66kV/77kV静的JSONファイル（群馬は全電圧、他は<154kVのみ使用）
+const PREF_66KV_FILES = [
+  "transmission_lines_gunma.json",
+  "transmission_lines_66kv_chiba.json",
+  "transmission_lines_66kv_saitama.json",
+  "transmission_lines_66kv_yamanashi.json",
+  "transmission_lines_66kv_tochigi.json",
+  "transmission_lines_66kv_kanagawa.json",
+  "transmission_lines_66kv_ibaraki.json",
+  "transmission_lines_66kv_nagano.json",
+  "transmission_lines_66kv_shizuoka.json",
+].map(f => path.join(DATA_DIR, f));
+
+function loadJson(filePath: string): TransmissionLine[] {
+  try {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as TransmissionLine[];
+  } catch {
+    return [];
+  }
+}
+
+// モジュールレベルでキャッシュ（プロセス再起動まで保持）
+let _cached: TransmissionLine[] | null = null;
+
+function buildMerged(): TransmissionLine[] {
+  if (_cached) return _cached;
+
+  // 154kV+ 全関東
+  const kantoLines = loadJson(KANTO_LINES_PATH);
+
+  // 県別66kV/77kVファイル (<154kVのみ採用してkantoLinesとの重複を防ぐ)
+  const seen = new Set<string>(kantoLines.map(l => l.id));
+  const pref66Lines: TransmissionLine[] = [];
+  for (const filePath of PREF_66KV_FILES) {
+    const lines = loadJson(filePath).filter(l => l.voltageKv < 154);
+    for (const line of lines) {
+      if (!seen.has(line.id)) {
+        seen.add(line.id);
+        pref66Lines.push(line);
+      }
+    }
+  }
+
+  const merged = [...kantoLines, ...pref66Lines];
+  _cached = merged;
+  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length})`);
+  return merged;
+}
+
+export async function GET() {
+  const merged = buildMerged();
+
+  if (merged.length === 0) {
+    return NextResponse.json(MOCK_TRANSMISSION_LINES, {
+      headers: { "X-Data-Source": "mock-fallback" },
+    });
+  }
+  return NextResponse.json(merged, {
+    headers: {
+      "X-Data-Source": "static",
+      "Cache-Control": "no-store",
+    },
+  });
+}

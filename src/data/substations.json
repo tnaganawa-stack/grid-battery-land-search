@@ -1,0 +1,3642 @@
+[
+  {
+    "id": "osm-35904018",
+    "name": "和田堀変電所",
+    "coordinates": {
+      "lat": 35.681454,
+      "lng": 139.6493203
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-35907491",
+    "name": "原町田変電所",
+    "coordinates": {
+      "lat": 35.5488329,
+      "lng": 139.4500186
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-38073309",
+    "name": "千歳変電所",
+    "coordinates": {
+      "lat": 35.6736384,
+      "lng": 139.5889418
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-44778925",
+    "name": "武蔵境交流変電所",
+    "coordinates": {
+      "lat": 35.7028549,
+      "lng": 139.530853
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東日本旅客鉄道",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-47110637",
+    "name": "西東京変電所",
+    "coordinates": {
+      "lat": 35.6049128,
+      "lng": 139.4571641
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "電源開発送変電ネットワーク株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-47362955",
+    "name": "久地変電所",
+    "coordinates": {
+      "lat": 35.6103364,
+      "lng": 139.6024069
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-48808480",
+    "name": "戸塚変電所",
+    "coordinates": {
+      "lat": 35.3997396,
+      "lng": 139.5267091
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-66098469",
+    "name": "西群馬開閉所",
+    "coordinates": {
+      "lat": 36.622018,
+      "lng": 138.8016851
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 73,
+    "capacityStatus": "中程度",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-73851272",
+    "name": "奥秩父変電所",
+    "coordinates": {
+      "lat": 35.9609003,
+      "lng": 139.045849
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-81844460",
+    "name": "川崎変電所",
+    "coordinates": {
+      "lat": 35.5289079,
+      "lng": 139.6874533
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-82104580",
+    "name": "南川崎変電所",
+    "coordinates": {
+      "lat": 35.5001576,
+      "lng": 139.7114182
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-87682157",
+    "name": "南川越変電所",
+    "coordinates": {
+      "lat": 35.891471,
+      "lng": 139.4659361
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "電源開発",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-90286518",
+    "name": "昭島変電所",
+    "coordinates": {
+      "lat": 35.7092098,
+      "lng": 139.3846616
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-90625056",
+    "name": "南武変電所",
+    "coordinates": {
+      "lat": 35.580778,
+      "lng": 139.625962
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-101375053",
+    "name": "荏田変電所",
+    "coordinates": {
+      "lat": 35.5549494,
+      "lng": 139.5490524
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-104391636",
+    "name": "新いわき開閉所",
+    "coordinates": {
+      "lat": 37.1419759,
+      "lng": 140.7225633
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-104527981",
+    "name": "清原変電所",
+    "coordinates": {
+      "lat": 36.5465987,
+      "lng": 139.9813051
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-104527983",
+    "name": "芳賀変電所",
+    "coordinates": {
+      "lat": 36.5145033,
+      "lng": 140.0101332
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-104530060",
+    "name": "新栃木変電所",
+    "coordinates": {
+      "lat": 36.6555582,
+      "lng": 139.9173662
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-104720635",
+    "name": "茨城変電所",
+    "coordinates": {
+      "lat": 36.4632171,
+      "lng": 140.5182818
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-105291887",
+    "name": "那珂変電所",
+    "coordinates": {
+      "lat": 36.4794742,
+      "lng": 140.4455309
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-105298089",
+    "name": "新佐原変電所",
+    "coordinates": {
+      "lat": 35.865238,
+      "lng": 140.4577344
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-106101635",
+    "name": "武蔵野変電所",
+    "coordinates": {
+      "lat": 35.7588556,
+      "lng": 139.5629113
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-106303782",
+    "name": "西水戸変電所",
+    "coordinates": {
+      "lat": 36.4068242,
+      "lng": 140.4113043
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-106303783",
+    "name": "石岡変電所",
+    "coordinates": {
+      "lat": 36.219263,
+      "lng": 140.254125
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-108605394",
+    "name": "相模原変電所",
+    "coordinates": {
+      "lat": 35.5744546,
+      "lng": 139.3738059
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-110297009",
+    "name": "橋本変電所",
+    "coordinates": {
+      "lat": 35.5912944,
+      "lng": 139.3420681
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-111380415",
+    "name": "北多摩変電所",
+    "coordinates": {
+      "lat": 35.6544346,
+      "lng": 139.5029598
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-111673441",
+    "name": "綱島変電所",
+    "coordinates": {
+      "lat": 35.5361636,
+      "lng": 139.6470274
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-116559939",
+    "name": "変電所30",
+    "coordinates": {
+      "lat": 35.0716341,
+      "lng": 137.7084249
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-119180604",
+    "name": "港北変電所",
+    "coordinates": {
+      "lat": 35.535929,
+      "lng": 139.6028333
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-126635652",
+    "name": "群馬変電所",
+    "coordinates": {
+      "lat": 36.3529993,
+      "lng": 139.0341104
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 73,
+    "capacityStatus": "中程度",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-126977812",
+    "name": "旭変電所",
+    "coordinates": {
+      "lat": 35.5288819,
+      "lng": 139.6511767
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-128364781",
+    "name": "京浜変電所",
+    "coordinates": {
+      "lat": 35.4312841,
+      "lng": 139.5004812
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-128581912",
+    "name": "新坂戸変電所",
+    "coordinates": {
+      "lat": 35.9619795,
+      "lng": 139.436626
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-130703866",
+    "name": "新鶴見交流変電所",
+    "coordinates": {
+      "lat": 35.5269557,
+      "lng": 139.680633
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東日本旅客鉄道",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-132911553",
+    "name": "霞ヶ浦変電所",
+    "coordinates": {
+      "lat": 36.1194051,
+      "lng": 140.166292
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-132913106",
+    "name": "新筑波変電所",
+    "coordinates": {
+      "lat": 36.1668858,
+      "lng": 139.903384
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-133137636",
+    "name": "北東京変電所",
+    "coordinates": {
+      "lat": 36.0264372,
+      "lng": 139.6910587
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-133355430",
+    "name": "鳩ヶ谷変電所",
+    "coordinates": {
+      "lat": 35.8220208,
+      "lng": 139.736359
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-133374789",
+    "name": "花畑変電所",
+    "coordinates": {
+      "lat": 35.7795141,
+      "lng": 139.8190004
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-133641619",
+    "name": "新所沢変電所",
+    "coordinates": {
+      "lat": 35.9287639,
+      "lng": 139.3706816
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-133644487",
+    "name": "新飯能変電所",
+    "coordinates": {
+      "lat": 35.8519771,
+      "lng": 139.2395381
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-133645287",
+    "name": "豊岡変電所",
+    "coordinates": {
+      "lat": 35.8218884,
+      "lng": 139.3701038
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-135745196",
+    "name": "東方変電所",
+    "coordinates": {
+      "lat": 35.5162724,
+      "lng": 139.5799037
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-135934894",
+    "name": "新羽変電所",
+    "coordinates": {
+      "lat": 35.5313688,
+      "lng": 139.6098497
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-136298957",
+    "name": "新座変電所",
+    "coordinates": {
+      "lat": 35.795162,
+      "lng": 139.5502932
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-139734200",
+    "name": "聖蹟桜ヶ丘変電所",
+    "coordinates": {
+      "lat": 35.6516848,
+      "lng": 139.4433373
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-142662111",
+    "name": "中部電力(株)豊根開閉所",
+    "coordinates": {
+      "lat": 35.1622688,
+      "lng": 137.7290992
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "中部電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-144077272",
+    "name": "北葛飾変電所",
+    "coordinates": {
+      "lat": 35.8698733,
+      "lng": 139.8704742
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-144712256",
+    "name": "子安変電所",
+    "coordinates": {
+      "lat": 35.4898401,
+      "lng": 139.6368471
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-145079972",
+    "name": "新多摩変電所",
+    "coordinates": {
+      "lat": 35.7147521,
+      "lng": 139.2230828
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-145080115",
+    "name": "南多摩変電所",
+    "coordinates": {
+      "lat": 35.6760693,
+      "lng": 139.3583455
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-145713939",
+    "name": "亀戸変電所",
+    "coordinates": {
+      "lat": 35.70687,
+      "lng": 139.8498431
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-146367306",
+    "name": "松島変電所",
+    "coordinates": {
+      "lat": 35.7115568,
+      "lng": 139.8559692
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-146848924",
+    "name": "江戸川変電所",
+    "coordinates": {
+      "lat": 35.7564281,
+      "lng": 139.8449648
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-147297586",
+    "name": "小松川変電所",
+    "coordinates": {
+      "lat": 35.6873563,
+      "lng": 139.8693872
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 0,
+    "capacityStatus": "ゼロ",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-147612246",
+    "name": "さちが丘変電所",
+    "coordinates": {
+      "lat": 35.4640027,
+      "lng": 139.5226788
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-149843487",
+    "name": "新秦野変電所",
+    "coordinates": {
+      "lat": 35.4005016,
+      "lng": 139.2257224
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-150035494",
+    "name": "東山梨変電所",
+    "coordinates": {
+      "lat": 35.5906868,
+      "lng": 138.7999737
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-150065045",
+    "name": "新富士変電所",
+    "coordinates": {
+      "lat": 35.3722829,
+      "lng": 138.9626833
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-151374767",
+    "name": "北総変電所",
+    "coordinates": {
+      "lat": 35.7111746,
+      "lng": 140.2656812
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-151379730",
+    "name": "房総変電所",
+    "coordinates": {
+      "lat": 35.4993781,
+      "lng": 140.1663755
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-152991099",
+    "name": "中東京変電所",
+    "coordinates": {
+      "lat": 35.915433,
+      "lng": 139.3538162
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-153521822",
+    "name": "西越谷変電所",
+    "coordinates": {
+      "lat": 35.8905009,
+      "lng": 139.7510203
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-153760214",
+    "name": "多摩変電所",
+    "coordinates": {
+      "lat": 35.7346844,
+      "lng": 139.4408765
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-154140776",
+    "name": "東京電力駿河変電所",
+    "coordinates": {
+      "lat": 35.175851,
+      "lng": 138.691965
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-154656590",
+    "name": "柏井変電所",
+    "coordinates": {
+      "lat": 35.7614084,
+      "lng": 139.957182
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-154832621",
+    "name": "矢切変電所",
+    "coordinates": {
+      "lat": 35.7648127,
+      "lng": 139.8945775
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-155375873",
+    "name": "変電所70",
+    "coordinates": {
+      "lat": 34.994197,
+      "lng": 138.286227
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-155411568",
+    "name": "岩槻変電所",
+    "coordinates": {
+      "lat": 35.9237021,
+      "lng": 139.7189346
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-155966176",
+    "name": "西宇都宮変電所",
+    "coordinates": {
+      "lat": 36.5815221,
+      "lng": 139.8219641
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-156415461",
+    "name": "西横浜変電所",
+    "coordinates": {
+      "lat": 35.4999288,
+      "lng": 139.5048445
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-156962045",
+    "name": "墨東変電所",
+    "coordinates": {
+      "lat": 35.6984831,
+      "lng": 139.8201772
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-159191758",
+    "name": "北松本変電所",
+    "coordinates": {
+      "lat": 36.3407888,
+      "lng": 138.0034146
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-159491797",
+    "name": "南狭山変電所",
+    "coordinates": {
+      "lat": 35.8387369,
+      "lng": 139.4446066
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-159523372",
+    "name": "武蔵赤坂開閉所",
+    "coordinates": {
+      "lat": 35.840824,
+      "lng": 139.4817187
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-159548297",
+    "name": "亀久保変電所",
+    "coordinates": {
+      "lat": 35.8577918,
+      "lng": 139.4982558
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-162047992",
+    "name": "池上変電所",
+    "coordinates": {
+      "lat": 35.569383,
+      "lng": 139.6964647
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-162844704",
+    "name": "中相模変電所",
+    "coordinates": {
+      "lat": 35.4180351,
+      "lng": 139.409418
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-162946607",
+    "name": "天王洲変電所",
+    "coordinates": {
+      "lat": 35.6216666,
+      "lng": 139.757025
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-164289493",
+    "name": "湘南変電所",
+    "coordinates": {
+      "lat": 35.3590289,
+      "lng": 139.3438206
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168247133",
+    "name": "東清水変電所",
+    "coordinates": {
+      "lat": 35.057793,
+      "lng": 138.5001234
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "中部電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168248707",
+    "name": "佐久間周波数変換所",
+    "coordinates": {
+      "lat": 35.0831429,
+      "lng": 137.7991085
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "電源開発",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168727982",
+    "name": "新京葉変電所",
+    "coordinates": {
+      "lat": 35.7813223,
+      "lng": 140.0694205
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168839127",
+    "name": "新茂木",
+    "coordinates": {
+      "lat": 36.5226684,
+      "lng": 140.1529026
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "TEPCO",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168857610",
+    "name": "新今市開閉所",
+    "coordinates": {
+      "lat": 36.7128401,
+      "lng": 139.8324533
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168900587",
+    "name": "南赤塚変電所",
+    "coordinates": {
+      "lat": 36.2249282,
+      "lng": 139.7426983
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-168903220",
+    "name": "北熊谷変電所",
+    "coordinates": {
+      "lat": 36.2054556,
+      "lng": 139.3448802
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-169963227",
+    "name": "新榛名",
+    "coordinates": {
+      "lat": 36.5479617,
+      "lng": 138.832632
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-170436908",
+    "name": "駿河変電所",
+    "coordinates": {
+      "lat": 35.0635721,
+      "lng": 138.3612786
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "中部電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-170767190",
+    "name": "西毛変電所",
+    "coordinates": {
+      "lat": 36.2216353,
+      "lng": 139.0417212
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 0,
+    "capacityStatus": "ゼロ",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (66kV二次側)"
+  },
+  {
+    "id": "osm-172068313",
+    "name": "東千葉変電所",
+    "coordinates": {
+      "lat": 35.6214017,
+      "lng": 140.1515086
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-173465917",
+    "name": "いわき変電所",
+    "coordinates": {
+      "lat": 36.98899,
+      "lng": 140.7478602
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東北電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-188100636",
+    "name": "鳥山変電所",
+    "coordinates": {
+      "lat": 35.5045863,
+      "lng": 139.6064278
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-190166671",
+    "name": "東小岩変電所",
+    "coordinates": {
+      "lat": 35.7152333,
+      "lng": 139.8831482
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191006046",
+    "name": "河内変電所",
+    "coordinates": {
+      "lat": 36.6238886,
+      "lng": 139.9403674
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191048989",
+    "name": "埼玉変電所",
+    "coordinates": {
+      "lat": 36.0809918,
+      "lng": 139.4947675
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191072902",
+    "name": "外房変電所",
+    "coordinates": {
+      "lat": 35.5220095,
+      "lng": 140.2949585
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191072912",
+    "name": "東葛変電所 (Tōkatsu Hendensho)",
+    "coordinates": {
+      "lat": 35.8569362,
+      "lng": 139.9357222
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191552635",
+    "name": "小山変電所",
+    "coordinates": {
+      "lat": 36.3258477,
+      "lng": 139.816707
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191552653",
+    "name": "那須野変電所",
+    "coordinates": {
+      "lat": 36.9379171,
+      "lng": 140.0383854
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191575370",
+    "name": "東野田変電所",
+    "coordinates": {
+      "lat": 36.2536135,
+      "lng": 139.7975727
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191576072",
+    "name": "野木変電所",
+    "coordinates": {
+      "lat": 36.2445009,
+      "lng": 139.7560178
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191675562",
+    "name": "江東変電所",
+    "coordinates": {
+      "lat": 35.6633921,
+      "lng": 139.8403922
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-191725218",
+    "name": "駿東変電所",
+    "coordinates": {
+      "lat": 35.1383991,
+      "lng": 138.87971
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-192656409",
+    "name": "清水変電所",
+    "coordinates": {
+      "lat": 35.0166625,
+      "lng": 138.454653
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-192765659",
+    "name": "金井変電所",
+    "coordinates": {
+      "lat": 36.5231045,
+      "lng": 138.988023
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 0,
+    "capacityStatus": "ゼロ",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-194483269",
+    "name": "慈恩寺変電所",
+    "coordinates": {
+      "lat": 35.9800088,
+      "lng": 139.7165003
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-194528833",
+    "name": "栗橋変電所",
+    "coordinates": {
+      "lat": 36.1315774,
+      "lng": 139.7050029
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-194792480",
+    "name": "田端変電所",
+    "coordinates": {
+      "lat": 35.7469667,
+      "lng": 139.7657511
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195071837",
+    "name": "東八潮変電所",
+    "coordinates": {
+      "lat": 35.8280141,
+      "lng": 139.8364856
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195071839",
+    "name": "水元変電所",
+    "coordinates": {
+      "lat": 35.7776922,
+      "lng": 139.8690873
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195071845",
+    "name": "大瀬変電所",
+    "coordinates": {
+      "lat": 35.8059225,
+      "lng": 139.8441683
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195085032",
+    "name": "伊原変電所",
+    "coordinates": {
+      "lat": 35.8680412,
+      "lng": 139.8087361
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195085033",
+    "name": "寄巻変電所",
+    "coordinates": {
+      "lat": 35.8026335,
+      "lng": 139.8761406
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195138485",
+    "name": "佐野変電所",
+    "coordinates": {
+      "lat": 36.2802312,
+      "lng": 139.554833
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195288635",
+    "name": "菖蒲変電所",
+    "coordinates": {
+      "lat": 36.0735555,
+      "lng": 139.6007608
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195406884",
+    "name": "上尾変電所",
+    "coordinates": {
+      "lat": 35.9690313,
+      "lng": 139.611742
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-195615141",
+    "name": "新秩父開閉所",
+    "coordinates": {
+      "lat": 36.0309024,
+      "lng": 138.9370425
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-197899162",
+    "name": "富岡変電所",
+    "coordinates": {
+      "lat": 35.3759939,
+      "lng": 139.6225444
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-199544541",
+    "name": "新北信変電所",
+    "coordinates": {
+      "lat": 36.7409566,
+      "lng": 138.2943942
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "中部電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-201308559",
+    "name": "深作変電所",
+    "coordinates": {
+      "lat": 35.9456345,
+      "lng": 139.6578375
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-201643422",
+    "name": "田方変電所",
+    "coordinates": {
+      "lat": 35.0091181,
+      "lng": 138.9736027
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-202426838",
+    "name": "山梨変電所 (Yamanashi Hendensho)",
+    "coordinates": {
+      "lat": 35.6367969,
+      "lng": 138.5736829
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-202490125",
+    "name": "北駿変電所",
+    "coordinates": {
+      "lat": 35.2270468,
+      "lng": 138.9536124
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-202714075",
+    "name": "東太田変電所",
+    "coordinates": {
+      "lat": 36.3172715,
+      "lng": 139.4050243
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 180,
+    "capacityStatus": "十分",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-202714092",
+    "name": "東毛変電所",
+    "coordinates": {
+      "lat": 36.2991216,
+      "lng": 139.3287098
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 369,
+    "capacityStatus": "十分",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (66kV二次側)"
+  },
+  {
+    "id": "osm-202714095",
+    "name": "八千代変電所",
+    "coordinates": {
+      "lat": 36.1756389,
+      "lng": 139.8930136
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-205505035",
+    "name": "西相模変電所",
+    "coordinates": {
+      "lat": 35.2923209,
+      "lng": 139.1178369
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-209269391",
+    "name": "落合川",
+    "coordinates": {
+      "lat": 35.5200556,
+      "lng": 137.5210527
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-209324330",
+    "name": "北巨摩変電所",
+    "coordinates": {
+      "lat": 35.7858522,
+      "lng": 138.3979362
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-209429356",
+    "name": "読書水力発電所",
+    "coordinates": {
+      "lat": 35.5876483,
+      "lng": 137.5925079
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-209429357",
+    "name": "須原開閉所",
+    "coordinates": {
+      "lat": 35.6960077,
+      "lng": 137.6802785
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "関西電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-209429410",
+    "name": "南信変電所",
+    "coordinates": {
+      "lat": 35.7099992,
+      "lng": 137.9970048
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "中部電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-209726348",
+    "name": "信濃変電所",
+    "coordinates": {
+      "lat": 36.0640413,
+      "lng": 137.9872526
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "中部電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-210217246",
+    "name": "川根変電所",
+    "coordinates": {
+      "lat": 35.0923963,
+      "lng": 138.1099509
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-210658651",
+    "name": "変電所138",
+    "coordinates": {
+      "lat": 35.8587459,
+      "lng": 137.5987687
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-210689677",
+    "name": "水道橋変電所",
+    "coordinates": {
+      "lat": 35.7002635,
+      "lng": 139.752316
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-210765350",
+    "name": "花見川変電所 (Hanamigawa Hendensho)",
+    "coordinates": {
+      "lat": 35.6688087,
+      "lng": 140.0717657
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-210765356",
+    "name": "戸田変電所",
+    "coordinates": {
+      "lat": 35.7941463,
+      "lng": 139.6741421
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211037495",
+    "name": "宮田変電所",
+    "coordinates": {
+      "lat": 35.7742662,
+      "lng": 137.956427
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211037497",
+    "name": "変電所143",
+    "coordinates": {
+      "lat": 35.8610585,
+      "lng": 137.9703199
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211037499",
+    "name": "松島変電所",
+    "coordinates": {
+      "lat": 35.9222873,
+      "lng": 137.9741742
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "中部電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211148421",
+    "name": "平岡変電所",
+    "coordinates": {
+      "lat": 35.2759379,
+      "lng": 137.8463388
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211241774",
+    "name": "千葉中央変電所",
+    "coordinates": {
+      "lat": 35.5647645,
+      "lng": 140.1267093
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211258348",
+    "name": "東信変電所",
+    "coordinates": {
+      "lat": 36.4252842,
+      "lng": 138.3197785
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "中部電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211356757",
+    "name": "筑波南変電所",
+    "coordinates": {
+      "lat": 35.9731856,
+      "lng": 140.2495861
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-211412000",
+    "name": "変電所149",
+    "coordinates": {
+      "lat": 35.4638323,
+      "lng": 139.9800954
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-232998815",
+    "name": "変電所150",
+    "coordinates": {
+      "lat": 37.1602996,
+      "lng": 139.2440698
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-235397528",
+    "name": "上野変電所",
+    "coordinates": {
+      "lat": 35.7271109,
+      "lng": 139.7897901
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-250540807",
+    "name": "東群馬変電所",
+    "coordinates": {
+      "lat": 36.5792322,
+      "lng": 139.2236387
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力",
+    "availableCapacityMw": 73,
+    "capacityStatus": "中程度",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-250626570",
+    "name": "佐波変電所",
+    "coordinates": {
+      "lat": 36.2921271,
+      "lng": 139.2198783
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 19,
+    "capacityStatus": "中程度",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-254306216",
+    "name": "佐久変電所",
+    "coordinates": {
+      "lat": 36.2775046,
+      "lng": 138.3708778
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-264320937",
+    "name": "武蔵大井変電所",
+    "coordinates": {
+      "lat": 35.8441096,
+      "lng": 139.5227673
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-282629356",
+    "name": "坪井変電所",
+    "coordinates": {
+      "lat": 35.7287422,
+      "lng": 140.0538378
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-288222748",
+    "name": "駒ヶ根変電所",
+    "coordinates": {
+      "lat": 35.7057203,
+      "lng": 137.9488917
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-288351417",
+    "name": "東光台変電所",
+    "coordinates": {
+      "lat": 36.0857737,
+      "lng": 140.0628743
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-290669795",
+    "name": "新那須変電所",
+    "coordinates": {
+      "lat": 37.0289962,
+      "lng": 140.1049359
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東日本旅客鉄道",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-291647548",
+    "name": "下総変電所",
+    "coordinates": {
+      "lat": 35.7008454,
+      "lng": 139.962853
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315434352",
+    "name": "岡部交流変電所",
+    "coordinates": {
+      "lat": 36.2084132,
+      "lng": 139.2299923
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "ＪＲ東日本",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315434358",
+    "name": "新岡部変電所",
+    "coordinates": {
+      "lat": 36.2197427,
+      "lng": 139.2130902
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": 0,
+    "capacityStatus": "ゼロ",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-315461259",
+    "name": "変電所163",
+    "coordinates": {
+      "lat": 35.3439003,
+      "lng": 139.8366225
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315461262",
+    "name": "内房変電所",
+    "coordinates": {
+      "lat": 35.3415369,
+      "lng": 140.0257741
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315461272",
+    "name": "新木更津変電所",
+    "coordinates": {
+      "lat": 35.3434472,
+      "lng": 140.0277534
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315662802",
+    "name": "中信変電所",
+    "coordinates": {
+      "lat": 36.1263075,
+      "lng": 137.9339777
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "中部電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315662816",
+    "name": "中信変電所",
+    "coordinates": {
+      "lat": 36.1266559,
+      "lng": 137.9324765
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "中部電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-315662839",
+    "name": "新信濃変電所",
+    "coordinates": {
+      "lat": 36.1377684,
+      "lng": 137.8838561
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-318302347",
+    "name": "上越変電所",
+    "coordinates": {
+      "lat": 37.1532095,
+      "lng": 138.2750841
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-318302348",
+    "name": "東上越変電所",
+    "coordinates": {
+      "lat": 37.1882989,
+      "lng": 138.3733564
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-319153602",
+    "name": "魚沼変電所",
+    "coordinates": {
+      "lat": 37.1493258,
+      "lng": 138.7356915
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-319175832",
+    "name": "南魚沼変電所",
+    "coordinates": {
+      "lat": 36.9911378,
+      "lng": 138.8174091
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-319180448",
+    "name": "変電所173",
+    "coordinates": {
+      "lat": 36.692228,
+      "lng": 138.9052462
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-320536909",
+    "name": "新愛本変電所",
+    "coordinates": {
+      "lat": 36.8555617,
+      "lng": 137.5545995
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-320560152",
+    "name": "変電所175",
+    "coordinates": {
+      "lat": 36.5149308,
+      "lng": 137.7830702
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-327974991",
+    "name": "逗子変電所",
+    "coordinates": {
+      "lat": 35.3103817,
+      "lng": 139.6064563
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-328372910",
+    "name": "白根変電所",
+    "coordinates": {
+      "lat": 35.4850696,
+      "lng": 139.5518164
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-340365829",
+    "name": "常総変電所",
+    "coordinates": {
+      "lat": 36.0179313,
+      "lng": 140.0449663
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-340648895",
+    "name": "鹿島変電所",
+    "coordinates": {
+      "lat": 35.8966529,
+      "lng": 140.6566323
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-341222391",
+    "name": "谷村変電所",
+    "coordinates": {
+      "lat": 35.5590393,
+      "lng": 138.9136082
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-341224663",
+    "name": "中央新幹線 都留変電所",
+    "coordinates": {
+      "lat": 35.580819,
+      "lng": 138.9288457
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東海旅客鉄道株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-384844370",
+    "name": "二和東変電所",
+    "coordinates": {
+      "lat": 35.745527,
+      "lng": 140.0207092
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-394476791",
+    "name": "ＪＲ新熊谷変電所",
+    "coordinates": {
+      "lat": 36.1524341,
+      "lng": 139.3366121
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "ＪＲ東日本",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-405537854",
+    "name": "永代橋変電所",
+    "coordinates": {
+      "lat": 35.6755562,
+      "lng": 139.7844476
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-429434521",
+    "name": "岸根変電所",
+    "coordinates": {
+      "lat": 35.5008987,
+      "lng": 139.608761
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-465388292",
+    "name": "恩田変電所",
+    "coordinates": {
+      "lat": 35.5394429,
+      "lng": 139.5148299
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-505170104",
+    "name": "新新田変電所",
+    "coordinates": {
+      "lat": 36.3263827,
+      "lng": 139.3050657
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 237,
+    "capacityStatus": "十分",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-518992995",
+    "name": "変電所188",
+    "coordinates": {
+      "lat": 36.8007745,
+      "lng": 139.0470226
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-519055295",
+    "name": "変電所189",
+    "coordinates": {
+      "lat": 36.8669177,
+      "lng": 139.0598164
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-519055296",
+    "name": "小松変電所",
+    "coordinates": {
+      "lat": 36.7164504,
+      "lng": 138.9796659
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": 0,
+    "capacityStatus": "ゼロ",
+    "capacityNote": "東電PG 系統空き容量マッピング 2026/04/19 (154kV二次側)"
+  },
+  {
+    "id": "osm-618344826",
+    "name": "塩尻送電所",
+    "coordinates": {
+      "lat": 36.1275253,
+      "lng": 137.9348825
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-618344827",
+    "name": "変電所192",
+    "coordinates": {
+      "lat": 35.091397,
+      "lng": 137.8059571
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-624056969",
+    "name": "西厚木変電所",
+    "coordinates": {
+      "lat": 35.4266477,
+      "lng": 139.3458121
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-631769046",
+    "name": "北平変電所",
+    "coordinates": {
+      "lat": 37.114152,
+      "lng": 140.8743154
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東北電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-640895151",
+    "name": "岳南変電所",
+    "coordinates": {
+      "lat": 35.1494541,
+      "lng": 138.6825396
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-642625768",
+    "name": "常磐変電所",
+    "coordinates": {
+      "lat": 36.6887464,
+      "lng": 140.6722223
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-653499539",
+    "name": "練馬変電所",
+    "coordinates": {
+      "lat": 35.7366997,
+      "lng": 139.6469603
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-658988167",
+    "name": "平変電所",
+    "coordinates": {
+      "lat": 36.9849356,
+      "lng": 140.8385937
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東北電力ネットワーク",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-658988169",
+    "name": "変電所199",
+    "coordinates": {
+      "lat": 36.9140663,
+      "lng": 140.8213082
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-686394119",
+    "name": "新宇都宮変電所",
+    "coordinates": {
+      "lat": 36.6552591,
+      "lng": 139.9136089
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東日本旅客鉄道株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-708227262",
+    "name": "京北変電所",
+    "coordinates": {
+      "lat": 35.8281532,
+      "lng": 139.7856795
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-728013143",
+    "name": "上里変電所",
+    "coordinates": {
+      "lat": 36.2381362,
+      "lng": 139.1405169
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-738559322",
+    "name": "変電所203",
+    "coordinates": {
+      "lat": 35.9776555,
+      "lng": 137.8264282
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-738559324",
+    "name": "変電所204",
+    "coordinates": {
+      "lat": 36.17073,
+      "lng": 137.6460099
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-740735333",
+    "name": "南佐野変電所",
+    "coordinates": {
+      "lat": 36.292808,
+      "lng": 139.5887717
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-762232269",
+    "name": "桂変電所",
+    "coordinates": {
+      "lat": 36.4991413,
+      "lng": 140.3814139
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-776423501",
+    "name": "久喜変電所",
+    "coordinates": {
+      "lat": 36.0628763,
+      "lng": 139.6409658
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-834618059",
+    "name": "変電所208",
+    "coordinates": {
+      "lat": 37.1691312,
+      "lng": 140.2199792
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-834661264",
+    "name": "変電所209",
+    "coordinates": {
+      "lat": 37.1634768,
+      "lng": 140.3203077
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-848771201",
+    "name": "東日本旅客鉄道新箕郷変電所",
+    "coordinates": {
+      "lat": 36.3772011,
+      "lng": 138.9659752
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東日本旅客鉄道",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-882009006",
+    "name": "名栗変電所",
+    "coordinates": {
+      "lat": 35.8880407,
+      "lng": 139.1787729
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-891386646",
+    "name": "鎌ヶ谷変電所",
+    "coordinates": {
+      "lat": 35.7512912,
+      "lng": 140.003039
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-891386648",
+    "name": "長沼変電所",
+    "coordinates": {
+      "lat": 35.6746618,
+      "lng": 140.1226923
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-903325440",
+    "name": "港南台変電所",
+    "coordinates": {
+      "lat": 35.3753789,
+      "lng": 139.586256
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-944077320",
+    "name": "豊原変電所",
+    "coordinates": {
+      "lat": 37.0793606,
+      "lng": 140.1062832
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1016436036",
+    "name": "沼原電力所",
+    "coordinates": {
+      "lat": 37.0999475,
+      "lng": 139.904804
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "電源開発株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1023804660",
+    "name": "砂田変電所",
+    "coordinates": {
+      "lat": 36.4969378,
+      "lng": 139.9056459
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1028595831",
+    "name": "変電所218",
+    "coordinates": {
+      "lat": 35.5050303,
+      "lng": 140.1683742
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1040433673",
+    "name": "総社変電所",
+    "coordinates": {
+      "lat": 36.4099784,
+      "lng": 139.0261093
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1061328157",
+    "name": "栃山開閉所",
+    "coordinates": {
+      "lat": 36.4703022,
+      "lng": 139.8844578
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1072474300",
+    "name": "徳次郎変電所",
+    "coordinates": {
+      "lat": 36.6627399,
+      "lng": 139.8366048
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078414495",
+    "name": "水戸北部変電所",
+    "coordinates": {
+      "lat": 36.5354857,
+      "lng": 140.3753155
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078882735",
+    "name": "新宿変電所",
+    "coordinates": {
+      "lat": 35.6909658,
+      "lng": 139.6892988
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078889985",
+    "name": "東新宿変電所",
+    "coordinates": {
+      "lat": 35.6921696,
+      "lng": 139.7104171
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078891456",
+    "name": "豊島変電所",
+    "coordinates": {
+      "lat": 35.7286308,
+      "lng": 139.7202309
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078893685",
+    "name": "城南変電所",
+    "coordinates": {
+      "lat": 35.672975,
+      "lng": 139.7231081
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078898788",
+    "name": "高輪変電所",
+    "coordinates": {
+      "lat": 35.6349023,
+      "lng": 139.7339075
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078944856",
+    "name": "東内幸町変電所",
+    "coordinates": {
+      "lat": 35.6701208,
+      "lng": 139.7584533
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1078944857",
+    "name": "世田谷変電所",
+    "coordinates": {
+      "lat": 35.6317334,
+      "lng": 139.6502341
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1080875572",
+    "name": "酒井根変電所",
+    "coordinates": {
+      "lat": 35.8260543,
+      "lng": 139.9621386
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1083445980",
+    "name": "吉岡変電所",
+    "coordinates": {
+      "lat": 36.4521556,
+      "lng": 139.0036614
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1127642308",
+    "name": "千葉ニュータウン変電所",
+    "coordinates": {
+      "lat": 35.8048916,
+      "lng": 140.1306358
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1133340533",
+    "name": "下滝開閉所",
+    "coordinates": {
+      "lat": 36.7370143,
+      "lng": 139.9641618
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1137123447",
+    "name": "鷹の台変電所",
+    "coordinates": {
+      "lat": 35.6982084,
+      "lng": 140.1035342
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1137461235",
+    "name": "葛南変電所",
+    "coordinates": {
+      "lat": 35.665854,
+      "lng": 139.9077621
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1137518885",
+    "name": "東松戸変電所",
+    "coordinates": {
+      "lat": 35.7696613,
+      "lng": 139.9227352
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1139102959",
+    "name": "小合変電所",
+    "coordinates": {
+      "lat": 35.7870183,
+      "lng": 139.8619518
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1139110318",
+    "name": "茂木変電所",
+    "coordinates": {
+      "lat": 36.5392079,
+      "lng": 140.2043046
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1140708897",
+    "name": "簗瀬町変電所",
+    "coordinates": {
+      "lat": 36.548764,
+      "lng": 139.8912281
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1140763571",
+    "name": "筑波西部変電所",
+    "coordinates": {
+      "lat": 36.0647359,
+      "lng": 140.0746049
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1140763572",
+    "name": "学園都市変電所",
+    "coordinates": {
+      "lat": 36.0866293,
+      "lng": 140.0983515
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1145001579",
+    "name": "新郷変電所",
+    "coordinates": {
+      "lat": 35.8299635,
+      "lng": 139.7715473
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1145010517",
+    "name": "宮戸変電所",
+    "coordinates": {
+      "lat": 35.8242859,
+      "lng": 139.5868142
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1148422940",
+    "name": "宗岡変電所",
+    "coordinates": {
+      "lat": 35.8403088,
+      "lng": 139.5898442
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1149772118",
+    "name": "笹目変電所",
+    "coordinates": {
+      "lat": 35.8245151,
+      "lng": 139.6575297
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1149825759",
+    "name": "常盤台変電所",
+    "coordinates": {
+      "lat": 35.7574659,
+      "lng": 139.691213
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1153944819",
+    "name": "五霞変電所",
+    "coordinates": {
+      "lat": 36.1034216,
+      "lng": 139.7434596
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1154905183",
+    "name": "宝積寺変電所",
+    "coordinates": {
+      "lat": 36.624645,
+      "lng": 139.9904696
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1156487667",
+    "name": "南大田変電所",
+    "coordinates": {
+      "lat": 35.5484002,
+      "lng": 139.7332126
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1192732454",
+    "name": "六日町交流変電所",
+    "coordinates": {
+      "lat": 37.0582636,
+      "lng": 138.8604006
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東日本旅客鉄道株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1205842747",
+    "name": "西相模変電所",
+    "coordinates": {
+      "lat": 35.292812,
+      "lng": 139.1198617
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東海旅客鉄道",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1220955598",
+    "name": "小倉開閉所",
+    "coordinates": {
+      "lat": 35.5824831,
+      "lng": 139.2912905
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1227550931",
+    "name": "新湯沢変電所",
+    "coordinates": {
+      "lat": 36.922616,
+      "lng": 138.8207463
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "不明",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1383649223",
+    "name": "松郷変電所",
+    "coordinates": {
+      "lat": 35.7977176,
+      "lng": 139.4984685
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-1383649233",
+    "name": "前沢変電所",
+    "coordinates": {
+      "lat": 35.7506906,
+      "lng": 139.5045639
+    },
+    "voltageKv": 154,
+    "capacityMva": 300,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-2269992",
+    "name": "新豊洲変電所",
+    "coordinates": {
+      "lat": 35.6478828,
+      "lng": 139.7908092
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力株式会社",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-13768299",
+    "name": "新野田変電所",
+    "coordinates": {
+      "lat": 35.9309614,
+      "lng": 139.9108733
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-15580570",
+    "name": "新古河変電所",
+    "coordinates": {
+      "lat": 36.1069464,
+      "lng": 139.8325139
+    },
+    "voltageKv": 500,
+    "capacityMva": 1500,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-18793974",
+    "name": "青梅変電所",
+    "coordinates": {
+      "lat": 35.7946989,
+      "lng": 139.3169997
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  },
+  {
+    "id": "osm-19170972",
+    "name": "北相模変電所",
+    "coordinates": {
+      "lat": 35.5342528,
+      "lng": 139.3673568
+    },
+    "voltageKv": 275,
+    "capacityMva": 750,
+    "operator": "東京電力パワーグリッド",
+    "availableCapacityMw": -1,
+    "capacityStatus": "中程度",
+    "capacityNote": "空き容量はOCCTO未連携のため表示できません"
+  }
+]

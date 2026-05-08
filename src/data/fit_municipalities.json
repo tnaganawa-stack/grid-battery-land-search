@@ -1,0 +1,9470 @@
+{
+  "茨城県": [
+    {
+      "prefecture": "茨城県",
+      "municipality": "東海村",
+      "coordinates": {
+        "lat": 36.472927,
+        "lng": 140.566223
+      },
+      "siteCount": 99,
+      "totalCapacityKw": 2011523,
+      "facilityTypes": [
+        "太陽光",
+        "その他"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3323,
+        "高圧": 8199,
+        "特別高圧": 2000000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "鹿嶋市",
+      "coordinates": {
+        "lat": 35.965702,
+        "lng": 140.644791
+      },
+      "siteCount": 985,
+      "totalCapacityKw": 624320,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "その他"
+      ],
+      "capacityKwByClass": {
+        "低圧": 41955,
+        "高圧": 40364,
+        "特別高圧": 542000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "神栖市",
+      "coordinates": {
+        "lat": 35.889961,
+        "lng": 140.664566
+      },
+      "siteCount": 1743,
+      "totalCapacityKw": 557813,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 70144,
+        "高圧": 98728,
+        "特別高圧": 388940
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "つくば市",
+      "coordinates": {
+        "lat": 36.083611,
+        "lng": 140.076385
+      },
+      "siteCount": 1677,
+      "totalCapacityKw": 242749,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 65027,
+        "高圧": 128022,
+        "特別高圧": 49700
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "水戸市",
+      "coordinates": {
+        "lat": 36.365852,
+        "lng": 140.471588
+      },
+      "siteCount": 1475,
+      "totalCapacityKw": 226339,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 58876,
+        "高圧": 99353,
+        "特別高圧": 68110
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "笠間市",
+      "coordinates": {
+        "lat": 36.345196,
+        "lng": 140.30426
+      },
+      "siteCount": 1334,
+      "totalCapacityKw": 212609,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 54692,
+        "高圧": 80927,
+        "特別高圧": 76990
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "北茨城市",
+      "coordinates": {
+        "lat": 36.801899,
+        "lng": 140.751007
+      },
+      "siteCount": 261,
+      "totalCapacityKw": 197485,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8932,
+        "高圧": 41833,
+        "特別高圧": 146720
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "日立市",
+      "coordinates": {
+        "lat": 36.599152,
+        "lng": 140.65062
+      },
+      "siteCount": 282,
+      "totalCapacityKw": 191920,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 10078,
+        "高圧": 28422,
+        "特別高圧": 153420
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "稲敷市",
+      "coordinates": {
+        "lat": 35.97298,
+        "lng": 140.303604
+      },
+      "siteCount": 1156,
+      "totalCapacityKw": 171272,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 49709,
+        "高圧": 95323,
+        "特別高圧": 26240
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "行方市",
+      "coordinates": {
+        "lat": 35.990482,
+        "lng": 140.489014
+      },
+      "siteCount": 1091,
+      "totalCapacityKw": 168940,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 46794,
+        "高圧": 78166,
+        "特別高圧": 43980
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "筑西市",
+      "coordinates": {
+        "lat": 36.305267,
+        "lng": 139.979401
+      },
+      "siteCount": 1891,
+      "totalCapacityKw": 163943,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 80256,
+        "高圧": 83686,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "桜川市",
+      "coordinates": {
+        "lat": 36.327339,
+        "lng": 140.090607
+      },
+      "siteCount": 962,
+      "totalCapacityKw": 154607,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 38433,
+        "高圧": 101654,
+        "特別高圧": 14520
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "鉾田市",
+      "coordinates": {
+        "lat": 36.158607,
+        "lng": 140.516403
+      },
+      "siteCount": 1547,
+      "totalCapacityKw": 148575,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 67007,
+        "高圧": 61568,
+        "特別高圧": 20000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "常陸大宮市",
+      "coordinates": {
+        "lat": 36.5425,
+        "lng": 140.410843
+      },
+      "siteCount": 861,
+      "totalCapacityKw": 147528,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 37292,
+        "高圧": 53966,
+        "特別高圧": 56270
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "常陸太田市",
+      "coordinates": {
+        "lat": 36.53833,
+        "lng": 140.531128
+      },
+      "siteCount": 470,
+      "totalCapacityKw": 146418,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 20381,
+        "高圧": 18915,
+        "特別高圧": 107122
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "小美玉市",
+      "coordinates": {
+        "lat": 36.239315,
+        "lng": 140.352585
+      },
+      "siteCount": 1610,
+      "totalCapacityKw": 134098,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 69806,
+        "高圧": 59861,
+        "特別高圧": 4430
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "ひたちなか市",
+      "coordinates": {
+        "lat": 36.39669,
+        "lng": 140.534729
+      },
+      "siteCount": 339,
+      "totalCapacityKw": 116675,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11451,
+        "高圧": 24774,
+        "特別高圧": 80450
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "那珂市",
+      "coordinates": {
+        "lat": 36.457436,
+        "lng": 140.486801
+      },
+      "siteCount": 879,
+      "totalCapacityKw": 112626,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 36466,
+        "高圧": 51160,
+        "特別高圧": 25000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "古河市",
+      "coordinates": {
+        "lat": 36.178242,
+        "lng": 139.75502
+      },
+      "siteCount": 696,
+      "totalCapacityKw": 107517,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 23887,
+        "高圧": 63630,
+        "特別高圧": 20000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "かすみがうら市",
+      "coordinates": {
+        "lat": 36.151821,
+        "lng": 140.237122
+      },
+      "siteCount": 829,
+      "totalCapacityKw": 103247,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 35255,
+        "高圧": 50742,
+        "特別高圧": 17250
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "土浦市",
+      "coordinates": {
+        "lat": 36.078354,
+        "lng": 140.204193
+      },
+      "siteCount": 778,
+      "totalCapacityKw": 97122,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 31740,
+        "高圧": 38882,
+        "特別高圧": 26500
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "大子町",
+      "coordinates": {
+        "lat": 36.764416,
+        "lng": 140.363434
+      },
+      "siteCount": 162,
+      "totalCapacityKw": 89568,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6555,
+        "高圧": 14503,
+        "特別高圧": 68510
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "茨城町",
+      "coordinates": {
+        "lat": 36.286942,
+        "lng": 140.424728
+      },
+      "siteCount": 892,
+      "totalCapacityKw": 87272,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 38202,
+        "高圧": 49070,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "高萩市",
+      "coordinates": {
+        "lat": 36.713673,
+        "lng": 140.709503
+      },
+      "siteCount": 239,
+      "totalCapacityKw": 83122,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9367,
+        "高圧": 25144,
+        "特別高圧": 48612
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "石岡市",
+      "coordinates": {
+        "lat": 36.190453,
+        "lng": 140.286957
+      },
+      "siteCount": 921,
+      "totalCapacityKw": 80738,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 39295,
+        "高圧": 36693,
+        "特別高圧": 4750
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "牛久市",
+      "coordinates": {
+        "lat": 35.979355,
+        "lng": 140.149597
+      },
+      "siteCount": 418,
+      "totalCapacityKw": 80708,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16393,
+        "高圧": 42315,
+        "特別高圧": 22000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "常総市",
+      "coordinates": {
+        "lat": 36.023487,
+        "lng": 139.993683
+      },
+      "siteCount": 565,
+      "totalCapacityKw": 75972,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21193,
+        "高圧": 54779,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "坂東市",
+      "coordinates": {
+        "lat": 36.048199,
+        "lng": 139.88887
+      },
+      "siteCount": 599,
+      "totalCapacityKw": 75607,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 22504,
+        "高圧": 46334,
+        "特別高圧": 6770
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "つくばみらい市",
+      "coordinates": {
+        "lat": 35.962669,
+        "lng": 140.036697
+      },
+      "siteCount": 294,
+      "totalCapacityKw": 75376,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11134,
+        "高圧": 37992,
+        "特別高圧": 26250
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "龍ケ崎市",
+      "coordinates": {
+        "lat": 35.911667,
+        "lng": 140.18222
+      },
+      "siteCount": 529,
+      "totalCapacityKw": 66392,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21676,
+        "高圧": 35226,
+        "特別高圧": 9491
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "阿見町",
+      "coordinates": {
+        "lat": 36.03083,
+        "lng": 140.215012
+      },
+      "siteCount": 416,
+      "totalCapacityKw": 65775,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16812,
+        "高圧": 39063,
+        "特別高圧": 9900
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "潮来市",
+      "coordinates": {
+        "lat": 35.947117,
+        "lng": 140.555405
+      },
+      "siteCount": 325,
+      "totalCapacityKw": 51657,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 13187,
+        "高圧": 26470,
+        "特別高圧": 12000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "城里町",
+      "coordinates": {
+        "lat": 36.47924,
+        "lng": 140.376328
+      },
+      "siteCount": 450,
+      "totalCapacityKw": 43390,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 19632,
+        "高圧": 20808,
+        "特別高圧": 2950
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "結城市",
+      "coordinates": {
+        "lat": 36.289623,
+        "lng": 139.871475
+      },
+      "siteCount": 344,
+      "totalCapacityKw": 42267,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12829,
+        "高圧": 29438,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "下妻市",
+      "coordinates": {
+        "lat": 36.184387,
+        "lng": 139.968231
+      },
+      "siteCount": 485,
+      "totalCapacityKw": 37966,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 19895,
+        "高圧": 18071,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "美浦村",
+      "coordinates": {
+        "lat": 36.004578,
+        "lng": 140.301956
+      },
+      "siteCount": 290,
+      "totalCapacityKw": 36435,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12069,
+        "高圧": 24366,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "境町",
+      "coordinates": {
+        "lat": 36.108456,
+        "lng": 139.794952
+      },
+      "siteCount": 402,
+      "totalCapacityKw": 29726,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16598,
+        "高圧": 13128,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "八千代町",
+      "coordinates": {
+        "lat": 36.181648,
+        "lng": 139.891174
+      },
+      "siteCount": 182,
+      "totalCapacityKw": 25065,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6306,
+        "高圧": 18760,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "取手市",
+      "coordinates": {
+        "lat": 35.911461,
+        "lng": 140.050354
+      },
+      "siteCount": 170,
+      "totalCapacityKw": 16917,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6586,
+        "高圧": 10331,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "守谷市",
+      "coordinates": {
+        "lat": 35.951389,
+        "lng": 139.975555
+      },
+      "siteCount": 66,
+      "totalCapacityKw": 12811,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1808,
+        "高圧": 8004,
+        "特別高圧": 3000
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "利根町",
+      "coordinates": {
+        "lat": 35.857769,
+        "lng": 140.13913
+      },
+      "siteCount": 59,
+      "totalCapacityKw": 12711,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2341,
+        "高圧": 10370,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "河内町",
+      "coordinates": {
+        "lat": 35.88472,
+        "lng": 140.244446
+      },
+      "siteCount": 55,
+      "totalCapacityKw": 10274,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1948,
+        "高圧": 8326,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "五霞町",
+      "coordinates": {
+        "lat": 36.11412,
+        "lng": 139.745972
+      },
+      "siteCount": 54,
+      "totalCapacityKw": 8978,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1760,
+        "高圧": 7217,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "東海村村",
+      "coordinates": {
+        "lat": 36.450245,
+        "lng": 140.587753
+      },
+      "siteCount": 22,
+      "totalCapacityKw": 8543,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 756,
+        "高圧": 987,
+        "特別高圧": 6800
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "大洗町",
+      "coordinates": {
+        "lat": 36.313343,
+        "lng": 140.574875
+      },
+      "siteCount": 74,
+      "totalCapacityKw": 4168,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2889,
+        "高圧": 1279,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "石岡市村",
+      "coordinates": {
+        "lat": 36.217209,
+        "lng": 140.241776
+      },
+      "siteCount": 48,
+      "totalCapacityKw": 3318,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1952,
+        "高圧": 1366,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "ひたちなか市市",
+      "coordinates": {
+        "lat": 36.398766,
+        "lng": 140.506744
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 1181,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 184,
+        "高圧": 998,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "笠間市市",
+      "coordinates": {
+        "lat": 36.277908,
+        "lng": 140.284531
+      },
+      "siteCount": 16,
+      "totalCapacityKw": 1178,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 678,
+        "高圧": 500,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "稲敷市市",
+      "coordinates": {
+        "lat": 35.935226,
+        "lng": 140.363449
+      },
+      "siteCount": 11,
+      "totalCapacityKw": 504,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 504,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "筑西市村",
+      "coordinates": {
+        "lat": 36.27829,
+        "lng": 140.007919
+      },
+      "siteCount": 8,
+      "totalCapacityKw": 386,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 386,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "稲敷市町",
+      "coordinates": {
+        "lat": 35.925465,
+        "lng": 140.358749
+      },
+      "siteCount": 8,
+      "totalCapacityKw": 330,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 330,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "常陸太田市町",
+      "coordinates": {
+        "lat": 36.608288,
+        "lng": 140.561966
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 298,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 298,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "下妻市村",
+      "coordinates": {
+        "lat": 36.15918,
+        "lng": 139.921173
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 242,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 242,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "取手市市",
+      "coordinates": {
+        "lat": 35.94706,
+        "lng": 140.024658
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 242,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 242,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "八千代町村",
+      "coordinates": {
+        "lat": 36.165543,
+        "lng": 139.878281
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 198,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 198,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "稲敷市村",
+      "coordinates": {
+        "lat": 35.942459,
+        "lng": 140.310776
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 143,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 143,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "筑西市市",
+      "coordinates": {
+        "lat": 36.315273,
+        "lng": 139.987442
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 123,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 123,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "かすみがうら市市",
+      "coordinates": {
+        "lat": 36.177296,
+        "lng": 140.261169
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 82,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 82,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "つくば市市",
+      "coordinates": {
+        "lat": 36.023003,
+        "lng": 140.130981
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 50,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 50,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "茨城県",
+      "municipality": "つくばみらい市市",
+      "coordinates": {
+        "lat": 35.972439,
+        "lng": 140.030426
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 29,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 29,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "栃木県": [
+    {
+      "prefecture": "栃木県",
+      "municipality": "那須塩原市",
+      "coordinates": {
+        "lat": 36.961666,
+        "lng": 140.046127
+      },
+      "siteCount": 1473,
+      "totalCapacityKw": 354331,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 60318,
+        "高圧": 102258,
+        "特別高圧": 191754
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "佐野市",
+      "coordinates": {
+        "lat": 36.314484,
+        "lng": 139.578415
+      },
+      "siteCount": 1698,
+      "totalCapacityKw": 270670,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 66907,
+        "高圧": 67808,
+        "特別高圧": 135955
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "宇都宮市",
+      "coordinates": {
+        "lat": 36.555115,
+        "lng": 139.882599
+      },
+      "siteCount": 1771,
+      "totalCapacityKw": 252238,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 67424,
+        "高圧": 80174,
+        "特別高圧": 104640
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "coordinates": {
+        "lat": 36.382435,
+        "lng": 139.7341
+      },
+      "siteCount": 1882,
+      "totalCapacityKw": 212668,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 74062,
+        "高圧": 88196,
+        "特別高圧": 50410
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那須烏山市",
+      "coordinates": {
+        "lat": 36.656918,
+        "lng": 140.151459
+      },
+      "siteCount": 687,
+      "totalCapacityKw": 205760,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 29119,
+        "高圧": 44621,
+        "特別高圧": 132020
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "大田原市",
+      "coordinates": {
+        "lat": 36.870922,
+        "lng": 140.015839
+      },
+      "siteCount": 724,
+      "totalCapacityKw": 200349,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 28967,
+        "高圧": 63967,
+        "特別高圧": 107415
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "coordinates": {
+        "lat": 36.720013,
+        "lng": 139.697617
+      },
+      "siteCount": 634,
+      "totalCapacityKw": 154167,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 25286,
+        "高圧": 57981,
+        "特別高圧": 70900
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "足利市",
+      "coordinates": {
+        "lat": 36.340149,
+        "lng": 139.449753
+      },
+      "siteCount": 1636,
+      "totalCapacityKw": 145048,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 59666,
+        "高圧": 78282,
+        "特別高圧": 7100
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那須町",
+      "coordinates": {
+        "lat": 37.01976,
+        "lng": 140.121017
+      },
+      "siteCount": 1131,
+      "totalCapacityKw": 138876,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 49819,
+        "高圧": 65914,
+        "特別高圧": 23144
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "鹿沼市",
+      "coordinates": {
+        "lat": 36.566681,
+        "lng": 139.745041
+      },
+      "siteCount": 1155,
+      "totalCapacityKw": 106099,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 48796,
+        "高圧": 45303,
+        "特別高圧": 12000
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "矢板市",
+      "coordinates": {
+        "lat": 36.806667,
+        "lng": 139.924179
+      },
+      "siteCount": 359,
+      "totalCapacityKw": 91872,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14325,
+        "高圧": 23571,
+        "特別高圧": 53976
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "壬生町",
+      "coordinates": {
+        "lat": 36.442177,
+        "lng": 139.814667
+      },
+      "siteCount": 706,
+      "totalCapacityKw": 85958,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 30217,
+        "高圧": 25742,
+        "特別高圧": 30000
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那珂川町",
+      "coordinates": {
+        "lat": 36.736267,
+        "lng": 140.172318
+      },
+      "siteCount": 541,
+      "totalCapacityKw": 81184,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24330,
+        "高圧": 10770,
+        "特別高圧": 46084
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "小山市",
+      "coordinates": {
+        "lat": 36.314495,
+        "lng": 139.800781
+      },
+      "siteCount": 695,
+      "totalCapacityKw": 80506,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24324,
+        "高圧": 56183,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "真岡市",
+      "coordinates": {
+        "lat": 36.440514,
+        "lng": 140.012451
+      },
+      "siteCount": 937,
+      "totalCapacityKw": 72848,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 38871,
+        "高圧": 33977,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "塩谷町",
+      "coordinates": {
+        "lat": 36.778896,
+        "lng": 139.856949
+      },
+      "siteCount": 185,
+      "totalCapacityKw": 69767,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7321,
+        "高圧": 15335,
+        "特別高圧": 47110
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "さくら市",
+      "coordinates": {
+        "lat": 36.685276,
+        "lng": 139.9664
+      },
+      "siteCount": 441,
+      "totalCapacityKw": 57669,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 17941,
+        "高圧": 29760,
+        "特別高圧": 9968
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "市",
+      "coordinates": {
+        "lat": 36.543217,
+        "lng": 140.102127
+      },
+      "siteCount": 185,
+      "totalCapacityKw": 55973,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6910,
+        "高圧": 22982,
+        "特別高圧": 26080
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "益子町",
+      "coordinates": {
+        "lat": 36.467407,
+        "lng": 140.093384
+      },
+      "siteCount": 285,
+      "totalCapacityKw": 49114,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11871,
+        "高圧": 11743,
+        "特別高圧": 25500
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "下野市",
+      "coordinates": {
+        "lat": 36.395294,
+        "lng": 139.852005
+      },
+      "siteCount": 430,
+      "totalCapacityKw": 36065,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16652,
+        "高圧": 19414,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "芳賀町",
+      "coordinates": {
+        "lat": 36.548256,
+        "lng": 140.058197
+      },
+      "siteCount": 300,
+      "totalCapacityKw": 35754,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12551,
+        "高圧": 12203,
+        "特別高圧": 11000
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "茂木町",
+      "coordinates": {
+        "lat": 36.532135,
+        "lng": 140.187576
+      },
+      "siteCount": 184,
+      "totalCapacityKw": 27276,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8133,
+        "高圧": 5143,
+        "特別高圧": 14000
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "上三川町",
+      "coordinates": {
+        "lat": 36.439293,
+        "lng": 139.909897
+      },
+      "siteCount": 239,
+      "totalCapacityKw": 25096,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8959,
+        "高圧": 16137,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "高根沢町",
+      "coordinates": {
+        "lat": 36.630997,
+        "lng": 139.986664
+      },
+      "siteCount": 290,
+      "totalCapacityKw": 25084,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11355,
+        "高圧": 13729,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "野木町",
+      "coordinates": {
+        "lat": 36.233215,
+        "lng": 139.740799
+      },
+      "siteCount": 129,
+      "totalCapacityKw": 17467,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4390,
+        "高圧": 13077,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "日光市町",
+      "coordinates": {
+        "lat": 36.749313,
+        "lng": 139.754578
+      },
+      "siteCount": 20,
+      "totalCapacityKw": 5179,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 759,
+        "高圧": 4420,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "岩舟町",
+      "coordinates": {
+        "lat": 36.56591,
+        "lng": 139.883591
+      },
+      "siteCount": 25,
+      "totalCapacityKw": 3089,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 949,
+        "高圧": 2140,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "佐野市町",
+      "coordinates": {
+        "lat": 36.321789,
+        "lng": 139.627975
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 2506,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 135,
+        "高圧": 2371,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "鹿沼市村",
+      "coordinates": {
+        "lat": 36.547241,
+        "lng": 139.738495
+      },
+      "siteCount": 32,
+      "totalCapacityKw": 1670,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1478,
+        "高圧": 192,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "佐野市村",
+      "coordinates": {
+        "lat": 36.302055,
+        "lng": 139.533661
+      },
+      "siteCount": 19,
+      "totalCapacityKw": 1117,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 748,
+        "高圧": 370,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "大田原市市",
+      "coordinates": {
+        "lat": 36.908401,
+        "lng": 140.054016
+      },
+      "siteCount": 14,
+      "totalCapacityKw": 609,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 609,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "下野市町",
+      "coordinates": {
+        "lat": 36.404621,
+        "lng": 139.889801
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 99,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 99,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "大田原市町",
+      "coordinates": {
+        "lat": 36.882626,
+        "lng": 140.028107
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 43,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 43,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "群馬県": [
+    {
+      "prefecture": "群馬県",
+      "municipality": "高崎市",
+      "coordinates": {
+        "lat": 36.321964,
+        "lng": 139.003281
+      },
+      "siteCount": 2589,
+      "totalCapacityKw": 317411,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 102599,
+        "高圧": 104847,
+        "特別高圧": 109965
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "安中市",
+      "coordinates": {
+        "lat": 36.326389,
+        "lng": 138.887222
+      },
+      "siteCount": 1749,
+      "totalCapacityKw": 273740,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 74455,
+        "高圧": 84444,
+        "特別高圧": 114840
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "前橋市",
+      "coordinates": {
+        "lat": 36.389462,
+        "lng": 139.063461
+      },
+      "siteCount": 3015,
+      "totalCapacityKw": 256540,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 115852,
+        "高圧": 130607,
+        "特別高圧": 10081
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "太田市",
+      "coordinates": {
+        "lat": 36.291157,
+        "lng": 139.375504
+      },
+      "siteCount": 1977,
+      "totalCapacityKw": 216541,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 69895,
+        "高圧": 136946,
+        "特別高圧": 9700
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "伊勢崎市",
+      "coordinates": {
+        "lat": 36.311386,
+        "lng": 139.196671
+      },
+      "siteCount": 2117,
+      "totalCapacityKw": 162279,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 79528,
+        "高圧": 82751,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "藤岡市",
+      "coordinates": {
+        "lat": 36.25861,
+        "lng": 139.074722
+      },
+      "siteCount": 859,
+      "totalCapacityKw": 150277,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 33656,
+        "高圧": 54106,
+        "特別高圧": 62515
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "桐生市",
+      "coordinates": {
+        "lat": 36.405743,
+        "lng": 139.330826
+      },
+      "siteCount": 1442,
+      "totalCapacityKw": 130100,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 59478,
+        "高圧": 52872,
+        "特別高圧": 17750
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "渋川市",
+      "coordinates": {
+        "lat": 36.489445,
+        "lng": 139.000565
+      },
+      "siteCount": 1096,
+      "totalCapacityKw": 101409,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 46122,
+        "高圧": 55288,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "みなかみ町",
+      "coordinates": {
+        "lat": 36.678684,
+        "lng": 138.999069
+      },
+      "siteCount": 178,
+      "totalCapacityKw": 87186,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6822,
+        "高圧": 18664,
+        "特別高圧": 61700
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "富岡市",
+      "coordinates": {
+        "lat": 36.259815,
+        "lng": 138.889526
+      },
+      "siteCount": 795,
+      "totalCapacityKw": 83162,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 33653,
+        "高圧": 31509,
+        "特別高圧": 18000
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "片品村",
+      "coordinates": {
+        "lat": 36.772343,
+        "lng": 139.225296
+      },
+      "siteCount": 33,
+      "totalCapacityKw": 72421,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 909,
+        "高圧": 8012,
+        "特別高圧": 63500
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "東吾妻町",
+      "coordinates": {
+        "lat": 36.571529,
+        "lng": 138.820526
+      },
+      "siteCount": 339,
+      "totalCapacityKw": 71591,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14480,
+        "高圧": 11535,
+        "特別高圧": 45576
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "高山村",
+      "coordinates": {
+        "lat": 36.620834,
+        "lng": 138.943619
+      },
+      "siteCount": 82,
+      "totalCapacityKw": 67169,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3592,
+        "高圧": 8208,
+        "特別高圧": 55370
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "嬬恋村",
+      "coordinates": {
+        "lat": 36.516666,
+        "lng": 138.530289
+      },
+      "siteCount": 355,
+      "totalCapacityKw": 65176,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 15166,
+        "高圧": 24210,
+        "特別高圧": 25800
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "沼田市",
+      "coordinates": {
+        "lat": 36.643967,
+        "lng": 139.042801
+      },
+      "siteCount": 594,
+      "totalCapacityKw": 58798,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24987,
+        "高圧": 17412,
+        "特別高圧": 16400
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "昭和村",
+      "coordinates": {
+        "lat": 36.639702,
+        "lng": 139.066345
+      },
+      "siteCount": 110,
+      "totalCapacityKw": 53383,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3600,
+        "高圧": 20083,
+        "特別高圧": 29700
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "みどり市",
+      "coordinates": {
+        "lat": 36.394814,
+        "lng": 139.281113
+      },
+      "siteCount": 558,
+      "totalCapacityKw": 39046,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 23331,
+        "高圧": 15715,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "中之条町",
+      "coordinates": {
+        "lat": 36.589886,
+        "lng": 138.841019
+      },
+      "siteCount": 240,
+      "totalCapacityKw": 34765,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9585,
+        "高圧": 25180,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "邑楽町",
+      "coordinates": {
+        "lat": 36.252499,
+        "lng": 139.462509
+      },
+      "siteCount": 337,
+      "totalCapacityKw": 34574,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12408,
+        "高圧": 22166,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "館林市",
+      "coordinates": {
+        "lat": 36.244839,
+        "lng": 139.542252
+      },
+      "siteCount": 487,
+      "totalCapacityKw": 33964,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 18628,
+        "高圧": 15337,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "長野原町",
+      "coordinates": {
+        "lat": 36.544319,
+        "lng": 138.649841
+      },
+      "siteCount": 238,
+      "totalCapacityKw": 33835,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9590,
+        "高圧": 10345,
+        "特別高圧": 13900
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "千代田町",
+      "coordinates": {
+        "lat": 36.217777,
+        "lng": 139.442505
+      },
+      "siteCount": 295,
+      "totalCapacityKw": 26486,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11497,
+        "高圧": 14990,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "板倉町",
+      "coordinates": {
+        "lat": 36.225964,
+        "lng": 139.601913
+      },
+      "siteCount": 173,
+      "totalCapacityKw": 17768,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6611,
+        "高圧": 9141,
+        "特別高圧": 2016
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "神流町",
+      "coordinates": {
+        "lat": 36.115971,
+        "lng": 138.917023
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 17750,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 0,
+        "高圧": 2750,
+        "特別高圧": 15000
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "大泉町",
+      "coordinates": {
+        "lat": 36.247925,
+        "lng": 139.404846
+      },
+      "siteCount": 253,
+      "totalCapacityKw": 17565,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9393,
+        "高圧": 8171,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "榛東村",
+      "coordinates": {
+        "lat": 36.438469,
+        "lng": 138.967224
+      },
+      "siteCount": 193,
+      "totalCapacityKw": 15017,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8101,
+        "高圧": 6915,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "甘楽町",
+      "coordinates": {
+        "lat": 36.2428632,
+        "lng": 138.9216322
+      },
+      "siteCount": 200,
+      "totalCapacityKw": 14436,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8249,
+        "高圧": 6187,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "明和町",
+      "coordinates": {
+        "lat": 36.211235,
+        "lng": 139.534271
+      },
+      "siteCount": 117,
+      "totalCapacityKw": 10403,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4592,
+        "高圧": 5811,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "玉村町",
+      "coordinates": {
+        "lat": 36.304443,
+        "lng": 139.115005
+      },
+      "siteCount": 154,
+      "totalCapacityKw": 9472,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5237,
+        "高圧": 4235,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "吉岡町",
+      "coordinates": {
+        "lat": 36.447437,
+        "lng": 139.009735
+      },
+      "siteCount": 191,
+      "totalCapacityKw": 8896,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7568,
+        "高圧": 1329,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "下仁田町",
+      "coordinates": {
+        "lat": 36.212502,
+        "lng": 138.789169
+      },
+      "siteCount": 71,
+      "totalCapacityKw": 6553,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3055,
+        "高圧": 3499,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "前橋市市",
+      "coordinates": {
+        "lat": 36.455807,
+        "lng": 139.149704
+      },
+      "siteCount": 46,
+      "totalCapacityKw": 2995,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1995,
+        "高圧": 1000,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "太田市市",
+      "coordinates": {
+        "lat": 36.334339,
+        "lng": 139.414993
+      },
+      "siteCount": 13,
+      "totalCapacityKw": 2610,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 343,
+        "高圧": 2267,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "草津町",
+      "coordinates": {
+        "lat": 36.620556,
+        "lng": 138.596115
+      },
+      "siteCount": 14,
+      "totalCapacityKw": 2528,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 533,
+        "高圧": 1995,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "伊勢崎市市",
+      "coordinates": {
+        "lat": 36.373722,
+        "lng": 139.220963
+      },
+      "siteCount": 42,
+      "totalCapacityKw": 2260,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1535,
+        "高圧": 726,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "川場村",
+      "coordinates": {
+        "lat": 36.692554,
+        "lng": 139.103485
+      },
+      "siteCount": 28,
+      "totalCapacityKw": 1895,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1204,
+        "高圧": 692,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "沼田市町",
+      "coordinates": {
+        "lat": 36.664127,
+        "lng": 139.049133
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 1040,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 307,
+        "高圧": 733,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "渋川市村",
+      "coordinates": {
+        "lat": 36.56715,
+        "lng": 138.913376
+      },
+      "siteCount": 24,
+      "totalCapacityKw": 967,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 967,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "高崎市町",
+      "coordinates": {
+        "lat": 36.353874,
+        "lng": 138.950592
+      },
+      "siteCount": 7,
+      "totalCapacityKw": 403,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 279,
+        "高圧": 124,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "上野村",
+      "coordinates": {
+        "lat": 36.083233,
+        "lng": 138.777328
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 270,
+      "facilityTypes": [
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 0,
+        "高圧": 270,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "中之条町市",
+      "coordinates": {
+        "lat": 36.573357,
+        "lng": 138.890411
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 165,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 165,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "群馬県",
+      "municipality": "南牧村",
+      "coordinates": {
+        "lat": 36.158611,
+        "lng": 138.711395
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 95,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 95,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "埼玉県": [
+    {
+      "prefecture": "埼玉県",
+      "municipality": "深谷市",
+      "coordinates": {
+        "lat": 36.1974016,
+        "lng": 139.2816997
+      },
+      "siteCount": 577,
+      "totalCapacityKw": 87778,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 18741,
+        "高圧": 47037,
+        "特別高圧": 22000
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "秩父市",
+      "coordinates": {
+        "lat": 35.991596,
+        "lng": 139.085251
+      },
+      "siteCount": 539,
+      "totalCapacityKw": 76269,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21979,
+        "高圧": 21153,
+        "特別高圧": 33138
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "熊谷市",
+      "coordinates": {
+        "lat": 36.147221,
+        "lng": 139.388611
+      },
+      "siteCount": 635,
+      "totalCapacityKw": 75700,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21630,
+        "高圧": 54070,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "本庄市",
+      "coordinates": {
+        "lat": 36.24374,
+        "lng": 139.19046
+      },
+      "siteCount": 592,
+      "totalCapacityKw": 67697,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 22882,
+        "高圧": 42415,
+        "特別高圧": 2400
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "加須市",
+      "coordinates": {
+        "lat": 36.13139,
+        "lng": 139.601944
+      },
+      "siteCount": 710,
+      "totalCapacityKw": 60949,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 26753,
+        "高圧": 34196,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "羽生市",
+      "coordinates": {
+        "lat": 36.172634,
+        "lng": 139.548477
+      },
+      "siteCount": 497,
+      "totalCapacityKw": 50816,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 18674,
+        "高圧": 32142,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "さいたま市",
+      "coordinates": {
+        "lat": 35.861683,
+        "lng": 139.645676
+      },
+      "siteCount": 569,
+      "totalCapacityKw": 46272,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16287,
+        "高圧": 21485,
+        "特別高圧": 8500
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "東松山市",
+      "coordinates": {
+        "lat": 36.042221,
+        "lng": 139.400009
+      },
+      "siteCount": 313,
+      "totalCapacityKw": 44638,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 10863,
+        "高圧": 33774,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "吉見町",
+      "coordinates": {
+        "lat": 36.039841,
+        "lng": 139.453751
+      },
+      "siteCount": 259,
+      "totalCapacityKw": 42127,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8899,
+        "高圧": 33228,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "久喜市",
+      "coordinates": {
+        "lat": 36.062222,
+        "lng": 139.666946
+      },
+      "siteCount": 219,
+      "totalCapacityKw": 30378,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7235,
+        "高圧": 23142,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "寄居町",
+      "coordinates": {
+        "lat": 36.118332,
+        "lng": 139.193054
+      },
+      "siteCount": 222,
+      "totalCapacityKw": 28643,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7942,
+        "高圧": 18200,
+        "特別高圧": 2500
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "行田市",
+      "coordinates": {
+        "lat": 36.138889,
+        "lng": 139.455841
+      },
+      "siteCount": 332,
+      "totalCapacityKw": 28315,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12297,
+        "高圧": 16017,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "鳩山町",
+      "coordinates": {
+        "lat": 35.981483,
+        "lng": 139.334091
+      },
+      "siteCount": 107,
+      "totalCapacityKw": 26889,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3544,
+        "高圧": 20925,
+        "特別高圧": 2420
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "美里町",
+      "coordinates": {
+        "lat": 36.17712,
+        "lng": 139.181458
+      },
+      "siteCount": 323,
+      "totalCapacityKw": 26883,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11684,
+        "高圧": 15199,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "神川町",
+      "coordinates": {
+        "lat": 36.213539,
+        "lng": 139.101807
+      },
+      "siteCount": 352,
+      "totalCapacityKw": 26392,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14374,
+        "高圧": 12018,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "川越市",
+      "coordinates": {
+        "lat": 35.925098,
+        "lng": 139.485825
+      },
+      "siteCount": 211,
+      "totalCapacityKw": 25252,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6091,
+        "高圧": 15006,
+        "特別高圧": 4154
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "長瀞町",
+      "coordinates": {
+        "lat": 36.114746,
+        "lng": 139.109802
+      },
+      "siteCount": 58,
+      "totalCapacityKw": 24588,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2378,
+        "高圧": 1610,
+        "特別高圧": 20600
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "川口市",
+      "coordinates": {
+        "lat": 35.806717,
+        "lng": 139.723404
+      },
+      "siteCount": 147,
+      "totalCapacityKw": 23018,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4279,
+        "高圧": 2340,
+        "特別高圧": 16400
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "滑川町",
+      "coordinates": {
+        "lat": 36.066113,
+        "lng": 139.36084
+      },
+      "siteCount": 120,
+      "totalCapacityKw": 22665,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3890,
+        "高圧": 18775,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "川島町",
+      "coordinates": {
+        "lat": 35.992493,
+        "lng": 139.484238
+      },
+      "siteCount": 97,
+      "totalCapacityKw": 22312,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3086,
+        "高圧": 12426,
+        "特別高圧": 6800
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "嵐山町",
+      "coordinates": {
+        "lat": 36.056549,
+        "lng": 139.320633
+      },
+      "siteCount": 74,
+      "totalCapacityKw": 19399,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2085,
+        "高圧": 17314,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "飯能市",
+      "coordinates": {
+        "lat": 35.855656,
+        "lng": 139.327621
+      },
+      "siteCount": 54,
+      "totalCapacityKw": 18252,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1447,
+        "高圧": 16805,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "日高市",
+      "coordinates": {
+        "lat": 35.90778,
+        "lng": 139.339172
+      },
+      "siteCount": 124,
+      "totalCapacityKw": 18152,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3648,
+        "高圧": 14503,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "小川町",
+      "coordinates": {
+        "lat": 36.056667,
+        "lng": 139.261948
+      },
+      "siteCount": 94,
+      "totalCapacityKw": 17099,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3304,
+        "高圧": 13795,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "春日部市",
+      "coordinates": {
+        "lat": 35.974045,
+        "lng": 139.754761
+      },
+      "siteCount": 166,
+      "totalCapacityKw": 16831,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5248,
+        "高圧": 11583,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "上里町",
+      "coordinates": {
+        "lat": 36.251698,
+        "lng": 139.144852
+      },
+      "siteCount": 194,
+      "totalCapacityKw": 16491,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6675,
+        "高圧": 9816,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "三郷市",
+      "coordinates": {
+        "lat": 35.830151,
+        "lng": 139.872284
+      },
+      "siteCount": 100,
+      "totalCapacityKw": 15760,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3051,
+        "高圧": 12709,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "草加市",
+      "coordinates": {
+        "lat": 35.825394,
+        "lng": 139.805374
+      },
+      "siteCount": 66,
+      "totalCapacityKw": 15189,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1895,
+        "高圧": 3864,
+        "特別高圧": 9430
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "所沢市",
+      "coordinates": {
+        "lat": 35.799648,
+        "lng": 139.468704
+      },
+      "siteCount": 155,
+      "totalCapacityKw": 12778,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4902,
+        "高圧": 7876,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "鴻巣市",
+      "coordinates": {
+        "lat": 36.065834,
+        "lng": 139.522232
+      },
+      "siteCount": 159,
+      "totalCapacityKw": 11827,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5407,
+        "高圧": 6419,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "桶川市",
+      "coordinates": {
+        "lat": 36.002766,
+        "lng": 139.55838
+      },
+      "siteCount": 91,
+      "totalCapacityKw": 11161,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2679,
+        "高圧": 8482,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "坂戸市",
+      "coordinates": {
+        "lat": 35.957222,
+        "lng": 139.403061
+      },
+      "siteCount": 79,
+      "totalCapacityKw": 10233,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2200,
+        "高圧": 8032,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "越谷市",
+      "coordinates": {
+        "lat": 35.890644,
+        "lng": 139.791031
+      },
+      "siteCount": 163,
+      "totalCapacityKw": 9030,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5194,
+        "高圧": 3836,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "上尾市",
+      "coordinates": {
+        "lat": 35.977417,
+        "lng": 139.593185
+      },
+      "siteCount": 109,
+      "totalCapacityKw": 8970,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3230,
+        "高圧": 5740,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "小鹿野町",
+      "coordinates": {
+        "lat": 36.017239,
+        "lng": 139.008682
+      },
+      "siteCount": 153,
+      "totalCapacityKw": 8782,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6750,
+        "高圧": 2032,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "ときがわ町",
+      "coordinates": {
+        "lat": 36.00861,
+        "lng": 139.296951
+      },
+      "siteCount": 57,
+      "totalCapacityKw": 8021,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1991,
+        "高圧": 6031,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "ふじみ野市",
+      "coordinates": {
+        "lat": 35.879272,
+        "lng": 139.519516
+      },
+      "siteCount": 40,
+      "totalCapacityKw": 7777,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1201,
+        "高圧": 3377,
+        "特別高圧": 3200
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "幸手市",
+      "coordinates": {
+        "lat": 36.078056,
+        "lng": 139.725845
+      },
+      "siteCount": 86,
+      "totalCapacityKw": 7279,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3098,
+        "高圧": 4181,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "皆野町",
+      "coordinates": {
+        "lat": 36.070805,
+        "lng": 139.098816
+      },
+      "siteCount": 76,
+      "totalCapacityKw": 7212,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3029,
+        "高圧": 4183,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "入間市",
+      "coordinates": {
+        "lat": 35.835835,
+        "lng": 139.391113
+      },
+      "siteCount": 79,
+      "totalCapacityKw": 7088,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2376,
+        "高圧": 4713,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "毛呂山町",
+      "coordinates": {
+        "lat": 35.941498,
+        "lng": 139.316025
+      },
+      "siteCount": 56,
+      "totalCapacityKw": 6205,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1796,
+        "高圧": 4410,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "新座市",
+      "coordinates": {
+        "lat": 35.793159,
+        "lng": 139.565628
+      },
+      "siteCount": 36,
+      "totalCapacityKw": 6030,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 761,
+        "高圧": 5269,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "杉戸町",
+      "coordinates": {
+        "lat": 36.025818,
+        "lng": 139.73671
+      },
+      "siteCount": 55,
+      "totalCapacityKw": 5863,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1649,
+        "高圧": 4214,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "狭山市",
+      "coordinates": {
+        "lat": 35.853054,
+        "lng": 139.412231
+      },
+      "siteCount": 65,
+      "totalCapacityKw": 5611,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1980,
+        "高圧": 3631,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "蓮田市",
+      "coordinates": {
+        "lat": 35.99435,
+        "lng": 139.66214
+      },
+      "siteCount": 79,
+      "totalCapacityKw": 5430,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2795,
+        "高圧": 2636,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "八潮市",
+      "coordinates": {
+        "lat": 35.822308,
+        "lng": 139.839661
+      },
+      "siteCount": 71,
+      "totalCapacityKw": 5270,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2282,
+        "高圧": 2988,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "鶴ヶ島市",
+      "coordinates": {
+        "lat": 35.934444,
+        "lng": 139.393066
+      },
+      "siteCount": 52,
+      "totalCapacityKw": 4734,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1586,
+        "高圧": 3147,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "越生町",
+      "coordinates": {
+        "lat": 35.964443,
+        "lng": 139.294174
+      },
+      "siteCount": 36,
+      "totalCapacityKw": 4547,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1115,
+        "高圧": 3432,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "白岡市",
+      "coordinates": {
+        "lat": 36.019089,
+        "lng": 139.67691
+      },
+      "siteCount": 40,
+      "totalCapacityKw": 4033,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1495,
+        "高圧": 2538,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "北本市",
+      "coordinates": {
+        "lat": 36.026661,
+        "lng": 139.529984
+      },
+      "siteCount": 46,
+      "totalCapacityKw": 3934,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1654,
+        "高圧": 2280,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "朝霞市",
+      "coordinates": {
+        "lat": 35.797188,
+        "lng": 139.593735
+      },
+      "siteCount": 32,
+      "totalCapacityKw": 3892,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 809,
+        "高圧": 3083,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "宮代町",
+      "coordinates": {
+        "lat": 36.022717,
+        "lng": 139.722687
+      },
+      "siteCount": 27,
+      "totalCapacityKw": 3393,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 943,
+        "高圧": 2450,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "松伏町",
+      "coordinates": {
+        "lat": 35.925735,
+        "lng": 139.815155
+      },
+      "siteCount": 30,
+      "totalCapacityKw": 3034,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 952,
+        "高圧": 2082,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "三芳町",
+      "coordinates": {
+        "lat": 35.828335,
+        "lng": 139.526672
+      },
+      "siteCount": 37,
+      "totalCapacityKw": 2914,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1121,
+        "高圧": 1793,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "戸田市",
+      "coordinates": {
+        "lat": 35.817623,
+        "lng": 139.677979
+      },
+      "siteCount": 45,
+      "totalCapacityKw": 2811,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1401,
+        "高圧": 1410,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "伊奈町",
+      "coordinates": {
+        "lat": 35.999958,
+        "lng": 139.623947
+      },
+      "siteCount": 51,
+      "totalCapacityKw": 2662,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1473,
+        "高圧": 1188,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "吉川市",
+      "coordinates": {
+        "lat": 35.8962831,
+        "lng": 139.854504
+      },
+      "siteCount": 44,
+      "totalCapacityKw": 2555,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1360,
+        "高圧": 1195,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "横瀬町",
+      "coordinates": {
+        "lat": 35.987305,
+        "lng": 139.100052
+      },
+      "siteCount": 28,
+      "totalCapacityKw": 2496,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 884,
+        "高圧": 1613,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "富士見市",
+      "coordinates": {
+        "lat": 35.856667,
+        "lng": 139.549164
+      },
+      "siteCount": 26,
+      "totalCapacityKw": 2307,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 766,
+        "高圧": 1541,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "東秩父村",
+      "coordinates": {
+        "lat": 36.058128,
+        "lng": 139.194687
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 1890,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 170,
+        "高圧": 1720,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "和光市",
+      "coordinates": {
+        "lat": 35.781387,
+        "lng": 139.605835
+      },
+      "siteCount": 20,
+      "totalCapacityKw": 1602,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 602,
+        "高圧": 1000,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "志木市",
+      "coordinates": {
+        "lat": 35.83659,
+        "lng": 139.580246
+      },
+      "siteCount": 23,
+      "totalCapacityKw": 813,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 813,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "熊谷市村",
+      "coordinates": {
+        "lat": 36.123196,
+        "lng": 139.378311
+      },
+      "siteCount": 16,
+      "totalCapacityKw": 533,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 533,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "東松山市市",
+      "coordinates": {
+        "lat": 36.05143,
+        "lng": 139.392929
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 247,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 247,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "蕨市",
+      "coordinates": {
+        "lat": 35.825581,
+        "lng": 139.679581
+      },
+      "siteCount": 7,
+      "totalCapacityKw": 236,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 236,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "深谷市町",
+      "coordinates": {
+        "lat": 36.22802,
+        "lng": 139.248184
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 184,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 90,
+        "高圧": 94,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "加須市町",
+      "coordinates": {
+        "lat": 36.153568,
+        "lng": 139.608841
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 124,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 124,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "鴻巣市市",
+      "coordinates": {
+        "lat": 36.076805,
+        "lng": 139.507919
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 92,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 92,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "三郷市市",
+      "coordinates": {
+        "lat": 35.826237,
+        "lng": 139.884735
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 50,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 50,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "毛呂山町市",
+      "coordinates": {
+        "lat": 35.94556,
+        "lng": 139.346283
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 49,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 49,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "埼玉県",
+      "municipality": "羽生市町",
+      "coordinates": {
+        "lat": 36.143578,
+        "lng": 139.569733
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 44,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 44,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "千葉県": [
+    {
+      "prefecture": "千葉県",
+      "municipality": "市",
+      "coordinates": {
+        "lat": 35.498055,
+        "lng": 140.115555
+      },
+      "siteCount": 1364,
+      "totalCapacityKw": 473574,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 53156,
+        "高圧": 167119,
+        "特別高圧": 253300
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "香取市",
+      "coordinates": {
+        "lat": 35.897739,
+        "lng": 140.499298
+      },
+      "siteCount": 1516,
+      "totalCapacityKw": 174469,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 64105,
+        "高圧": 99864,
+        "特別高圧": 10500
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "木更津市",
+      "coordinates": {
+        "lat": 35.381248,
+        "lng": 139.924896
+      },
+      "siteCount": 568,
+      "totalCapacityKw": 139955,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21957,
+        "高圧": 54218,
+        "特別高圧": 63780
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "千葉市",
+      "coordinates": {
+        "lat": 35.607037,
+        "lng": 140.106064
+      },
+      "siteCount": 1298,
+      "totalCapacityKw": 133357,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 48060,
+        "高圧": 85297,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "君津市",
+      "coordinates": {
+        "lat": 35.330555,
+        "lng": 139.902496
+      },
+      "siteCount": 688,
+      "totalCapacityKw": 132803,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 29703,
+        "高圧": 31715,
+        "特別高圧": 71385
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "富津市",
+      "coordinates": {
+        "lat": 35.304169,
+        "lng": 139.857117
+      },
+      "siteCount": 522,
+      "totalCapacityKw": 120851,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 22466,
+        "高圧": 34665,
+        "特別高圧": 63720
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "成田市",
+      "coordinates": {
+        "lat": 35.776665,
+        "lng": 140.318344
+      },
+      "siteCount": 754,
+      "totalCapacityKw": 112575,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 28468,
+        "高圧": 81107,
+        "特別高圧": 3000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "野田市",
+      "coordinates": {
+        "lat": 35.955051,
+        "lng": 139.874878
+      },
+      "siteCount": 1037,
+      "totalCapacityKw": 108110,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 41213,
+        "高圧": 66897,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "茂原市",
+      "coordinates": {
+        "lat": 35.428528,
+        "lng": 140.287796
+      },
+      "siteCount": 797,
+      "totalCapacityKw": 104907,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 33468,
+        "高圧": 21438,
+        "特別高圧": 50000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "山武市",
+      "coordinates": {
+        "lat": 35.602943,
+        "lng": 140.413544
+      },
+      "siteCount": 852,
+      "totalCapacityKw": 99212,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 34759,
+        "高圧": 64453,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "八街市",
+      "coordinates": {
+        "lat": 35.665878,
+        "lng": 140.318008
+      },
+      "siteCount": 1030,
+      "totalCapacityKw": 94052,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 43468,
+        "高圧": 50584,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "銚子市",
+      "coordinates": {
+        "lat": 35.734699,
+        "lng": 140.826569
+      },
+      "siteCount": 370,
+      "totalCapacityKw": 92380,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "バイオマス",
+        "洋上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14094,
+        "高圧": 25076,
+        "特別高圧": 53210
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "勝浦市",
+      "coordinates": {
+        "lat": 35.152233,
+        "lng": 140.320923
+      },
+      "siteCount": 185,
+      "totalCapacityKw": 87271,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7793,
+        "高圧": 10254,
+        "特別高圧": 69224
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "旭市",
+      "coordinates": {
+        "lat": 35.716034,
+        "lng": 140.648178
+      },
+      "siteCount": 957,
+      "totalCapacityKw": 84181,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 38751,
+        "高圧": 45431,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "印西市",
+      "coordinates": {
+        "lat": 35.832336,
+        "lng": 140.145798
+      },
+      "siteCount": 398,
+      "totalCapacityKw": 76960,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14749,
+        "高圧": 53212,
+        "特別高圧": 9000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "いすみ市",
+      "coordinates": {
+        "lat": 35.253887,
+        "lng": 140.385284
+      },
+      "siteCount": 696,
+      "totalCapacityKw": 71994,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 30750,
+        "高圧": 17304,
+        "特別高圧": 23940
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "東金市",
+      "coordinates": {
+        "lat": 35.559998,
+        "lng": 140.366119
+      },
+      "siteCount": 591,
+      "totalCapacityKw": 68379,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24469,
+        "高圧": 43911,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "袖ケ浦市",
+      "coordinates": {
+        "lat": 35.429874,
+        "lng": 139.954453
+      },
+      "siteCount": 349,
+      "totalCapacityKw": 62886,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 13587,
+        "高圧": 35299,
+        "特別高圧": 14000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "富里市",
+      "coordinates": {
+        "lat": 35.72681,
+        "lng": 140.343109
+      },
+      "siteCount": 470,
+      "totalCapacityKw": 50432,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 19402,
+        "高圧": 31030,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "佐倉市",
+      "coordinates": {
+        "lat": 35.723492,
+        "lng": 140.223969
+      },
+      "siteCount": 367,
+      "totalCapacityKw": 46120,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 13883,
+        "高圧": 32238,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "匝瑳市",
+      "coordinates": {
+        "lat": 35.707909,
+        "lng": 140.564224
+      },
+      "siteCount": 508,
+      "totalCapacityKw": 44167,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 20436,
+        "高圧": 23732,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "鴨川市",
+      "coordinates": {
+        "lat": 35.114075,
+        "lng": 140.098953
+      },
+      "siteCount": 188,
+      "totalCapacityKw": 40309,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7907,
+        "高圧": 3401,
+        "特別高圧": 29000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "船橋市",
+      "coordinates": {
+        "lat": 35.694721,
+        "lng": 139.982498
+      },
+      "siteCount": 137,
+      "totalCapacityKw": 37006,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3767,
+        "高圧": 16038,
+        "特別高圧": 17200
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "柏市",
+      "coordinates": {
+        "lat": 35.867508,
+        "lng": 139.975937
+      },
+      "siteCount": 254,
+      "totalCapacityKw": 34401,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8215,
+        "高圧": 26187,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "多古町",
+      "coordinates": {
+        "lat": 35.735554,
+        "lng": 140.467789
+      },
+      "siteCount": 306,
+      "totalCapacityKw": 33614,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12256,
+        "高圧": 21358,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "芝山町",
+      "coordinates": {
+        "lat": 35.693069,
+        "lng": 140.414291
+      },
+      "siteCount": 266,
+      "totalCapacityKw": 32926,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11120,
+        "高圧": 21805,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "神崎町",
+      "coordinates": {
+        "lat": 35.901546,
+        "lng": 140.405228
+      },
+      "siteCount": 75,
+      "totalCapacityKw": 30900,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2723,
+        "高圧": 9840,
+        "特別高圧": 18337
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "横芝光町",
+      "coordinates": {
+        "lat": 35.665581,
+        "lng": 140.504318
+      },
+      "siteCount": 488,
+      "totalCapacityKw": 30682,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 20550,
+        "高圧": 10132,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "大網白里市",
+      "coordinates": {
+        "lat": 35.52169,
+        "lng": 140.320953
+      },
+      "siteCount": 416,
+      "totalCapacityKw": 30055,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16232,
+        "高圧": 13822,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "長南町",
+      "coordinates": {
+        "lat": 35.386066,
+        "lng": 140.236786
+      },
+      "siteCount": 94,
+      "totalCapacityKw": 29949,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4005,
+        "高圧": 5944,
+        "特別高圧": 20000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "大多喜町",
+      "coordinates": {
+        "lat": 35.285179,
+        "lng": 140.245407
+      },
+      "siteCount": 103,
+      "totalCapacityKw": 26826,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4314,
+        "高圧": 8512,
+        "特別高圧": 14000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "館山市",
+      "coordinates": {
+        "lat": 34.996468,
+        "lng": 139.870041
+      },
+      "siteCount": 322,
+      "totalCapacityKw": 25672,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12952,
+        "高圧": 12720,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "南房総市",
+      "coordinates": {
+        "lat": 35.043152,
+        "lng": 139.839981
+      },
+      "siteCount": 467,
+      "totalCapacityKw": 24690,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 20102,
+        "高圧": 4588,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "白井市",
+      "coordinates": {
+        "lat": 35.791279,
+        "lng": 140.056046
+      },
+      "siteCount": 105,
+      "totalCapacityKw": 22174,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3028,
+        "高圧": 19146,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "流山市",
+      "coordinates": {
+        "lat": 35.856285,
+        "lng": 139.90274
+      },
+      "siteCount": 121,
+      "totalCapacityKw": 21417,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3877,
+        "高圧": 14540,
+        "特別高圧": 3000
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "長柄町",
+      "coordinates": {
+        "lat": 35.43111,
+        "lng": 140.226944
+      },
+      "siteCount": 154,
+      "totalCapacityKw": 21047,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6502,
+        "高圧": 14545,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "御宿町",
+      "coordinates": {
+        "lat": 35.191666,
+        "lng": 140.348618
+      },
+      "siteCount": 70,
+      "totalCapacityKw": 20107,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2700,
+        "高圧": 9908,
+        "特別高圧": 7500
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "長生村",
+      "coordinates": {
+        "lat": 35.412224,
+        "lng": 140.354172
+      },
+      "siteCount": 268,
+      "totalCapacityKw": 19204,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11824,
+        "高圧": 7380,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "睦沢町",
+      "coordinates": {
+        "lat": 35.361031,
+        "lng": 140.319229
+      },
+      "siteCount": 201,
+      "totalCapacityKw": 17732,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8373,
+        "高圧": 9359,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "酒々井町",
+      "coordinates": {
+        "lat": 35.724865,
+        "lng": 140.269562
+      },
+      "siteCount": 162,
+      "totalCapacityKw": 17310,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6516,
+        "高圧": 8295,
+        "特別高圧": 2500
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "白子町",
+      "coordinates": {
+        "lat": 35.454346,
+        "lng": 140.374268
+      },
+      "siteCount": 326,
+      "totalCapacityKw": 15460,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14690,
+        "高圧": 770,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "九十九里町",
+      "coordinates": {
+        "lat": 35.535049,
+        "lng": 140.440353
+      },
+      "siteCount": 254,
+      "totalCapacityKw": 14861,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11131,
+        "高圧": 3730,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "東庄町",
+      "coordinates": {
+        "lat": 35.837135,
+        "lng": 140.668701
+      },
+      "siteCount": 227,
+      "totalCapacityKw": 13462,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9850,
+        "高圧": 3612,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "四街道市",
+      "coordinates": {
+        "lat": 35.670216,
+        "lng": 140.168228
+      },
+      "siteCount": 93,
+      "totalCapacityKw": 12605,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3044,
+        "高圧": 9561,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "八千代市",
+      "coordinates": {
+        "lat": 35.7225,
+        "lng": 140.099731
+      },
+      "siteCount": 82,
+      "totalCapacityKw": 12560,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2540,
+        "高圧": 10020,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "我孫子市",
+      "coordinates": {
+        "lat": 35.864166,
+        "lng": 140.028336
+      },
+      "siteCount": 141,
+      "totalCapacityKw": 11456,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5413,
+        "高圧": 6043,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "習志野市",
+      "coordinates": {
+        "lat": 35.68166,
+        "lng": 140.027267
+      },
+      "siteCount": 33,
+      "totalCapacityKw": 9994,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 687,
+        "高圧": 6837,
+        "特別高圧": 2470
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "松戸市",
+      "coordinates": {
+        "lat": 35.787666,
+        "lng": 139.903198
+      },
+      "siteCount": 110,
+      "totalCapacityKw": 7544,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3019,
+        "高圧": 4525,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "浦安市",
+      "coordinates": {
+        "lat": 35.65316,
+        "lng": 139.901978
+      },
+      "siteCount": 33,
+      "totalCapacityKw": 7169,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 745,
+        "高圧": 6424,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "栄町",
+      "coordinates": {
+        "lat": 35.840832,
+        "lng": 140.243896
+      },
+      "siteCount": 56,
+      "totalCapacityKw": 7090,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2054,
+        "高圧": 5036,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "一宮町",
+      "coordinates": {
+        "lat": 35.37262,
+        "lng": 140.368652
+      },
+      "siteCount": 107,
+      "totalCapacityKw": 6914,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4614,
+        "高圧": 2300,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "勝浦市市",
+      "coordinates": {
+        "lat": 35.232037,
+        "lng": 140.278961
+      },
+      "siteCount": 12,
+      "totalCapacityKw": 2661,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 485,
+        "高圧": 2176,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "鎌ケ谷市",
+      "coordinates": {
+        "lat": 35.776943,
+        "lng": 140.000839
+      },
+      "siteCount": 41,
+      "totalCapacityKw": 2284,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1271,
+        "高圧": 1013,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "鋸南町",
+      "coordinates": {
+        "lat": 35.111038,
+        "lng": 139.835541
+      },
+      "siteCount": 52,
+      "totalCapacityKw": 2259,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2259,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "長南町市",
+      "coordinates": {
+        "lat": 35.333202,
+        "lng": 140.240158
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 2173,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 308,
+        "高圧": 1865,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "山武市市",
+      "coordinates": {
+        "lat": 35.616596,
+        "lng": 140.404419
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 1995,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 0,
+        "高圧": 1995,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "成田市村",
+      "coordinates": {
+        "lat": 35.858597,
+        "lng": 140.447586
+      },
+      "siteCount": 27,
+      "totalCapacityKw": 1295,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1295,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "南房総市市",
+      "coordinates": {
+        "lat": 35.09399,
+        "lng": 139.85527
+      },
+      "siteCount": 13,
+      "totalCapacityKw": 595,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 595,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "八千代市村",
+      "coordinates": {
+        "lat": 35.728397,
+        "lng": 140.1194
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 321,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 136,
+        "高圧": 185,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "流山市市",
+      "coordinates": {
+        "lat": 35.862774,
+        "lng": 139.918381
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 91,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 91,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "鋸南町市",
+      "coordinates": {
+        "lat": 35.14558,
+        "lng": 139.891296
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 47,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 47,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "千葉県",
+      "municipality": "茂原市町",
+      "coordinates": {
+        "lat": 35.429459,
+        "lng": 140.304626
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 24,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "東京都": [
+    {
+      "prefecture": "東京都",
+      "municipality": "江東区",
+      "coordinates": {
+        "lat": 35.67318,
+        "lng": 139.817047
+      },
+      "siteCount": 23,
+      "totalCapacityKw": 53921,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 544,
+        "高圧": 3377,
+        "特別高圧": 50000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "大田区",
+      "coordinates": {
+        "lat": 35.561211,
+        "lng": 139.716019
+      },
+      "siteCount": 59,
+      "totalCapacityKw": 37232,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1464,
+        "高圧": 6568,
+        "特別高圧": 29200
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "練馬区",
+      "coordinates": {
+        "lat": 35.735641,
+        "lng": 139.65184
+      },
+      "siteCount": 63,
+      "totalCapacityKw": 29699,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1612,
+        "高圧": 238,
+        "特別高圧": 27850
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "杉並区",
+      "coordinates": {
+        "lat": 35.699532,
+        "lng": 139.636475
+      },
+      "siteCount": 35,
+      "totalCapacityKw": 25072,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 872,
+        "高圧": 0,
+        "特別高圧": 24200
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "港区",
+      "coordinates": {
+        "lat": 35.658054,
+        "lng": 139.751663
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 22071,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 71,
+        "高圧": 0,
+        "特別高圧": 22000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "目黒区",
+      "coordinates": {
+        "lat": 35.641479,
+        "lng": 139.698196
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 21917,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 117,
+        "高圧": 300,
+        "特別高圧": 21500
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "足立区",
+      "coordinates": {
+        "lat": 35.775002,
+        "lng": 139.804733
+      },
+      "siteCount": 68,
+      "totalCapacityKw": 19258,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1737,
+        "高圧": 1321,
+        "特別高圧": 16200
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "品川区",
+      "coordinates": {
+        "lat": 35.608997,
+        "lng": 139.730225
+      },
+      "siteCount": 12,
+      "totalCapacityKw": 16995,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 245,
+        "高圧": 1750,
+        "特別高圧": 15000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "中央区",
+      "coordinates": {
+        "lat": 35.670601,
+        "lng": 139.772003
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 15050,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 50,
+        "高圧": 0,
+        "特別高圧": 15000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "八王子市",
+      "coordinates": {
+        "lat": 35.666668,
+        "lng": 139.315842
+      },
+      "siteCount": 144,
+      "totalCapacityKw": 14989,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4542,
+        "高圧": 6007,
+        "特別高圧": 4440
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "葛飾区",
+      "coordinates": {
+        "lat": 35.743332,
+        "lng": 139.847229
+      },
+      "siteCount": 33,
+      "totalCapacityKw": 14901,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 883,
+        "高圧": 518,
+        "特別高圧": 13500
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "板橋区",
+      "coordinates": {
+        "lat": 35.751221,
+        "lng": 139.709229
+      },
+      "siteCount": 46,
+      "totalCapacityKw": 14845,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1195,
+        "高圧": 450,
+        "特別高圧": 13200
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "墨田区",
+      "coordinates": {
+        "lat": 35.710678,
+        "lng": 139.801514
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 13227,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 227,
+        "高圧": 0,
+        "特別高圧": 13000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "調布市",
+      "coordinates": {
+        "lat": 35.650555,
+        "lng": 139.540833
+      },
+      "siteCount": 38,
+      "totalCapacityKw": 11140,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1141,
+        "高圧": 299,
+        "特別高圧": 9700
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "町",
+      "coordinates": {
+        "lat": 35.546604,
+        "lng": 139.438644
+      },
+      "siteCount": 90,
+      "totalCapacityKw": 9997,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2897,
+        "高圧": 130,
+        "特別高圧": 6970
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "多摩市",
+      "coordinates": {
+        "lat": 35.636944,
+        "lng": 139.446396
+      },
+      "siteCount": 23,
+      "totalCapacityKw": 8848,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 791,
+        "高圧": 57,
+        "特別高圧": 8000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "世田谷区",
+      "coordinates": {
+        "lat": 35.64595,
+        "lng": 139.653183
+      },
+      "siteCount": 54,
+      "totalCapacityKw": 8657,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1257,
+        "高圧": 650,
+        "特別高圧": 6750
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "豊島区",
+      "coordinates": {
+        "lat": 35.726112,
+        "lng": 139.71666
+      },
+      "siteCount": 15,
+      "totalCapacityKw": 8249,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 449,
+        "高圧": 0,
+        "特別高圧": 7800
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "奥多摩町",
+      "coordinates": {
+        "lat": 35.809544,
+        "lng": 139.096222
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 8233,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 33,
+        "高圧": 0,
+        "特別高圧": 8200
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "日野市",
+      "coordinates": {
+        "lat": 35.671391,
+        "lng": 139.395004
+      },
+      "siteCount": 32,
+      "totalCapacityKw": 7955,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 775,
+        "高圧": 1990,
+        "特別高圧": 5190
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "稲城市",
+      "coordinates": {
+        "lat": 35.637939,
+        "lng": 139.504578
+      },
+      "siteCount": 14,
+      "totalCapacityKw": 6993,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 370,
+        "高圧": 624,
+        "特別高圧": 6000
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "青梅市",
+      "coordinates": {
+        "lat": 35.787956,
+        "lng": 139.275848
+      },
+      "siteCount": 49,
+      "totalCapacityKw": 5064,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1434,
+        "高圧": 3630,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "日の出町",
+      "coordinates": {
+        "lat": 35.742134,
+        "lng": 139.257446
+      },
+      "siteCount": 23,
+      "totalCapacityKw": 4668,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 923,
+        "高圧": 3745,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "渋谷区",
+      "coordinates": {
+        "lat": 35.66367,
+        "lng": 139.697723
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 4297,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 97,
+        "高圧": 0,
+        "特別高圧": 4200
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "立川市",
+      "coordinates": {
+        "lat": 35.71389,
+        "lng": 139.407776
+      },
+      "siteCount": 21,
+      "totalCapacityKw": 3933,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 443,
+        "高圧": 1100,
+        "特別高圧": 2390
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "府中市",
+      "coordinates": {
+        "lat": 35.669403,
+        "lng": 139.477585
+      },
+      "siteCount": 19,
+      "totalCapacityKw": 3499,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 377,
+        "高圧": 3122,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "瑞穂町",
+      "coordinates": {
+        "lat": 35.771923,
+        "lng": 139.354111
+      },
+      "siteCount": 37,
+      "totalCapacityKw": 3297,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1044,
+        "高圧": 2253,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "あきる野市",
+      "coordinates": {
+        "lat": 35.728889,
+        "lng": 139.294174
+      },
+      "siteCount": 19,
+      "totalCapacityKw": 3288,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 487,
+        "高圧": 2801,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "武蔵野市",
+      "coordinates": {
+        "lat": 35.717777,
+        "lng": 139.566116
+      },
+      "siteCount": 13,
+      "totalCapacityKw": 3016,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 366,
+        "高圧": 0,
+        "特別高圧": 2650
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "昭島市",
+      "coordinates": {
+        "lat": 35.705673,
+        "lng": 139.353607
+      },
+      "siteCount": 17,
+      "totalCapacityKw": 2803,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 337,
+        "高圧": 2466,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "羽村市",
+      "coordinates": {
+        "lat": 35.767223,
+        "lng": 139.311111
+      },
+      "siteCount": 18,
+      "totalCapacityKw": 2266,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 477,
+        "高圧": 1789,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "東村",
+      "coordinates": {
+        "lat": 35.75465,
+        "lng": 139.468582
+      },
+      "siteCount": 32,
+      "totalCapacityKw": 1846,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1013,
+        "高圧": 833,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "江戸川区",
+      "coordinates": {
+        "lat": 35.706738,
+        "lng": 139.868057
+      },
+      "siteCount": 42,
+      "totalCapacityKw": 1593,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1103,
+        "高圧": 490,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "武蔵村",
+      "coordinates": {
+        "lat": 35.754864,
+        "lng": 139.387436
+      },
+      "siteCount": 29,
+      "totalCapacityKw": 1490,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 849,
+        "高圧": 642,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "国分寺市",
+      "coordinates": {
+        "lat": 35.696728,
+        "lng": 139.469788
+      },
+      "siteCount": 18,
+      "totalCapacityKw": 811,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 511,
+        "高圧": 300,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "小平市",
+      "coordinates": {
+        "lat": 35.728474,
+        "lng": 139.477509
+      },
+      "siteCount": 17,
+      "totalCapacityKw": 765,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 471,
+        "高圧": 294,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "三鷹市",
+      "coordinates": {
+        "lat": 35.683315,
+        "lng": 139.55983
+      },
+      "siteCount": 23,
+      "totalCapacityKw": 720,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 720,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "西東京市",
+      "coordinates": {
+        "lat": 35.725704,
+        "lng": 139.538483
+      },
+      "siteCount": 17,
+      "totalCapacityKw": 672,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 472,
+        "高圧": 200,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "国立市",
+      "coordinates": {
+        "lat": 35.683968,
+        "lng": 139.441391
+      },
+      "siteCount": 11,
+      "totalCapacityKw": 644,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 252,
+        "高圧": 392,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "東久留米市",
+      "coordinates": {
+        "lat": 35.758015,
+        "lng": 139.529892
+      },
+      "siteCount": 21,
+      "totalCapacityKw": 623,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 623,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "大島町",
+      "coordinates": {
+        "lat": 34.750206,
+        "lng": 139.355515
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 503,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 203,
+        "高圧": 300,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "北区",
+      "coordinates": {
+        "lat": 35.752777,
+        "lng": 139.733612
+      },
+      "siteCount": 11,
+      "totalCapacityKw": 360,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 272,
+        "高圧": 88,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "小金井市",
+      "coordinates": {
+        "lat": 35.699444,
+        "lng": 139.503052
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 264,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 264,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "福生市",
+      "coordinates": {
+        "lat": 35.738461,
+        "lng": 139.32695
+      },
+      "siteCount": 7,
+      "totalCapacityKw": 212,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 212,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "中野区",
+      "coordinates": {
+        "lat": 35.708893,
+        "lng": 139.662872
+      },
+      "siteCount": 8,
+      "totalCapacityKw": 210,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 210,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "狛江市",
+      "coordinates": {
+        "lat": 35.63483,
+        "lng": 139.578705
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 202,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 202,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "東大和市",
+      "coordinates": {
+        "lat": 35.745396,
+        "lng": 139.426865
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 190,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 190,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "清瀬市",
+      "coordinates": {
+        "lat": 35.785275,
+        "lng": 139.526855
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 189,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 189,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "荒川区",
+      "coordinates": {
+        "lat": 35.736111,
+        "lng": 139.78334
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 163,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 163,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "文京区",
+      "coordinates": {
+        "lat": 35.707817,
+        "lng": 139.752655
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 150,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 150,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "八丈島八丈町",
+      "coordinates": {
+        "lat": 33.112785,
+        "lng": 139.789062
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 117,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 117,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "新宿区",
+      "coordinates": {
+        "lat": 35.69389,
+        "lng": 139.703613
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 88,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 88,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "東京都",
+      "municipality": "檜原村",
+      "coordinates": {
+        "lat": 35.726822,
+        "lng": 139.14888
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 50,
+      "facilityTypes": [
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 50,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "神奈川県": [
+    {
+      "prefecture": "神奈川県",
+      "municipality": "横浜市",
+      "coordinates": {
+        "lat": 35.450336,
+        "lng": 139.634216
+      },
+      "siteCount": 414,
+      "totalCapacityKw": 100554,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11420,
+        "高圧": 26115,
+        "特別高圧": 63020
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "川崎市",
+      "coordinates": {
+        "lat": 35.530865,
+        "lng": 139.703033
+      },
+      "siteCount": 193,
+      "totalCapacityKw": 84228,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4880,
+        "高圧": 18048,
+        "特別高圧": 61300
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "相模原市",
+      "coordinates": {
+        "lat": 35.571388,
+        "lng": 139.373337
+      },
+      "siteCount": 206,
+      "totalCapacityKw": 42880,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6110,
+        "高圧": 19870,
+        "特別高圧": 16900
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "横須賀市",
+      "coordinates": {
+        "lat": 35.281467,
+        "lng": 139.672226
+      },
+      "siteCount": 97,
+      "totalCapacityKw": 37766,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3547,
+        "高圧": 4728,
+        "特別高圧": 29490
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "厚木市",
+      "coordinates": {
+        "lat": 35.443054,
+        "lng": 139.362503
+      },
+      "siteCount": 166,
+      "totalCapacityKw": 22981,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4898,
+        "高圧": 18084,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "藤沢市",
+      "coordinates": {
+        "lat": 35.338879,
+        "lng": 139.491241
+      },
+      "siteCount": 129,
+      "totalCapacityKw": 16319,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3936,
+        "高圧": 3943,
+        "特別高圧": 8440
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "中井町",
+      "coordinates": {
+        "lat": 35.3307487,
+        "lng": 139.2187812
+      },
+      "siteCount": 100,
+      "totalCapacityKw": 15991,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3840,
+        "高圧": 5151,
+        "特別高圧": 7000
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "平塚市",
+      "coordinates": {
+        "lat": 35.335224,
+        "lng": 139.349579
+      },
+      "siteCount": 95,
+      "totalCapacityKw": 15421,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2744,
+        "高圧": 6777,
+        "特別高圧": 5900
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "大井町",
+      "coordinates": {
+        "lat": 35.326668,
+        "lng": 139.156387
+      },
+      "siteCount": 28,
+      "totalCapacityKw": 15207,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 895,
+        "高圧": 4811,
+        "特別高圧": 9500
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "秦野市",
+      "coordinates": {
+        "lat": 35.374737,
+        "lng": 139.220047
+      },
+      "siteCount": 103,
+      "totalCapacityKw": 14117,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3380,
+        "高圧": 6914,
+        "特別高圧": 3823
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "海老名市",
+      "coordinates": {
+        "lat": 35.446388,
+        "lng": 139.390839
+      },
+      "siteCount": 50,
+      "totalCapacityKw": 14066,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1121,
+        "高圧": 8075,
+        "特別高圧": 4870
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "愛川町",
+      "coordinates": {
+        "lat": 35.528889,
+        "lng": 139.321671
+      },
+      "siteCount": 39,
+      "totalCapacityKw": 13646,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 745,
+        "高圧": 12901,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "山北町",
+      "coordinates": {
+        "lat": 35.360558,
+        "lng": 139.083893
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 12264,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 224,
+        "高圧": 180,
+        "特別高圧": 11860
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "小田原市",
+      "coordinates": {
+        "lat": 35.2645301,
+        "lng": 139.152246
+      },
+      "siteCount": 112,
+      "totalCapacityKw": 9964,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3695,
+        "高圧": 6269,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "座間市",
+      "coordinates": {
+        "lat": 35.488628,
+        "lng": 139.4077
+      },
+      "siteCount": 33,
+      "totalCapacityKw": 8089,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 850,
+        "高圧": 7238,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "綾瀬市",
+      "coordinates": {
+        "lat": 35.437153,
+        "lng": 139.426376
+      },
+      "siteCount": 38,
+      "totalCapacityKw": 7283,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 976,
+        "高圧": 6307,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "南足柄市",
+      "coordinates": {
+        "lat": 35.320557,
+        "lng": 139.100006
+      },
+      "siteCount": 31,
+      "totalCapacityKw": 6885,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 893,
+        "高圧": 1392,
+        "特別高圧": 4600
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "茅ヶ崎市",
+      "coordinates": {
+        "lat": 35.329479,
+        "lng": 139.405371
+      },
+      "siteCount": 47,
+      "totalCapacityKw": 5588,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1350,
+        "高圧": 4237,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "伊勢原市",
+      "coordinates": {
+        "lat": 35.40295,
+        "lng": 139.314987
+      },
+      "siteCount": 47,
+      "totalCapacityKw": 2646,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1440,
+        "高圧": 1206,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "大和市",
+      "coordinates": {
+        "lat": 35.487499,
+        "lng": 139.458054
+      },
+      "siteCount": 47,
+      "totalCapacityKw": 1991,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1246,
+        "高圧": 745,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "三浦市",
+      "coordinates": {
+        "lat": 35.144176,
+        "lng": 139.620773
+      },
+      "siteCount": 14,
+      "totalCapacityKw": 1883,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 433,
+        "高圧": 1450,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "湯河原町",
+      "coordinates": {
+        "lat": 35.147778,
+        "lng": 139.108337
+      },
+      "siteCount": 32,
+      "totalCapacityKw": 1689,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1304,
+        "高圧": 385,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "箱根町",
+      "coordinates": {
+        "lat": 35.232388,
+        "lng": 139.106949
+      },
+      "siteCount": 7,
+      "totalCapacityKw": 1506,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 131,
+        "高圧": 1375,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "松田町",
+      "coordinates": {
+        "lat": 35.348171,
+        "lng": 139.139389
+      },
+      "siteCount": 8,
+      "totalCapacityKw": 1478,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 245,
+        "高圧": 1232,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "大磯町",
+      "coordinates": {
+        "lat": 35.306812,
+        "lng": 139.311371
+      },
+      "siteCount": 16,
+      "totalCapacityKw": 1138,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 478,
+        "高圧": 660,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "寒川町",
+      "coordinates": {
+        "lat": 35.372971,
+        "lng": 139.38385
+      },
+      "siteCount": 19,
+      "totalCapacityKw": 1095,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 514,
+        "高圧": 581,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "鎌倉市",
+      "coordinates": {
+        "lat": 35.319225,
+        "lng": 139.546936
+      },
+      "siteCount": 24,
+      "totalCapacityKw": 798,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 726,
+        "高圧": 72,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "開成町",
+      "coordinates": {
+        "lat": 35.33606,
+        "lng": 139.123413
+      },
+      "siteCount": 12,
+      "totalCapacityKw": 570,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 320,
+        "高圧": 250,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "二宮町",
+      "coordinates": {
+        "lat": 35.299492,
+        "lng": 139.255554
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 554,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 304,
+        "高圧": 250,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "葉山町",
+      "coordinates": {
+        "lat": 35.272079,
+        "lng": 139.586166
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 24,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "神奈川県",
+      "municipality": "真鶴町",
+      "coordinates": {
+        "lat": 35.158432,
+        "lng": 139.137146
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 22,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 22,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "山梨県": [
+    {
+      "prefecture": "山梨県",
+      "municipality": "北杜市",
+      "coordinates": {
+        "lat": 35.776493,
+        "lng": 138.42363
+      },
+      "siteCount": 1908,
+      "totalCapacityKw": 157867,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 80835,
+        "高圧": 58432,
+        "特別高圧": 18600
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "甲斐市",
+      "coordinates": {
+        "lat": 35.660831,
+        "lng": 138.515839
+      },
+      "siteCount": 376,
+      "totalCapacityKw": 86275,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 13759,
+        "高圧": 17864,
+        "特別高圧": 54653
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "南アルプス市",
+      "coordinates": {
+        "lat": 35.608334,
+        "lng": 138.464996
+      },
+      "siteCount": 633,
+      "totalCapacityKw": 50065,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24828,
+        "高圧": 25237,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "早川町",
+      "coordinates": {
+        "lat": 35.412773,
+        "lng": 138.362976
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 41727,
+      "facilityTypes": [
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 49,
+        "高圧": 940,
+        "特別高圧": 40738
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "甲府市",
+      "coordinates": {
+        "lat": 35.662231,
+        "lng": 138.568298
+      },
+      "siteCount": 612,
+      "totalCapacityKw": 39864,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 22522,
+        "高圧": 17342,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "韮崎市",
+      "coordinates": {
+        "lat": 35.708889,
+        "lng": 138.446396
+      },
+      "siteCount": 387,
+      "totalCapacityKw": 39157,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 15578,
+        "高圧": 19829,
+        "特別高圧": 3750
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "山梨市",
+      "coordinates": {
+        "lat": 35.693333,
+        "lng": 138.687225
+      },
+      "siteCount": 359,
+      "totalCapacityKw": 37258,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14266,
+        "高圧": 11993,
+        "特別高圧": 11000
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "笛吹市",
+      "coordinates": {
+        "lat": 35.647251,
+        "lng": 138.639801
+      },
+      "siteCount": 443,
+      "totalCapacityKw": 30926,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 16724,
+        "高圧": 6152,
+        "特別高圧": 8050
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "身延町",
+      "coordinates": {
+        "lat": 35.467499,
+        "lng": 138.442505
+      },
+      "siteCount": 57,
+      "totalCapacityKw": 27414,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2278,
+        "高圧": 3239,
+        "特別高圧": 21897
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "都留市",
+      "coordinates": {
+        "lat": 35.551628,
+        "lng": 138.905533
+      },
+      "siteCount": 265,
+      "totalCapacityKw": 21655,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9870,
+        "高圧": 11785,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "大月市",
+      "coordinates": {
+        "lat": 35.610554,
+        "lng": 138.940002
+      },
+      "siteCount": 122,
+      "totalCapacityKw": 21452,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4993,
+        "高圧": 1959,
+        "特別高圧": 14500
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "甲州市",
+      "coordinates": {
+        "lat": 35.704166,
+        "lng": 138.729446
+      },
+      "siteCount": 289,
+      "totalCapacityKw": 17243,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 10986,
+        "高圧": 6257,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "富士河口湖町",
+      "coordinates": {
+        "lat": 35.497223,
+        "lng": 138.755005
+      },
+      "siteCount": 114,
+      "totalCapacityKw": 10424,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4167,
+        "高圧": 6257,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "中央市",
+      "coordinates": {
+        "lat": 35.599937,
+        "lng": 138.516785
+      },
+      "siteCount": 173,
+      "totalCapacityKw": 10209,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6604,
+        "高圧": 3604,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "富士吉田市",
+      "coordinates": {
+        "lat": 35.487507,
+        "lng": 138.807861
+      },
+      "siteCount": 100,
+      "totalCapacityKw": 9583,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3336,
+        "高圧": 6248,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "市",
+      "coordinates": {
+        "lat": 35.565186,
+        "lng": 138.502396
+      },
+      "siteCount": 82,
+      "totalCapacityKw": 8986,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3161,
+        "高圧": 5826,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "上野原市",
+      "coordinates": {
+        "lat": 35.63028,
+        "lng": 139.108612
+      },
+      "siteCount": 37,
+      "totalCapacityKw": 6462,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1206,
+        "高圧": 5255,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "昭和町",
+      "coordinates": {
+        "lat": 35.627975,
+        "lng": 138.53511
+      },
+      "siteCount": 97,
+      "totalCapacityKw": 5154,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3448,
+        "高圧": 1706,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "鳴沢村",
+      "coordinates": {
+        "lat": 35.481388,
+        "lng": 138.706665
+      },
+      "siteCount": 47,
+      "totalCapacityKw": 4821,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1992,
+        "高圧": 2829,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "富士川町",
+      "coordinates": {
+        "lat": 35.560951,
+        "lng": 138.461975
+      },
+      "siteCount": 70,
+      "totalCapacityKw": 4243,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2663,
+        "高圧": 1580,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "忍野村",
+      "coordinates": {
+        "lat": 35.460052,
+        "lng": 138.847885
+      },
+      "siteCount": 57,
+      "totalCapacityKw": 3246,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1956,
+        "高圧": 1290,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "西桂町",
+      "coordinates": {
+        "lat": 35.524258,
+        "lng": 138.847412
+      },
+      "siteCount": 24,
+      "totalCapacityKw": 3059,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 910,
+        "高圧": 2149,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "南部町",
+      "coordinates": {
+        "lat": 35.242367,
+        "lng": 138.48613
+      },
+      "siteCount": 27,
+      "totalCapacityKw": 1824,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1024,
+        "高圧": 800,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "山中湖村",
+      "coordinates": {
+        "lat": 35.410591,
+        "lng": 138.861084
+      },
+      "siteCount": 27,
+      "totalCapacityKw": 1592,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1042,
+        "高圧": 550,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "中央市町",
+      "coordinates": {
+        "lat": 35.593632,
+        "lng": 138.538986
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 165,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 165,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "山梨市市",
+      "coordinates": {
+        "lat": 35.71516,
+        "lng": 138.678574
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 133,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 133,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "山梨県",
+      "municipality": "道志村",
+      "coordinates": {
+        "lat": 35.527996,
+        "lng": 139.033432
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 90,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 90,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "長野県": [
+    {
+      "prefecture": "長野県",
+      "municipality": "長野市",
+      "coordinates": {
+        "lat": 36.648537,
+        "lng": 138.194824
+      },
+      "siteCount": 1095,
+      "totalCapacityKw": 107164,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 37952,
+        "高圧": 46553,
+        "特別高圧": 22660
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "佐久市",
+      "coordinates": {
+        "lat": 36.24889,
+        "lng": 138.476944
+      },
+      "siteCount": 890,
+      "totalCapacityKw": 100179,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 30244,
+        "高圧": 62535,
+        "特別高圧": 7400
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "伊那市",
+      "coordinates": {
+        "lat": 35.827499,
+        "lng": 137.953888
+      },
+      "siteCount": 453,
+      "totalCapacityKw": 86997,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 15057,
+        "高圧": 26260,
+        "特別高圧": 45680
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "大町市",
+      "coordinates": {
+        "lat": 36.502983,
+        "lng": 137.850922
+      },
+      "siteCount": 342,
+      "totalCapacityKw": 80063,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12686,
+        "高圧": 29097,
+        "特別高圧": 38280
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小諸市",
+      "coordinates": {
+        "lat": 36.32753,
+        "lng": 138.425873
+      },
+      "siteCount": 754,
+      "totalCapacityKw": 68422,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 29436,
+        "高圧": 38987,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "上田市",
+      "coordinates": {
+        "lat": 36.401978,
+        "lng": 138.248672
+      },
+      "siteCount": 1057,
+      "totalCapacityKw": 68219,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 39161,
+        "高圧": 29058,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "松本市",
+      "coordinates": {
+        "lat": 36.238056,
+        "lng": 137.971954
+      },
+      "siteCount": 727,
+      "totalCapacityKw": 65354,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24505,
+        "高圧": 27769,
+        "特別高圧": 13080
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "塩尻市",
+      "coordinates": {
+        "lat": 36.114998,
+        "lng": 137.953613
+      },
+      "siteCount": 362,
+      "totalCapacityKw": 61546,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 12741,
+        "高圧": 34305,
+        "特別高圧": 14500
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "諏訪市",
+      "coordinates": {
+        "lat": 36.039165,
+        "lng": 138.114166
+      },
+      "siteCount": 147,
+      "totalCapacityKw": 53930,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4677,
+        "高圧": 4872,
+        "特別高圧": 44382
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "駒ヶ根市",
+      "coordinates": {
+        "lat": 35.728802,
+        "lng": 137.934006
+      },
+      "siteCount": 250,
+      "totalCapacityKw": 51396,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7958,
+        "高圧": 18438,
+        "特別高圧": 25000
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "川上村",
+      "coordinates": {
+        "lat": 35.975136,
+        "lng": 138.578476
+      },
+      "siteCount": 15,
+      "totalCapacityKw": 50572,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 467,
+        "高圧": 1145,
+        "特別高圧": 48960
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "富士見町",
+      "coordinates": {
+        "lat": 35.914722,
+        "lng": 138.240829
+      },
+      "siteCount": 157,
+      "totalCapacityKw": 46993,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5234,
+        "高圧": 17359,
+        "特別高圧": 24400
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "松川町",
+      "coordinates": {
+        "lat": 35.597221,
+        "lng": 137.909729
+      },
+      "siteCount": 201,
+      "totalCapacityKw": 42440,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7262,
+        "高圧": 12657,
+        "特別高圧": 22520
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "茅野市",
+      "coordinates": {
+        "lat": 35.995556,
+        "lng": 138.15889
+      },
+      "siteCount": 552,
+      "totalCapacityKw": 37588,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21493,
+        "高圧": 16095,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "飯田市",
+      "coordinates": {
+        "lat": 35.515007,
+        "lng": 137.821518
+      },
+      "siteCount": 535,
+      "totalCapacityKw": 37063,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 18322,
+        "高圧": 18741,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "東御市",
+      "coordinates": {
+        "lat": 36.359444,
+        "lng": 138.330566
+      },
+      "siteCount": 329,
+      "totalCapacityKw": 33185,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 11891,
+        "高圧": 21294,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "安曇野市",
+      "coordinates": {
+        "lat": 36.303944,
+        "lng": 137.905777
+      },
+      "siteCount": 280,
+      "totalCapacityKw": 31257,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9199,
+        "高圧": 19059,
+        "特別高圧": 3000
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "信濃町",
+      "coordinates": {
+        "lat": 36.806328,
+        "lng": 138.207047
+      },
+      "siteCount": 25,
+      "totalCapacityKw": 28500,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 594,
+        "高圧": 8906,
+        "特別高圧": 19000
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "長和町",
+      "coordinates": {
+        "lat": 36.26992,
+        "lng": 138.258041
+      },
+      "siteCount": 37,
+      "totalCapacityKw": 27594,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 856,
+        "高圧": 10238,
+        "特別高圧": 16500
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "生坂村",
+      "coordinates": {
+        "lat": 36.425217,
+        "lng": 137.927582
+      },
+      "siteCount": 48,
+      "totalCapacityKw": 23341,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2121,
+        "高圧": 0,
+        "特別高圧": 21220
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "山ノ内町",
+      "coordinates": {
+        "lat": 36.744598,
+        "lng": 138.412704
+      },
+      "siteCount": 30,
+      "totalCapacityKw": 21525,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1026,
+        "高圧": 399,
+        "特別高圧": 20100
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "御代田町",
+      "coordinates": {
+        "lat": 36.32275,
+        "lng": 138.5065
+      },
+      "siteCount": 229,
+      "totalCapacityKw": 21437,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8640,
+        "高圧": 12796,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "飯島町",
+      "coordinates": {
+        "lat": 35.676762,
+        "lng": 137.919449
+      },
+      "siteCount": 106,
+      "totalCapacityKw": 18470,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3439,
+        "高圧": 7831,
+        "特別高圧": 7200
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "千曲市",
+      "coordinates": {
+        "lat": 36.530811,
+        "lng": 138.114914
+      },
+      "siteCount": 279,
+      "totalCapacityKw": 17661,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 10239,
+        "高圧": 7422,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "立科町",
+      "coordinates": {
+        "lat": 36.272053,
+        "lng": 138.316071
+      },
+      "siteCount": 109,
+      "totalCapacityKw": 16979,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4445,
+        "高圧": 2739,
+        "特別高圧": 9795
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小海町",
+      "coordinates": {
+        "lat": 36.095116,
+        "lng": 138.48349
+      },
+      "siteCount": 97,
+      "totalCapacityKw": 15284,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3652,
+        "高圧": 3632,
+        "特別高圧": 8000
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "須坂市",
+      "coordinates": {
+        "lat": 36.6511,
+        "lng": 138.307251
+      },
+      "siteCount": 212,
+      "totalCapacityKw": 14205,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7502,
+        "高圧": 6703,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "箕輪町",
+      "coordinates": {
+        "lat": 35.915001,
+        "lng": 137.981949
+      },
+      "siteCount": 230,
+      "totalCapacityKw": 14081,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 8568,
+        "高圧": 5513,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "岡谷市",
+      "coordinates": {
+        "lat": 36.066944,
+        "lng": 138.049454
+      },
+      "siteCount": 189,
+      "totalCapacityKw": 11569,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7230,
+        "高圧": 2289,
+        "特別高圧": 2050
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "南箕輪村",
+      "coordinates": {
+        "lat": 35.872898,
+        "lng": 137.975082
+      },
+      "siteCount": 124,
+      "totalCapacityKw": 11208,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4617,
+        "高圧": 6591,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "中野市",
+      "coordinates": {
+        "lat": 36.741505,
+        "lng": 138.369217
+      },
+      "siteCount": 168,
+      "totalCapacityKw": 11199,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5989,
+        "高圧": 5210,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "辰野町",
+      "coordinates": {
+        "lat": 35.982498,
+        "lng": 137.987503
+      },
+      "siteCount": 158,
+      "totalCapacityKw": 11147,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6059,
+        "高圧": 5088,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "白馬村",
+      "coordinates": {
+        "lat": 36.698334,
+        "lng": 137.862228
+      },
+      "siteCount": 18,
+      "totalCapacityKw": 10517,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 743,
+        "高圧": 180,
+        "特別高圧": 9595
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "高森町",
+      "coordinates": {
+        "lat": 35.551544,
+        "lng": 137.878525
+      },
+      "siteCount": 107,
+      "totalCapacityKw": 8742,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3931,
+        "高圧": 4811,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "軽井沢町",
+      "coordinates": {
+        "lat": 36.348331,
+        "lng": 138.596954
+      },
+      "siteCount": 41,
+      "totalCapacityKw": 8279,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1183,
+        "高圧": 7096,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "筑北村",
+      "coordinates": {
+        "lat": 36.402695,
+        "lng": 138.011688
+      },
+      "siteCount": 128,
+      "totalCapacityKw": 7802,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5674,
+        "高圧": 2128,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "坂城町",
+      "coordinates": {
+        "lat": 36.46183,
+        "lng": 138.180176
+      },
+      "siteCount": 137,
+      "totalCapacityKw": 7033,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4796,
+        "高圧": 2237,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "阿南町",
+      "coordinates": {
+        "lat": 35.323612,
+        "lng": 137.816116
+      },
+      "siteCount": 54,
+      "totalCapacityKw": 6843,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2101,
+        "高圧": 1555,
+        "特別高圧": 3186
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "阿智村",
+      "coordinates": {
+        "lat": 35.44389,
+        "lng": 137.747498
+      },
+      "siteCount": 27,
+      "totalCapacityKw": 6689,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 906,
+        "高圧": 149,
+        "特別高圧": 5634
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "青木村",
+      "coordinates": {
+        "lat": 36.369999,
+        "lng": 138.128616
+      },
+      "siteCount": 37,
+      "totalCapacityKw": 6578,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1338,
+        "高圧": 5240,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "中川村",
+      "coordinates": {
+        "lat": 35.634544,
+        "lng": 137.946014
+      },
+      "siteCount": 51,
+      "totalCapacityKw": 6470,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1637,
+        "高圧": 4833,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "朝日村",
+      "coordinates": {
+        "lat": 36.129261,
+        "lng": 137.867111
+      },
+      "siteCount": 29,
+      "totalCapacityKw": 6264,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 827,
+        "高圧": 5438,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "佐久穂町",
+      "coordinates": {
+        "lat": 36.160255,
+        "lng": 138.483536
+      },
+      "siteCount": 104,
+      "totalCapacityKw": 6195,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3835,
+        "高圧": 2360,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "下條村",
+      "coordinates": {
+        "lat": 35.39735,
+        "lng": 137.785889
+      },
+      "siteCount": 58,
+      "totalCapacityKw": 5427,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2212,
+        "高圧": 3215,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "木曽町",
+      "coordinates": {
+        "lat": 35.841755,
+        "lng": 137.691223
+      },
+      "siteCount": 42,
+      "totalCapacityKw": 5400,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1800,
+        "高圧": 3600,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "原村",
+      "coordinates": {
+        "lat": 35.964363,
+        "lng": 138.217499
+      },
+      "siteCount": 82,
+      "totalCapacityKw": 5187,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3182,
+        "高圧": 2005,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "山形村",
+      "coordinates": {
+        "lat": 36.168056,
+        "lng": 137.878891
+      },
+      "siteCount": 49,
+      "totalCapacityKw": 5174,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1583,
+        "高圧": 3590,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "大鹿村",
+      "coordinates": {
+        "lat": 35.578209,
+        "lng": 138.034088
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 5063,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 63,
+        "高圧": 0,
+        "特別高圧": 5000
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "木祖村",
+      "coordinates": {
+        "lat": 35.936321,
+        "lng": 137.783173
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 4920,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 120,
+        "高圧": 0,
+        "特別高圧": 4800
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "宮田村",
+      "coordinates": {
+        "lat": 35.76889,
+        "lng": 137.944443
+      },
+      "siteCount": 54,
+      "totalCapacityKw": 4776,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1610,
+        "高圧": 3166,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "松川村",
+      "coordinates": {
+        "lat": 36.424168,
+        "lng": 137.854446
+      },
+      "siteCount": 41,
+      "totalCapacityKw": 4358,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1158,
+        "高圧": 3200,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "南牧村",
+      "coordinates": {
+        "lat": 36.020897,
+        "lng": 138.492157
+      },
+      "siteCount": 17,
+      "totalCapacityKw": 4243,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 514,
+        "高圧": 3729,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "飯綱町",
+      "coordinates": {
+        "lat": 36.754478,
+        "lng": 138.235443
+      },
+      "siteCount": 54,
+      "totalCapacityKw": 3784,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2111,
+        "高圧": 1673,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "池田町",
+      "coordinates": {
+        "lat": 36.421288,
+        "lng": 137.87468
+      },
+      "siteCount": 47,
+      "totalCapacityKw": 3556,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1731,
+        "高圧": 1825,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "高山村",
+      "coordinates": {
+        "lat": 36.679764,
+        "lng": 138.363312
+      },
+      "siteCount": 24,
+      "totalCapacityKw": 3257,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "地熱"
+      ],
+      "capacityKwByClass": {
+        "低圧": 697,
+        "高圧": 2560,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "麻績村",
+      "coordinates": {
+        "lat": 36.456108,
+        "lng": 138.045288
+      },
+      "siteCount": 25,
+      "totalCapacityKw": 2998,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 937,
+        "高圧": 2061,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小布施町",
+      "coordinates": {
+        "lat": 36.697441,
+        "lng": 138.312241
+      },
+      "siteCount": 57,
+      "totalCapacityKw": 2967,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2048,
+        "高圧": 919,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "飯山市",
+      "coordinates": {
+        "lat": 36.851665,
+        "lng": 138.365555
+      },
+      "siteCount": 19,
+      "totalCapacityKw": 2501,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 538,
+        "高圧": 1963,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "喬木村",
+      "coordinates": {
+        "lat": 35.513889,
+        "lng": 137.873886
+      },
+      "siteCount": 50,
+      "totalCapacityKw": 2404,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1655,
+        "高圧": 750,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "王滝村",
+      "coordinates": {
+        "lat": 35.809395,
+        "lng": 137.550903
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 2094,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 99,
+        "高圧": 1995,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "豊丘村",
+      "coordinates": {
+        "lat": 35.551388,
+        "lng": 137.895828
+      },
+      "siteCount": 30,
+      "totalCapacityKw": 1914,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 864,
+        "高圧": 1050,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "南木曽町",
+      "coordinates": {
+        "lat": 35.603611,
+        "lng": 137.608887
+      },
+      "siteCount": 28,
+      "totalCapacityKw": 1901,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1111,
+        "高圧": 790,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "大桑村",
+      "coordinates": {
+        "lat": 35.68932,
+        "lng": 137.67157
+      },
+      "siteCount": 31,
+      "totalCapacityKw": 1853,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1363,
+        "高圧": 490,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "北相木村",
+      "coordinates": {
+        "lat": 36.059208,
+        "lng": 138.551178
+      },
+      "siteCount": 20,
+      "totalCapacityKw": 1806,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 806,
+        "高圧": 1000,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "根羽村",
+      "coordinates": {
+        "lat": 35.255512,
+        "lng": 137.58194
+      },
+      "siteCount": 36,
+      "totalCapacityKw": 1739,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1739,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "下諏訪町",
+      "coordinates": {
+        "lat": 36.069519,
+        "lng": 138.080231
+      },
+      "siteCount": 30,
+      "totalCapacityKw": 1561,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1067,
+        "高圧": 494,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "平谷村",
+      "coordinates": {
+        "lat": 35.323334,
+        "lng": 137.63028
+      },
+      "siteCount": 7,
+      "totalCapacityKw": 1457,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 127,
+        "高圧": 1330,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "須坂市村",
+      "coordinates": {
+        "lat": 36.663383,
+        "lng": 138.276154
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 1014,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 24,
+        "高圧": 990,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "栄村",
+      "coordinates": {
+        "lat": 36.98748,
+        "lng": 138.576645
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 1000,
+      "facilityTypes": [
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 0,
+        "高圧": 1000,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "南相木村",
+      "coordinates": {
+        "lat": 36.036011,
+        "lng": 138.547089
+      },
+      "siteCount": 27,
+      "totalCapacityKw": 974,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 974,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "松本市村",
+      "coordinates": {
+        "lat": 36.17318,
+        "lng": 137.953201
+      },
+      "siteCount": 19,
+      "totalCapacityKw": 893,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 693,
+        "高圧": 200,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "飯島町町",
+      "coordinates": {
+        "lat": 35.676762,
+        "lng": 137.919449
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 857,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 0,
+        "高圧": 857,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "木島平村",
+      "coordinates": {
+        "lat": 36.857887,
+        "lng": 138.407043
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 808,
+      "facilityTypes": [
+        "太陽光",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 47,
+        "高圧": 761,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "長野市市",
+      "coordinates": {
+        "lat": 36.614502,
+        "lng": 138.226456
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 802,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 82,
+        "高圧": 720,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小諸市市",
+      "coordinates": {
+        "lat": 36.290424,
+        "lng": 138.445847
+      },
+      "siteCount": 14,
+      "totalCapacityKw": 629,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 529,
+        "高圧": 100,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小川村",
+      "coordinates": {
+        "lat": 36.617241,
+        "lng": 137.974747
+      },
+      "siteCount": 12,
+      "totalCapacityKw": 597,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 397,
+        "高圧": 200,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "天龍村",
+      "coordinates": {
+        "lat": 35.276379,
+        "lng": 137.854263
+      },
+      "siteCount": 9,
+      "totalCapacityKw": 552,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 219,
+        "高圧": 333,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "松本市市",
+      "coordinates": {
+        "lat": 36.198936,
+        "lng": 137.963058
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 519,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 169,
+        "高圧": 350,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小諸市市町",
+      "coordinates": {
+        "lat": 36.330162,
+        "lng": 138.419968
+      },
+      "siteCount": 8,
+      "totalCapacityKw": 509,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 291,
+        "高圧": 218,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "泰阜村",
+      "coordinates": {
+        "lat": 35.377411,
+        "lng": 137.845947
+      },
+      "siteCount": 8,
+      "totalCapacityKw": 314,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 314,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "上松町",
+      "coordinates": {
+        "lat": 35.782188,
+        "lng": 137.693237
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 310,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 111,
+        "高圧": 199,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "売木村",
+      "coordinates": {
+        "lat": 35.271111,
+        "lng": 137.711105
+      },
+      "siteCount": 5,
+      "totalCapacityKw": 280,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 180,
+        "高圧": 100,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "青木村村",
+      "coordinates": {
+        "lat": 36.38073,
+        "lng": 138.127975
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 216,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 216,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "長野市村",
+      "coordinates": {
+        "lat": 36.665924,
+        "lng": 138.267227
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 190,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 50,
+        "高圧": 140,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "駒ケ根市",
+      "coordinates": {
+        "lat": 35.728802,
+        "lng": 137.934006
+      },
+      "siteCount": 4,
+      "totalCapacityKw": 178,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 178,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "野沢温泉村",
+      "coordinates": {
+        "lat": 36.922775,
+        "lng": 138.440567
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 97,
+      "facilityTypes": [
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 0,
+        "高圧": 97,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "下諏訪町町",
+      "coordinates": {
+        "lat": 36.103806,
+        "lng": 138.095657
+      },
+      "siteCount": 3,
+      "totalCapacityKw": 88,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 88,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "長野県",
+      "municipality": "小谷村",
+      "coordinates": {
+        "lat": 36.779079,
+        "lng": 137.90834
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 21,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ],
+  "静岡県": [
+    {
+      "prefecture": "静岡県",
+      "municipality": "浜松市",
+      "coordinates": {
+        "lat": 34.710808,
+        "lng": 137.726303
+      },
+      "siteCount": 4488,
+      "totalCapacityKw": 492414,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 158533,
+        "高圧": 233974,
+        "特別高圧": 99907
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "富士市",
+      "coordinates": {
+        "lat": 35.16135,
+        "lng": 138.676239
+      },
+      "siteCount": 648,
+      "totalCapacityKw": 482848,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21720,
+        "高圧": 33329,
+        "特別高圧": 427800
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "掛川市",
+      "coordinates": {
+        "lat": 34.768814,
+        "lng": 137.998367
+      },
+      "siteCount": 1234,
+      "totalCapacityKw": 163692,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 46305,
+        "高圧": 68588,
+        "特別高圧": 48800
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "磐田市",
+      "coordinates": {
+        "lat": 34.717903,
+        "lng": 137.851532
+      },
+      "siteCount": 1140,
+      "totalCapacityKw": 123623,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 39015,
+        "高圧": 66608,
+        "特別高圧": 18000
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "牧之原市",
+      "coordinates": {
+        "lat": 34.740009,
+        "lng": 138.224655
+      },
+      "siteCount": 610,
+      "totalCapacityKw": 115836,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 22821,
+        "高圧": 28670,
+        "特別高圧": 64345
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "伊東市",
+      "coordinates": {
+        "lat": 34.965832,
+        "lng": 139.101944
+      },
+      "siteCount": 136,
+      "totalCapacityKw": 103393,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 5337,
+        "高圧": 8056,
+        "特別高圧": 90000
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "湖西市",
+      "coordinates": {
+        "lat": 34.718472,
+        "lng": 137.531647
+      },
+      "siteCount": 569,
+      "totalCapacityKw": 88235,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 19236,
+        "高圧": 54499,
+        "特別高圧": 14500
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "静岡市",
+      "coordinates": {
+        "lat": 34.975185,
+        "lng": 138.383286
+      },
+      "siteCount": 693,
+      "totalCapacityKw": 83674,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 21682,
+        "高圧": 33492,
+        "特別高圧": 28500
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "御前崎市",
+      "coordinates": {
+        "lat": 34.638058,
+        "lng": 138.128052
+      },
+      "siteCount": 657,
+      "totalCapacityKw": 76710,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 25548,
+        "高圧": 29163,
+        "特別高圧": 22000
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "菊川市",
+      "coordinates": {
+        "lat": 34.757694,
+        "lng": 138.084564
+      },
+      "siteCount": 440,
+      "totalCapacityKw": 66645,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 15687,
+        "高圧": 31618,
+        "特別高圧": 19340
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "富士宮市",
+      "coordinates": {
+        "lat": 35.221977,
+        "lng": 138.621613
+      },
+      "siteCount": 700,
+      "totalCapacityKw": 65953,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 25946,
+        "高圧": 32446,
+        "特別高圧": 7560
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "袋井市",
+      "coordinates": {
+        "lat": 34.750278,
+        "lng": 137.925003
+      },
+      "siteCount": 528,
+      "totalCapacityKw": 64924,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 17857,
+        "高圧": 39967,
+        "特別高圧": 7100
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "南伊豆町",
+      "coordinates": {
+        "lat": 34.651161,
+        "lng": 138.85849
+      },
+      "siteCount": 70,
+      "totalCapacityKw": 59885,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2843,
+        "高圧": 3042,
+        "特別高圧": 54000
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "河津町",
+      "coordinates": {
+        "lat": 34.757221,
+        "lng": 138.987503
+      },
+      "siteCount": 33,
+      "totalCapacityKw": 59211,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1172,
+        "高圧": 6469,
+        "特別高圧": 51570
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "御殿場市",
+      "coordinates": {
+        "lat": 35.308693,
+        "lng": 138.934601
+      },
+      "siteCount": 279,
+      "totalCapacityKw": 49464,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 9144,
+        "高圧": 37820,
+        "特別高圧": 2500
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "焼津市",
+      "coordinates": {
+        "lat": 34.867168,
+        "lng": 138.322815
+      },
+      "siteCount": 434,
+      "totalCapacityKw": 40090,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 14160,
+        "高圧": 25931,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "島田市",
+      "coordinates": {
+        "lat": 34.836121,
+        "lng": 138.176941
+      },
+      "siteCount": 374,
+      "totalCapacityKw": 35845,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 13302,
+        "高圧": 16233,
+        "特別高圧": 6310
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "東伊豆町",
+      "coordinates": {
+        "lat": 34.772797,
+        "lng": 139.04126
+      },
+      "siteCount": 93,
+      "totalCapacityKw": 34817,
+      "facilityTypes": [
+        "太陽光",
+        "陸上風力",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3795,
+        "高圧": 5451,
+        "特別高圧": 25571
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "裾野市",
+      "coordinates": {
+        "lat": 35.173889,
+        "lng": 138.906662
+      },
+      "siteCount": 169,
+      "totalCapacityKw": 32081,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 6186,
+        "高圧": 22349,
+        "特別高圧": 3546
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "下田市",
+      "coordinates": {
+        "lat": 34.698669,
+        "lng": 138.938736
+      },
+      "siteCount": 81,
+      "totalCapacityKw": 31696,
+      "facilityTypes": [
+        "太陽光",
+        "地熱"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3090,
+        "高圧": 3907,
+        "特別高圧": 24700
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "伊豆市",
+      "coordinates": {
+        "lat": 34.97657,
+        "lng": 138.946732
+      },
+      "siteCount": 91,
+      "totalCapacityKw": 26440,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2522,
+        "高圧": 13758,
+        "特別高圧": 10160
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "藤枝市",
+      "coordinates": {
+        "lat": 34.8675,
+        "lng": 138.257782
+      },
+      "siteCount": 333,
+      "totalCapacityKw": 24738,
+      "facilityTypes": [
+        "太陽光",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 10796,
+        "高圧": 13943,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "小山町",
+      "coordinates": {
+        "lat": 35.360001,
+        "lng": 138.987503
+      },
+      "siteCount": 49,
+      "totalCapacityKw": 23603,
+      "facilityTypes": [
+        "バイオマス",
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1382,
+        "高圧": 8001,
+        "特別高圧": 14220
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "伊豆の国市",
+      "coordinates": {
+        "lat": 35.027737,
+        "lng": 138.928909
+      },
+      "siteCount": 102,
+      "totalCapacityKw": 21457,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 3466,
+        "高圧": 8991,
+        "特別高圧": 9000
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "沼津市",
+      "coordinates": {
+        "lat": 35.095554,
+        "lng": 138.863617
+      },
+      "siteCount": 250,
+      "totalCapacityKw": 18941,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7570,
+        "高圧": 11371,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "吉田町",
+      "coordinates": {
+        "lat": 34.770832,
+        "lng": 138.251938
+      },
+      "siteCount": 209,
+      "totalCapacityKw": 17493,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 7701,
+        "高圧": 9792,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "川根本町",
+      "coordinates": {
+        "lat": 35.046944,
+        "lng": 138.081665
+      },
+      "siteCount": 84,
+      "totalCapacityKw": 13513,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2559,
+        "高圧": 10954,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "森町",
+      "coordinates": {
+        "lat": 34.83559,
+        "lng": 137.927063
+      },
+      "siteCount": 143,
+      "totalCapacityKw": 12670,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "バイオマス"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4952,
+        "高圧": 7717,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "函南町",
+      "coordinates": {
+        "lat": 35.08889,
+        "lng": 138.953339
+      },
+      "siteCount": 119,
+      "totalCapacityKw": 11478,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 4800,
+        "高圧": 6679,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "長泉町",
+      "coordinates": {
+        "lat": 35.137657,
+        "lng": 138.897171
+      },
+      "siteCount": 46,
+      "totalCapacityKw": 6466,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1209,
+        "高圧": 5257,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "西伊豆町",
+      "coordinates": {
+        "lat": 34.771667,
+        "lng": 138.775284
+      },
+      "siteCount": 22,
+      "totalCapacityKw": 5099,
+      "facilityTypes": [
+        "太陽光",
+        "水力",
+        "水力（既設導水路活用型リプレース）"
+      ],
+      "capacityKwByClass": {
+        "低圧": 639,
+        "高圧": 4460,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "三島市",
+      "coordinates": {
+        "lat": 35.118507,
+        "lng": 138.918564
+      },
+      "siteCount": 81,
+      "totalCapacityKw": 4289,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 2770,
+        "高圧": 1519,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "袋井市村",
+      "coordinates": {
+        "lat": 34.775246,
+        "lng": 137.934998
+      },
+      "siteCount": 38,
+      "totalCapacityKw": 3416,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 1566,
+        "高圧": 1850,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "熱海市",
+      "coordinates": {
+        "lat": 35.096352,
+        "lng": 139.071747
+      },
+      "siteCount": 25,
+      "totalCapacityKw": 1803,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 923,
+        "高圧": 880,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "清水町",
+      "coordinates": {
+        "lat": 35.09903,
+        "lng": 138.902771
+      },
+      "siteCount": 24,
+      "totalCapacityKw": 902,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 752,
+        "高圧": 150,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "富士宮市村",
+      "coordinates": {
+        "lat": 35.252888,
+        "lng": 138.658096
+      },
+      "siteCount": 11,
+      "totalCapacityKw": 498,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 380,
+        "高圧": 119,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "松崎町",
+      "coordinates": {
+        "lat": 34.752926,
+        "lng": 138.778763
+      },
+      "siteCount": 6,
+      "totalCapacityKw": 163,
+      "facilityTypes": [
+        "太陽光",
+        "水力"
+      ],
+      "capacityKwByClass": {
+        "低圧": 163,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "南伊豆町市",
+      "coordinates": {
+        "lat": 34.690483,
+        "lng": 138.80542
+      },
+      "siteCount": 2,
+      "totalCapacityKw": 74,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 74,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    },
+    {
+      "prefecture": "静岡県",
+      "municipality": "伊豆市市",
+      "coordinates": {
+        "lat": 34.901367,
+        "lng": 138.939468
+      },
+      "siteCount": 1,
+      "totalCapacityKw": 50,
+      "facilityTypes": [
+        "太陽光"
+      ],
+      "capacityKwByClass": {
+        "低圧": 50,
+        "高圧": 0,
+        "特別高圧": 0
+      }
+    }
+  ]
+}
