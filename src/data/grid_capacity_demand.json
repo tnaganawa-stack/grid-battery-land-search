@@ -1,0 +1,6702 @@
+[
+  {
+    "area": "関東北部（群馬県）",
+    "lines": [
+      {
+        "name": "東太田線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "群馬幹線（群馬～新岡部）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上越幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上牧線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "水上線（金井～小松）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "水上線（小松分岐～水上）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上毛幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "箱島線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "群馬幹線（金井～群馬）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "黒部幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下児玉線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "岩本線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "鎌田線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "佐波線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": null,
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上群線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "湯宿線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "須田貝線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新新田",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新岡部",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "小松",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "金井",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "群馬",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東太田",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "佐波",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "足利線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東足利線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "多々良川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "館林線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "板倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "楠線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "明和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鞍掛線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "韮川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "毛里田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "藪塚線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "邑楽線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "新田線(東毛側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "世良田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "植木線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "生品線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "剛志線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "桐生線（佐波側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "飯土井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "福岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "赤城南線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "黒保根線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八斗島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "野中旧線・天野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "名和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "井野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "泉沢線（野中側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "金井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "広瀬川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "片品川線（金井側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩室線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上久屋小松線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "清水南線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "赤谷川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吾妻川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中之条線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山田川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "総社線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "片品川線（野中側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大類線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "玉村線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上武線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "烏川線（群馬側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "碓氷線（群馬側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "保渡田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "榛名線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上信線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "草津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "熊川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "烏川線（西毛側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "美九里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下久保線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西毛線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下仁田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "九十九線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小泉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "内ヶ島線（東太田側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "内ヶ島線（東毛側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "豊里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "境町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "桐生線（東毛側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "伊勢崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "新前橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北橘線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "碓氷線（分岐～板鼻）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "碓氷線（分岐～磯部）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "多野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "磯部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "根小屋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "前橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "竜舞線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下日野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吉井本郷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小舟線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北甘線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上高尾線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "苗ケ島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西横手線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "綿貫線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "倉渕線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "長野原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大正寺線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "泉沢線（佐波側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "粕川町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "相田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": null,
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小角田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山辺線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小俣連絡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北海線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大谷原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": null,
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "田口線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上信線（島川原側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "尾島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮郷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千貫沼線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東太田",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東毛",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "佐波",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "群馬",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西毛",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小松",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "金井",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上里見",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "高崎",
+        "voltageKv": 22,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "千葉",
+    "lines": [
+      {
+        "name": "東葛線1・2L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下葛線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下総線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北船橋線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下総線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北船橋線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "矢切線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東千葉房総線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "生実線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東千葉外房線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "市原五井線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東葛線3・4L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "木下線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新野田11・12・14B",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "新京葉",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "房総",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "東葛",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下総",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東千葉",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "外房",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "新野田15-17B",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "千葉ＮＴ",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新木更津5・8B",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "山西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "出口線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水海道線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水海道線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水海道線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "流山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "田中線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "増尾線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東葛高柳線1,2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東葛高柳線1,2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湖南線12L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "土合線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南波崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松岸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "犬吠線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "網戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "銚子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "佐原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "安食線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "安食線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "七栄線3・4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "寺台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "七栄線3・4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "印西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "印西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "印西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "印西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "二和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高柳沼南線1,2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "金ヶ作線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "網戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "芝山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八日市場線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八街線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八街線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八街線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "佐倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "角来線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千葉新線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八街線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千葉大網線(東千葉外房線34L)",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千葉大網線(東千葉外房線34L)",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鎌取線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "村田川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "生浜線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吉橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "習志野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "船橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "藤崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "船橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "京葉港線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市川千鳥線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市川千鳥線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市川千鳥線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市船線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市川千鳥線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "花総線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "村田川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "蘇我線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八幡環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "五井環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東金線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北白子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東金線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "茂原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "長柄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高師線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "茂原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岬町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "青柳環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木更津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "姉原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "姉原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "蔵波線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木内線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "横田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "横田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高滝線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高滝線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高滝線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "夷隅線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "外房線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上総線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上総線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南房線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "内房線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "富浦線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "内房線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木内線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "潮見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "出口線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東葛高柳線3・4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東葛高柳線3,4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "銚子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "佐原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "寺台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "七栄線1・2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高柳沼南線3,4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松尾線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松尾線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八日市場線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "佐倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千葉新線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八千代台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千葉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "幕張線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "藤崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "村田川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高師線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "姉原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木更津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木更津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "夷隅線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "久留里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "潮見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西成田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "長作線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "夷隅線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "阿蘇線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千葉新線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "滝台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大木戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "海神線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市原環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中袖線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "代宿環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "袖ヶ浦環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "前川環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "牧の原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東葛",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北総",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "花見川",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "葛南",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "東千葉",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "外房",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "姉崎中央１Ｕ",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "内房",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "姉崎中央２Ｕ",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "千葉ＮＴ",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "千葉印西",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "西岬特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "神戸特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "西岬特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "塩浦特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "橘",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下総",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "館山",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "溝原",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "西岬",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "神戸",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "犬石",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "塩浦",
+        "voltageKv": 22,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "埼玉",
+    "lines": [
+      {
+        "name": "上越幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "佐波線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北埼玉線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下児玉線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "群馬幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "群馬幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "小北線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "猪苗代新幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "白岡線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "美園線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東埼玉線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "京北線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "志木線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "狭山線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "武蔵赤坂線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "奥秩父線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "黒部幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "野田線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "潮止線1・2L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "亀戸線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "花畑線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東八潮線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南葛線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北千代田線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田端線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "笹目線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "戸田線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "片山線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "中富線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北鳩線3・4L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "潮止線3・4L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "久喜線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上柴線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新岡部",
+        "voltageKv": 500,
+        "demandMw": null
+      },
+      {
+        "name": "埼玉",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北東京",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "岩槻",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南川越",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "中東京",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "奥秩父",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "東八潮",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "京北",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "鳩ヶ谷",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "笹目",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新座",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "豊岡",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "花畑",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "川島町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "指扇線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上福岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "芳野台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "脇田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三芳線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "富士見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "坂戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "毛呂山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吉見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "久米田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "青鳥線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東松山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "樋口線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "行田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "妻沼線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "江南線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三ヶ尻線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "豊里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "本庄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岡部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "榛沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鴻巣線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "加須線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大利根線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "井戸木線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "平方線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "日野田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "秩父線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "品沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大洞線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮平線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "蓮田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "加納線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "姫宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "植田谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "芝川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "荻島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "日高線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "柏原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高麗川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吾野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩白線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "姫宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮代線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "庄和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三野宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩槻線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "加倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "京西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川越線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "膝折線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松郷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "並木線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "久米線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "日高線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上ノ原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八条線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "草加青柳線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "谷塚線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東尾久線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鳩ヶ谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鳩浦線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮前線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "白幡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "新倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "朝霞線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "白子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "和光線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川越線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東坂戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "唐子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "新田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "肥塚線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "館橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吉野町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大針線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東久喜線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "七里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鷲宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東大和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "所沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "的場線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "飯能今井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "瀬崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "横堀線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鶴ヶ曽根線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "足立線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鹿浜線1,2号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鹿浜線3,4号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "指扇線(上尾)",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "膝折線（武蔵野）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鷲宮線(上尾)",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上武線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "新坂戸",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "北熊谷",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "埼玉",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "奥秩父",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上尾",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "岩槻",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南狭山",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "東八潮",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "京北",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "京北",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "鳩ヶ谷",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "笹目",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北与野",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "坂本特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "松郷特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "上吉羽",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "腰越",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "和志山",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "名栗",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "向堀",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "西平",
+        "voltageKv": 22,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "山梨",
+    "lines": [
+      {
+        "name": "都留線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "御坂線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "禾生線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "山梨線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "甲信幹線中線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上曽根線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "天竜東幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "天竜東幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西山線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田代幹線山線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "藤野木線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "谷村変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "山梨変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "釜無白根変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北巨摩変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新富士変電所",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "谷村線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山中線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "駒橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "河口湖線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "笛駒線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "日下部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "玉諸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "飯田町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "敷島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "釜無団地線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "明穂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "増穂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "清里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "白州線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "雨畑線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "榑坪線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "甲府南部工団線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "甲西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三郡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "飯富線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "豊富線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "谷村変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "山梨変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "釜無白根変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北巨摩変電所",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "紅葉台特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "富士ヶ嶺特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "富士桜特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "飯田町",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "河口湖",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "身延",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "紅葉台",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "富士豊茂",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "富士桜",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "富士ヶ嶺",
+        "voltageKv": 22,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "栃木",
+    "lines": [
+      {
+        "name": "猪苗代旧幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "猪苗代新幹線（膳棚～河内）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東那須野線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "栃那線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "下滝線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "栃山線（新栃木～栃山開閉所）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "芳賀線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西宇都宮線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "猪苗代新幹線（河内～小山）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "猪苗代新幹線（小山～北鳩）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "小北線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "八千代線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "野木線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "佐野線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "白沢線3・4号",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "乙畑線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "栃山線1号（栃山開閉所～小山）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "栃山線2号（栃山開閉所～小山）",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "那須野",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新栃木",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "河内",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西宇都宮",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "芳賀",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "小山",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "佐野",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "鬼怒川",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "那須線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "富池線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "黒川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "馬頭線（那須野系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西那須野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "関谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "蛇尾川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川治線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鬼怒川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大田原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩沼線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南今市線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中禅寺線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "栗山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上平線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "烏山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "喜連川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "氷室線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高根沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "河宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩曽線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西河線1,2号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宇都宮線1,2号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "江曽島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "壬生線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "深津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "貝島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "粟野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小倉川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南赤羽線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市塙線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "井頭線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "真岡松山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川中子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "惣社町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上三川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下館線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三和線（小山系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南結城線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "間々田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "犬伏線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水代線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "片柳線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "梅沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "葛生線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "関川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三杉川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "板倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "楠線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "百頭線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "竜舞線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "足利線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "友沼線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "総和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西河線3.4号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宇都宮線3,4号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鶴田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下籠谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南河内線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大平線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "瑞穂野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "馬頭線（河内系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "蛭田連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "河原連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岡本線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "安沢連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下石川連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "矢板線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大河連絡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "志鳥連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小宅連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "赤羽連系線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "清水線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "真岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "土屋真岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "石橋線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "栃木線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南小山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "古河線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下都賀線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "海老瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山辺線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "葉鹿線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小俣連絡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "多々良川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "館林線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三依線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鬼怒川",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "塩原特配線",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "箒川変電所",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "葛生変電所",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "塩原第１",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "塩原第２",
+        "voltageKv": 22,
+        "demandMw": null
+      },
+      {
+        "name": "塩原第３",
+        "voltageKv": 22,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "神奈川",
+    "lines": [
+      {
+        "name": "塩浜線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東扇島線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "浜川崎線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "白石線1・2L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南川崎南太田線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "白石線3・4L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南武線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "浜岡線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北旭線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北島線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "戸越線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "野川線1・2・3・4L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "川世線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北浜線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "橋本線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南多摩線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南関内線1・2・3L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "横浜根岸線1・2・3L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "戸塚線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南子安線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南関内線5・6・7L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北関内線1・2・3L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "子浜線1・2・3L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "藤沢線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西厚木線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東秦野線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東秦野線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田代幹線里線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田代幹線里線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西相模線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "明神線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "柿生線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東川崎",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "塩浜",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南川崎",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "川崎",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "旭",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "綱島",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南武",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "西東京",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "橋本",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "横浜大黒",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "関内",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "横浜根岸",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南横浜",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "横浜",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "京浜",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "藤沢",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西厚木",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "湘南",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新秦野",
+        "voltageKv": 500,
+        "demandMw": null
+      },
+      {
+        "name": "西相模",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "戸塚3,4,5",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "浮島陸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千鳥町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "塩浜東線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "塩浜南線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市場線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "子安線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "相武線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "旭綱島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "保土ケ谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下野毛線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "菅生線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "菅生線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千南線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "登戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "平台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市ヶ尾線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鴨志田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鴨志田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "生田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "横瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "瀬谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "町田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大沼線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "麻溝線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "荻野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "愛川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "渕野辺線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八ツ沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八ツ沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮ヶ瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "久里浜線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大矢部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "若松町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "横須賀線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大道線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "貝山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北鎌倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北鎌倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鎌倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中野町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中野町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "本牧線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "本牧線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "本牧線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上永谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "品濃線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吉田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "吉田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "戸岩線1.2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "戸岩線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "戸岩線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "片瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "片瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大船線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "市沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鶴ヶ峰線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "妙蓮寺線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "戸六線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "戸六線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "香川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "香川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "藤沢南口線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大庭線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大庭線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "茅ヶ崎線1.2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湘南茅ヶ崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湘南茅ヶ崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "馬入線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "茅ヶ崎線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "茅ヶ崎線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "辻堂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "用田線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "用田線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "用田線3.4L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "石川引込線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高倉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "綾瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中綾線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "用田線1.2L",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "遠藤線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "遠藤線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "遠藤線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "御所見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "相模川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "相模川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下沖線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高座線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "海老名西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "飯山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "飯山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "七沢線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "厚木北線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "厚木北線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "厚木北線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岡田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "海老名線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湘南北線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湘南北線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "善波線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "善波線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湘南東線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "渋田川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "平塚線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "二宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "久所線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鶴巻線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮地線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "比々多線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大雄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南足柄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "酒匂川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "酒匂川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "金子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "酒匂川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "酒匂川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "酒匂川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西湘線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西湘線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西湘線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "西湘線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "国府津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南高田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "足柄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "足柄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "穴部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "真鶴線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "箱根線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "仙石線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "強羅線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "桜山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "能見台線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "倉見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鵠沼線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "川崎",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "旭",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "綱島",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "南武",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "荏田",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "北相模",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "南横須賀",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "逗子",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "戸塚1,2",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "藤沢",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "中相模",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "湘南",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西相模",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "戸塚3,4,5",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "多摩川",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東方",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "子安",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "生麦",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "末広",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "横浜",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "関内",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "小港",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "富岡",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "六会",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湘南",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "茅ヶ崎",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "港が丘",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩戸",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三枚橋",
+        "voltageKv": 66,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "茨城",
+    "lines": [
+      {
+        "name": "西茨線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西水戸線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "戸崎線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "筑南線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "八千代線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "野木線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "水戸北部線・小野線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "村松線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "石岡線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新治線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "湖西線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "那珂",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "新筑波",
+        "voltageKv": 500,
+        "demandMw": null
+      },
+      {
+        "name": "鹿島",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "水戸北部",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "茨城",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西水戸",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "石岡",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北茨城線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "勿来線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "磯原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "臼場線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "手綱線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松久保線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高萩線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常北線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小木津線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "助川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北多賀線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鮎川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "多賀線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大みか線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "真弓線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大子線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "久慈線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常陸大宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小野川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "牛久北部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "取手線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "筑波南線（常総系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東取手線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "谷和原線１，２号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "筑波豊里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "テクノパーク豊里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "沓掛線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水海道線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "出口線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "稲敷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "江戸崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "幸田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "角崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "筑波南線（筑波南系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "桂町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鹿島西部環線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東深芝線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "奥野谷２号線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "波崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "土合線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湖南線１，２，３，４号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山方線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "孫目線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "勝田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "青柳線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "長砂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湊線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常澄線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "酒門東線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常陸海浜線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常陸那珂工団線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水戸南町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "赤塚線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩間線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "見川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩間工団線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水戸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "友部線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "美野里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "柏原工団線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高浜線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "貝地線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "上山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "出島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "木田余線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "千代田工団線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "神立線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "立の越線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "福田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "阿見線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "霞ヶ浦線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "学園中線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大穂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大砂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "明野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "真壁線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "筑館線（筑館系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "筑館線（筑波系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三和線（小山系）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南結城線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "結城工団線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "丘里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "総和線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "向古河線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南古河線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北利根線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "谷和原線３，４号",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "高萩西線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "新光町線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小美玉高崎線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北麻生線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "一の瀬深谷線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "水守線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "波崎砂山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北利根一号線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常陸宮の郷２号線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "常磐",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "常総",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "筑波南",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "鹿島5,7,8B",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "水戸北部",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "茨城",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "西水戸",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "霞ヶ浦",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "鹿島6,9B",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "五霞",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "筑波西部",
+        "voltageKv": 154,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "長野",
+    "lines": [
+      {
+        "name": "小田切線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "笹平線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "笹平線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "黒部幹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "犀川線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "犀川線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "犀川線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "大町線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "大町線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "甲信幹線山線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "霞沢線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "甲信幹線中線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "島川原",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "霞沢",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "上信線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北軽線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "塩川線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "小諸線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "軽磯線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北佐久線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南佐久線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "穂積線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東信線",
+        "voltageKv": 66,
+        "demandMw": null
+      }
+    ]
+  },
+  {
+    "area": "静岡",
+    "lines": [
+      {
+        "name": "天竜南線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田代幹線里線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "明神線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北駿線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東富士線1・2L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田代幹線中線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "愛鷹線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田代幹線山線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "富士川線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "岳南線",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "東富士線3・4L",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "新富士1U",
+        "voltageKv": 500,
+        "demandMw": null
+      },
+      {
+        "name": "湯船",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北駿",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "駿東",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田方",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "駿河",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "岳南",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "新富士3U",
+        "voltageKv": 275,
+        "demandMw": null
+      },
+      {
+        "name": "原里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南御殿場線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "深良線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "富士岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "須山線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "岩波線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "箱根線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "桑原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "真鶴線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "熱海線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "沼津線（1,2L）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "広小路線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "間門線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "北伊豆線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大仁線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "網代線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宇佐美線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "東伊豆線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "八幡野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "稲取線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松崎線（北側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "松崎線（南側）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "南伊豆線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "下賀茂線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "伊東線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "根方線(駿河側)",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中里線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "中里山本線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "内野線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "大渕線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "山宮線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "駿富線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "宮島線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "入山瀬線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "榑坪線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "沼津線（3,4L）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鈴川線(駿河側)（3,4L）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鈴川線(岳南側)（3,4L）",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "三福線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "堰原線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "駒門線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "長岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "竪堀線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "富士鷹岡線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "津田線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "今泉線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "送電線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "鈴川今井線",
+        "voltageKv": 66,
+        "demandMw": null
+      },
+      {
+        "name": "湯船",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "北駿",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "駿東",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "田方",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "駿河",
+        "voltageKv": 154,
+        "demandMw": null
+      },
+      {
+        "name": "岳南",
+        "voltageKv": 154,
+        "demandMw": null
+      }
+    ]
+  }
+]

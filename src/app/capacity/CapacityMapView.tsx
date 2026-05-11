@@ -6,6 +6,7 @@ import { MapContainer, TileLayer, Polyline, Tooltip, Marker, ImageOverlay, useMa
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import gridCapacityAll from "@/data/grid_capacity_all.json";
+import gridCapacityDemand from "@/data/grid_capacity_demand.json";
 import substationsData from "@/data/substations.json";
 import subCapData from "@/data/substation_capacity.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
@@ -21,6 +22,8 @@ L.Icon.Default.mergeOptions({
 // ─── 容量データルックアップ ───────────────────────────────────
 type RawLine = { name: string | null; voltageKv: number; availableMw: number | null };
 type CapDataset = { area: string; lines: RawLine[] };
+type DemandLine = { name: string | null; voltageKv: number; demandMw: number | null };
+type DemandDataset = { area: string; lines: DemandLine[] };
 
 function normalizeLineName(n: string): string {
   return n.replace(/[（(].*?[）)]/g, "").trim();
@@ -29,6 +32,12 @@ function normalizeLineName(n: string): string {
 const CAP_MAP = new Map<string, number | null>(
   (gridCapacityAll as CapDataset[]).flatMap(ds =>
     ds.lines.filter(l => l.name).map(l => [l.name as string, l.availableMw])
+  )
+);
+
+const DEMAND_CAP_MAP = new Map<string, number | null>(
+  (gridCapacityDemand as DemandDataset[]).flatMap(ds =>
+    ds.lines.filter(l => l.name).map(l => [l.name as string, l.demandMw])
   )
 );
 
@@ -50,6 +59,28 @@ function lookupCap(name: string): number | null | undefined {
   const parts = name.split(";").map(s => s.trim()).filter(Boolean);
   for (const part of parts) {
     const result = lookupCapSingle(part);
+    if (result !== undefined) return result;
+  }
+  return undefined;
+}
+
+function lookupDemandCapSingle(name: string): number | null | undefined {
+  if (DEMAND_CAP_MAP.has(name)) return DEMAND_CAP_MAP.get(name);
+  const norm = normalizeLineName(name);
+  for (const [k, v] of DEMAND_CAP_MAP) {
+    if (normalizeLineName(k) === norm) return v;
+  }
+  for (const [k, v] of DEMAND_CAP_MAP) {
+    const kn = normalizeLineName(k);
+    if (kn.startsWith(norm) || norm.startsWith(kn)) return v;
+  }
+  return undefined;
+}
+
+function lookupDemandCap(name: string): number | null | undefined {
+  const parts = name.split(";").map(s => s.trim()).filter(Boolean);
+  for (const part of parts) {
+    const result = lookupDemandCapSingle(part);
     if (result !== undefined) return result;
   }
   return undefined;
@@ -691,8 +722,9 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
 
         {/* 系統データあり: パス2 = 容量色の本線 */}
         {matchedLines.map(line => {
-          const cap   = capByLineId.get(line.id);
-          const color = lineColor(cap);
+          const cap       = capByLineId.get(line.id);
+          const demandCap = line.name ? lookupDemandCap(line.name) : undefined;
+          const color     = lineColor(cap);
           return (
             <Polyline
               key={`line-${line.id}`}
@@ -702,21 +734,42 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
               opacity={0.95}
             >
               <Tooltip sticky opacity={0.97} direction="top">
-                <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 170 }}>
+                <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 180 }}>
                   <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 3, fontSize: 12 }}>
                     {line.name || "送電線"}
                   </p>
-                  <p style={{ color: "#475569", marginBottom: 4 }}>{line.voltageKv} kV</p>
-                  <p style={{
-                    color: cap == null ? "#475569"
-                      : cap === 0 ? "#ef4444"
-                      : cap < 50 ? "#f97316"
-                      : cap < 200 ? "#d97706"
-                      : "#16a34a",
-                    fontWeight: 700, fontSize: 13,
-                  }}>
-                    空き容量: {cap == null ? "データなし" : `${cap} MW`}
-                  </p>
+                  <p style={{ color: "#475569", marginBottom: 6 }}>{line.voltageKv} kV</p>
+
+                  {/* 逆潮流（発電設備向け） */}
+                  <div style={{ marginBottom: 4 }}>
+                    <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>逆潮流（発電設備向け）</p>
+                    <p style={{
+                      color: cap == null ? "#475569"
+                        : cap === 0 ? "#ef4444"
+                        : cap < 50 ? "#f97316"
+                        : cap < 200 ? "#d97706"
+                        : "#16a34a",
+                      fontWeight: 700, fontSize: 13,
+                    }}>
+                      {cap == null ? "データなし" : `${cap} MW`}
+                    </p>
+                  </div>
+
+                  {/* 順潮流（需要家向け） */}
+                  <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
+                    <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
+                    <p style={{
+                      color: demandCap == null ? "#94a3b8"
+                        : demandCap === 0 ? "#ef4444"
+                        : demandCap < 50 ? "#f97316"
+                        : demandCap < 75 ? "#eab308"
+                        : demandCap < 100 ? "#22d3ee"
+                        : "#60a5fa",
+                      fontWeight: 700, fontSize: 13,
+                    }}>
+                      {demandCap === undefined ? "—" : demandCap === null ? "—" : `${demandCap} MW`}
+                    </p>
+                  </div>
                 </div>
               </Tooltip>
             </Polyline>
