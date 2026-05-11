@@ -447,7 +447,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [loading, setLoading]   = useState(true);
   const [addressPin, setAddressPin] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const [properties, setProperties] = useState<HomesProperty[]>([]);
-  const [showForwardFlow, setShowForwardFlow] = useState(false);
+  const [show66kv, setShow66kv]   = useState(false);
+  const [show154kv, setShow154kv] = useState(false);
   const [forwardFlowOpacity, setForwardFlowOpacity] = useState(0.65);
 
   useEffect(() => {
@@ -568,36 +569,48 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         style={{
           position: "absolute", top: 10, right: 12, zIndex: 1000,
           background: "rgba(255,255,255,0.97)",
-          border: showForwardFlow ? "1.5px solid #0ea5e9" : "1.5px solid #cbd5e1",
+          border: (show66kv || show154kv) ? "1.5px solid #0ea5e9" : "1.5px solid #cbd5e1",
           borderRadius: 10,
           padding: "8px 12px",
           boxShadow: "0 3px 12px rgba(0,0,0,0.18)",
-          minWidth: 200,
+          minWidth: 210,
         }}
       >
-        <button
-          onClick={() => setShowForwardFlow(v => !v)}
-          style={{
-            width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between",
-            background: "none", border: "none", cursor: "pointer", padding: 0,
-          }}
-        >
-          <span style={{ fontSize: 11, fontWeight: 700, color: "#0f172a" }}>
-            需要家向け順潮流マップ
-          </span>
-          <span style={{
-            fontSize: 10, fontWeight: 700,
-            background: showForwardFlow ? "#0ea5e9" : "#e2e8f0",
-            color: showForwardFlow ? "white" : "#64748b",
-            borderRadius: 6, padding: "2px 8px", marginLeft: 8, flexShrink: 0,
-          }}>
-            {showForwardFlow ? "ON" : "OFF"}
-          </span>
-        </button>
+        <p style={{ fontSize: 11, fontWeight: 700, color: "#0f172a", marginBottom: 8 }}>
+          需要家向け順潮流マップ
+        </p>
 
-        {showForwardFlow && (
-          <div style={{ marginTop: 8, borderTop: "1px solid #f1f5f9", paddingTop: 8 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
+        {/* 電圧クラス選択 */}
+        {([
+          { label: "66kV", state: show66kv, set: setShow66kv },
+          { label: "154kV", state: show154kv, set: setShow154kv },
+        ] as const).map(({ label, state, set }) => (
+          <button
+            key={label}
+            onClick={() => set(v => !v)}
+            style={{
+              width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between",
+              background: state ? "#f0f9ff" : "none",
+              border: state ? "1px solid #bae6fd" : "1px solid #e2e8f0",
+              borderRadius: 7, cursor: "pointer", padding: "5px 8px", marginBottom: 5,
+            }}
+          >
+            <span style={{ fontSize: 11, color: "#0f172a" }}>{label}</span>
+            <span style={{
+              fontSize: 10, fontWeight: 700,
+              background: state ? "#0ea5e9" : "#e2e8f0",
+              color: state ? "white" : "#64748b",
+              borderRadius: 5, padding: "1px 7px",
+            }}>
+              {state ? "ON" : "OFF"}
+            </span>
+          </button>
+        ))}
+
+        {/* 透明度・凡例（いずれかON時に表示） */}
+        {(show66kv || show154kv) && (
+          <div style={{ marginTop: 6, borderTop: "1px solid #f1f5f9", paddingTop: 8 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 8 }}>
               <span style={{ fontSize: 10, color: "#64748b", whiteSpace: "nowrap" }}>透明度</span>
               <input
                 type="range" min={0.1} max={1} step={0.05}
@@ -610,7 +623,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
               </span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-              <p style={{ fontSize: 9, color: "#9ca3af", marginBottom: 2 }}>空き容量【MW】（66kV）</p>
+              <p style={{ fontSize: 9, color: "#9ca3af", marginBottom: 2 }}>空き容量【MW】</p>
               {[
                 { color: "#60a5fa", label: "100MW以上" },
                 { color: "#22d3ee", label: "75〜100MW" },
@@ -646,9 +659,18 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         <MapFlyController area={selectedArea} fitTrigger={fitTrigger} />
 
         {/* 順潮流マップ画像オーバーレイ（66kV 需要家向け） */}
-        {showForwardFlow && (
+        {show66kv && (
           <ImageOverlay
             url="/forward-flow-66kv.png"
+            bounds={FORWARD_FLOW_BOUNDS}
+            opacity={forwardFlowOpacity}
+          />
+        )}
+
+        {/* 順潮流マップ画像オーバーレイ（154kV 需要家向け） */}
+        {show154kv && (
+          <ImageOverlay
+            url="/forward-flow-154kv.png"
             bounds={FORWARD_FLOW_BOUNDS}
             opacity={forwardFlowOpacity}
           />
