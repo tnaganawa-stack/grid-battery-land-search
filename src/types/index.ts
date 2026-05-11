@@ -31,6 +31,7 @@ export interface TransmissionLine {
   name: string;
   voltageKv: number;
   path: Coordinates[]; // GeoJSON LineString的に格納
+  location?: "overhead" | "underground"; // 架空線 | 地中埋設
 }
 
 // ============================================================

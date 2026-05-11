@@ -738,7 +738,17 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                   <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 3, fontSize: 12 }}>
                     {line.name || "送電線"}
                   </p>
-                  <p style={{ color: "#475569", marginBottom: 6 }}>{line.voltageKv} kV</p>
+                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
+                    <span style={{ color: "#475569" }}>{line.voltageKv} kV</span>
+                    <span style={{
+                      fontSize: 9, fontWeight: 700,
+                      background: line.location === "underground" ? "#e0f2fe" : "#f0fdf4",
+                      color:      line.location === "underground" ? "#0369a1" : "#166534",
+                      borderRadius: 4, padding: "1px 5px",
+                    }}>
+                      {line.location === "underground" ? "地中埋設" : "架空線"}
+                    </span>
+                  </div>
 
                   {/* 逆潮流（発電設備向け） */}
                   <div style={{ marginBottom: 4 }}>
