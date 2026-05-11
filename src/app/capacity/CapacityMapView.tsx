@@ -22,7 +22,7 @@ L.Icon.Default.mergeOptions({
 // ─── 容量データルックアップ ───────────────────────────────────
 type RawLine = { name: string | null; voltageKv: number; availableMw: number | null };
 type CapDataset = { area: string; lines: RawLine[] };
-type DemandLine = { name: string | null; voltageKv: number; demandMw: number | null };
+type DemandLine = { name: string | null; voltageKv: number; demandMw: string | null };
 type DemandDataset = { area: string; lines: DemandLine[] };
 
 function normalizeLineName(n: string): string {
@@ -35,7 +35,7 @@ const CAP_MAP = new Map<string, number | null>(
   )
 );
 
-const DEMAND_CAP_MAP = new Map<string, number | null>(
+const DEMAND_CAP_MAP = new Map<string, string | null>(
   (gridCapacityDemand as DemandDataset[]).flatMap(ds =>
     ds.lines.filter(l => l.name).map(l => [l.name as string, l.demandMw])
   )
@@ -64,7 +64,7 @@ function lookupCap(name: string): number | null | undefined {
   return undefined;
 }
 
-function lookupDemandCapSingle(name: string): number | null | undefined {
+function lookupDemandCapSingle(name: string): string | null | undefined {
   if (DEMAND_CAP_MAP.has(name)) return DEMAND_CAP_MAP.get(name);
   const norm = normalizeLineName(name);
   for (const [k, v] of DEMAND_CAP_MAP) {
@@ -77,7 +77,7 @@ function lookupDemandCapSingle(name: string): number | null | undefined {
   return undefined;
 }
 
-function lookupDemandCap(name: string): number | null | undefined {
+function lookupDemandCap(name: string): string | null | undefined {
   const parts = name.split(";").map(s => s.trim()).filter(Boolean);
   for (const part of parts) {
     const result = lookupDemandCapSingle(part);
@@ -759,15 +759,14 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                   <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
                     <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
                     <p style={{
-                      color: demandCap == null ? "#94a3b8"
-                        : demandCap === 0 ? "#ef4444"
-                        : demandCap < 50 ? "#f97316"
-                        : demandCap < 75 ? "#eab308"
-                        : demandCap < 100 ? "#22d3ee"
+                      color: !demandCap ? "#94a3b8"
+                        : demandCap === "~50MW"    ? "#f97316"
+                        : demandCap === "50~75MW"  ? "#eab308"
+                        : demandCap === "75~100MW" ? "#22d3ee"
                         : "#60a5fa",
                       fontWeight: 700, fontSize: 13,
                     }}>
-                      {demandCap === undefined ? "—" : demandCap === null ? "—" : `${demandCap} MW`}
+                      {demandCap ?? "—"}
                     </p>
                   </div>
                 </div>
