@@ -5,127 +5,127 @@
       {
         "name": "東太田線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "群馬幹線（群馬～新岡部）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上越幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上牧線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "水上線（金井～小松）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "水上線（小松分岐～水上）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上毛幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "箱島線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "群馬幹線（金井～群馬）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "黒部幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下児玉線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "岩本線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "鎌田線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "佐波線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": null,
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上群線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "湯宿線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "須田貝線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新新田",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新岡部",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "小松",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "金井",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "群馬",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東太田",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "佐波",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "足利線",
@@ -680,77 +680,77 @@
       {
         "name": "東葛線1・2L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下葛線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下総線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北船橋線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下総線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北船橋線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "矢切線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東千葉房総線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "生実線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東千葉外房線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "市原五井線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東葛線3・4L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "木下線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新野田11・12・14B",
@@ -770,22 +770,22 @@
       {
         "name": "東葛",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下総",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東千葉",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "外房",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
@@ -800,7 +800,7 @@
       {
         "name": "千葉ＮＴ",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新木更津5・8B",
@@ -1580,7 +1580,7 @@
       {
         "name": "東葛",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北総",
@@ -1600,12 +1600,12 @@
       {
         "name": "東千葉",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "外房",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "姉崎中央１Ｕ",
@@ -1615,7 +1615,7 @@
       {
         "name": "内房",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "姉崎中央２Ｕ",
@@ -1625,7 +1625,7 @@
       {
         "name": "千葉ＮＴ",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "千葉印西",
@@ -1715,187 +1715,187 @@
       {
         "name": "上越幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "佐波線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北埼玉線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下児玉線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "群馬幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "群馬幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "小北線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "猪苗代新幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "白岡線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "美園線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東埼玉線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "京北線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "志木線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "狭山線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "武蔵赤坂線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "奥秩父線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "黒部幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "野田線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "潮止線1・2L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "亀戸線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "花畑線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東八潮線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南葛線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北千代田線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "田端線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "笹目線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "戸田線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "片山線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "中富線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北鳩線3・4L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "潮止線3・4L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "久喜線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上柴線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新岡部",
@@ -1905,7 +1905,7 @@
       {
         "name": "埼玉",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北東京",
@@ -1915,7 +1915,7 @@
       {
         "name": "岩槻",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南川越",
@@ -1930,7 +1930,7 @@
       {
         "name": "奥秩父",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
@@ -1940,7 +1940,7 @@
       {
         "name": "東八潮",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "京北",
@@ -1950,12 +1950,12 @@
       {
         "name": "鳩ヶ谷",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "笹目",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新座",
@@ -1970,7 +1970,7 @@
       {
         "name": "花畑",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "川島町線",
@@ -2600,12 +2600,12 @@
       {
         "name": "埼玉",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "奥秩父",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上尾",
@@ -2615,7 +2615,7 @@
       {
         "name": "岩槻",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南狭山",
@@ -2625,12 +2625,12 @@
       {
         "name": "東八潮",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "京北",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "京北",
@@ -2640,12 +2640,12 @@
       {
         "name": "鳩ヶ谷",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "笹目",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北与野",
@@ -2670,7 +2670,7 @@
       {
         "name": "上吉羽",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "腰越",
@@ -2685,7 +2685,7 @@
       {
         "name": "名栗",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "向堀",
@@ -2705,87 +2705,87 @@
       {
         "name": "都留線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "御坂線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "禾生線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "山梨線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "甲信幹線中線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "上曽根線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "天竜東幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "天竜東幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "西山線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "田代幹線山線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "藤野木線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "谷村変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "山梨変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "釜無白根変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "北巨摩変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "新富士変電所",
@@ -2910,22 +2910,22 @@
       {
         "name": "谷村変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "山梨変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "釜無白根変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "北巨摩変電所",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "50~75MW"
       },
       {
         "name": "紅葉台特配線",
@@ -2985,107 +2985,107 @@
       {
         "name": "猪苗代旧幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "猪苗代新幹線（膳棚～河内）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東那須野線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "栃那線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "下滝線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "栃山線（新栃木～栃山開閉所）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "芳賀線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西宇都宮線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "猪苗代新幹線（河内～小山）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "猪苗代新幹線（小山～北鳩）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "小北線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "八千代線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "野木線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "佐野線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "白沢線3・4号",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "乙畑線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "栃山線1号（栃山開閉所～小山）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "栃山線2号（栃山開閉所～小山）",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "那須野",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新栃木",
@@ -3095,32 +3095,32 @@
       {
         "name": "河内",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西宇都宮",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "芳賀",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "小山",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "佐野",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "鬼怒川",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "那須線",
@@ -3760,7 +3760,7 @@
       {
         "name": "鬼怒川",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "塩原特配線",
@@ -3800,262 +3800,262 @@
       {
         "name": "塩浜線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東扇島線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "浜川崎線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "白石線1・2L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南川崎南太田線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "白石線3・4L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南武線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "浜岡線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北旭線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北島線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "戸越線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "野川線1・2・3・4L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "川世線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北浜線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "橋本線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南多摩線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南関内線1・2・3L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "横浜根岸線1・2・3L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "戸塚線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南子安線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南関内線5・6・7L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北関内線1・2・3L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "子浜線1・2・3L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "藤沢線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西厚木線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東秦野線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東秦野線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "田代幹線里線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "田代幹線里線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西相模線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "明神線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "柿生線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "東川崎",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "塩浜",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南川崎",
@@ -4065,22 +4065,22 @@
       {
         "name": "川崎",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "旭",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "綱島",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南武",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
@@ -4095,32 +4095,32 @@
       {
         "name": "橋本",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "横浜大黒",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "関内",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "横浜根岸",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南横浜",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "横浜",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "京浜",
@@ -4130,17 +4130,17 @@
       {
         "name": "藤沢",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西厚木",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "湘南",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新秦野",
@@ -4150,12 +4150,12 @@
       {
         "name": "西相模",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "戸塚3,4,5",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "浮島陸線",
@@ -5060,22 +5060,22 @@
       {
         "name": "川崎",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "旭",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "綱島",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "南武",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "荏田",
@@ -5100,12 +5100,12 @@
       {
         "name": "戸塚1,2",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "藤沢",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "中相模",
@@ -5115,17 +5115,17 @@
       {
         "name": "湘南",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西相模",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "戸塚3,4,5",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "多摩川",
@@ -5135,7 +5135,7 @@
       {
         "name": "東方",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "子安",
@@ -5145,7 +5145,7 @@
       {
         "name": "生麦",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "末広",
@@ -5155,12 +5155,12 @@
       {
         "name": "横浜",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "関内",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "小港",
@@ -5215,67 +5215,67 @@
       {
         "name": "西茨線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西水戸線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "戸崎線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "筑南線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "八千代線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "野木線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "水戸北部線・小野線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "村松線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "石岡線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "新治線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "湖西線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "送電線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "那珂",
@@ -5295,22 +5295,22 @@
       {
         "name": "水戸北部",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "茨城",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西水戸",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "石岡",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "北茨城線",
@@ -6065,22 +6065,22 @@
       {
         "name": "水戸北部",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "茨城",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "西水戸",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "霞ヶ浦",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "鹿島6,9B",
@@ -6090,12 +6090,12 @@
       {
         "name": "五霞",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "筑波西部",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       }
     ]
   },
@@ -6105,77 +6105,77 @@
       {
         "name": "小田切線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "笹平線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "笹平線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "黒部幹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "犀川線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "犀川線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "犀川線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "大町線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "大町線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "甲信幹線山線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "霞沢線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "甲信幹線中線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "島川原",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "霞沢",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "~50MW"
       },
       {
         "name": "上信線",
@@ -6235,62 +6235,62 @@
       {
         "name": "天竜南線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "田代幹線里線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "明神線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "北駿線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "東富士線1・2L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "田代幹線中線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "愛鷹線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "田代幹線山線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "富士川線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "岳南線",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "東富士線3・4L",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "新富士1U",
@@ -6300,32 +6300,32 @@
       {
         "name": "湯船",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "北駿",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "駿東",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "田方",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "駿河",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "岳南",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "",
@@ -6670,32 +6670,32 @@
       {
         "name": "湯船",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "北駿",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "駿東",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "田方",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "駿河",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       },
       {
         "name": "岳南",
         "voltageKv": 154,
-        "demandMw": null
+        "demandMw": "100MW~"
       }
     ]
   }
