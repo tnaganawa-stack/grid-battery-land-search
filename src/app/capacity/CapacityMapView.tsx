@@ -2,7 +2,7 @@
 
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState, useMemo, useRef } from "react";
-import { MapContainer, TileLayer, Polyline, Tooltip, Marker, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Polyline, Tooltip, Marker, ImageOverlay, useMap } from "react-leaflet";
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import gridCapacityAll from "@/data/grid_capacity_all.json";
@@ -181,6 +181,13 @@ function getAreaBounds(area: string): [[number, number], [number, number]] | nul
 
 // 全県表示時のデフォルトバウンド（関東全域）
 const ALL_BOUNDS: [[number, number], [number, number]] = [[34.5, 136.8], [37.5, 141.2]];
+
+// 順潮流マップ画像のジオリファレンス範囲（TEPG管内全域）
+// 画像ファイル: /public/forward-flow-66kv.png
+const FORWARD_FLOW_BOUNDS: [[number, number], [number, number]] = [
+  [34.15, 136.95],
+  [37.45, 141.25],
+];
 
 // ─── 県フォーカスコントローラー ──────────────────────────────
 function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: number }) {
@@ -440,6 +447,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [loading, setLoading]   = useState(true);
   const [addressPin, setAddressPin] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const [properties, setProperties] = useState<HomesProperty[]>([]);
+  const [showForwardFlow, setShowForwardFlow] = useState(false);
+  const [forwardFlowOpacity, setForwardFlowOpacity] = useState(0.65);
 
   useEffect(() => {
     fetch('/api/homes-properties')
@@ -553,6 +562,74 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
 
 
 
+      {/* 順潮流トグルパネル */}
+      <div
+        className="no-print"
+        style={{
+          position: "absolute", top: 10, right: 12, zIndex: 1000,
+          background: "rgba(255,255,255,0.97)",
+          border: showForwardFlow ? "1.5px solid #0ea5e9" : "1.5px solid #cbd5e1",
+          borderRadius: 10,
+          padding: "8px 12px",
+          boxShadow: "0 3px 12px rgba(0,0,0,0.18)",
+          minWidth: 200,
+        }}
+      >
+        <button
+          onClick={() => setShowForwardFlow(v => !v)}
+          style={{
+            width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between",
+            background: "none", border: "none", cursor: "pointer", padding: 0,
+          }}
+        >
+          <span style={{ fontSize: 11, fontWeight: 700, color: "#0f172a" }}>
+            需要家向け順潮流マップ
+          </span>
+          <span style={{
+            fontSize: 10, fontWeight: 700,
+            background: showForwardFlow ? "#0ea5e9" : "#e2e8f0",
+            color: showForwardFlow ? "white" : "#64748b",
+            borderRadius: 6, padding: "2px 8px", marginLeft: 8, flexShrink: 0,
+          }}>
+            {showForwardFlow ? "ON" : "OFF"}
+          </span>
+        </button>
+
+        {showForwardFlow && (
+          <div style={{ marginTop: 8, borderTop: "1px solid #f1f5f9", paddingTop: 8 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
+              <span style={{ fontSize: 10, color: "#64748b", whiteSpace: "nowrap" }}>透明度</span>
+              <input
+                type="range" min={0.1} max={1} step={0.05}
+                value={forwardFlowOpacity}
+                onChange={e => setForwardFlowOpacity(parseFloat(e.target.value))}
+                style={{ flex: 1, accentColor: "#0ea5e9" }}
+              />
+              <span style={{ fontSize: 10, color: "#64748b", width: 28, textAlign: "right" }}>
+                {Math.round(forwardFlowOpacity * 100)}%
+              </span>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+              <p style={{ fontSize: 9, color: "#9ca3af", marginBottom: 2 }}>空き容量【MW】（66kV）</p>
+              {[
+                { color: "#60a5fa", label: "100MW以上" },
+                { color: "#22d3ee", label: "75〜100MW" },
+                { color: "#facc15", label: "50〜75MW" },
+                { color: "#f97316", label: "〜50MW" },
+              ].map(({ color, label }) => (
+                <div key={label} style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <div style={{ width: 24, height: 5, background: color, borderRadius: 2, flexShrink: 0 }} />
+                  <span style={{ fontSize: 10, color: "#374151" }}>{label}</span>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: 9, color: "#9ca3af", marginTop: 6 }}>
+              ※ 東京電力PG 順潮流マップ参照
+            </p>
+          </div>
+        )}
+      </div>
+
       <MapContainer
         center={[36.2, 139.5]}
         zoom={8}
@@ -567,6 +644,15 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
 
         {/* 県フォーカスコントローラー */}
         <MapFlyController area={selectedArea} fitTrigger={fitTrigger} />
+
+        {/* 順潮流マップ画像オーバーレイ（66kV 需要家向け） */}
+        {showForwardFlow && (
+          <ImageOverlay
+            url="/forward-flow-66kv.png"
+            bounds={FORWARD_FLOW_BOUNDS}
+            opacity={forwardFlowOpacity}
+          />
+        )}
 
 
         {/* 系統データあり: パス1 = 白ケーシング */}
