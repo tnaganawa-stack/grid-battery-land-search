@@ -16,6 +16,7 @@ const KANTO_LINES_PATH = path.join(DATA_DIR, "transmission_lines_kanto.json");
 // 県別66kV/77kV静的JSONファイル（群馬は全電圧、他は<154kVのみ使用）
 const PREF_66KV_FILES = [
   "transmission_lines_gunma.json",
+  "transmission_lines_66kv_kanto.json",
   "transmission_lines_66kv_chiba.json",
   "transmission_lines_66kv_saitama.json",
   "transmission_lines_66kv_yamanashi.json",
