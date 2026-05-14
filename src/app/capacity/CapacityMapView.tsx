@@ -193,6 +193,7 @@ function casingWeight(kv: number): number {
 
 // ─── 県別バウンディングボックス ───────────────────────────────
 const PREF_BOUNDS: { key: string; sw: [number, number]; ne: [number, number] }[] = [
+  // 関東
   { key: "群馬", sw: [36.05, 138.4],  ne: [37.05, 139.75] },
   { key: "栃木", sw: [36.2,  139.2],  ne: [37.15, 140.35] },
   { key: "茨城", sw: [35.7,  139.65], ne: [36.95, 140.9]  },
@@ -203,6 +204,14 @@ const PREF_BOUNDS: { key: string; sw: [number, number]; ne: [number, number] }[]
   { key: "山梨", sw: [35.1,  138.1],  ne: [35.95, 139.1]  },
   { key: "長野", sw: [35.15, 137.3],  ne: [36.85, 138.95] },
   { key: "静岡", sw: [34.6,  137.35], ne: [35.55, 139.15] },
+  // 東北
+  { key: "青森", sw: [40.2,  139.7],  ne: [41.6,  141.7]  },
+  { key: "岩手", sw: [38.8,  140.6],  ne: [40.5,  141.7]  },
+  { key: "宮城", sw: [37.7,  140.1],  ne: [39.0,  141.7]  },
+  { key: "秋田", sw: [38.8,  139.4],  ne: [40.5,  141.0]  },
+  { key: "山形", sw: [37.7,  139.4],  ne: [39.0,  140.6]  },
+  { key: "福島", sw: [36.8,  139.4],  ne: [37.9,  141.2]  },
+  { key: "新潟", sw: [36.7,  137.6],  ne: [38.6,  139.8]  },
 ];
 
 function getAreaBounds(area: string): [[number, number], [number, number]] | null {
@@ -210,8 +219,8 @@ function getAreaBounds(area: string): [[number, number], [number, number]] | nul
   return match ? [match.sw, match.ne] : null;
 }
 
-// 全県表示時のデフォルトバウンド（関東全域）
-const ALL_BOUNDS: [[number, number], [number, number]] = [[34.5, 136.8], [37.5, 141.2]];
+// 全県表示時のデフォルトバウンド（関東+東北全域）
+const ALL_BOUNDS: [[number, number], [number, number]] = [[34.5, 136.8], [41.6, 141.7]];
 
 // 順潮流マップ画像のジオリファレンス範囲（TEPG管内全域）
 // 画像ファイル: /public/forward-flow-66kv.png
@@ -227,7 +236,7 @@ function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: nu
   // 県選択変更時: アニメーションあり（ナビゲーション用）
   useEffect(() => {
     if (!area || area === "all") {
-      map.flyTo([36.2, 139.5], 8, { duration: 0.8 });
+      map.flyToBounds(ALL_BOUNDS as L.LatLngBoundsExpression, { padding: [40, 40], maxZoom: 8, duration: 0.8 });
       return;
     }
     const bounds = getAreaBounds(area);

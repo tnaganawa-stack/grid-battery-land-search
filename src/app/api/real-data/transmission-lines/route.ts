@@ -1,6 +1,6 @@
 /**
  * GET /api/real-data/transmission-lines
- * 関東全域154kV+ (静的JSON) + 県別66kV/77kV (静的JSON×9県) をマージして即時返却
+ * 関東全域154kV+ (静的JSON) + 県別66kV/77kV (静的JSON×9県) + 東北7県 をマージして即時返却
  */
 
 import { NextResponse } from "next/server";
@@ -24,6 +24,17 @@ const PREF_66KV_FILES = [
   "transmission_lines_66kv_ibaraki.json",
   "transmission_lines_66kv_nagano.json",
   "transmission_lines_66kv_shizuoka.json",
+].map(f => path.join(DATA_DIR, f));
+
+// 東北7県（全電圧 66kV〜275kV を含む）
+const TOHOKU_FILES = [
+  "transmission_lines_tohoku_aomori.json",
+  "transmission_lines_tohoku_iwate.json",
+  "transmission_lines_tohoku_miyagi.json",
+  "transmission_lines_tohoku_akita.json",
+  "transmission_lines_tohoku_yamagata.json",
+  "transmission_lines_tohoku_fukushima.json",
+  "transmission_lines_tohoku_niigata.json",
 ].map(f => path.join(DATA_DIR, f));
 
 function loadJson(filePath: string): TransmissionLine[] {
@@ -57,9 +68,20 @@ function buildMerged(): TransmissionLine[] {
     }
   }
 
-  const merged = [...kantoLines, ...pref66Lines];
+  // 東北7県（全電圧）
+  const tohokuLines: TransmissionLine[] = [];
+  for (const filePath of TOHOKU_FILES) {
+    for (const line of loadJson(filePath)) {
+      if (!seen.has(line.id)) {
+        seen.add(line.id);
+        tohokuLines.push(line);
+      }
+    }
+  }
+
+  const merged = [...kantoLines, ...pref66Lines, ...tohokuLines];
   _cached = merged;
-  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length})`);
+  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length}, 東北=${tohokuLines.length})`);
   return merged;
 }
 
