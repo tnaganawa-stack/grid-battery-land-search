@@ -20158,5 +20158,2182 @@
         "n1AvailableMw": null
       }
     ]
+  },
+  {
+    "source": "東北電力ネットワーク株式会社 送電線予想潮流（東北全域）",
+    "date": "2026-05-08",
+    "area": "東北上位系統（154kV〜500kV）",
+    "lines": [
+      {
+        "no": 1,
+        "name": "0001線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 2,
+        "name": "十和田幹線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 3,
+        "name": "北上幹線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 4,
+        "name": "青葉幹線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 5,
+        "name": "宮城中央支線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 6,
+        "name": "常磐幹線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 7,
+        "name": "0007線",
+        "voltageKv": 500,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 8,
+        "name": "相馬双葉幹線",
+        "voltageKv": 500,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 9,
+        "name": "0009線",
+        "voltageKv": 500,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 10,
+        "name": "今別幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 11,
+        "name": "0101線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 12,
+        "name": "北青幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 13,
+        "name": "北奥幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 14,
+        "name": "北部幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 15,
+        "name": "0105線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 16,
+        "name": "五戸幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 17,
+        "name": "岩手幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 18,
+        "name": "秋盛幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 19,
+        "name": "0109線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 20,
+        "name": "早池峰幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 21,
+        "name": "東花巻支線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 22,
+        "name": "0111線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 23,
+        "name": "水沢幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 24,
+        "name": "0113線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 25,
+        "name": "大潟幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 26,
+        "name": "0115線",
+        "voltageKv": 275,
+        "availableMw": 44.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 27,
+        "name": "秋田幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 28,
+        "name": "奥羽幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 29,
+        "name": "0119線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 30,
+        "name": "0157線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 31,
+        "name": "陸羽幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 32,
+        "name": "牡鹿幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 33,
+        "name": "鳴瀬幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 34,
+        "name": "宮城幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 35,
+        "name": "松島幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 36,
+        "name": "仙台幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 37,
+        "name": "0129線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 38,
+        "name": "蔵王幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 39,
+        "name": "0158線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 40,
+        "name": "名取幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 41,
+        "name": "0127線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 42,
+        "name": "朝日幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 43,
+        "name": "山形幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 44,
+        "name": "南山形幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 45,
+        "name": "東北幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 46,
+        "name": "0132線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 47,
+        "name": "飯豊幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 48,
+        "name": "吾妻幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 49,
+        "name": "0134線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 50,
+        "name": "相福幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 51,
+        "name": "東福島支線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 52,
+        "name": "0138線",
+        "voltageKv": 275,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 53,
+        "name": "いわき幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 54,
+        "name": "阿武隈幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 55,
+        "name": "0142線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 56,
+        "name": "勿来幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 57,
+        "name": "勿来支線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 58,
+        "name": "新潟幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 59,
+        "name": "0145線",
+        "voltageKv": 275,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 60,
+        "name": "0146線",
+        "voltageKv": 275,
+        "availableMw": 397.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 61,
+        "name": "北新幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 62,
+        "name": "五頭幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 63,
+        "name": "中越幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 64,
+        "name": "0151線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 65,
+        "name": "0152線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 66,
+        "name": "東上越幹線",
+        "voltageKv": 275,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 67,
+        "name": "下北線",
+        "voltageKv": 154,
+        "availableMw": 0.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 68,
+        "name": "0505線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 69,
+        "name": "白糠支線",
+        "voltageKv": 154,
+        "availableMw": 92.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 70,
+        "name": "横浜明神平支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 71,
+        "name": "0506線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 72,
+        "name": "青森線",
+        "voltageKv": 154,
+        "availableMw": 180.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 73,
+        "name": "0509線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 74,
+        "name": "六ヶ所線",
+        "voltageKv": 154,
+        "availableMw": 0.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 75,
+        "name": "0513線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 76,
+        "name": "六ヶ所Ｂ尾駮支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 77,
+        "name": "0749線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 78,
+        "name": "上北線",
+        "voltageKv": 154,
+        "availableMw": 239.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 79,
+        "name": "六戸支線",
+        "voltageKv": 154,
+        "availableMw": 158.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 80,
+        "name": "0516線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 81,
+        "name": "0517線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 82,
+        "name": "0518線",
+        "voltageKv": 154,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 83,
+        "name": "南八戸線",
+        "voltageKv": 154,
+        "availableMw": 158.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 84,
+        "name": "西八戸線",
+        "voltageKv": 154,
+        "availableMw": 213.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 85,
+        "name": "0522線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 86,
+        "name": "青浦線",
+        "voltageKv": 154,
+        "availableMw": 90.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 87,
+        "name": "北津軽線",
+        "voltageKv": 154,
+        "availableMw": 184.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 88,
+        "name": "0750線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 89,
+        "name": "津軽線",
+        "voltageKv": 154,
+        "availableMw": 202.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 90,
+        "name": "南津軽線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 91,
+        "name": "0526線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 92,
+        "name": "九戸線",
+        "voltageKv": 154,
+        "availableMw": 154.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 93,
+        "name": "0727線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 94,
+        "name": "0728線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 95,
+        "name": "北岩手線",
+        "voltageKv": 154,
+        "availableMw": 0.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 96,
+        "name": "0529線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 97,
+        "name": "0756線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 98,
+        "name": "姫神線",
+        "voltageKv": 154,
+        "availableMw": 154.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 99,
+        "name": "0747線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 100,
+        "name": "0731線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 101,
+        "name": "0732線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 102,
+        "name": "北盛岡線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 103,
+        "name": "岩盛線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 104,
+        "name": "羽中線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 105,
+        "name": "0534線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 106,
+        "name": "盛岡線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 107,
+        "name": "0536線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 108,
+        "name": "宮古線",
+        "voltageKv": 154,
+        "availableMw": 93.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 109,
+        "name": "0725線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 110,
+        "name": "0538線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 111,
+        "name": "北上東線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 112,
+        "name": "0723線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 113,
+        "name": "0758線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 114,
+        "name": "栗駒線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 115,
+        "name": "一関支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 116,
+        "name": "石羽根支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 117,
+        "name": "仙人支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 118,
+        "name": "0730線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 119,
+        "name": "栗駒鳥沢支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 120,
+        "name": "室根線",
+        "voltageKv": 154,
+        "availableMw": 139.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 121,
+        "name": "氷上線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 122,
+        "name": "水金線",
+        "voltageKv": 154,
+        "availableMw": 315.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 123,
+        "name": "大船渡線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 124,
+        "name": "釜石線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 125,
+        "name": "北秋線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 126,
+        "name": "0550線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 127,
+        "name": "0551線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 128,
+        "name": "0746線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 129,
+        "name": "南秋Ａ線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 130,
+        "name": "南秋Ｂ線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 131,
+        "name": "0554線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 132,
+        "name": "由利線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 133,
+        "name": "新山支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 134,
+        "name": "本荘工業団地支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 135,
+        "name": "秋田中央線",
+        "voltageKv": 154,
+        "availableMw": 109.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 136,
+        "name": "西羽中線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 137,
+        "name": "0743線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 138,
+        "name": "0734線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 139,
+        "name": "大崎線",
+        "voltageKv": 154,
+        "availableMw": 234.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 140,
+        "name": "西石巻線",
+        "voltageKv": 154,
+        "availableMw": 224.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 141,
+        "name": "河南線",
+        "voltageKv": 154,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 142,
+        "name": "0565線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 143,
+        "name": "代ヶ崎線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 144,
+        "name": "0567線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 145,
+        "name": "仙台港東線",
+        "voltageKv": 154,
+        "availableMw": 350.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 146,
+        "name": "0569線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 147,
+        "name": "0570線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 148,
+        "name": "仙台港西線",
+        "voltageKv": 154,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 149,
+        "name": "0572線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 150,
+        "name": "仙台泉線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 151,
+        "name": "長命線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 152,
+        "name": "明通線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 153,
+        "name": "泉パークタウン線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 154,
+        "name": "高森線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 155,
+        "name": "根白石線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 156,
+        "name": "秋根線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 157,
+        "name": "西仙台線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 158,
+        "name": "愛子線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 159,
+        "name": "中山線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 160,
+        "name": "0738線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 161,
+        "name": "0726線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 162,
+        "name": "0739線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 163,
+        "name": "0761線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 164,
+        "name": "0586線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 165,
+        "name": "五港線",
+        "voltageKv": 154,
+        "availableMw": 187.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 166,
+        "name": "南仙台線",
+        "voltageKv": 154,
+        "availableMw": 175.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 167,
+        "name": "東若林支線",
+        "voltageKv": 154,
+        "availableMw": 238.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 168,
+        "name": "中五線",
+        "voltageKv": 154,
+        "availableMw": 285.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 169,
+        "name": "中仙台線",
+        "voltageKv": 154,
+        "availableMw": 237.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 170,
+        "name": "中錦線",
+        "voltageKv": 154,
+        "availableMw": 170.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 171,
+        "name": "愛島郡山線",
+        "voltageKv": 154,
+        "availableMw": 205.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 172,
+        "name": "仙南線",
+        "voltageKv": 154,
+        "availableMw": 175.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 173,
+        "name": "秋柴線",
+        "voltageKv": 154,
+        "availableMw": 371.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 174,
+        "name": "東白石線",
+        "voltageKv": 154,
+        "availableMw": 141.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 175,
+        "name": "仙山線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 176,
+        "name": "0759線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 177,
+        "name": "羽後線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 178,
+        "name": "0733線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 179,
+        "name": "八幡西線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 180,
+        "name": "酒田北港線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 181,
+        "name": "最上幹線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 182,
+        "name": "八幡南線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 183,
+        "name": "0602線",
+        "voltageKv": 154,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 184,
+        "name": "0603線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 185,
+        "name": "0604線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 186,
+        "name": "庄内線",
+        "voltageKv": 154,
+        "availableMw": 232.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 187,
+        "name": "八久和線",
+        "voltageKv": 154,
+        "availableMw": 103.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 188,
+        "name": "羽越線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 189,
+        "name": "新庄線",
+        "voltageKv": 154,
+        "availableMw": 236.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 190,
+        "name": "西村山支線",
+        "voltageKv": 154,
+        "availableMw": 263.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 191,
+        "name": "本道寺支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 192,
+        "name": "西山形線",
+        "voltageKv": 154,
+        "availableMw": 316.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 193,
+        "name": "東山形線",
+        "voltageKv": 154,
+        "availableMw": 179.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 194,
+        "name": "飯塚支線",
+        "voltageKv": 154,
+        "availableMw": 253.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 195,
+        "name": "置賜線",
+        "voltageKv": 154,
+        "availableMw": 196.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 196,
+        "name": "仙台線",
+        "voltageKv": 154,
+        "availableMw": 123.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 197,
+        "name": "0621線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 198,
+        "name": "北福島支線",
+        "voltageKv": 154,
+        "availableMw": 92.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 199,
+        "name": "新駒線",
+        "voltageKv": 154,
+        "availableMw": 77.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 200,
+        "name": "0625線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 201,
+        "name": "0735線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 202,
+        "name": "第一，第二福島線",
+        "voltageKv": 154,
+        "availableMw": 90.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 203,
+        "name": "荒井線",
+        "voltageKv": 154,
+        "availableMw": 238.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 204,
+        "name": "0755線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 205,
+        "name": "天沼支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 206,
+        "name": "西福島線",
+        "voltageKv": 154,
+        "availableMw": 175.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 207,
+        "name": "磐梯線",
+        "voltageKv": 154,
+        "availableMw": 154.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 208,
+        "name": "日和田線",
+        "voltageKv": 154,
+        "availableMw": 278.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 209,
+        "name": "東和線",
+        "voltageKv": 154,
+        "availableMw": 400.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 210,
+        "name": "郡山Ａ線",
+        "voltageKv": 154,
+        "availableMw": 234.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 211,
+        "name": "泉崎線",
+        "voltageKv": 154,
+        "availableMw": 175.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 212,
+        "name": "0752線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 213,
+        "name": "0753線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 214,
+        "name": "西白河線",
+        "voltageKv": 154,
+        "availableMw": 196.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 215,
+        "name": "0744線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 216,
+        "name": "0754線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 217,
+        "name": "0737線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 218,
+        "name": "0764線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 219,
+        "name": "0765線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 220,
+        "name": "0766線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 221,
+        "name": "宇津峰線",
+        "voltageKv": 154,
+        "availableMw": 234.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 222,
+        "name": "平田支線",
+        "voltageKv": 154,
+        "availableMw": 92.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 223,
+        "name": "0736線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 224,
+        "name": "北平線",
+        "voltageKv": 154,
+        "availableMw": 238.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 225,
+        "name": "0724線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 226,
+        "name": "0760線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 227,
+        "name": "0745線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 228,
+        "name": "平線",
+        "voltageKv": 154,
+        "availableMw": 236.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 229,
+        "name": "0641線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 230,
+        "name": "釜戸支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 231,
+        "name": "0757線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 232,
+        "name": "阿賀東線",
+        "voltageKv": 154,
+        "availableMw": 150.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 233,
+        "name": "0644線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 234,
+        "name": "0645線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 235,
+        "name": "新郷支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 236,
+        "name": "0647線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 237,
+        "name": "山郷支線",
+        "voltageKv": 154,
+        "availableMw": 204.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 238,
+        "name": "阿賀西線",
+        "voltageKv": 154,
+        "availableMw": 171.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 239,
+        "name": "豊実支線",
+        "voltageKv": 154,
+        "availableMw": 171.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 240,
+        "name": "豊実連絡線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 241,
+        "name": "会津線",
+        "voltageKv": 154,
+        "availableMw": 186.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 242,
+        "name": "若松支線",
+        "voltageKv": 154,
+        "availableMw": 202.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 243,
+        "name": "0654線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 244,
+        "name": "片門支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 245,
+        "name": "会津坂本支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 246,
+        "name": "柳津支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 247,
+        "name": "0657線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 248,
+        "name": "只見線",
+        "voltageKv": 154,
+        "availableMw": 118.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 249,
+        "name": "上田支線",
+        "voltageKv": 154,
+        "availableMw": 80.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 250,
+        "name": "本名支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 251,
+        "name": "鹿瀬線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 252,
+        "name": "伊南川線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 253,
+        "name": "越後線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 254,
+        "name": "坂町線",
+        "voltageKv": 154,
+        "availableMw": 103.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 255,
+        "name": "0615線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 256,
+        "name": "大石支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 257,
+        "name": "岩船支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 258,
+        "name": "0748線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 259,
+        "name": "0616線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 260,
+        "name": "鹿新線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 261,
+        "name": "揚川東線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 262,
+        "name": "揚川西線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 263,
+        "name": "0668線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 264,
+        "name": "北新潟線",
+        "voltageKv": 154,
+        "availableMw": 216.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 265,
+        "name": "豊栄支線",
+        "voltageKv": 154,
+        "availableMw": 175.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 266,
+        "name": "0671線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 267,
+        "name": "網代浜線",
+        "voltageKv": 154,
+        "availableMw": 0.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 268,
+        "name": "0674線",
+        "voltageKv": 154,
+        "availableMw": 195.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 269,
+        "name": "寄居浜線",
+        "voltageKv": 154,
+        "availableMw": 154.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 270,
+        "name": "北中線",
+        "voltageKv": 154,
+        "availableMw": 216.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 271,
+        "name": "中西線",
+        "voltageKv": 154,
+        "availableMw": 123.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 272,
+        "name": "中新潟線",
+        "voltageKv": 154,
+        "availableMw": 285.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 273,
+        "name": "0679線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 274,
+        "name": "新津支線",
+        "voltageKv": 154,
+        "availableMw": 139.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 275,
+        "name": "西新潟線",
+        "voltageKv": 154,
+        "availableMw": 175.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 276,
+        "name": "切畑線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 277,
+        "name": "新南線",
+        "voltageKv": 154,
+        "availableMw": 231.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 278,
+        "name": "新飯田支線",
+        "voltageKv": 154,
+        "availableMw": 92.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 279,
+        "name": "新三線",
+        "voltageKv": 154,
+        "availableMw": 269.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 280,
+        "name": "下田支線",
+        "voltageKv": 154,
+        "availableMw": 93.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 281,
+        "name": "三中線",
+        "voltageKv": 154,
+        "availableMw": 269.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 282,
+        "name": "南新潟線",
+        "voltageKv": 154,
+        "availableMw": 231.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 283,
+        "name": "刈羽線",
+        "voltageKv": 154,
+        "availableMw": 234.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 284,
+        "name": "粟生津線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 285,
+        "name": "0694線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 286,
+        "name": "長岡Ａ線",
+        "voltageKv": 154,
+        "availableMw": 224.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 287,
+        "name": "長岡Ｂ線",
+        "voltageKv": 154,
+        "availableMw": 238.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 288,
+        "name": "黒又線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 289,
+        "name": "0702線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 290,
+        "name": "南長岡線",
+        "voltageKv": 154,
+        "availableMw": 380.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 291,
+        "name": "米山線",
+        "voltageKv": 154,
+        "availableMw": 0.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 292,
+        "name": "小国町支線",
+        "voltageKv": 154,
+        "availableMw": 80.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 293,
+        "name": "魚沼線",
+        "voltageKv": 154,
+        "availableMw": 160.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 294,
+        "name": "頚城線",
+        "voltageKv": 154,
+        "availableMw": 211.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 295,
+        "name": "新稲葉線",
+        "voltageKv": 154,
+        "availableMw": 139.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 296,
+        "name": "南魚沼線",
+        "voltageKv": 154,
+        "availableMw": 139.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 297,
+        "name": "0751線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 298,
+        "name": "上越Ａ線",
+        "voltageKv": 154,
+        "availableMw": 92.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 299,
+        "name": "上越Ｂ線",
+        "voltageKv": 154,
+        "availableMw": 298.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 300,
+        "name": "0708線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 301,
+        "name": "西上越線",
+        "voltageKv": 154,
+        "availableMw": 139.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 302,
+        "name": "0710線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 303,
+        "name": "青海線",
+        "voltageKv": 154,
+        "availableMw": 139.0,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 304,
+        "name": "0712線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 305,
+        "name": "0713線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 306,
+        "name": "姫川連絡線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 307,
+        "name": "大所川線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 308,
+        "name": "大所支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 309,
+        "name": "0717線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      },
+      {
+        "no": 310,
+        "name": "浅貝支線",
+        "voltageKv": 154,
+        "availableMw": null,
+        "n1AvailableMw": null
+      }
+    ]
   }
 ]
