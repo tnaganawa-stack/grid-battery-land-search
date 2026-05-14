@@ -223,42 +223,49 @@ function getAreaBounds(area: string): [[number, number], [number, number]] | nul
 const ALL_BOUNDS: [[number, number], [number, number]] = [[34.5, 136.8], [41.6, 141.7]];
 
 // ─── ハザードマップレイヤー定義 (disaportaldata.gsi.go.jp) ────
+// 正しいURL: https://disaportaldata.gsi.go.jp/raster/{layer_id}/{z}/{x}/{y}.png
 const HAZARD_LAYERS = [
   {
     id: "flood_l2",
     label: "洪水（最大規模）",
-    tileUrl: "https://disaportaldata.gsi.go.jp/raster/flood_l2_shinsuishin/{z}/{x}/{y}.png",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{z}/{x}/{y}.png",
     color: "#3b82f6",
   },
   {
     id: "flood_l1",
     label: "洪水（計画規模）",
-    tileUrl: "https://disaportaldata.gsi.go.jp/raster/flood_l1_shinsuishin_newlegend/{z}/{x}/{y}.png",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_data/{z}/{x}/{y}.png",
     color: "#93c5fd",
   },
   {
     id: "tsunami",
     label: "津波浸水",
-    tileUrl: "https://disaportaldata.gsi.go.jp/raster/tsunami_newlegend/{z}/{x}/{y}.png",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/{z}/{x}/{y}.png",
     color: "#06b6d4",
   },
   {
     id: "hightide",
     label: "高潮浸水",
-    tileUrl: "https://disaportaldata.gsi.go.jp/raster/hightide_l2_shinsuishin/{z}/{x}/{y}.png",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_data/{z}/{x}/{y}.png",
     color: "#8b5cf6",
   },
   {
     id: "doseki",
     label: "土砂（土石流）",
-    tileUrl: "https://disaportaldata.gsi.go.jp/raster/dosekiryukeikaikuiki_all/{z}/{x}/{y}.png",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki/{z}/{x}/{y}.png",
     color: "#ef4444",
   },
   {
     id: "kyukeisha",
     label: "土砂（急傾斜）",
-    tileUrl: "https://disaportaldata.gsi.go.jp/raster/kyukeishakeikaikuiki_all/{z}/{x}/{y}.png",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki/{z}/{x}/{y}.png",
     color: "#f97316",
+  },
+  {
+    id: "jisuberi",
+    label: "地すべり",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/{z}/{x}/{y}.png",
+    color: "#a16207",
   },
 ] as const;
 
