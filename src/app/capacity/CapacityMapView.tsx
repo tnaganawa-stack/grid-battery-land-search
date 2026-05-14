@@ -222,6 +222,46 @@ function getAreaBounds(area: string): [[number, number], [number, number]] | nul
 // 全県表示時のデフォルトバウンド（関東+東北全域）
 const ALL_BOUNDS: [[number, number], [number, number]] = [[34.5, 136.8], [41.6, 141.7]];
 
+// ─── ハザードマップレイヤー定義 (disaportaldata.gsi.go.jp) ────
+const HAZARD_LAYERS = [
+  {
+    id: "flood_l2",
+    label: "洪水（最大規模）",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/flood_l2_shinsuishin/{z}/{x}/{y}.png",
+    color: "#3b82f6",
+  },
+  {
+    id: "flood_l1",
+    label: "洪水（計画規模）",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/flood_l1_shinsuishin_newlegend/{z}/{x}/{y}.png",
+    color: "#93c5fd",
+  },
+  {
+    id: "tsunami",
+    label: "津波浸水",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/tsunami_newlegend/{z}/{x}/{y}.png",
+    color: "#06b6d4",
+  },
+  {
+    id: "hightide",
+    label: "高潮浸水",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/hightide_l2_shinsuishin/{z}/{x}/{y}.png",
+    color: "#8b5cf6",
+  },
+  {
+    id: "doseki",
+    label: "土砂（土石流）",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/dosekiryukeikaikuiki_all/{z}/{x}/{y}.png",
+    color: "#ef4444",
+  },
+  {
+    id: "kyukeisha",
+    label: "土砂（急傾斜）",
+    tileUrl: "https://disaportaldata.gsi.go.jp/raster/kyukeishakeikaikuiki_all/{z}/{x}/{y}.png",
+    color: "#f97316",
+  },
+] as const;
+
 // 順潮流マップ画像のジオリファレンス範囲（TEPG管内全域）
 // 画像ファイル: /public/forward-flow-66kv.png
 const FORWARD_FLOW_BOUNDS: [[number, number], [number, number]] = [
@@ -490,6 +530,10 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [show66kv, setShow66kv]   = useState(false);
   const [show154kv, setShow154kv] = useState(false);
   const [forwardFlowOpacity, setForwardFlowOpacity] = useState(0.65);
+  const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
+  const [hazardOpacity, setHazardOpacity] = useState(0.7);
+  const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
+  const anyHazardOn = HAZARD_LAYERS.some(l => hazardVisibility[l.id]);
 
   useEffect(() => {
     fetch('/api/homes-properties')
@@ -683,6 +727,73 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         )}
       </div>
 
+      {/* ハザードマップトグルパネル */}
+      <div
+        className="no-print"
+        style={{
+          position: "absolute", bottom: 140, left: 10, zIndex: 1000,
+          background: "rgba(255,255,255,0.97)",
+          border: anyHazardOn ? "1.5px solid #ef4444" : "1.5px solid #cbd5e1",
+          borderRadius: 10,
+          padding: "8px 12px",
+          boxShadow: "0 3px 12px rgba(0,0,0,0.18)",
+          minWidth: 190,
+          maxHeight: "60vh",
+          overflowY: "auto",
+        }}
+      >
+        <p style={{ fontSize: 11, fontWeight: 700, color: "#0f172a", marginBottom: 8 }}>
+          ハザードマップ
+        </p>
+
+        {HAZARD_LAYERS.map(layer => (
+          <button
+            key={layer.id}
+            onClick={() => toggleHazard(layer.id)}
+            style={{
+              width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between",
+              background: hazardVisibility[layer.id] ? "#fef2f2" : "none",
+              border: hazardVisibility[layer.id] ? `1px solid ${layer.color}40` : "1px solid #e2e8f0",
+              borderRadius: 7, cursor: "pointer", padding: "5px 8px", marginBottom: 4,
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+              <div style={{ width: 8, height: 8, borderRadius: "50%", background: layer.color, flexShrink: 0 }} />
+              <span style={{ fontSize: 11, color: "#0f172a", textAlign: "left" }}>{layer.label}</span>
+            </div>
+            <span style={{
+              fontSize: 10, fontWeight: 700,
+              background: hazardVisibility[layer.id] ? layer.color : "#e2e8f0",
+              color: hazardVisibility[layer.id] ? "white" : "#64748b",
+              borderRadius: 5, padding: "1px 7px", flexShrink: 0,
+            }}>
+              {hazardVisibility[layer.id] ? "ON" : "OFF"}
+            </span>
+          </button>
+        ))}
+
+        {anyHazardOn && (
+          <div style={{ marginTop: 6, borderTop: "1px solid #f1f5f9", paddingTop: 8 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+              <span style={{ fontSize: 10, color: "#64748b", whiteSpace: "nowrap" }}>透明度</span>
+              <input
+                type="range" min={0.1} max={1} step={0.05}
+                value={hazardOpacity}
+                onChange={e => setHazardOpacity(parseFloat(e.target.value))}
+                style={{ flex: 1, accentColor: "#ef4444" }}
+              />
+              <span style={{ fontSize: 10, color: "#64748b", width: 28, textAlign: "right" }}>
+                {Math.round(hazardOpacity * 100)}%
+              </span>
+            </div>
+            <p style={{ fontSize: 9, color: "#9ca3af", marginTop: 6 }}>
+              出典: <a href="https://disaportal.gsi.go.jp/" target="_blank" rel="noreferrer"
+                style={{ color: "#9ca3af" }}>ハザードマップポータルサイト</a>
+            </p>
+          </div>
+        )}
+      </div>
+
       <MapContainer
         center={[36.2, 139.5]}
         zoom={8}
@@ -715,6 +826,17 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
             opacity={forwardFlowOpacity}
           />
         )}
+
+        {/* ハザードマップタイルレイヤー */}
+        {HAZARD_LAYERS.map(layer => hazardVisibility[layer.id] && (
+          <TileLayer
+            key={layer.id}
+            url={layer.tileUrl}
+            opacity={hazardOpacity}
+            maxZoom={17}
+            attribution='<a href="https://disaportal.gsi.go.jp/" target="_blank">ハザードマップポータルサイト</a>'
+          />
+        ))}
 
 
         {/* 系統データあり: パス1 = 白ケーシング */}
