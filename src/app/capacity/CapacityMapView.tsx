@@ -806,9 +806,16 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                     <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
                     <p style={{
                       color: !demandCap ? "#94a3b8"
-                        : demandCap === "~50MW"    ? "#f97316"
-                        : demandCap === "50~75MW"  ? "#eab308"
-                        : demandCap === "75~100MW" ? "#22d3ee"
+                        // 東京電力PG（旧フォーマット）
+                        : demandCap === "~50MW"     ? "#f97316"
+                        : demandCap === "50~75MW"   ? "#eab308"
+                        : demandCap === "75~100MW"  ? "#22d3ee"
+                        // 中部電力PG ウェルカムゾーン凡例準拠
+                        : demandCap === "31~100MW"  ? "#d97706"
+                        : demandCap === "101~200MW" ? "#60a5fa"
+                        : demandCap === "201~300MW" ? "#4ade80"
+                        : demandCap === "301~1000MW"? "#22c55e"
+                        : demandCap === "1001MW~"   ? "#15803d"
                         : "#60a5fa",
                       fontWeight: 700, fontSize: 13,
                     }}>

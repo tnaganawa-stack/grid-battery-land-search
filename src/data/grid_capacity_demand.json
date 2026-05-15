@@ -6698,5 +6698,8520 @@
         "demandMw": "100MW~"
       }
     ]
+  },
+  {
+    "source": "中部電力パワーグリッド株式会社 中部地方のウェルカムゾーンマップ",
+    "date": "2026-05-01",
+    "area": "中部電力（77kV〜500kV）",
+    "lines": [
+      {
+        "no": 1,
+        "name": "瑞穂東山-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 2,
+        "name": "10575800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 3,
+        "name": "10576100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 4,
+        "name": "白土分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 5,
+        "name": "白土分岐-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 6,
+        "name": "10576610-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 7,
+        "name": "10576610-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 8,
+        "name": "10576620-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 9,
+        "name": "日進一本松-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 10,
+        "name": "10579000-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 11,
+        "name": "10580200-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 12,
+        "name": "東浦生路-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 13,
+        "name": "東浦生路-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 14,
+        "name": "10582000-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 15,
+        "name": "10582100-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 16,
+        "name": "電源名古屋瀬戸-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 17,
+        "name": "電源名古屋瀬戸-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 18,
+        "name": "電源名古屋瀬戸-6",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 19,
+        "name": "電源名古屋瀬戸-7",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 20,
+        "name": "電源名古屋瀬戸-8",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 21,
+        "name": "本地分岐-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 22,
+        "name": "鳴子分岐-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 23,
+        "name": "瀬戸北豊田線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 24,
+        "name": "電名瀬戸線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 25,
+        "name": "東浦北豊田線-2",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 26,
+        "name": "東浦北豊田線-1",
+        "voltageKv": 275,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 27,
+        "name": "知多火力線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 28,
+        "name": "知多火力東浦線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 29,
+        "name": "東名古屋分岐線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 30,
+        "name": "北豊田梅森線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 31,
+        "name": "梅森金山線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 32,
+        "name": "武豊火力臨海線-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 33,
+        "name": "東名古屋大高",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 34,
+        "name": "東名古屋日進-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 35,
+        "name": "東名古屋日進-2",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 36,
+        "name": "東名古屋瑞穂-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 37,
+        "name": "大高分岐",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 38,
+        "name": "新名火大高-2",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 39,
+        "name": "日進瑞穂-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 40,
+        "name": "10753500-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 41,
+        "name": "10753500-2",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 42,
+        "name": "北豊田日進",
+        "voltageKv": 154,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 43,
+        "name": "北豊田名北-1",
+        "voltageKv": 154,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 44,
+        "name": "日進宮口分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 45,
+        "name": "日進宮口分岐-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 46,
+        "name": "日進宮口分岐-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 47,
+        "name": "日進宮口分岐-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 48,
+        "name": "10760510-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 49,
+        "name": "大高大脇-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 50,
+        "name": "大高大脇-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 51,
+        "name": "10760800-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 52,
+        "name": "10760800-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 53,
+        "name": "10760800-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 54,
+        "name": "10761000-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 55,
+        "name": "瀬戸笠原-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 56,
+        "name": "瀬戸笠原-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 57,
+        "name": "瀬戸笠原-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 58,
+        "name": "10762400-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 59,
+        "name": "10763000-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 60,
+        "name": "10763080-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 61,
+        "name": "10763100-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 62,
+        "name": "10763100-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 63,
+        "name": "10763130-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 64,
+        "name": "10763190-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 65,
+        "name": "10763250-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 66,
+        "name": "10763260-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 67,
+        "name": "10763260-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 68,
+        "name": "東浦大府-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 69,
+        "name": "東浦大府-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 70,
+        "name": "東浦大府-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 71,
+        "name": "日進北崎-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 72,
+        "name": "日進北崎-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 73,
+        "name": "日進北崎-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 74,
+        "name": "日進北崎-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 75,
+        "name": "日進北崎-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 76,
+        "name": "10763520-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 77,
+        "name": "紺屋田分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 78,
+        "name": "10763780-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 79,
+        "name": "10763780-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 80,
+        "name": "10763780-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 81,
+        "name": "10763790-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 82,
+        "name": "10763790-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 83,
+        "name": "10763790-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 84,
+        "name": "陶原分岐",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 85,
+        "name": "10763880-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 86,
+        "name": "10763890-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 87,
+        "name": "暁分岐-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 88,
+        "name": "10763910-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 89,
+        "name": "10763940-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 90,
+        "name": "10763940-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 91,
+        "name": "10764060-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 92,
+        "name": "10764060-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 93,
+        "name": "10764060-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 94,
+        "name": "10764060-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 95,
+        "name": "10764060-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 96,
+        "name": "10764070-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 97,
+        "name": "10764120-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 98,
+        "name": "猪高長久手-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 99,
+        "name": "10765800-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 100,
+        "name": "10765810-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 101,
+        "name": "10767300-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 102,
+        "name": "日進池見-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 103,
+        "name": "瀬戸分岐-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 104,
+        "name": "瀬戸分岐-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 105,
+        "name": "瀬戸分岐-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 106,
+        "name": "瀬戸分岐-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 107,
+        "name": "瀬戸分岐-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 108,
+        "name": "旭三郷",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 109,
+        "name": "10769900-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 110,
+        "name": "笠寺分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 111,
+        "name": "諸輪分岐-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 112,
+        "name": "諸輪分岐-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 113,
+        "name": "平針分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 114,
+        "name": "三好ケ丘分岐-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 115,
+        "name": "大高有松-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 116,
+        "name": "大高有松-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 117,
+        "name": "大高有松-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 118,
+        "name": "大高有松-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 119,
+        "name": "有松日進-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 120,
+        "name": "有松日進-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 121,
+        "name": "有松日進-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 122,
+        "name": "有松日進-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 123,
+        "name": "大高正地-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 124,
+        "name": "大高正地-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 125,
+        "name": "大高正地-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 126,
+        "name": "10771400-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 127,
+        "name": "10771400-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 128,
+        "name": "大高鳴海-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 129,
+        "name": "10772500-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 130,
+        "name": "10773800-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 131,
+        "name": "10773900-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 132,
+        "name": "猪高旭-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 133,
+        "name": "猪高旭-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 134,
+        "name": "猪高旭-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 135,
+        "name": "10774200-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 136,
+        "name": "大府緒川-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 137,
+        "name": "大府緒川-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 138,
+        "name": "大府緒川-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 139,
+        "name": "大府緒川-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 140,
+        "name": "大府緒川-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 141,
+        "name": "10775500-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 142,
+        "name": "10775800-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 143,
+        "name": "10775900-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 144,
+        "name": "10776100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 145,
+        "name": "大府共和-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 146,
+        "name": "大府共和-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 147,
+        "name": "武豊火力日東町-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 148,
+        "name": "武豊火力日東町-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 149,
+        "name": "武豊火力日東町-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 150,
+        "name": "武豊火力日東町-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 151,
+        "name": "武豊火力日東町-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 152,
+        "name": "10777410-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 153,
+        "name": "10777430-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 154,
+        "name": "10777430-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 155,
+        "name": "知多半田",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 156,
+        "name": "豊田織機大府-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 157,
+        "name": "豊明分岐",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 158,
+        "name": "10779000-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 159,
+        "name": "大高大府-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 160,
+        "name": "大高大府-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 161,
+        "name": "大高大府-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 162,
+        "name": "西山分岐",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 163,
+        "name": "品野分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 164,
+        "name": "半田亀崎-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 165,
+        "name": "半田亀崎-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 166,
+        "name": "半田亀崎-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 167,
+        "name": "半田亀崎-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 168,
+        "name": "日進猪高-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 169,
+        "name": "日進猪高-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 170,
+        "name": "日進猪高-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 171,
+        "name": "10781800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 172,
+        "name": "猿投日進-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 173,
+        "name": "猿投日進-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 174,
+        "name": "猿投日進-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 175,
+        "name": "猿投日進-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 176,
+        "name": "猿投日進-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 177,
+        "name": "猿投日進-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 178,
+        "name": "瀬戸旭-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 179,
+        "name": "瀬戸旭-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 180,
+        "name": "瀬戸旭-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 181,
+        "name": "10782700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 182,
+        "name": "旭岩作-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 183,
+        "name": "旭岩作-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 184,
+        "name": "旭岩作-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 185,
+        "name": "旭岩作-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 186,
+        "name": "旭岩作-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 187,
+        "name": "旭岩作-6",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 188,
+        "name": "10782820-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 189,
+        "name": "和合分岐",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 190,
+        "name": "10783000-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 191,
+        "name": "10783010-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 192,
+        "name": "一社分岐",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 193,
+        "name": "10784500-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 194,
+        "name": "水野分岐-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 195,
+        "name": "水野分岐-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 196,
+        "name": "10786900-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 197,
+        "name": "10787000-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 198,
+        "name": "八草分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 199,
+        "name": "10787700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 200,
+        "name": "10788000-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 201,
+        "name": "猪高猪子石-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 202,
+        "name": "10789000-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 203,
+        "name": "10789100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 204,
+        "name": "乙川分岐",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 205,
+        "name": "篠原分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 206,
+        "name": "印場分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 207,
+        "name": "猪子石日進-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 208,
+        "name": "猪子石日進-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 209,
+        "name": "猪子石日進-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 210,
+        "name": "10792600-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 211,
+        "name": "蟹甲分岐-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 212,
+        "name": "10792800-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 213,
+        "name": "黒石分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 214,
+        "name": "10793800-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 215,
+        "name": "北刈谷緒川-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 216,
+        "name": "北刈谷緒川-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 217,
+        "name": "北刈谷緒川-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 218,
+        "name": "10794110-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 219,
+        "name": "10794120-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 220,
+        "name": "10794120-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 221,
+        "name": "日東町分岐-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 222,
+        "name": "日東町分岐-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 223,
+        "name": "日東町分岐-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 224,
+        "name": "日東町分岐-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 225,
+        "name": "日東町分岐-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 226,
+        "name": "10794720-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 227,
+        "name": "10794730-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 228,
+        "name": "10794800-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 229,
+        "name": "シーエナジー分岐-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 230,
+        "name": "10988900-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 231,
+        "name": "10989000-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 232,
+        "name": "駿遠幹線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 233,
+        "name": "静岡幹線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 234,
+        "name": "浜岡幹線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 235,
+        "name": "第二浜岡幹線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 236,
+        "name": "静岡連絡線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 237,
+        "name": "佐久間川根線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 238,
+        "name": "三河遠江線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 239,
+        "name": "湖西三河線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 240,
+        "name": "浜岡駿遠線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 241,
+        "name": "駿遠駿河線-1",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 242,
+        "name": "遠江駿遠線-1",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 243,
+        "name": "遠江駿遠線-2",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 244,
+        "name": "静岡西分岐線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 245,
+        "name": "静岡東分岐線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 246,
+        "name": "川根平岡連絡線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 247,
+        "name": "川根平岡連絡線-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 248,
+        "name": "井川大井川線-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 249,
+        "name": "井川大井川線-1",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 250,
+        "name": "大井川川根線",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 251,
+        "name": "川根秋葉線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 252,
+        "name": "川根秋葉線-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 253,
+        "name": "畑一川根線-2",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 254,
+        "name": "秋葉浜松線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 255,
+        "name": "秋葉浜松線-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 256,
+        "name": "川根清水線",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 257,
+        "name": "駿遠磐田線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 258,
+        "name": "駿遠磐田線-2",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 259,
+        "name": "駿遠磐田線-3",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 260,
+        "name": "駿遠志太線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 261,
+        "name": "遠江浜松線",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 262,
+        "name": "遠江磐田線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 263,
+        "name": "遠江磐田線-2",
+        "voltageKv": 154,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 264,
+        "name": "遠江高塚線",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 265,
+        "name": "水窪分岐線",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 266,
+        "name": "南磐田分岐線-1",
+        "voltageKv": 154,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 267,
+        "name": "奥領家分岐線",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 268,
+        "name": "湖西分岐-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 269,
+        "name": "湖西分岐-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 270,
+        "name": "湖西分岐-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 271,
+        "name": "植田湖西-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 272,
+        "name": "20763000-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 273,
+        "name": "20763000-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 274,
+        "name": "20763040-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 275,
+        "name": "20763110-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 276,
+        "name": "20763130-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 277,
+        "name": "20763140-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 278,
+        "name": "20763150-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 279,
+        "name": "20763150-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 280,
+        "name": "20763151-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 281,
+        "name": "20763160-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 282,
+        "name": "舘山寺分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 283,
+        "name": "20763210-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 284,
+        "name": "20763210-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 285,
+        "name": "20763220-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 286,
+        "name": "20763270-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 287,
+        "name": "20763280-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 288,
+        "name": "20763320-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 289,
+        "name": "20763340-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 290,
+        "name": "20763350-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 291,
+        "name": "20763370-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 292,
+        "name": "20763410-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 293,
+        "name": "20763440-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 294,
+        "name": "20763490-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 295,
+        "name": "寺脇分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 296,
+        "name": "20763520-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 297,
+        "name": "磐田浅田分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 298,
+        "name": "20763550-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 299,
+        "name": "20763560-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 300,
+        "name": "20763560-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 301,
+        "name": "20763700-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 302,
+        "name": "20763710-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 303,
+        "name": "20763750-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 304,
+        "name": "20763790-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 305,
+        "name": "20763850-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 306,
+        "name": "20763851-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 307,
+        "name": "20763910-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 308,
+        "name": "20763920-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 309,
+        "name": "2076394-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 310,
+        "name": "2076396-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 311,
+        "name": "20765200-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 312,
+        "name": "西掛川可睡線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 313,
+        "name": "西掛川可睡線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 314,
+        "name": "西掛川可睡線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 315,
+        "name": "湯山大井川線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 316,
+        "name": "大井川島田線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 317,
+        "name": "大井川島田線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 318,
+        "name": "久野脇分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 319,
+        "name": "気田笹岡線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 320,
+        "name": "豊岡気田分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 321,
+        "name": "気田笹岡線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 322,
+        "name": "気田笹岡線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 323,
+        "name": "笹岡貴布祢線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 324,
+        "name": "笹岡貴布祢線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 325,
+        "name": "船明笹岡",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 326,
+        "name": "見付連絡",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 327,
+        "name": "貴布祢浜松線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 328,
+        "name": "浜松原島北線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 329,
+        "name": "浜松原島北線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 330,
+        "name": "浜松原島北線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 331,
+        "name": "浜松原島北線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 332,
+        "name": "浜松原島南線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 333,
+        "name": "浜松原島南線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 334,
+        "name": "新榛原連絡線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 335,
+        "name": "新榛原連絡線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 336,
+        "name": "新榛原連絡線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 337,
+        "name": "見付分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 338,
+        "name": "見付分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 339,
+        "name": "原島野口線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 340,
+        "name": "原島野口線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 341,
+        "name": "20770100-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 342,
+        "name": "20770200-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 343,
+        "name": "20770200-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 344,
+        "name": "三ケ日分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 345,
+        "name": "三ケ日分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 346,
+        "name": "20770500-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 347,
+        "name": "高塚舞阪線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 348,
+        "name": "高塚舞阪線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 349,
+        "name": "高塚舞阪線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 350,
+        "name": "高塚舞阪線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 351,
+        "name": "高塚舞阪線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 352,
+        "name": "高塚舞阪線-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 353,
+        "name": "高塚舞阪線-7",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 354,
+        "name": "豊岡分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 355,
+        "name": "浜松高塚西線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 356,
+        "name": "浜松高塚西線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 357,
+        "name": "浜松高塚西線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 358,
+        "name": "浜松高塚西線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 359,
+        "name": "海老塚分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 360,
+        "name": "磐田芳川線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 361,
+        "name": "磐田芳川線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 362,
+        "name": "磐田芳川線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 363,
+        "name": "磐田芳川線-4",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 364,
+        "name": "磐田芳川線-5",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 365,
+        "name": "磐田芳川線-6",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 366,
+        "name": "磐田芳川線-7",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 367,
+        "name": "磐田芳川線-8",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 368,
+        "name": "磐田芳川線-9",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 369,
+        "name": "磐田芳川線-10",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 370,
+        "name": "磐田芳川線-11",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 371,
+        "name": "竜洋分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 372,
+        "name": "蜆塚分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 373,
+        "name": "蜆塚分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 374,
+        "name": "浅田分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 375,
+        "name": "福田分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 376,
+        "name": "福田分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 377,
+        "name": "福田分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 378,
+        "name": "都田分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 379,
+        "name": "20772800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 380,
+        "name": "気賀分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 381,
+        "name": "20773500-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 382,
+        "name": "袋井分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 383,
+        "name": "20773900-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 384,
+        "name": "新所原分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 385,
+        "name": "新所原分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 386,
+        "name": "20774200-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 387,
+        "name": "庄内分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 388,
+        "name": "庄内分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 389,
+        "name": "庄内分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 390,
+        "name": "森町分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 391,
+        "name": "森町分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 392,
+        "name": "菊川分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 393,
+        "name": "菊川分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 394,
+        "name": "20776000-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 395,
+        "name": "芳川高塚線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 396,
+        "name": "芳川高塚線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 397,
+        "name": "芳川高塚線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 398,
+        "name": "芳川高塚線-4",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 399,
+        "name": "芳川高塚線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 400,
+        "name": "駿遠西掛川線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 401,
+        "name": "駿遠西掛川線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 402,
+        "name": "駿遠西掛川線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 403,
+        "name": "20777400-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 404,
+        "name": "20777400-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 405,
+        "name": "20777400-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 406,
+        "name": "磐田西掛川線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 407,
+        "name": "磐田西掛川線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 408,
+        "name": "磐田西掛川線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 409,
+        "name": "磐田西掛川線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 410,
+        "name": "磐田西掛川線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 411,
+        "name": "磐田西掛川線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 412,
+        "name": "磐田西貝塚線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 413,
+        "name": "磐田原島線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 414,
+        "name": "磐田原島線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 415,
+        "name": "磐田原島線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 416,
+        "name": "神田町分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 417,
+        "name": "20778300-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 418,
+        "name": "20778600-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 419,
+        "name": "20778700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 420,
+        "name": "20779300-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 421,
+        "name": "西城北分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 422,
+        "name": "20780100-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 423,
+        "name": "20780300-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 424,
+        "name": "20780300-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 425,
+        "name": "葛川分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 426,
+        "name": "三方原浜松線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 427,
+        "name": "三方原浜松線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 428,
+        "name": "三方原浜松線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 429,
+        "name": "浜松野口線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 430,
+        "name": "磐田浅田線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 431,
+        "name": "磐田浅田線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 432,
+        "name": "磐田浅田線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 433,
+        "name": "磐田浅田線-4",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 434,
+        "name": "20782000-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 435,
+        "name": "20782300-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 436,
+        "name": "20782300-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 437,
+        "name": "20782800-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 438,
+        "name": "20783000-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 439,
+        "name": "20784100-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 440,
+        "name": "駿遠磐田連絡線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 441,
+        "name": "細島分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 442,
+        "name": "20784900-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 443,
+        "name": "20785000-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 444,
+        "name": "20785400-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 445,
+        "name": "20785400-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 446,
+        "name": "20786000-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 447,
+        "name": "浅羽町分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 448,
+        "name": "豊町分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 449,
+        "name": "20786700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 450,
+        "name": "20786800-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 451,
+        "name": "20786800-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 452,
+        "name": "20786900-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 453,
+        "name": "20787700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 454,
+        "name": "20788100-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 455,
+        "name": "20788200-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 456,
+        "name": "20788500-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 457,
+        "name": "三方原分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 458,
+        "name": "三方原分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 459,
+        "name": "神久呂高塚分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 460,
+        "name": "神久呂高塚分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 461,
+        "name": "遠江貴布祢線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 462,
+        "name": "遠江貴布祢線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 463,
+        "name": "遠江貴布祢線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 464,
+        "name": "遠江貴布祢線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 465,
+        "name": "遠江貴布祢線-5",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 466,
+        "name": "遠江貴布祢線-6",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 467,
+        "name": "浅田松江線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 468,
+        "name": "南磐田大須賀線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 469,
+        "name": "南磐田大須賀線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 470,
+        "name": "南磐田大須賀線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 471,
+        "name": "南磐田大須賀線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 472,
+        "name": "遠江神久呂線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 473,
+        "name": "遠江神久呂線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 474,
+        "name": "遠江神久呂線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 475,
+        "name": "豊田町分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 476,
+        "name": "20790200-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 477,
+        "name": "新佐倉新榛原線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 478,
+        "name": "北浅羽分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 479,
+        "name": "北浅羽分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 480,
+        "name": "北浅羽分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 481,
+        "name": "20790500-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 482,
+        "name": "下俣分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 483,
+        "name": "下俣分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 484,
+        "name": "可睡連絡線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 485,
+        "name": "可睡連絡線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 486,
+        "name": "可睡連絡線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 487,
+        "name": "引佐分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 488,
+        "name": "引佐分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 489,
+        "name": "袖浦分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 490,
+        "name": "袖浦分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 491,
+        "name": "20791100-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 492,
+        "name": "竜光分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 493,
+        "name": "湖西鷲津線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 494,
+        "name": "湖西鷲津線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 495,
+        "name": "湖西鷲津線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 496,
+        "name": "湖西鷲津線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 497,
+        "name": "湖西新居線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 498,
+        "name": "湖西新居線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 499,
+        "name": "湖西新居線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 500,
+        "name": "湖西新居線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 501,
+        "name": "牧之原分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 502,
+        "name": "牧之原分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 503,
+        "name": "犬居分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 504,
+        "name": "磐田貴布祢線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 505,
+        "name": "磐田貴布祢線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 506,
+        "name": "磐田貴布祢線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 507,
+        "name": "磐田貴布祢線-4",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 508,
+        "name": "磐田貴布祢線-5",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 509,
+        "name": "磐田貴布祢線-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 510,
+        "name": "安養寺分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 511,
+        "name": "安養寺分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 512,
+        "name": "安養寺分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 513,
+        "name": "安養寺分岐線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 514,
+        "name": "20792800-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 515,
+        "name": "中瀬分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 516,
+        "name": "高丘町分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 517,
+        "name": "20793600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 518,
+        "name": "野口鴨江線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 519,
+        "name": "20793800-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 520,
+        "name": "20793900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 521,
+        "name": "白昭分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 522,
+        "name": "新平山分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 523,
+        "name": "新平山分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 524,
+        "name": "20794101-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 525,
+        "name": "雄踏分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 526,
+        "name": "雄踏分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 527,
+        "name": "坊瀬分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 528,
+        "name": "坊瀬分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 529,
+        "name": "西掛川愛野線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 530,
+        "name": "西掛川愛野線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 531,
+        "name": "西掛川愛野線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 532,
+        "name": "西掛川愛野線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 533,
+        "name": "西掛川愛野線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 534,
+        "name": "西掛川愛野線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 535,
+        "name": "愛野大須賀線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 536,
+        "name": "愛野大須賀線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 537,
+        "name": "20795500-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 538,
+        "name": "20795600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 539,
+        "name": "20795700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 540,
+        "name": "20795800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 541,
+        "name": "電源尾鷲南勢-6",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 542,
+        "name": "30220066-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 543,
+        "name": "伊勢幹線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 544,
+        "name": "尾鷲伊勢線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 545,
+        "name": "伊勢南勢線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 546,
+        "name": "伊勢中勢線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 547,
+        "name": "栃原分岐",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 548,
+        "name": "30763400-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 549,
+        "name": "ゆめが丘分岐-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 550,
+        "name": "ゆめが丘分岐-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 551,
+        "name": "四日市火北条",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 552,
+        "name": "北勢四港",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 553,
+        "name": "30767200-9",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 554,
+        "name": "塩浜四港-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 555,
+        "name": "30767600-9",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 556,
+        "name": "30767700-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 557,
+        "name": "30768200-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 558,
+        "name": "30768300-9",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 559,
+        "name": "山田鳥羽-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 560,
+        "name": "荒木上野-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 561,
+        "name": "荒木上野-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 562,
+        "name": "荒木上野-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 563,
+        "name": "荒木上野-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 564,
+        "name": "荒木壬生野-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 565,
+        "name": "30772500-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 566,
+        "name": "30772600-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 567,
+        "name": "堀木昌栄線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 568,
+        "name": "中勢荒木-5",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 569,
+        "name": "上野連絡-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 570,
+        "name": "上野連絡-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 571,
+        "name": "四十九分岐",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 572,
+        "name": "塩浜楠-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 573,
+        "name": "30781300-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 574,
+        "name": "堀木北条線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 575,
+        "name": "山田鵜方-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 576,
+        "name": "30783500-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 577,
+        "name": "30783500-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 578,
+        "name": "堀木北条線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 579,
+        "name": "青山名張-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 580,
+        "name": "青山名張-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 581,
+        "name": "30787000-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 582,
+        "name": "大治田町楠-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 583,
+        "name": "白樫分岐-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 584,
+        "name": "白樫分岐-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 585,
+        "name": "飯高分岐-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 586,
+        "name": "30791500-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 587,
+        "name": "30791500-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 588,
+        "name": "度会橋連絡線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 589,
+        "name": "常磐赤堀線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 590,
+        "name": "予野分岐-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 591,
+        "name": "予野分岐-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 592,
+        "name": "予野分岐-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 593,
+        "name": "30794600-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 594,
+        "name": "39999150-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 595,
+        "name": "東部幹線",
+        "voltageKv": 500,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 596,
+        "name": "愛岐幹線",
+        "voltageKv": 500,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 597,
+        "name": "越美幹線",
+        "voltageKv": 500,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 598,
+        "name": "高根馬瀬線-2",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 599,
+        "name": "高根馬瀬線-1",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 600,
+        "name": "馬瀬北部線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 601,
+        "name": "犬山瑞浪線",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 602,
+        "name": "根方高山線-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 603,
+        "name": "小坂分岐線",
+        "voltageKv": 154,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 604,
+        "name": "高根第二分岐",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 605,
+        "name": "川辺瑞浪線-0",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 606,
+        "name": "川辺瑞浪線-1",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 607,
+        "name": "川辺瑞浪線-2",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 608,
+        "name": "朝日久々野線-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 609,
+        "name": "朝日久々野線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 610,
+        "name": "久々野東上田線-1",
+        "voltageKv": 154,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 611,
+        "name": "久々野東上田線-0",
+        "voltageKv": 154,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 612,
+        "name": "瀬戸川辺線-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 613,
+        "name": "瀬戸川辺線-1",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 614,
+        "name": "瀬戸川辺線-2",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 615,
+        "name": "馬瀬川第二分岐線-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 616,
+        "name": "馬瀬二北岐阜線-1",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 617,
+        "name": "東上田瀬戸線-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 618,
+        "name": "東上田瀬戸線-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 619,
+        "name": "犬山虎渓線-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 620,
+        "name": "瀬戸笠原線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 621,
+        "name": "七宗分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 622,
+        "name": "40765700-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 623,
+        "name": "下原名倉線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 624,
+        "name": "下原名倉線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 625,
+        "name": "下原名倉線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 626,
+        "name": "下原名倉線-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 627,
+        "name": "川辺加茂野線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 628,
+        "name": "妻木分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 629,
+        "name": "土岐津分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 630,
+        "name": "瑞南分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 631,
+        "name": "40769200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 632,
+        "name": "40769300-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 633,
+        "name": "40770000-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 634,
+        "name": "40770100-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 635,
+        "name": "多治見分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 636,
+        "name": "伏見分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 637,
+        "name": "瑞浪陶線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 638,
+        "name": "瑞浪陶線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 639,
+        "name": "瑞浪陶線-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 640,
+        "name": "瑞浪陶線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 641,
+        "name": "40772200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 642,
+        "name": "駄知分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 643,
+        "name": "瑞浪竹折線-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 644,
+        "name": "瑞浪竹折線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 645,
+        "name": "瑞浪竹折線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 646,
+        "name": "瑞浪竹折線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 647,
+        "name": "瑞浪竹折線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 648,
+        "name": "笠原下石線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 649,
+        "name": "笠原下石線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 650,
+        "name": "笠原下石線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 651,
+        "name": "笠原下石線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 652,
+        "name": "名倉川辺線-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 653,
+        "name": "名倉川辺線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 654,
+        "name": "名倉川辺線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 655,
+        "name": "上麻生分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 656,
+        "name": "虎渓瑞浪線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 657,
+        "name": "虎渓瑞浪線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 658,
+        "name": "虎渓瑞浪線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 659,
+        "name": "虎渓瑞浪線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 660,
+        "name": "虎渓瑞浪線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 661,
+        "name": "虎渓瑞浪線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 662,
+        "name": "虎渓瑞浪線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 663,
+        "name": "明智分岐線-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 664,
+        "name": "明智分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 665,
+        "name": "40776800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 666,
+        "name": "御嵩分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 667,
+        "name": "御嵩分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 668,
+        "name": "御嵩分岐線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 669,
+        "name": "40778300-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 670,
+        "name": "40778300-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 671,
+        "name": "瑞浪大井線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 672,
+        "name": "瑞浪大井線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 673,
+        "name": "大井坂本線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 674,
+        "name": "釜戸分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 675,
+        "name": "八百津分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 676,
+        "name": "川辺土田線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 677,
+        "name": "川辺土田線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 678,
+        "name": "川辺土田線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 679,
+        "name": "川辺土田線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 680,
+        "name": "土田可児線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 681,
+        "name": "土田可児線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 682,
+        "name": "土田可児線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 683,
+        "name": "肥田分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 684,
+        "name": "肥田分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 685,
+        "name": "大船渡分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 686,
+        "name": "岩村分岐線-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 687,
+        "name": "岩村分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 688,
+        "name": "大畑分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 689,
+        "name": "40787900-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 690,
+        "name": "大久手分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 691,
+        "name": "下石瑞浪線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 692,
+        "name": "下石瑞浪線-2",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 693,
+        "name": "下石瑞浪線-1",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 694,
+        "name": "下石瑞浪線-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 695,
+        "name": "柿野分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 696,
+        "name": "柿野分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 697,
+        "name": "40788800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 698,
+        "name": "40788900-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 699,
+        "name": "40788900-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 700,
+        "name": "40788900-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 701,
+        "name": "40789100-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 702,
+        "name": "久々利分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 703,
+        "name": "久々利分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 704,
+        "name": "久々利分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 705,
+        "name": "竹折坂本線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 706,
+        "name": "竹折坂本線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 707,
+        "name": "竹折坂本線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 708,
+        "name": "竹折坂本線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 709,
+        "name": "竹折坂本線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 710,
+        "name": "大針分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 711,
+        "name": "40793500-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 712,
+        "name": "40794690-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 713,
+        "name": "40794730-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 714,
+        "name": "40794850-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 715,
+        "name": "泉北分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 716,
+        "name": "40794910-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 717,
+        "name": "40794910-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 718,
+        "name": "40794980-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 719,
+        "name": "40795000-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 720,
+        "name": "40795010-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 721,
+        "name": "40795040-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 722,
+        "name": "40795050-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 723,
+        "name": "40795070-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 724,
+        "name": "信濃幹線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 725,
+        "name": "南信幹線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 726,
+        "name": "川根平岡連絡",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 727,
+        "name": "平岡泰阜-1",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 728,
+        "name": "飯島",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 729,
+        "name": "南向分岐",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 730,
+        "name": "泰阜南信-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 731,
+        "name": "泰阜南信-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 732,
+        "name": "飯田分岐",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 733,
+        "name": "北又渡飯島-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 734,
+        "name": "三穂下村-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 735,
+        "name": "三穂下村-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 736,
+        "name": "三穂下村-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 737,
+        "name": "50763800-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 738,
+        "name": "昼神",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 739,
+        "name": "下瀬分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 740,
+        "name": "50765370-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 741,
+        "name": "三穂殿岡-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 742,
+        "name": "三穂殿岡-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 743,
+        "name": "三穂殿岡-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 744,
+        "name": "三穂殿岡-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 745,
+        "name": "竜丘分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 746,
+        "name": "50766170-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 747,
+        "name": "50766200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 748,
+        "name": "殿岡飯田-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 749,
+        "name": "殿岡飯田-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 750,
+        "name": "殿岡飯田-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 751,
+        "name": "駒場分岐-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 752,
+        "name": "駒場分岐-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 753,
+        "name": "50766570-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 754,
+        "name": "殿岡羽場",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 755,
+        "name": "50767300-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 756,
+        "name": "駒ヶ根生田-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 757,
+        "name": "駒ヶ根生田-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 758,
+        "name": "駒ヶ根生田-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 759,
+        "name": "駒ヶ根生田-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 760,
+        "name": "50767770-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 761,
+        "name": "50767870-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 762,
+        "name": "田島分岐",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 763,
+        "name": "下瀬富草-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 764,
+        "name": "下瀬富草-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 765,
+        "name": "飯田生田-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 766,
+        "name": "飯田生田-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 767,
+        "name": "飯田生田-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 768,
+        "name": "飯田生田-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 769,
+        "name": "50768370-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 770,
+        "name": "50768400-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 771,
+        "name": "松尾分岐",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 772,
+        "name": "靱分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 773,
+        "name": "50769100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 774,
+        "name": "伊賀良分岐",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 775,
+        "name": "上郷分岐",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 776,
+        "name": "高森分岐",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 777,
+        "name": "50771200-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 778,
+        "name": "北大町分岐",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 779,
+        "name": "50775000-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 780,
+        "name": "中信木曽福島-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 781,
+        "name": "中信木曽福島-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 782,
+        "name": "中信木曽福島-5",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 783,
+        "name": "中信木曽福島-6",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 784,
+        "name": "薮原分岐-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 785,
+        "name": "薮原分岐-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 786,
+        "name": "東茅野富士見-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 787,
+        "name": "東茅野富士見-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 788,
+        "name": "東茅野富士見-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 789,
+        "name": "北城大町-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 790,
+        "name": "北城大町-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 791,
+        "name": "北城大町-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 792,
+        "name": "北城大町-6",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 793,
+        "name": "北松本大町-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 794,
+        "name": "和村木曽福島-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 795,
+        "name": "50788500-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 796,
+        "name": "50788700-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 797,
+        "name": "茅野富士見連絡",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 798,
+        "name": "旭山北城-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 799,
+        "name": "旭山北城-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 800,
+        "name": "鬼無里分岐",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 801,
+        "name": "木曽駒分岐",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 802,
+        "name": "新三河幹線",
+        "voltageKv": 500,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 803,
+        "name": "東栄幹線",
+        "voltageKv": 500,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 804,
+        "name": "豊根連絡線",
+        "voltageKv": 500,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 805,
+        "name": "豊根幹線",
+        "voltageKv": 500,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 806,
+        "name": "愛知瀬戸線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 807,
+        "name": "東名古屋東部線-2",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 808,
+        "name": "東名古屋東部線-1",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 809,
+        "name": "田原湖西線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 810,
+        "name": "愛知分岐線",
+        "voltageKv": 275,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 811,
+        "name": "東部額田線-1",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 812,
+        "name": "東部額田線-2",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 813,
+        "name": "東豊田分岐線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 814,
+        "name": "東部北豊田線",
+        "voltageKv": 275,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 815,
+        "name": "三好分岐線",
+        "voltageKv": 275,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 816,
+        "name": "額田幸田線",
+        "voltageKv": 275,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 817,
+        "name": "額田三河線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 818,
+        "name": "幸田新三河線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 819,
+        "name": "幸田碧南線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 820,
+        "name": "三河線",
+        "voltageKv": 275,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 821,
+        "name": "南豊田東名古屋線-1",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 822,
+        "name": "南豊田東名古屋線-2",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 823,
+        "name": "東名古屋北刈谷線",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 824,
+        "name": "武豊火力臨海線-2",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 825,
+        "name": "60746500-0",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 826,
+        "name": "三河玉川線",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 827,
+        "name": "60750500-0",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 828,
+        "name": "三河植田線",
+        "voltageKv": 154,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 829,
+        "name": "北刈谷南安城線",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 830,
+        "name": "60751100-1",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 831,
+        "name": "60751100-2",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 832,
+        "name": "田原臨海支線",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 833,
+        "name": "碧南南安城線",
+        "voltageKv": 154,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 834,
+        "name": "碧南岡崎線",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 835,
+        "name": "60751900-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 836,
+        "name": "60751900-2",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 837,
+        "name": "60751900-3",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 838,
+        "name": "60752000-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 839,
+        "name": "60752100-0",
+        "voltageKv": 154,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 840,
+        "name": "60752300-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 841,
+        "name": "60752300-1",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 842,
+        "name": "60752400-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 843,
+        "name": "60752500-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 844,
+        "name": "60752600-0",
+        "voltageKv": 154,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 845,
+        "name": "日進宮口分岐線-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 846,
+        "name": "日進宮口分岐線-6",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 847,
+        "name": "北刈谷緒川線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 848,
+        "name": "60760810-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 849,
+        "name": "三穂下村線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 850,
+        "name": "三穂下村線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 851,
+        "name": "三穂下村線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 852,
+        "name": "湖西分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 853,
+        "name": "湖西分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 854,
+        "name": "植田湖西線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 855,
+        "name": "植田湖西線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 856,
+        "name": "植田湖西3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 857,
+        "name": "植田湖西線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 858,
+        "name": "老津分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 859,
+        "name": "60763010-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 860,
+        "name": "根崎分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 861,
+        "name": "60763030-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 862,
+        "name": "神野分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 863,
+        "name": "60763070-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 864,
+        "name": "60763080-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 865,
+        "name": "60763090-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 866,
+        "name": "60763090-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 867,
+        "name": "60763100-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 868,
+        "name": "60763110-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 869,
+        "name": "60763110-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 870,
+        "name": "60763120-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 871,
+        "name": "60763130-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 872,
+        "name": "60763140-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 873,
+        "name": "南安城徳原線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 874,
+        "name": "南安城徳原線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 875,
+        "name": "南安城徳原線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 876,
+        "name": "南安城徳原線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 877,
+        "name": "60763160-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 878,
+        "name": "60763180-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 879,
+        "name": "60763180-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 880,
+        "name": "60763190-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 881,
+        "name": "60763200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 882,
+        "name": "60763210-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 883,
+        "name": "60763220-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 884,
+        "name": "60763220-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 885,
+        "name": "60763240-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 886,
+        "name": "60763250-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 887,
+        "name": "60763260-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 888,
+        "name": "60763270-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 889,
+        "name": "60763280-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 890,
+        "name": "60763290-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 891,
+        "name": "60763300-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 892,
+        "name": "60763310-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 893,
+        "name": "60763330-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 894,
+        "name": "古真立分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 895,
+        "name": "西渡鳳来線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 896,
+        "name": "西渡鳳来線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 897,
+        "name": "西渡鳳来線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 898,
+        "name": "60763700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 899,
+        "name": "60763800-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 900,
+        "name": "60763900-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 901,
+        "name": "60764000-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 902,
+        "name": "60764100-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 903,
+        "name": "60764100-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 904,
+        "name": "60764100-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 905,
+        "name": "60764110-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 906,
+        "name": "60764200-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 907,
+        "name": "60764300-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 908,
+        "name": "依佐美分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 909,
+        "name": "依佐美分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 910,
+        "name": "依佐美分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 911,
+        "name": "依佐美分岐線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 912,
+        "name": "依佐美分岐線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 913,
+        "name": "60764510-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 914,
+        "name": "60764600-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 915,
+        "name": "60764700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 916,
+        "name": "60764800-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 917,
+        "name": "豊川古宿線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 918,
+        "name": "豊川古宿線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 919,
+        "name": "三河分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 920,
+        "name": "三河分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 921,
+        "name": "笹戸分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 922,
+        "name": "60765500-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 923,
+        "name": "莇生分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 924,
+        "name": "60765610-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 925,
+        "name": "下村挙母線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 926,
+        "name": "下村挙母線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 927,
+        "name": "下村挙母線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 928,
+        "name": "下村挙母線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 929,
+        "name": "下村挙母線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 930,
+        "name": "足助分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 931,
+        "name": "白瀬分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 932,
+        "name": "真弓分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 933,
+        "name": "60765900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 934,
+        "name": "60766000-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 935,
+        "name": "60766100-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 936,
+        "name": "60766100-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 937,
+        "name": "60766100-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 938,
+        "name": "60766100-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 939,
+        "name": "鴻ノ巣分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 940,
+        "name": "60766300-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 941,
+        "name": "60766300-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 942,
+        "name": "60766310-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 943,
+        "name": "60766400-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 944,
+        "name": "60766700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 945,
+        "name": "岡崎依佐美線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 946,
+        "name": "岡崎依佐美線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 947,
+        "name": "岡崎依佐美線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 948,
+        "name": "岡崎依佐美線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 949,
+        "name": "岡崎依佐美線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 950,
+        "name": "吉良富好線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 951,
+        "name": "吉良富好線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 952,
+        "name": "吉良富好線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 953,
+        "name": "60767300-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 954,
+        "name": "大東分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 955,
+        "name": "大東分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 956,
+        "name": "大東分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 957,
+        "name": "60767410-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 958,
+        "name": "依佐美高棚線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 959,
+        "name": "依佐美高棚線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 960,
+        "name": "依佐美高棚線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 961,
+        "name": "60767600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 962,
+        "name": "60767610-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 963,
+        "name": "岡崎八帖線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 964,
+        "name": "岡崎八帖線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 965,
+        "name": "60767800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 966,
+        "name": "60767900-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 967,
+        "name": "60767900-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 968,
+        "name": "岡崎西尾線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 969,
+        "name": "岡崎西尾線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 970,
+        "name": "岡崎西尾線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 971,
+        "name": "岡崎西尾線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 972,
+        "name": "岡崎西尾線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 973,
+        "name": "岡崎西尾線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 974,
+        "name": "北野分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 975,
+        "name": "西広瀬東豊田線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 976,
+        "name": "西広瀬東豊田線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 977,
+        "name": "西広瀬東豊田線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 978,
+        "name": "阿摺分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 979,
+        "name": "越戸分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 980,
+        "name": "東豊田挙母線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 981,
+        "name": "東豊田挙母線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 982,
+        "name": "60768510-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 983,
+        "name": "60768510-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 984,
+        "name": "八帖戸崎線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 985,
+        "name": "大平分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 986,
+        "name": "大平分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 987,
+        "name": "60768900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 988,
+        "name": "三谷豊橋線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 989,
+        "name": "三谷豊橋線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 990,
+        "name": "三谷豊橋線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 991,
+        "name": "三谷豊橋線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 992,
+        "name": "百月分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 993,
+        "name": "百月分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 994,
+        "name": "百月分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 995,
+        "name": "国府分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 996,
+        "name": "60769410-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 997,
+        "name": "60769410-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 998,
+        "name": "玉川豊橋線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 999,
+        "name": "玉川向山線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1000,
+        "name": "玉川向山線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1001,
+        "name": "玉川向山線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1002,
+        "name": "玉川向山線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1003,
+        "name": "60769610-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1004,
+        "name": "60769610-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1005,
+        "name": "60769700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1006,
+        "name": "高棚高浜線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1007,
+        "name": "高棚高浜線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1008,
+        "name": "高棚高浜線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1009,
+        "name": "高棚高浜線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1010,
+        "name": "高棚高浜線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1011,
+        "name": "高棚高浜線-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1012,
+        "name": "60769810-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1013,
+        "name": "鳥屋金分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1014,
+        "name": "豊橋牟呂線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1015,
+        "name": "豊橋牟呂線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1016,
+        "name": "豊橋牟呂線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1017,
+        "name": "豊橋牟呂線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1018,
+        "name": "豊橋牟呂線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1019,
+        "name": "植田分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1020,
+        "name": "植田分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1021,
+        "name": "植田分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1022,
+        "name": "60770200-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1023,
+        "name": "60770400-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1024,
+        "name": "60770800-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1025,
+        "name": "60770900-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1026,
+        "name": "知立分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1027,
+        "name": "高棚南刈谷線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1028,
+        "name": "高棚南刈谷線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1029,
+        "name": "高棚南刈谷線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1030,
+        "name": "60771400-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1031,
+        "name": "豊橋新本町線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1032,
+        "name": "豊橋新本町線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1033,
+        "name": "石堂山分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1034,
+        "name": "南豊田挙母線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1035,
+        "name": "南豊田挙母線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1036,
+        "name": "南豊田挙母線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1037,
+        "name": "南豊田挙母線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1038,
+        "name": "南豊田挙母線-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1039,
+        "name": "南豊田挙母線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1040,
+        "name": "南豊田挙母線-7",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1041,
+        "name": "60771700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1042,
+        "name": "60771800-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1043,
+        "name": "60771800-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1044,
+        "name": "60771900-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1045,
+        "name": "南豊田高岡線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1046,
+        "name": "南豊田高岡線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1047,
+        "name": "南豊田高岡線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1048,
+        "name": "南豊田高岡線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1049,
+        "name": "南豊田高岡線-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1050,
+        "name": "60772100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1051,
+        "name": "60772200-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1052,
+        "name": "60772500-0",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 1053,
+        "name": "60772600-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1054,
+        "name": "60772600-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1055,
+        "name": "鴨田分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1056,
+        "name": "高師分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1057,
+        "name": "高師分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1058,
+        "name": "60773100-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1059,
+        "name": "60773100-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1060,
+        "name": "北刈谷依佐美線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1061,
+        "name": "北刈谷依佐美線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1062,
+        "name": "北刈谷依佐美線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1063,
+        "name": "北刈谷依佐美線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1064,
+        "name": "北刈谷依佐美線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1065,
+        "name": "北刈谷南桜線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1066,
+        "name": "60773600-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1067,
+        "name": "60773700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1068,
+        "name": "60773900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1069,
+        "name": "60774000-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1070,
+        "name": "堺分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1071,
+        "name": "寺津分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1072,
+        "name": "寺津分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1073,
+        "name": "寺津分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1074,
+        "name": "寺津分岐線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1075,
+        "name": "60774510-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1076,
+        "name": "60774510-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1077,
+        "name": "60774700-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1078,
+        "name": "幸田西浦線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1079,
+        "name": "幸田西浦線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1080,
+        "name": "幸田西浦線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1081,
+        "name": "幸田西浦線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1082,
+        "name": "幸田西浦線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1083,
+        "name": "幸田西浦線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1084,
+        "name": "幸田西浦線-7",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1085,
+        "name": "東田分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1086,
+        "name": "60775000-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1087,
+        "name": "西尾吉良線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1088,
+        "name": "西尾吉良線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1089,
+        "name": "西尾吉良線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1090,
+        "name": "60775110-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1091,
+        "name": "一色分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1092,
+        "name": "60775400-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1093,
+        "name": "60775400-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1094,
+        "name": "鷲塚分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1095,
+        "name": "60775600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1096,
+        "name": "羽栗豊川線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1097,
+        "name": "羽栗豊川線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1098,
+        "name": "羽栗豊川線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1099,
+        "name": "羽栗豊川線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1100,
+        "name": "羽栗豊川線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1101,
+        "name": "羽栗豊川線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1102,
+        "name": "60775710-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1103,
+        "name": "60775800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1104,
+        "name": "堤分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1105,
+        "name": "戸崎六ツ美線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1106,
+        "name": "南安城分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1107,
+        "name": "南安城分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1108,
+        "name": "南安城西尾線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1109,
+        "name": "南安城西尾線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1110,
+        "name": "60776400-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1111,
+        "name": "東豊田花沢線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1112,
+        "name": "東豊田花沢線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1113,
+        "name": "東豊田花沢線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1114,
+        "name": "60776600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1115,
+        "name": "60776800-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1116,
+        "name": "法光寺分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1117,
+        "name": "北刈谷北堤線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1118,
+        "name": "北刈谷北堤線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1119,
+        "name": "北刈谷北堤線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1120,
+        "name": "北刈谷北堤線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1121,
+        "name": "北刈谷北堤線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1122,
+        "name": "北刈谷北堤線-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1123,
+        "name": "北刈谷北堤線-7",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1124,
+        "name": "吉浜分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1125,
+        "name": "野田分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1126,
+        "name": "篠目分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1127,
+        "name": "篠目分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1128,
+        "name": "下村田口線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1129,
+        "name": "下村田口線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1130,
+        "name": "下村田口線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1131,
+        "name": "黒田分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1132,
+        "name": "下津具分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1133,
+        "name": "赤羽根分岐線",
+        "voltageKv": 77,
+        "demandMw": "201~300MW"
+      },
+      {
+        "no": 1134,
+        "name": "宮口挙母線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1135,
+        "name": "宮口挙母線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1136,
+        "name": "宮口挙母線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1137,
+        "name": "宮口挙母線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1138,
+        "name": "60777700-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1139,
+        "name": "麻生田分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1140,
+        "name": "60777900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1141,
+        "name": "浜町分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1142,
+        "name": "浜町分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1143,
+        "name": "浜町分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1144,
+        "name": "向山植田線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1145,
+        "name": "向山植田線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1146,
+        "name": "60778200-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1147,
+        "name": "60778200-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1148,
+        "name": "60778400-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1149,
+        "name": "60778500-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1150,
+        "name": "60778500-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1151,
+        "name": "60778600-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1152,
+        "name": "60778600-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1153,
+        "name": "60778700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1154,
+        "name": "60778900-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1155,
+        "name": "60779100-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1156,
+        "name": "60779100-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1157,
+        "name": "60779200-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1158,
+        "name": "下青野分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1159,
+        "name": "60779400-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1160,
+        "name": "60779500-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1161,
+        "name": "60779500-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1162,
+        "name": "60779600-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1163,
+        "name": "60779700-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1164,
+        "name": "60779700-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1165,
+        "name": "60779900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1166,
+        "name": "明海分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1167,
+        "name": "60780100-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1168,
+        "name": "赤坂分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1169,
+        "name": "60780600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1170,
+        "name": "香久礼分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1171,
+        "name": "和会分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1172,
+        "name": "中島分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1173,
+        "name": "駒新分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1174,
+        "name": "南安城依佐美線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1175,
+        "name": "南安城依佐美線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1176,
+        "name": "南安城依佐美線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1177,
+        "name": "60781410-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1178,
+        "name": "古井分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1179,
+        "name": "形原分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1180,
+        "name": "60781700-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1181,
+        "name": "60781710-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1182,
+        "name": "60781900-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1183,
+        "name": "60781900-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1184,
+        "name": "60782000-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1185,
+        "name": "天伯分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1186,
+        "name": "細川分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1187,
+        "name": "60782400-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1188,
+        "name": "60782600-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1189,
+        "name": "60782610-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1190,
+        "name": "60782700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1191,
+        "name": "馬場分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1192,
+        "name": "植田緑ケ浜線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1193,
+        "name": "植田緑ケ浜線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1194,
+        "name": "植田緑ケ浜線-3",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1195,
+        "name": "植田緑ケ浜線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1196,
+        "name": "植田緑ケ浜線-5",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1197,
+        "name": "植田緑ケ浜線-6",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1198,
+        "name": "植田緑ケ浜線-7",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1199,
+        "name": "植田緑ケ浜線-8",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1200,
+        "name": "植田緑ケ浜線-9",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1201,
+        "name": "植田緑ケ浜線-10",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1202,
+        "name": "植田緑ケ浜線-11",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1203,
+        "name": "植田緑ケ浜線-12",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1204,
+        "name": "植田緑ケ浜線-13",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1205,
+        "name": "豊島分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1206,
+        "name": "豊島分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1207,
+        "name": "60783040-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1208,
+        "name": "60783050-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1209,
+        "name": "60783060-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1210,
+        "name": "60783070-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1211,
+        "name": "60783080-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1212,
+        "name": "60783110-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1213,
+        "name": "60783110-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1214,
+        "name": "60783110-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1215,
+        "name": "60783110-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1216,
+        "name": "西広瀬飯野線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1217,
+        "name": "西広瀬飯野線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1218,
+        "name": "西広瀬飯野線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1219,
+        "name": "西広瀬飯野線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1220,
+        "name": "西広瀬飯野線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1221,
+        "name": "西広瀬飯野線-6",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1222,
+        "name": "西広瀬飯野線-7",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1223,
+        "name": "60783140-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1224,
+        "name": "60783150-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1225,
+        "name": "60783160-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1226,
+        "name": "60783180-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1227,
+        "name": "60783190-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1228,
+        "name": "60783210-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1229,
+        "name": "60783210-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1230,
+        "name": "60783230-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1231,
+        "name": "60783240-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1232,
+        "name": "清田分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1233,
+        "name": "60783600-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1234,
+        "name": "三好宮口線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1235,
+        "name": "三好宮口線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1236,
+        "name": "三好宮口線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1237,
+        "name": "三好宮口線-5",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1238,
+        "name": "三好宮口線-6",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1239,
+        "name": "60783710-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1240,
+        "name": "打越分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1241,
+        "name": "北堤三好線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1242,
+        "name": "北堤三好線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1243,
+        "name": "北堤三好線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1244,
+        "name": "北堤三好線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1245,
+        "name": "60783910-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1246,
+        "name": "白沢分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1247,
+        "name": "白沢分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1248,
+        "name": "60784010-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1249,
+        "name": "宝町分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1250,
+        "name": "宝町分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1251,
+        "name": "和会岡崎線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1252,
+        "name": "和会岡崎線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1253,
+        "name": "和会岡崎線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1254,
+        "name": "和会岡崎線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1255,
+        "name": "和会岡崎線-5",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1256,
+        "name": "60784410-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1257,
+        "name": "60784500-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1258,
+        "name": "飯村分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1259,
+        "name": "60784700-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1260,
+        "name": "60784700-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1261,
+        "name": "幡豆分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1262,
+        "name": "植田豊島線-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1263,
+        "name": "植田豊島線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1264,
+        "name": "大久保分岐線",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1265,
+        "name": "豊島福江線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1266,
+        "name": "豊島福江線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1267,
+        "name": "豊島福江線-4",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1268,
+        "name": "戸崎竜泉寺線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1269,
+        "name": "戸崎竜泉寺線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1270,
+        "name": "戸崎竜泉寺線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1271,
+        "name": "竜泉寺幸田線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1272,
+        "name": "竜泉寺幸田線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1273,
+        "name": "竜泉寺幸田線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1274,
+        "name": "竜泉寺幸田線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1275,
+        "name": "竜泉寺幸田線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1276,
+        "name": "竜泉寺幸田線-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1277,
+        "name": "60785430-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1278,
+        "name": "羽栗分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1279,
+        "name": "羽栗分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1280,
+        "name": "八帖康生線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1281,
+        "name": "細池分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1282,
+        "name": "60785900-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1283,
+        "name": "上地分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1284,
+        "name": "西町連絡線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1285,
+        "name": "西町連絡線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1286,
+        "name": "大草分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1287,
+        "name": "大草分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1288,
+        "name": "大草分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1289,
+        "name": "60786310-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1290,
+        "name": "碧南玉津浦線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1291,
+        "name": "碧南玉津浦線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1292,
+        "name": "碧南玉津浦線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1293,
+        "name": "大浜分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1294,
+        "name": "岡崎尾崎線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1295,
+        "name": "岡崎尾崎線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1296,
+        "name": "60786900-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1297,
+        "name": "牧平分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1298,
+        "name": "牧平分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1299,
+        "name": "牧平分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1300,
+        "name": "牧平分岐線-4",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1301,
+        "name": "60787200-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1302,
+        "name": "西尾幸田線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1303,
+        "name": "西尾幸田線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1304,
+        "name": "西尾幸田線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1305,
+        "name": "幸田横落線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1306,
+        "name": "幸田三谷線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1307,
+        "name": "幸田三谷線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1308,
+        "name": "日色野分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1309,
+        "name": "深溝分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1310,
+        "name": "幸田六ツ美線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1311,
+        "name": "幸田六ツ美線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1312,
+        "name": "下地分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1313,
+        "name": "60788000-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1314,
+        "name": "60788000-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1315,
+        "name": "植田明海線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1316,
+        "name": "植田明海線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1317,
+        "name": "植田明海線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1318,
+        "name": "植田明海線-4",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1319,
+        "name": "植田明海線-5",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1320,
+        "name": "植田明海線-6",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1321,
+        "name": "60788110-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1322,
+        "name": "宮口若草線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1323,
+        "name": "宮口若草線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1324,
+        "name": "60788210-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1325,
+        "name": "60788300-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1326,
+        "name": "60788400-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1327,
+        "name": "60788500-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1328,
+        "name": "60788500-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1329,
+        "name": "60788600-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1330,
+        "name": "蒲郡分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1331,
+        "name": "60788900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1332,
+        "name": "60789100-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1333,
+        "name": "二川分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1334,
+        "name": "二川分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1335,
+        "name": "60789400-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1336,
+        "name": "60789600-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1337,
+        "name": "60789700-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1338,
+        "name": "上村分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1339,
+        "name": "王ヶ崎分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1340,
+        "name": "60790000-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1341,
+        "name": "60790000-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1342,
+        "name": "60790200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1343,
+        "name": "60790500-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1344,
+        "name": "60790600-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1345,
+        "name": "碧南連絡線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1346,
+        "name": "碧南連絡線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1347,
+        "name": "吉良碧南線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1348,
+        "name": "吉良碧南線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1349,
+        "name": "吉良碧南線-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1350,
+        "name": "吉良碧南線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1351,
+        "name": "吉良碧南線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1352,
+        "name": "吉良碧南線-6",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1353,
+        "name": "60790810-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1354,
+        "name": "60790810-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1355,
+        "name": "60790820-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1356,
+        "name": "豊川玉川線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1357,
+        "name": "豊川玉川線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1358,
+        "name": "豊川玉川線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1359,
+        "name": "豊川玉川線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1360,
+        "name": "西広瀬猿投線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1361,
+        "name": "西広瀬猿投線-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1362,
+        "name": "西広瀬猿投線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1363,
+        "name": "西広瀬猿投線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1364,
+        "name": "60791400-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1365,
+        "name": "若林分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1366,
+        "name": "若林分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1367,
+        "name": "60791600-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1368,
+        "name": "依佐美地蔵山線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1369,
+        "name": "依佐美地蔵山線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1370,
+        "name": "60791710-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1371,
+        "name": "60791800-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1372,
+        "name": "60791900-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1373,
+        "name": "60791900-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1374,
+        "name": "60791910-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1375,
+        "name": "川上分岐線",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1376,
+        "name": "60792100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1377,
+        "name": "60792110-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1378,
+        "name": "60792300-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1379,
+        "name": "60792400-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1380,
+        "name": "市子分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1381,
+        "name": "60792700-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1382,
+        "name": "時瀬分岐線",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1383,
+        "name": "東豊田八帖線-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1384,
+        "name": "東豊田八帖線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1385,
+        "name": "東豊田八帖線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1386,
+        "name": "東豊田八帖線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1387,
+        "name": "東豊田八帖線-5",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1388,
+        "name": "60793000-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1389,
+        "name": "60793100-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1390,
+        "name": "60793200-1",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1391,
+        "name": "60793200-2",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1392,
+        "name": "中原分岐線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1393,
+        "name": "60793500-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1394,
+        "name": "60793700-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1395,
+        "name": "60793800-0",
+        "voltageKv": 77,
+        "demandMw": "101~200MW"
+      },
+      {
+        "no": 1396,
+        "name": "60793900-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1397,
+        "name": "60794000-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1398,
+        "name": "60794100-1",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1399,
+        "name": "60794100-2",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1400,
+        "name": "60794100-3",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1401,
+        "name": "60794110-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1402,
+        "name": "60794200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1403,
+        "name": "60794300-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1404,
+        "name": "60794400-0",
+        "voltageKv": 77,
+        "demandMw": "1001MW~"
+      },
+      {
+        "no": 1405,
+        "name": "岡町分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1406,
+        "name": "岡町分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1407,
+        "name": "岡町分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1408,
+        "name": "岡町分岐線-4",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1409,
+        "name": "60794510-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1410,
+        "name": "60794510-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1411,
+        "name": "60794520-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1412,
+        "name": "新池分岐線-1",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1413,
+        "name": "新池分岐線-2",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1414,
+        "name": "新池分岐線-3",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1415,
+        "name": "西町竹生線",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      },
+      {
+        "no": 1416,
+        "name": "60794920-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1417,
+        "name": "60794970-0",
+        "voltageKv": 77,
+        "demandMw": "301~1000MW"
+      },
+      {
+        "no": 1418,
+        "name": "60990200-0",
+        "voltageKv": 77,
+        "demandMw": "31~100MW"
+      }
+    ]
   }
 ]
