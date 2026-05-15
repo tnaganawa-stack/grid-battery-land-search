@@ -212,6 +212,11 @@ const PREF_BOUNDS: { key: string; sw: [number, number]; ne: [number, number] }[]
   { key: "山形", sw: [37.7,  139.4],  ne: [39.0,  140.6]  },
   { key: "福島", sw: [36.8,  139.4],  ne: [37.9,  141.2]  },
   { key: "新潟", sw: [36.7,  137.6],  ne: [38.6,  139.8]  },
+  // 中部
+  { key: "愛知", sw: [34.5,  136.6],  ne: [35.5,  137.8]  },
+  { key: "岐阜", sw: [35.1,  136.2],  ne: [36.5,  137.7]  },
+  { key: "三重", sw: [33.7,  135.8],  ne: [35.3,  136.9]  },
+  { key: "中部", sw: [33.7,  135.8],  ne: [36.5,  138.0]  },
 ];
 
 function getAreaBounds(area: string): [[number, number], [number, number]] | null {
@@ -219,8 +224,8 @@ function getAreaBounds(area: string): [[number, number], [number, number]] | nul
   return match ? [match.sw, match.ne] : null;
 }
 
-// 全県表示時のデフォルトバウンド（関東+東北全域）
-const ALL_BOUNDS: [[number, number], [number, number]] = [[34.5, 136.8], [41.6, 141.7]];
+// 全域表示時のデフォルトバウンド（関東+東北+中部）
+const ALL_BOUNDS: [[number, number], [number, number]] = [[33.7, 135.8], [41.6, 141.7]];
 
 // ─── ハザードマップレイヤー定義 (disaportaldata.gsi.go.jp) ────
 // 正しいURL: https://disaportaldata.gsi.go.jp/raster/{layer_id}/{z}/{x}/{y}.png

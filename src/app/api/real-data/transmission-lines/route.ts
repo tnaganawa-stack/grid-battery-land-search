@@ -27,6 +27,11 @@ const PREF_66KV_FILES = [
   "transmission_lines_66kv_shizuoka.json",
 ].map(f => path.join(DATA_DIR, f));
 
+// 中部電力（77kV〜500kV）
+const CHUBU_FILES = [
+  "transmission_lines_chubu.json",
+].map(f => path.join(DATA_DIR, f));
+
 // 東北7県（全電圧 66kV〜275kV を含む）
 const TOHOKU_FILES = [
   "transmission_lines_tohoku_aomori.json",
@@ -80,9 +85,20 @@ function buildMerged(): TransmissionLine[] {
     }
   }
 
-  const merged = [...kantoLines, ...pref66Lines, ...tohokuLines];
+  // 中部電力（77kV〜500kV）
+  const chubuLines: TransmissionLine[] = [];
+  for (const filePath of CHUBU_FILES) {
+    for (const line of loadJson(filePath)) {
+      if (!seen.has(line.id)) {
+        seen.add(line.id);
+        chubuLines.push(line);
+      }
+    }
+  }
+
+  const merged = [...kantoLines, ...pref66Lines, ...tohokuLines, ...chubuLines];
   _cached = merged;
-  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length}, 東北=${tohokuLines.length})`);
+  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length}, 東北=${tohokuLines.length}, 中部=${chubuLines.length})`);
   return merged;
 }
 
