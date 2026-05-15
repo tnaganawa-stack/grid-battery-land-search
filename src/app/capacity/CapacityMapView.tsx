@@ -10,6 +10,8 @@ import gridCapacityDemand from "@/data/grid_capacity_demand.json";
 import substationsData from "@/data/substations.json";
 import subCapData from "@/data/substation_capacity.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
+import StatusEditModal from "@/components/StatusEditModal";
+import type { StatusData, PropertyStatus } from "@/components/StatusEditModal";
 
 // Leafletデフォルトアイコン修正
 delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
@@ -509,19 +511,27 @@ export interface CapacityMapViewProps {
   fitTrigger?: number;
 }
 
-// 物件マーカーアイコン
-function createPropertyIcon(priceMen: number | null): L.DivIcon {
+// 物件マーカーアイコン（ステータスに応じて色変化）
+const STATUS_COLORS: Record<string, { bg: string; border: string }> = {
+  "未着手":    { bg: "#6366f1", border: "#fff" },
+  "事前協議中": { bg: "#d97706", border: "#fff" },
+  "接続検討中": { bg: "#2563eb", border: "#fff" },
+};
+
+function createPropertyIcon(priceMen: number | null, status?: string): L.DivIcon {
   const label = priceMen != null ? `${priceMen.toLocaleString()}万` : "物件";
+  const c = STATUS_COLORS[status ?? "未着手"] ?? STATUS_COLORS["未着手"];
   return L.divIcon({
     className: "",
     html: `<div style="
-      background:#6366f1;color:#fff;
-      border:2px solid #fff;
+      background:${c.bg};color:#fff;
+      border:2px solid ${c.border};
       border-radius:8px;
       padding:3px 7px;
       font-size:10px;font-weight:700;
       white-space:nowrap;
       box-shadow:0 2px 8px rgba(0,0,0,0.3);
+      cursor:pointer;
     ">🏠 ${label}</div>`,
     iconSize: undefined,
     iconAnchor: [0, 0],
@@ -533,10 +543,15 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [loading, setLoading]   = useState(true);
   const [addressPin, setAddressPin] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const [properties, setProperties] = useState<HomesProperty[]>([]);
+  const [statusTarget, setStatusTarget] = useState<HomesProperty | null>(null);
   const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
   const anyHazardOn = HAZARD_LAYERS.some(l => hazardVisibility[l.id]);
+
+  function handleStatusSave(id: string, data: StatusData) {
+    setProperties(prev => prev.map(p => p.id === id ? { ...p, ...data } : p));
+  }
 
   useEffect(() => {
     fetch('/api/homes-properties')
@@ -842,8 +857,9 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           <Marker
             key={p.id}
             position={[p.lat, p.lng]}
-            icon={createPropertyIcon(p.priceMen)}
+            icon={createPropertyIcon(p.priceMen, p.status)}
             zIndexOffset={4000}
+            eventHandlers={{ click: () => setStatusTarget(p) }}
           >
             <Tooltip permanent={false} direction="top" opacity={0.97}>
               <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 200 }}>
@@ -887,6 +903,18 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           </Marker>
         ))}
       </MapContainer>
+
+      {/* 物件ステータス編集モーダル */}
+      {statusTarget && (
+        <StatusEditModal
+          propertyId={statusTarget.id}
+          address={statusTarget.address}
+          initialStatus={(statusTarget.status ?? "未着手") as PropertyStatus}
+          initialComment={statusTarget.comment ?? ""}
+          onSave={handleStatusSave}
+          onClose={() => setStatusTarget(null)}
+        />
+      )}
 
       {/* 凡例パネル */}
       <div style={{

@@ -2,8 +2,12 @@
 
 import { useState, useEffect } from "react";
 import { X, Download, Trash2, Plus, MapPin } from "lucide-react";
+import StatusEditModal, { STATUS_OPTIONS } from "@/components/StatusEditModal";
+import type { StatusData } from "@/components/StatusEditModal";
 
 export const HOMES_STORAGE_KEY = "homes_properties_v1";
+
+export type PropertyStatus = "未着手" | "事前協議中" | "接続検討中";
 
 export interface HomesProperty {
   id: string;
@@ -20,12 +24,14 @@ export interface HomesProperty {
   nearestSubDistM: number;
   nearestSubKv: number;
   nearestSubCapMw: number | null;
+  status?: PropertyStatus;
+  comment?: string;
 }
 
 // ─── CSV エクスポート ─────────────────────────────────────────
 function exportCSV(props: HomesProperty[]) {
   const BOM = "﻿";
-  const headers = ["住所", "土地面積(m²)", "価格(万円)", "最寄送電線", "電圧(kV)", "最短距離(m)", "空き容量(MW)"];
+  const headers = ["住所", "土地面積(m²)", "価格(万円)", "最寄送電線", "電圧(kV)", "最短距離(m)", "空き容量(MW)", "ステータス", "対応詳細"];
   const rows = props.map(p => [
     p.address,
     p.areaSqm ?? "",
@@ -34,6 +40,8 @@ function exportCSV(props: HomesProperty[]) {
     p.nearestLineKv || "",
     p.nearestDistM > 0 ? Math.round(p.nearestDistM) : "",
     p.nearestCapMw ?? "",
+    p.status ?? "未着手",
+    p.comment ?? "",
   ]);
   const csv = [headers, ...rows]
     .map(row => row.map(c => `"${String(c).replace(/"/g, '""')}"`).join(","))
@@ -150,6 +158,7 @@ function AddForm({ onAdd }: { onAdd: (p: HomesProperty) => void }) {
 export default function PropertyListModal({ onClose }: { onClose: () => void }) {
   const [properties, setProperties] = useState<HomesProperty[]>([]);
   const [showAdd, setShowAdd] = useState(false);
+  const [statusTarget, setStatusTarget] = useState<HomesProperty | null>(null);
 
   useEffect(() => {
     fetch('/api/homes-properties')
@@ -175,6 +184,10 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
       body: JSON.stringify({ id }),
     }).catch(() => {});
     setProperties(prev => prev.filter(p => p.id !== id));
+  }
+
+  function handleStatusSave(id: string, data: StatusData) {
+    setProperties(prev => prev.map(p => p.id === id ? { ...p, ...data } : p));
   }
 
   async function handleRemoveAll() {
@@ -261,7 +274,7 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
             <table className="w-full text-[11px] border-collapse">
               <thead className="sticky top-0 bg-slate-50 z-10">
                 <tr>
-                  {["住所", "土地面積", "価格", "最寄送電線", "電圧(線)", "送電線距離", "空き容量(線)", "最寄変電所", "電圧(変)", "変電所距離", "空き容量(変)", ""].map(h => (
+                  {["ステータス", "住所", "土地面積", "価格", "最寄送電線", "電圧(線)", "送電線距離", "空き容量(線)", "最寄変電所", "電圧(変)", "変電所距離", "空き容量(変)", ""].map(h => (
                     <th key={h} className="text-left px-3 py-2.5 text-[10px] font-semibold text-slate-700 border-b border-slate-200 whitespace-nowrap">
                       {h}
                     </th>
@@ -269,8 +282,28 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
                 </tr>
               </thead>
               <tbody>
-                {properties.map((p, i) => (
+                {properties.map((p, i) => {
+                  const opt = STATUS_OPTIONS.find(o => o.value === (p.status ?? "未着手")) ?? STATUS_OPTIONS[0];
+                  return (
                   <tr key={p.id} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/60"}>
+                    {/* ステータスバッジ */}
+                    <td className="px-3 py-2.5">
+                      <button
+                        onClick={() => setStatusTarget(p)}
+                        className="flex flex-col items-start gap-0.5 group"
+                        title={p.comment || "クリックでステータス編集"}
+                      >
+                        <span
+                          className="px-2 py-0.5 rounded-full text-[10px] font-bold whitespace-nowrap group-hover:opacity-80 transition-opacity"
+                          style={{ background: opt.bg, color: opt.color, border: `1px solid ${opt.border}` }}
+                        >
+                          {p.status ?? "未着手"}
+                        </span>
+                        {p.comment && (
+                          <span className="text-[9px] text-slate-400 max-w-[90px] truncate">{p.comment}</span>
+                        )}
+                      </button>
+                    </td>
                     <td className="px-3 py-2.5 text-slate-900 max-w-[220px]">
                       <span title={p.address}>{p.address.length > 28 ? p.address.slice(0, 28) + "…" : p.address}</span>
                     </td>
@@ -326,7 +359,8 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
                       </button>
                     </td>
                   </tr>
-                ))}
+                  );
+                })}
               </tbody>
             </table>
           )}
@@ -339,6 +373,18 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
           </div>
         )}
       </div>
+
+      {/* ステータス編集モーダル */}
+      {statusTarget && (
+        <StatusEditModal
+          propertyId={statusTarget.id}
+          address={statusTarget.address}
+          initialStatus={statusTarget.status ?? "未着手"}
+          initialComment={statusTarget.comment ?? ""}
+          onSave={handleStatusSave}
+          onClose={() => setStatusTarget(null)}
+        />
+      )}
     </div>
   );
 }
