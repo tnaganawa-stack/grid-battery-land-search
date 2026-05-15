@@ -281,6 +281,13 @@ const FORWARD_FLOW_BOUNDS: [[number, number], [number, number]] = [
   [37.45, 141.25],
 ];
 
+// 中部電力ウェルカムゾーンマップ（順潮流）のジオリファレンス範囲
+// 送電線データ緯度33.97-36.99°N、経度136.08-138.64°Eに基づく
+const CHUBU_WELCOME_BOUNDS: [[number, number], [number, number]] = [
+  [33.5, 135.8],
+  [37.3, 139.1],
+];
+
 // ─── 県フォーカスコントローラー ──────────────────────────────
 function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: number }) {
   const map = useMap();
@@ -541,6 +548,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [properties, setProperties] = useState<HomesProperty[]>([]);
   const [show66kv, setShow66kv]   = useState(false);
   const [show154kv, setShow154kv] = useState(false);
+  const [showChubuWelcome, setShowChubuWelcome] = useState(false);
   const [forwardFlowOpacity, setForwardFlowOpacity] = useState(0.65);
   const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
@@ -665,7 +673,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         style={{
           position: "absolute", top: 10, right: 12, zIndex: 1000,
           background: "rgba(255,255,255,0.97)",
-          border: (show66kv || show154kv) ? "1.5px solid #0ea5e9" : "1.5px solid #cbd5e1",
+          border: (show66kv || show154kv || showChubuWelcome) ? "1.5px solid #0ea5e9" : "1.5px solid #cbd5e1",
           borderRadius: 10,
           padding: "8px 12px",
           boxShadow: "0 3px 12px rgba(0,0,0,0.18)",
@@ -678,12 +686,13 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
 
         {/* 電圧クラス選択 */}
         {([
-          { label: "66kV", state: show66kv, set: setShow66kv },
-          { label: "154kV", state: show154kv, set: setShow154kv },
-        ] as const).map(({ label, state, set }) => (
+          { label: "66kV（関東）", state: show66kv, set: setShow66kv },
+          { label: "154kV（関東）", state: show154kv, set: setShow154kv },
+          { label: "中部ウェルカムゾーン", state: showChubuWelcome, set: setShowChubuWelcome },
+        ] as { label: string; state: boolean; set: (v: boolean) => void }[]).map(({ label, state, set }) => (
           <button
             key={label}
-            onClick={() => set(v => !v)}
+            onClick={() => set(!state)}
             style={{
               width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between",
               background: state ? "#f0f9ff" : "none",
@@ -704,7 +713,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         ))}
 
         {/* 透明度・凡例（いずれかON時に表示） */}
-        {(show66kv || show154kv) && (
+        {(show66kv || show154kv || showChubuWelcome) && (
           <div style={{ marginTop: 6, borderTop: "1px solid #f1f5f9", paddingTop: 8 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 8 }}>
               <span style={{ fontSize: 10, color: "#64748b", whiteSpace: "nowrap" }}>透明度</span>
@@ -735,6 +744,26 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
             <p style={{ fontSize: 9, color: "#9ca3af", marginTop: 6 }}>
               ※ 東京電力PG 順潮流マップ参照
             </p>
+            {showChubuWelcome && (
+              <div style={{ marginTop: 6, borderTop: "1px solid #f1f5f9", paddingTop: 6 }}>
+                <p style={{ fontSize: 9, color: "#9ca3af", marginBottom: 4 }}>中部ウェルカムゾーン 供給余力</p>
+                {[
+                  { color: "#4ade80", label: "1,001MW〜" },
+                  { color: "#86efac", label: "301〜1,000MW" },
+                  { color: "#bbf7d0", label: "201〜300MW" },
+                  { color: "#bfdbfe", label: "101〜200MW" },
+                  { color: "#fde68a", label: "31〜100MW" },
+                ].map(({ color, label }) => (
+                  <div key={label} style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <div style={{ width: 24, height: 5, background: color, borderRadius: 2, flexShrink: 0 }} />
+                    <span style={{ fontSize: 10, color: "#374151" }}>{label}</span>
+                  </div>
+                ))}
+                <p style={{ fontSize: 9, color: "#9ca3af", marginTop: 4 }}>
+                  ※ 中部電力PG ウェルカムゾーンマップ（2025年8月25日時点）
+                </p>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -835,6 +864,15 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           <ImageOverlay
             url="/forward-flow-154kv.png"
             bounds={FORWARD_FLOW_BOUNDS}
+            opacity={forwardFlowOpacity}
+          />
+        )}
+
+        {/* 中部電力ウェルカムゾーンマップ（順潮流） */}
+        {showChubuWelcome && (
+          <ImageOverlay
+            url="/chubu_welcome_zone.png"
+            bounds={CHUBU_WELCOME_BOUNDS}
             opacity={forwardFlowOpacity}
           />
         )}
