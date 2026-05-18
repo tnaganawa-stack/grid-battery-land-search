@@ -2,7 +2,7 @@
 
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState, useMemo, useRef } from "react";
-import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, CircleMarker, useMap } from "react-leaflet";
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import type { GeoJsonObject } from "geojson";
@@ -11,6 +11,7 @@ import gridCapacityDemand from "@/data/grid_capacity_demand.json";
 import substationsData from "@/data/substations.json";
 import subCapData from "@/data/substation_capacity.json";
 import kansaiUpperAreas from "@/data/kansai_upper_areas.json";
+import dist6kvRaw from "@/data/distribution_6kv_geocoded.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
 import StatusEditModal from "@/components/StatusEditModal";
 import type { StatusData, PropertyStatus, PropertyType } from "@/components/StatusEditModal";
@@ -513,6 +514,25 @@ export interface CapacityMapViewProps {
   fitTrigger?: number;
 }
 
+// ─── 6.6kV 配電用変電所データ ─────────────────────────────────
+type Dist6kVSubstation = {
+  name: string;
+  prefecture: string;
+  primaryKv: number;
+  secondaryKv: number;
+  availableMw: number;
+  source: string;
+  lat: number;
+  lng: number;
+};
+const dist6kvData = dist6kvRaw as Dist6kVSubstation[];
+
+function dist6kvColor(mw: number): string {
+  if (mw >= 20) return "#16a34a";
+  if (mw >= 10) return "#ca8a04";
+  return "#f97316";
+}
+
 // 物件マーカーアイコン（ステータス×種別で色・アイコン変化）
 const STATUS_MARKER_COLORS: Record<string, string> = {
   "未着手": "#6366f1",
@@ -558,6 +578,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [statusTarget, setStatusTarget] = useState<HomesProperty | null>(null);
   const [statusFilter, setStatusFilter] = useState<Set<string>>(new Set(["未着手", "進捗中", "失注"]));
   const [typeFilter, setTypeFilter]     = useState<Set<string>>(new Set(["高圧", "低圧"]));
+  const [show6kV, setShow6kV]           = useState(false);
   const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
@@ -781,6 +802,27 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           <p style={{ fontSize: 9, color: "#94a3b8" }}>
             表示: {filteredProperties.length} / {properties.length} 件
           </p>
+
+          {/* 6.6kV 配電用変電所トグル */}
+          <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 6, marginTop: 2 }}>
+            <button
+              onClick={() => setShow6kV(v => !v)}
+              style={{
+                padding: "3px 10px",
+                borderRadius: 12,
+                fontSize: 10,
+                fontWeight: 700,
+                border: `1.5px solid ${show6kV ? "#16a34a" : "#e2e8f0"}`,
+                color: show6kV ? "#16a34a" : "#94a3b8",
+                background: show6kV ? "#f0fdf4" : "white",
+                cursor: "pointer",
+                transition: "all 0.15s",
+                width: "100%",
+              }}
+            >
+              {show6kV ? "▼ " : "▶ "}6.6kV変電所（{dist6kvData.length}件）
+            </button>
+          </div>
         </div>
       )}
 
@@ -989,6 +1031,43 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           }}
         />
 
+        {/* 6.6kV 配電用変電所マーカー */}
+        {show6kV && dist6kvData.map((sub, i) => {
+          const color = dist6kvColor(sub.availableMw);
+          return (
+            <CircleMarker
+              key={`6kv-${i}`}
+              center={[sub.lat, sub.lng]}
+              radius={5}
+              pathOptions={{
+                fillColor: color,
+                fillOpacity: 0.85,
+                color: "#fff",
+                weight: 1.2,
+              }}
+            >
+              <Tooltip sticky opacity={0.97}>
+                <div style={{ fontSize: 11, lineHeight: 1.6 }}>
+                  <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 2 }}>
+                    {sub.name}変電所
+                  </p>
+                  <p style={{ color: "#374151" }}>
+                    二次電圧: <b>6.6kV</b>　一次: {sub.primaryKv}kV
+                  </p>
+                  <p style={{ color: "#374151" }}>
+                    空き容量: <b style={{ color }}>
+                      {sub.availableMw} MW
+                    </b>
+                  </p>
+                  <p style={{ color: "#6b7280", fontSize: 10 }}>
+                    {sub.prefecture}　{sub.source}
+                  </p>
+                </div>
+              </Tooltip>
+            </CircleMarker>
+          );
+        })}
+
         {/* 住所ピン（旗） */}
         {addressPin && (
           <Marker
@@ -1128,6 +1207,28 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
             </span>
           </div>
         </div>
+
+        {show6kV && (
+          <div style={{ borderTop: "1px solid #e2e8f0", paddingTop: 8, marginTop: 6 }}>
+            <p style={{ color: "#475569", fontSize: 10, fontWeight: 700, marginBottom: 5 }}>6.6kV 配電変電所</p>
+            {[
+              { color: "#16a34a", label: "20MW以上" },
+              { color: "#ca8a04", label: "10〜19MW" },
+              { color: "#f97316", label: "1〜9MW" },
+            ].map(({ color, label }) => (
+              <div key={label} style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                <div style={{
+                  width: 10, height: 10,
+                  borderRadius: "50%",
+                  background: color,
+                  border: "1.5px solid white",
+                  flexShrink: 0,
+                }} />
+                <span style={{ color: "#374151", fontSize: 9 }}>{label}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
         <p style={{ color: "#9ca3af", fontSize: 9, marginTop: 8, paddingTop: 6, borderTop: "1px solid #e2e8f0" }}>
           東京電力PG / 2026年4月時点
