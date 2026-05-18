@@ -1,6 +1,6 @@
 /**
  * GET /api/real-data/transmission-lines
- * 関東全域154kV+ (静的JSON) + 県別66kV/77kV (静的JSON×9県) + 東北7県 をマージして即時返却
+ * 関東全域154kV+ + 県別66kV/77kV + 東北7県 + 中部 + 関西7府県 をマージして即時返却
  */
 
 import { NextResponse } from "next/server";
@@ -30,6 +30,17 @@ const PREF_66KV_FILES = [
 // 中部電力（77kV〜500kV）
 const CHUBU_FILES = [
   "transmission_lines_chubu.json",
+].map(f => path.join(DATA_DIR, f));
+
+// 関西電力（66kV〜500kV、7府県）
+const KANSAI_FILES = [
+  "transmission_lines_kansai_fukui.json",
+  "transmission_lines_kansai_shiga.json",
+  "transmission_lines_kansai_kyoto.json",
+  "transmission_lines_kansai_osaka.json",
+  "transmission_lines_kansai_hyogo.json",
+  "transmission_lines_kansai_nara.json",
+  "transmission_lines_kansai_wakayama.json",
 ].map(f => path.join(DATA_DIR, f));
 
 // 東北7県（全電圧 66kV〜275kV を含む）
@@ -96,9 +107,20 @@ function buildMerged(): TransmissionLine[] {
     }
   }
 
-  const merged = [...kantoLines, ...pref66Lines, ...tohokuLines, ...chubuLines];
+  // 関西電力（66kV〜500kV）
+  const kansaiLines: TransmissionLine[] = [];
+  for (const filePath of KANSAI_FILES) {
+    for (const line of loadJson(filePath)) {
+      if (!seen.has(line.id)) {
+        seen.add(line.id);
+        kansaiLines.push(line);
+      }
+    }
+  }
+
+  const merged = [...kantoLines, ...pref66Lines, ...tohokuLines, ...chubuLines, ...kansaiLines];
   _cached = merged;
-  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length}, 東北=${tohokuLines.length}, 中部=${chubuLines.length})`);
+  console.log(`[transmission-lines] merged: ${merged.length} lines (154kV+=${kantoLines.length}, 66/77kV=${pref66Lines.length}, 東北=${tohokuLines.length}, 中部=${chubuLines.length}, 関西=${kansaiLines.length})`);
   return merged;
 }
 

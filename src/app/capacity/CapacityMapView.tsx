@@ -2,13 +2,15 @@
 
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState, useMemo, useRef } from "react";
-import { MapContainer, TileLayer, Polyline, Tooltip, Marker, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, useMap } from "react-leaflet";
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
+import type { GeoJsonObject } from "geojson";
 import gridCapacityAll from "@/data/grid_capacity_all.json";
 import gridCapacityDemand from "@/data/grid_capacity_demand.json";
 import substationsData from "@/data/substations.json";
 import subCapData from "@/data/substation_capacity.json";
+import kansaiUpperAreas from "@/data/kansai_upper_areas.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
 import StatusEditModal from "@/components/StatusEditModal";
 import type { StatusData, PropertyStatus, PropertyType } from "@/components/StatusEditModal";
@@ -962,6 +964,31 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           );
         })}
 
+        {/* 関西 上位系統増強必要地域（赤枠） */}
+        <GeoJSON
+          key="kansai-upper"
+          data={kansaiUpperAreas as GeoJsonObject}
+          style={{
+            color: "#ef4444",
+            weight: 2.5,
+            opacity: 0.9,
+            fillColor: "#ef4444",
+            fillOpacity: 0.08,
+            dashArray: "6 4",
+          }}
+          onEachFeature={(feature, layer) => {
+            if (feature.properties?.name) {
+              layer.bindTooltip(
+                `<div style="font-size:11px;font-weight:700;color:#dc2626;">
+                  ⚠ ${feature.properties.name}<br/>
+                  <span style="font-size:9px;color:#6b7280;font-weight:400;">${feature.properties.region} — 上位系統増強必要</span>
+                </div>`,
+                { sticky: true, opacity: 0.95 }
+              );
+            }
+          }}
+        />
+
         {/* 住所ピン（旗） */}
         {addressPin && (
           <Marker
@@ -1084,6 +1111,22 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
               <span style={{ color: "#6b7280" }}>{label}</span>
             </div>
           ))}
+        </div>
+
+        <div style={{ borderTop: "1px solid #e2e8f0", paddingTop: 8, marginTop: 6 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <div style={{
+              width: 26, height: 14,
+              border: "2.5px dashed #ef4444",
+              borderRadius: 3,
+              background: "rgba(239,68,68,0.08)",
+              flexShrink: 0,
+            }} />
+            <span style={{ color: "#374151", fontSize: 9, lineHeight: 1.4 }}>
+              上位系統増強必要地域<br/>
+              <span style={{ color: "#9ca3af" }}>（関西電力 2026年2月）</span>
+            </span>
+          </div>
         </div>
 
         <p style={{ color: "#9ca3af", fontSize: 9, marginTop: 8, paddingTop: 6, borderTop: "1px solid #e2e8f0" }}>
