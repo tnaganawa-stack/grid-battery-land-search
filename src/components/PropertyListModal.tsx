@@ -138,7 +138,6 @@ function AddForm({ onAdd }: { onAdd: (p: HomesProperty) => void }) {
               background: type === opt.value ? opt.bg : "white",
             }}
           >
-            <span>{opt.icon}</span>
             <span>{opt.value}</span>
           </button>
         ))}
@@ -319,7 +318,7 @@ export default function PropertyListModal({ onClose }: { onClose: () => void }) 
                         className="px-2 py-0.5 rounded-full text-[10px] font-bold"
                         style={{ background: tOpt.bg, color: tOpt.color, border: `1px solid ${tOpt.border}` }}
                       >
-                        {tOpt.icon} {p.type ?? "高圧"}
+                        {p.type ?? "高圧"}
                       </span>
                     </td>
                     {/* ステータスバッジ */}

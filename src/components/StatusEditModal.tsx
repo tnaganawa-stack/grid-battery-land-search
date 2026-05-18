@@ -28,9 +28,9 @@ export const STATUS_OPTIONS: { value: PropertyStatus; color: string; bg: string;
   { value: "失注",   color: "#dc2626", bg: "#fef2f2", border: "#fca5a5" },
 ];
 
-export const TYPE_OPTIONS: { value: PropertyType; icon: string; color: string; bg: string; border: string }[] = [
-  { value: "高圧", icon: "⚡", color: "#b45309", bg: "#fff7ed", border: "#fdba74" },
-  { value: "低圧", icon: "🏠", color: "#1d4ed8", bg: "#eff6ff", border: "#93c5fd" },
+export const TYPE_OPTIONS: { value: PropertyType; color: string; bg: string; border: string }[] = [
+  { value: "高圧", color: "#b45309", bg: "#fff7ed", border: "#fdba74" },
+  { value: "低圧", color: "#1d4ed8", bg: "#eff6ff", border: "#93c5fd" },
 ];
 
 export function statusColor(status: PropertyStatus | undefined): string {
@@ -41,8 +41,8 @@ export function statusBg(status: PropertyStatus | undefined): string {
   return STATUS_OPTIONS.find(o => o.value === status)?.bg ?? "#eef2ff";
 }
 
-export function typeIcon(type: PropertyType | undefined): string {
-  return TYPE_OPTIONS.find(o => o.value === type)?.icon ?? "🏠";
+export function typeLabel(type: PropertyType | undefined): string {
+  return type === "高圧" ? "高" : "低";
 }
 
 export default function StatusEditModal({
@@ -101,8 +101,7 @@ export default function StatusEditModal({
                   background: type === opt.value ? opt.bg : "white",
                 }}
               >
-                <span>{opt.icon}</span>
-                <span>{opt.value}</span>
+                {opt.value}
               </button>
             ))}
           </div>

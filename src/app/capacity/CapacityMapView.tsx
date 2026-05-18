@@ -519,21 +519,30 @@ const STATUS_MARKER_COLORS: Record<string, string> = {
 };
 
 function createPropertyIcon(priceMen: number | null, status?: string, type?: string): L.DivIcon {
-  const label = priceMen != null ? `${priceMen.toLocaleString()}万` : "物件";
-  const bg    = STATUS_MARKER_COLORS[status ?? "未着手"] ?? "#6366f1";
-  const icon  = type === "低圧" ? "🏠" : "⚡";
+  const label    = priceMen != null ? `${priceMen.toLocaleString()}万` : "物件";
+  const bg       = STATUS_MARKER_COLORS[status ?? "未着手"] ?? "#6366f1";
+  const typeTag  = type === "低圧" ? "低" : "高";
   return L.divIcon({
     className: "",
     html: `<div style="
       background:${bg};color:#fff;
       border:2px solid rgba(255,255,255,0.8);
       border-radius:8px;
-      padding:3px 7px;
+      padding:0;
       font-size:10px;font-weight:700;
       white-space:nowrap;
       box-shadow:0 2px 8px rgba(0,0,0,0.3);
       cursor:pointer;
-    ">${icon} ${label}</div>`,
+      display:inline-flex;align-items:stretch;overflow:hidden;
+    ">
+      <span style="
+        background:rgba(0,0,0,0.22);
+        padding:3px 5px;
+        font-size:9px;font-weight:900;
+        letter-spacing:0;
+      ">${typeTag}</span>
+      <span style="padding:3px 7px;">${label}</span>
+    </div>`,
     iconSize: undefined,
     iconAnchor: [0, 0],
   });
@@ -761,7 +770,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                     transition: "all 0.15s",
                   }}
                 >
-                  {t === "高圧" ? "⚡ 高圧" : "🏠 低圧"}
+                  {t === "高圧" ? "高圧" : "低圧"}
                 </button>
               );
             })}
