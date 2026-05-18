@@ -20,10 +20,11 @@ function rowToProperty(row: Record<string, unknown>): HomesProperty {
     nearestSubCapMw: row.nearest_sub_cap_mw as number | null,
     status: (row.status as HomesProperty['status']) ?? '未着手',
     comment: (row.comment as string) ?? '',
+    type: (row.type as HomesProperty['type']) ?? '高圧',
   }
 }
 
-// status/comment カラムがなければ追加（冪等）
+// 追加カラムがなければ追加（冪等）
 let _migrated = false
 async function ensureMigrated() {
   if (_migrated) return
@@ -31,6 +32,7 @@ async function ensureMigrated() {
     const sql = getDb()
     await sql`ALTER TABLE homes_properties ADD COLUMN IF NOT EXISTS status TEXT DEFAULT '未着手'`
     await sql`ALTER TABLE homes_properties ADD COLUMN IF NOT EXISTS comment TEXT DEFAULT ''`
+    await sql`ALTER TABLE homes_properties ADD COLUMN IF NOT EXISTS type TEXT DEFAULT '高圧'`
     _migrated = true
   } catch (e) {
     console.error('[homes-properties migrate]', e)
@@ -57,13 +59,13 @@ export async function POST(request: Request) {
     await sql`
       INSERT INTO homes_properties
         (id, address, price_men, area_sqm, lat, lng, nearest_line_name, nearest_line_kv, nearest_dist_m, nearest_cap_mw,
-         nearest_sub_name, nearest_sub_dist_m, nearest_sub_kv, nearest_sub_cap_mw, status, comment)
+         nearest_sub_name, nearest_sub_dist_m, nearest_sub_kv, nearest_sub_cap_mw, status, comment, type)
       VALUES
         (${body.id}, ${body.address}, ${body.priceMen ?? null}, ${body.areaSqm ?? null},
          ${body.lat}, ${body.lng}, ${body.nearestLineName ?? ''}, ${body.nearestLineKv ?? 0},
          ${body.nearestDistM ?? 0}, ${body.nearestCapMw ?? null},
          ${body.nearestSubName ?? ''}, ${body.nearestSubDistM ?? 0}, ${body.nearestSubKv ?? 0},
-         ${body.nearestSubCapMw ?? null}, ${body.status ?? '未着手'}, ${body.comment ?? ''})
+         ${body.nearestSubCapMw ?? null}, ${body.status ?? '未着手'}, ${body.comment ?? ''}, ${body.type ?? '高圧'})
       ON CONFLICT (id) DO NOTHING
     `
     return NextResponse.json({ ok: true })
@@ -77,12 +79,13 @@ export async function PATCH(request: Request) {
   try {
     const body = await request.json()
     const sql = getDb()
-    // ステータス更新（status/commentフィールドが含まれる場合）
-    if ('status' in body || 'comment' in body) {
+    // ステータス・種別更新（status/comment/typeフィールドが含まれる場合）
+    if ('status' in body || 'comment' in body || 'type' in body) {
       await sql`
         UPDATE homes_properties SET
           status  = ${body.status ?? '未着手'},
-          comment = ${body.comment ?? ''}
+          comment = ${body.comment ?? ''},
+          type    = ${body.type ?? '高圧'}
         WHERE id = ${body.id}
       `
     } else {

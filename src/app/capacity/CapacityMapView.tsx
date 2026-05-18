@@ -11,7 +11,7 @@ import substationsData from "@/data/substations.json";
 import subCapData from "@/data/substation_capacity.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
 import StatusEditModal from "@/components/StatusEditModal";
-import type { StatusData, PropertyStatus } from "@/components/StatusEditModal";
+import type { StatusData, PropertyStatus, PropertyType } from "@/components/StatusEditModal";
 
 // Leafletデフォルトアイコン修正
 delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
@@ -511,28 +511,29 @@ export interface CapacityMapViewProps {
   fitTrigger?: number;
 }
 
-// 物件マーカーアイコン（ステータスに応じて色変化）
-const STATUS_COLORS: Record<string, { bg: string; border: string }> = {
-  "未着手":    { bg: "#6366f1", border: "#fff" },
-  "事前協議中": { bg: "#d97706", border: "#fff" },
-  "接続検討中": { bg: "#2563eb", border: "#fff" },
+// 物件マーカーアイコン（ステータス×種別で色・アイコン変化）
+const STATUS_MARKER_COLORS: Record<string, string> = {
+  "未着手": "#6366f1",
+  "進捗中": "#ca8a04",
+  "失注":   "#dc2626",
 };
 
-function createPropertyIcon(priceMen: number | null, status?: string): L.DivIcon {
+function createPropertyIcon(priceMen: number | null, status?: string, type?: string): L.DivIcon {
   const label = priceMen != null ? `${priceMen.toLocaleString()}万` : "物件";
-  const c = STATUS_COLORS[status ?? "未着手"] ?? STATUS_COLORS["未着手"];
+  const bg    = STATUS_MARKER_COLORS[status ?? "未着手"] ?? "#6366f1";
+  const icon  = type === "低圧" ? "🏠" : "⚡";
   return L.divIcon({
     className: "",
     html: `<div style="
-      background:${c.bg};color:#fff;
-      border:2px solid ${c.border};
+      background:${bg};color:#fff;
+      border:2px solid rgba(255,255,255,0.8);
       border-radius:8px;
       padding:3px 7px;
       font-size:10px;font-weight:700;
       white-space:nowrap;
       box-shadow:0 2px 8px rgba(0,0,0,0.3);
       cursor:pointer;
-    ">🏠 ${label}</div>`,
+    ">${icon} ${label}</div>`,
     iconSize: undefined,
     iconAnchor: [0, 0],
   });
@@ -544,6 +545,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [addressPin, setAddressPin] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const [properties, setProperties] = useState<HomesProperty[]>([]);
   const [statusTarget, setStatusTarget] = useState<HomesProperty | null>(null);
+  const [statusFilter, setStatusFilter] = useState<Set<string>>(new Set(["未着手", "進捗中", "失注"]));
+  const [typeFilter, setTypeFilter]     = useState<Set<string>>(new Set(["高圧", "低圧"]));
   const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
@@ -635,6 +638,15 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       });
   }, [lines, capByLineId, properties]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // 物件フィルター適用
+  const filteredProperties = useMemo(() =>
+    properties.filter(p =>
+      statusFilter.has(p.status ?? "未着手") &&
+      typeFilter.has(p.type ?? "高圧")
+    ),
+    [properties, statusFilter, typeFilter]
+  );
+
   // 66kV以上 かつ 空き容量あり（> 0 MW）の線のみ描画
   const matchedLines = useMemo(() => {
     const result = lines.filter(line => {
@@ -662,6 +674,104 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
     <div className="relative w-full h-full">
       {/* 住所検索オーバーレイ（印刷時は非表示） */}
       <AddressSearchOverlay onSelect={setAddressPin} />
+
+      {/* 物件フィルターパネル */}
+      {properties.length > 0 && (
+        <div
+          className="no-print"
+          style={{
+            position: "absolute", top: 10, left: 300, zIndex: 1000,
+            background: "rgba(255,255,255,0.97)",
+            border: "1.5px solid #cbd5e1",
+            borderRadius: 10,
+            padding: "8px 12px",
+            boxShadow: "0 3px 12px rgba(0,0,0,0.18)",
+            minWidth: 210,
+            display: "flex",
+            flexDirection: "column",
+            gap: 6,
+          }}
+        >
+          <p style={{ fontSize: 10, fontWeight: 700, color: "#475569", marginBottom: 2 }}>物件フィルター</p>
+
+          {/* ステータス */}
+          <div style={{ display: "flex", alignItems: "center", gap: 5, flexWrap: "wrap" }}>
+            <span style={{ fontSize: 9, color: "#94a3b8", minWidth: 36 }}>ステータス</span>
+            {(["未着手", "進捗中", "失注"] as const).map(s => {
+              const colors: Record<string, { color: string; bg: string; border: string }> = {
+                "未着手": { color: "#6366f1", bg: "#eef2ff", border: "#a5b4fc" },
+                "進捗中": { color: "#b45309", bg: "#fef9c3", border: "#fde047" },
+                "失注":   { color: "#dc2626", bg: "#fef2f2", border: "#fca5a5" },
+              };
+              const c = colors[s];
+              const active = statusFilter.has(s);
+              return (
+                <button
+                  key={s}
+                  onClick={() => setStatusFilter(prev => {
+                    const next = new Set(prev);
+                    active ? next.delete(s) : next.add(s);
+                    return next;
+                  })}
+                  style={{
+                    padding: "2px 8px",
+                    borderRadius: 12,
+                    fontSize: 10,
+                    fontWeight: 700,
+                    border: `1.5px solid ${active ? c.border : "#e2e8f0"}`,
+                    color: active ? c.color : "#94a3b8",
+                    background: active ? c.bg : "white",
+                    cursor: "pointer",
+                    transition: "all 0.15s",
+                  }}
+                >
+                  {s}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* 種別 */}
+          <div style={{ display: "flex", alignItems: "center", gap: 5 }}>
+            <span style={{ fontSize: 9, color: "#94a3b8", minWidth: 36 }}>種別</span>
+            {(["高圧", "低圧"] as const).map(t => {
+              const colors: Record<string, { color: string; bg: string; border: string }> = {
+                "高圧": { color: "#b45309", bg: "#fff7ed", border: "#fdba74" },
+                "低圧": { color: "#1d4ed8", bg: "#eff6ff", border: "#93c5fd" },
+              };
+              const c = colors[t];
+              const active = typeFilter.has(t);
+              return (
+                <button
+                  key={t}
+                  onClick={() => setTypeFilter(prev => {
+                    const next = new Set(prev);
+                    active ? next.delete(t) : next.add(t);
+                    return next;
+                  })}
+                  style={{
+                    padding: "2px 8px",
+                    borderRadius: 12,
+                    fontSize: 10,
+                    fontWeight: 700,
+                    border: `1.5px solid ${active ? c.border : "#e2e8f0"}`,
+                    color: active ? c.color : "#94a3b8",
+                    background: active ? c.bg : "white",
+                    cursor: "pointer",
+                    transition: "all 0.15s",
+                  }}
+                >
+                  {t === "高圧" ? "⚡ 高圧" : "🏠 低圧"}
+                </button>
+              );
+            })}
+          </div>
+
+          <p style={{ fontSize: 9, color: "#94a3b8" }}>
+            表示: {filteredProperties.length} / {properties.length} 件
+          </p>
+        </div>
+      )}
 
 
 
@@ -852,12 +962,12 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           />
         )}
 
-        {/* 物件マーカー */}
-        {properties.map(p => (
+        {/* 物件マーカー（フィルター適用済み） */}
+        {filteredProperties.map(p => (
           <Marker
             key={p.id}
             position={[p.lat, p.lng]}
-            icon={createPropertyIcon(p.priceMen, p.status)}
+            icon={createPropertyIcon(p.priceMen, p.status, p.type)}
             zIndexOffset={4000}
             eventHandlers={{ click: () => setStatusTarget(p) }}
           >
@@ -911,6 +1021,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           address={statusTarget.address}
           initialStatus={(statusTarget.status ?? "未着手") as PropertyStatus}
           initialComment={statusTarget.comment ?? ""}
+          initialType={(statusTarget.type ?? "高圧") as PropertyType}
           onSave={handleStatusSave}
           onClose={() => setStatusTarget(null)}
         />
