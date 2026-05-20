@@ -582,36 +582,56 @@ function createPropertyIcon(id: string, priceMen: number | null, status?: string
   });
 }
 
-// pan/zoom では一切再レンダリングしない静的レイヤー
+// ─── 送電線描画用静的データ（ビルド済みJSON・モジュールキャッシュ） ────────
+interface MatchedLine {
+  id: string;
+  name: string | null;
+  kv: number;
+  ug: number;           // 1=地中埋設, 0=架空線
+  path: [number, number][]; // [[lat, lng], ...]
+  mw: number;
+  dm: string | null;
+}
+let _mlCache: MatchedLine[] | null = null;
+let _mlPromise: Promise<MatchedLine[]> | null = null;
+function fetchMatchedLines(): Promise<MatchedLine[]> {
+  if (_mlCache) return Promise.resolve(_mlCache);
+  if (!_mlPromise) {
+    _mlPromise = fetch("/data/matched_lines.json")
+      .then(r => r.json() as Promise<MatchedLine[]>)
+      .then(d => { _mlCache = d; return d; });
+  }
+  return _mlPromise;
+}
+
+// pan/zoom では一切再レンダリングしない静的送電線レイヤー
+// matchedLines が変わらない限り React.memo が bail-out する
 const PolylineLayers = React.memo(function PolylineLayers({
-  matchedLines,
-  capByLineId,
+  lines,
 }: {
-  matchedLines: TransmissionLine[];
-  capByLineId: Map<string, number | null | undefined>;
+  lines: MatchedLine[];
 }) {
+  if (!lines.length) return null;
   return (
     <>
-      {matchedLines.map(line => (
+      {lines.map(line => (
         <Polyline
           key={`casing-${line.id}`}
-          positions={line.path.map(p => [p.lat, p.lng])}
+          positions={line.path}
           color="white"
-          weight={casingWeight(line.voltageKv)}
+          weight={casingWeight(line.kv)}
           opacity={0.85}
           interactive={false}
         />
       ))}
-      {matchedLines.map(line => {
-        const cap       = capByLineId.get(line.id);
-        const demandCap = line.name ? lookupDemandCap(line.name) : undefined;
-        const color     = lineColor(cap);
+      {lines.map(line => {
+        const color = lineColor(line.mw);
         return (
           <Polyline
             key={`line-${line.id}`}
-            positions={line.path.map(p => [p.lat, p.lng])}
+            positions={line.path}
             color={color}
-            weight={lineWeight(line.voltageKv)}
+            weight={lineWeight(line.kv)}
             opacity={0.95}
           >
             <Tooltip sticky opacity={0.97} direction="top">
@@ -620,47 +640,41 @@ const PolylineLayers = React.memo(function PolylineLayers({
                   {line.name || "送電線"}
                 </p>
                 <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
-                  <span style={{ color: "#475569" }}>{line.voltageKv} kV</span>
+                  <span style={{ color: "#475569" }}>{line.kv} kV</span>
                   <span style={{
                     fontSize: 9, fontWeight: 700,
-                    background: line.location === "underground" ? "#e0f2fe" : "#f0fdf4",
-                    color:      line.location === "underground" ? "#0369a1" : "#166534",
+                    background: line.ug ? "#e0f2fe" : "#f0fdf4",
+                    color:      line.ug ? "#0369a1" : "#166534",
                     borderRadius: 4, padding: "1px 5px",
                   }}>
-                    {line.location === "underground" ? "地中埋設" : "架空線"}
+                    {line.ug ? "地中埋設" : "架空線"}
                   </span>
                 </div>
                 <div style={{ marginBottom: 4 }}>
                   <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>逆潮流（発電設備向け）</p>
-                  <p style={{
-                    color: cap == null ? "#475569"
-                      : cap === 0 ? "#ef4444"
-                      : cap < 50 ? "#f97316"
-                      : cap < 200 ? "#d97706"
-                      : "#16a34a",
-                    fontWeight: 700, fontSize: 13,
-                  }}>
-                    {cap == null ? "データなし" : `${cap} MW`}
+                  <p style={{ color, fontWeight: 700, fontSize: 13 }}>
+                    {line.mw} MW
                   </p>
                 </div>
-                <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
-                  <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
-                  <p style={{
-                    color: !demandCap ? "#94a3b8"
-                      : demandCap === "~50MW"      ? "#f97316"
-                      : demandCap === "50~75MW"    ? "#eab308"
-                      : demandCap === "75~100MW"   ? "#22d3ee"
-                      : demandCap === "31~100MW"   ? "#d97706"
-                      : demandCap === "101~200MW"  ? "#60a5fa"
-                      : demandCap === "201~300MW"  ? "#4ade80"
-                      : demandCap === "301~1000MW" ? "#22c55e"
-                      : demandCap === "1001MW~"    ? "#15803d"
-                      : "#60a5fa",
-                    fontWeight: 700, fontSize: 13,
-                  }}>
-                    {demandCap ?? "—"}
-                  </p>
-                </div>
+                {line.dm && (
+                  <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
+                    <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
+                    <p style={{
+                      color: line.dm === "~50MW"      ? "#f97316"
+                           : line.dm === "50~75MW"    ? "#eab308"
+                           : line.dm === "75~100MW"   ? "#22d3ee"
+                           : line.dm === "31~100MW"   ? "#d97706"
+                           : line.dm === "101~200MW"  ? "#60a5fa"
+                           : line.dm === "201~300MW"  ? "#4ade80"
+                           : line.dm === "301~1000MW" ? "#22c55e"
+                           : line.dm === "1001MW~"    ? "#15803d"
+                           : "#60a5fa",
+                      fontWeight: 700, fontSize: 13,
+                    }}>
+                      {line.dm}
+                    </p>
+                  </div>
+                )}
               </div>
             </Tooltip>
           </Polyline>
@@ -671,8 +685,8 @@ const PolylineLayers = React.memo(function PolylineLayers({
 });
 
 export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMapViewProps) {
-  const [lines, setLines]       = useState<TransmissionLine[]>([]);
-  const [loading, setLoading]   = useState(true);
+  const [lines, setLines]         = useState<TransmissionLine[]>([]);
+  const [matchedLines, setMatchedLines] = useState<MatchedLine[]>(_mlCache ?? []);
   const [addressPin, setAddressPin] = useState<{ lat: number; lng: number; label: string } | null>(null);
   const [properties, setProperties] = useState<HomesProperty[]>([]);
   const [statusTarget, setStatusTarget] = useState<HomesProperty | null>(null);
@@ -718,16 +732,18 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       .catch(() => {});
   }, []);
 
+  // 送電線の全データ（物件の nearestLine 計算用）
   useEffect(() => {
     fetch("/api/real-data/transmission-lines", { cache: "no-store" })
       .then(r => r.json())
-      .then((data: TransmissionLine[]) => {
-        const kv66 = data.filter(l => l.voltageKv === 66).length;
-        console.log(`[CapacityMap] 取得: ${data.length}件 (66kV: ${kv66}件)`);
-        setLines(data);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
+      .then((data: TransmissionLine[]) => setLines(data))
+      .catch(() => {});
+  }, []);
+
+  // 描画用送電線（ビルド済み静的JSON・一回のみ取得）
+  useEffect(() => {
+    if (_mlCache) { setMatchedLines(_mlCache); return; }
+    fetchMatchedLines().then(setMatchedLines).catch(() => {});
   }, []);
 
   const capByLineId = useMemo(() => {
@@ -817,28 +833,6 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       sub.lng <= e && sub.lng >= w
     );
   }, [show6kV, mapBounds]);
-
-  // 66kV以上 かつ 空き容量あり（> 0 MW）の線のみ描画
-  const matchedLines = useMemo(() => {
-    const result = lines.filter(line => {
-      if (line.voltageKv < 66) return false;
-      const cap = capByLineId.get(line.id);
-      return typeof cap === "number" && cap > 0;
-    });
-    return result;
-  }, [lines, capByLineId]);
-
-  if (loading) {
-    return (
-      <div className="w-full h-full flex items-center justify-center bg-slate-100">
-        <div className="text-center">
-          <div className="w-10 h-10 border-2 border-amber-500/60 border-t-amber-500 rounded-full animate-spin mx-auto mb-3" />
-          <p className="text-[12px] text-slate-500">送電線データ取得中...</p>
-          <p className="text-[10px] text-slate-400 mt-1">初回は数秒かかります</p>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="relative w-full h-full">
@@ -1061,8 +1055,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         ))}
 
 
-        {/* 送電線レイヤー（pan/zoomで再レンダリングしない） */}
-        <PolylineLayers matchedLines={matchedLines} capByLineId={capByLineId} />
+        {/* 送電線レイヤー（静的JSONから描画、pan/zoomで再レンダリングしない） */}
+        <PolylineLayers lines={matchedLines} />
 
         {/* 関西 上位系統増強必要地域（赤枠） */}
         <GeoJSON
