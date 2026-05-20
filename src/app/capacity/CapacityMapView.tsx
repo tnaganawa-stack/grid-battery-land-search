@@ -267,34 +267,6 @@ const HAZARD_LAYERS = [
 ] as const;
 
 
-// ─── 物件マーカークリックインターセプター ────────────────────
-// react-leaflet の eventHandlers は再レンダー後にリスナー差し替えが失敗するため、
-// マップコンテナのキャプチャフェーズで直接拾う方式を採用
-function PropertyClickInterceptor({
-  propertiesRef,
-  setStatusTarget,
-}: {
-  propertiesRef: React.MutableRefObject<HomesProperty[]>;
-  setStatusTarget: React.Dispatch<React.SetStateAction<HomesProperty | null>>;
-}) {
-  const map = useMap();
-  useEffect(() => {
-    const container = map.getContainer();
-    const handler = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      const markerDiv = target.closest("[data-prop-id]") as HTMLElement | null;
-      if (!markerDiv) return;
-      const id = markerDiv.getAttribute("data-prop-id");
-      if (!id) return;
-      const prop = propertiesRef.current.find(p => p.id === id);
-      if (prop) setStatusTarget(prop);
-    };
-    container.addEventListener("click", handler, true); // キャプチャフェーズ
-    return () => container.removeEventListener("click", handler, true);
-  }, [map]); // map・propertiesRef・setStatusTargetはすべて安定参照 // eslint-disable-line react-hooks/exhaustive-deps
-  return null;
-}
-
 // ─── ビューポートトラッカー（6.6kVカリング用） ───────────────
 function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number; zoom: number }) => void }) {
   const updateBounds = (map: L.Map) => {
@@ -625,9 +597,27 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
   const anyHazardOn = HAZARD_LAYERS.some(l => hazardVisibility[l.id]);
 
-  // PropertyClickInterceptor が参照する最新 properties
+  // 物件マーカークリック: document capture フェーズで直接拾う
+  // react-leaflet の eventHandlers は再レンダー後にリスナー差し替えが失敗し、
+  // map.getContainer() の capture でも Leaflet 内部処理に干渉されるため、
+  // document レベルで data-prop-id を拾う方式にする
   const propertiesRef = useRef<HomesProperty[]>(properties);
   propertiesRef.current = properties;
+
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const el = target.closest("[data-prop-id]") as HTMLElement | null;
+      if (!el) return;
+      const id = el.getAttribute("data-prop-id");
+      if (!id) return;
+      e.stopPropagation(); // Leaflet にクリックを渡さない
+      const prop = propertiesRef.current.find(p => p.id === id);
+      if (prop) setStatusTarget(prop);
+    };
+    document.addEventListener("click", handler, true); // capture フェーズ
+    return () => document.removeEventListener("click", handler, true);
+  }, []); // propertiesRef・setStatusTarget は安定参照なので依存不要 // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleStatusSave(id: string, data: StatusData) {
     setProperties(prev => prev.map(p => p.id === id ? { ...p, ...data } : p));
@@ -971,7 +961,6 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         {/* 県フォーカスコントローラー */}
         <MapFlyController area={selectedArea} fitTrigger={fitTrigger} />
         <ViewportTracker onBoundsChange={setMapBounds} />
-        <PropertyClickInterceptor propertiesRef={propertiesRef} setStatusTarget={setStatusTarget} />
 
         {/* ハザードマップタイルレイヤー */}
         {HAZARD_LAYERS.map(layer => hazardVisibility[layer.id] && (
