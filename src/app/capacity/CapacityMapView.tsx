@@ -524,6 +524,7 @@ type Dist6kVSubstation = {
   source: string;
   lat: number;
   lng: number;
+  geocodeMethod?: string; // "approximate" or "default-region" = 推定位置
 };
 const dist6kvData = dist6kvRaw as Dist6kVSubstation[];
 
@@ -1034,22 +1035,29 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         {/* 6.6kV 配電用変電所マーカー */}
         {show6kV && dist6kvData.map((sub, i) => {
           const color = dist6kvColor(sub.availableMw);
+          const isApprox = sub.geocodeMethod === "approximate" || sub.geocodeMethod === "default-region";
           return (
             <CircleMarker
               key={`6kv-${i}`}
               center={[sub.lat, sub.lng]}
-              radius={5}
+              radius={isApprox ? 4 : 5}
               pathOptions={{
                 fillColor: color,
-                fillOpacity: 0.85,
-                color: "#fff",
-                weight: 1.2,
+                fillOpacity: isApprox ? 0.35 : 0.85,
+                color: isApprox ? color : "#fff",
+                weight: isApprox ? 1.5 : 1.2,
+                dashArray: isApprox ? "3 3" : undefined,
               }}
             >
               <Tooltip sticky opacity={0.97}>
                 <div style={{ fontSize: 11, lineHeight: 1.6 }}>
                   <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 2 }}>
                     {sub.name}変電所
+                    {isApprox && (
+                      <span style={{ fontWeight: 400, color: "#9ca3af", marginLeft: 4, fontSize: 10 }}>
+                        (位置推定)
+                      </span>
+                    )}
                   </p>
                   <p style={{ color: "#374151" }}>
                     二次電圧: <b>6.6kV</b>　一次: {sub.primaryKv}kV
@@ -1061,6 +1069,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
                   </p>
                   <p style={{ color: "#6b7280", fontSize: 10 }}>
                     {sub.prefecture}　{sub.source}
+                    {isApprox && " ※位置は推定"}
                   </p>
                 </div>
               </Tooltip>
