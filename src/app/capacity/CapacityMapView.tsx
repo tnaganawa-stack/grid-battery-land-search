@@ -1063,8 +1063,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
             color: "#ef4444",
             weight: 2.5,
             opacity: 0.9,
-            fillColor: "#ef4444",
-            fillOpacity: 0.08,
+            fill: false,
             dashArray: "6 4",
           }}
           onEachFeature={(feature, layer) => {
