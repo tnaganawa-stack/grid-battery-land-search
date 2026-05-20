@@ -737,9 +737,87 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       const cap = capByLineId.get(line.id);
       return typeof cap === "number" && cap > 0;
     });
-    console.log(`[CapacityMap] matchedLines: ${result.length}件 (66/77kV: ${result.filter(l => l.voltageKv < 154).length}件)`);
     return result;
   }, [lines, capByLineId]);
+
+  const polylineNodes = useMemo(() => (
+    <>
+      {matchedLines.map(line => (
+        <Polyline
+          key={`casing-${line.id}`}
+          positions={line.path.map(p => [p.lat, p.lng])}
+          color="white"
+          weight={casingWeight(line.voltageKv)}
+          opacity={0.85}
+          interactive={false}
+        />
+      ))}
+      {matchedLines.map(line => {
+        const cap       = capByLineId.get(line.id);
+        const demandCap = line.name ? lookupDemandCap(line.name) : undefined;
+        const color     = lineColor(cap);
+        return (
+          <Polyline
+            key={`line-${line.id}`}
+            positions={line.path.map(p => [p.lat, p.lng])}
+            color={color}
+            weight={lineWeight(line.voltageKv)}
+            opacity={0.95}
+          >
+            <Tooltip sticky opacity={0.97} direction="top">
+              <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 180 }}>
+                <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 3, fontSize: 12 }}>
+                  {line.name || "送電線"}
+                </p>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
+                  <span style={{ color: "#475569" }}>{line.voltageKv} kV</span>
+                  <span style={{
+                    fontSize: 9, fontWeight: 700,
+                    background: line.location === "underground" ? "#e0f2fe" : "#f0fdf4",
+                    color:      line.location === "underground" ? "#0369a1" : "#166534",
+                    borderRadius: 4, padding: "1px 5px",
+                  }}>
+                    {line.location === "underground" ? "地中埋設" : "架空線"}
+                  </span>
+                </div>
+                <div style={{ marginBottom: 4 }}>
+                  <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>逆潮流（発電設備向け）</p>
+                  <p style={{
+                    color: cap == null ? "#475569"
+                      : cap === 0 ? "#ef4444"
+                      : cap < 50 ? "#f97316"
+                      : cap < 200 ? "#d97706"
+                      : "#16a34a",
+                    fontWeight: 700, fontSize: 13,
+                  }}>
+                    {cap == null ? "データなし" : `${cap} MW`}
+                  </p>
+                </div>
+                <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
+                  <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
+                  <p style={{
+                    color: !demandCap ? "#94a3b8"
+                      : demandCap === "~50MW"      ? "#f97316"
+                      : demandCap === "50~75MW"    ? "#eab308"
+                      : demandCap === "75~100MW"   ? "#22d3ee"
+                      : demandCap === "31~100MW"   ? "#d97706"
+                      : demandCap === "101~200MW"  ? "#60a5fa"
+                      : demandCap === "201~300MW"  ? "#4ade80"
+                      : demandCap === "301~1000MW" ? "#22c55e"
+                      : demandCap === "1001MW~"    ? "#15803d"
+                      : "#60a5fa",
+                    fontWeight: 700, fontSize: 13,
+                  }}>
+                    {demandCap ?? "—"}
+                  </p>
+                </div>
+              </div>
+            </Tooltip>
+          </Polyline>
+        );
+      })}
+    </>
+  ), [matchedLines, capByLineId]);
 
   if (loading) {
     return (
@@ -974,89 +1052,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         ))}
 
 
-        {/* 系統データあり: パス1 = 白ケーシング */}
-        {matchedLines.map(line => (
-          <Polyline
-            key={`casing-${line.id}`}
-            positions={line.path.map(p => [p.lat, p.lng])}
-            color="white"
-            weight={casingWeight(line.voltageKv)}
-            opacity={0.85}
-            interactive={false}
-          />
-        ))}
-
-        {/* 系統データあり: パス2 = 容量色の本線 */}
-        {matchedLines.map(line => {
-          const cap       = capByLineId.get(line.id);
-          const demandCap = line.name ? lookupDemandCap(line.name) : undefined;
-          const color     = lineColor(cap);
-          return (
-            <Polyline
-              key={`line-${line.id}`}
-              positions={line.path.map(p => [p.lat, p.lng])}
-              color={color}
-              weight={lineWeight(line.voltageKv)}
-              opacity={0.95}
-            >
-              <Tooltip sticky opacity={0.97} direction="top">
-                <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 180 }}>
-                  <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 3, fontSize: 12 }}>
-                    {line.name || "送電線"}
-                  </p>
-                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
-                    <span style={{ color: "#475569" }}>{line.voltageKv} kV</span>
-                    <span style={{
-                      fontSize: 9, fontWeight: 700,
-                      background: line.location === "underground" ? "#e0f2fe" : "#f0fdf4",
-                      color:      line.location === "underground" ? "#0369a1" : "#166534",
-                      borderRadius: 4, padding: "1px 5px",
-                    }}>
-                      {line.location === "underground" ? "地中埋設" : "架空線"}
-                    </span>
-                  </div>
-
-                  {/* 逆潮流（発電設備向け） */}
-                  <div style={{ marginBottom: 4 }}>
-                    <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>逆潮流（発電設備向け）</p>
-                    <p style={{
-                      color: cap == null ? "#475569"
-                        : cap === 0 ? "#ef4444"
-                        : cap < 50 ? "#f97316"
-                        : cap < 200 ? "#d97706"
-                        : "#16a34a",
-                      fontWeight: 700, fontSize: 13,
-                    }}>
-                      {cap == null ? "データなし" : `${cap} MW`}
-                    </p>
-                  </div>
-
-                  {/* 順潮流（需要家向け） */}
-                  <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
-                    <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
-                    <p style={{
-                      color: !demandCap ? "#94a3b8"
-                        // 東京電力PG（旧フォーマット）
-                        : demandCap === "~50MW"     ? "#f97316"
-                        : demandCap === "50~75MW"   ? "#eab308"
-                        : demandCap === "75~100MW"  ? "#22d3ee"
-                        // 中部電力PG ウェルカムゾーン凡例準拠
-                        : demandCap === "31~100MW"  ? "#d97706"
-                        : demandCap === "101~200MW" ? "#60a5fa"
-                        : demandCap === "201~300MW" ? "#4ade80"
-                        : demandCap === "301~1000MW"? "#22c55e"
-                        : demandCap === "1001MW~"   ? "#15803d"
-                        : "#60a5fa",
-                      fontWeight: 700, fontSize: 13,
-                    }}>
-                      {demandCap ?? "—"}
-                    </p>
-                  </div>
-                </div>
-              </Tooltip>
-            </Polyline>
-          );
-        })}
+        {/* 送電線（memoized: matchedLines/capByLineId が変わるまで再描画しない） */}
+        {polylineNodes}
 
         {/* 関西 上位系統増強必要地域（赤枠） */}
         <GeoJSON
