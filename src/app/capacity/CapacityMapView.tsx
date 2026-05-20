@@ -268,7 +268,9 @@ const HAZARD_LAYERS = [
 
 
 // ─── ビューポートトラッカー（6.6kVカリング用） ───────────────
-function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number; zoom: number }) => void }) {
+// React.memo 必須: setMapBounds による親の再レンダリングで useMapEvents が
+// zoomend/moveend リスナーを削除→再登録するとタイル再読み込みが途切れるため
+const ViewportTracker = React.memo(function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number; zoom: number }) => void }) {
   const updateBounds = (map: L.Map) => {
     const b = map.getBounds();
     onBoundsChange({ n: b.getNorth(), s: b.getSouth(), e: b.getEast(), w: b.getWest(), zoom: map.getZoom() });
@@ -279,10 +281,11 @@ function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; 
   });
   useEffect(() => { updateBounds(map); }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return null;
-}
+});
 
 // ─── 県フォーカスコントローラー ──────────────────────────────
-function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: number }) {
+// React.memo: area/fitTrigger が変わらない限り再レンダリングしない
+const MapFlyController = React.memo(function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: number }) {
   const map = useMap();
 
   // 県選択変更時: アニメーションあり（ナビゲーション用）
@@ -337,7 +340,7 @@ function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: nu
   }, [map, area]);
 
   return null;
-}
+});
 
 // ─── 旗アイコン ──────────────────────────────────────────────
 function createFlagIcon(label: string): L.DivIcon {
@@ -626,93 +629,101 @@ const TransmissionLinesLayer = React.memo(function TransmissionLinesLayer({
   useEffect(() => {
     if (!lines.length) return;
 
-    const renderer = L.canvas({ padding: 0.5 });
-    const toCoords = (path: [number, number][]) => path.map(([lat, lng]) => [lng, lat]);
+    let casingLayer: L.GeoJSON | undefined;
+    let colorLayer:  L.GeoJSON | undefined;
+    let sharedTip:   L.Tooltip | undefined;
 
-    type GeoJSONOptsExt = L.GeoJSONOptions & { renderer?: L.Renderer };
+    // 初期タイル読み込みをブロックしないよう 2 秒遅延してから GeoJSON レイヤーを生成
+    const timer = setTimeout(() => {
+      const renderer = L.canvas({ padding: 0.5 });
+      const toCoords = (path: [number, number][]) => path.map(([lat, lng]) => [lng, lat]);
 
-    const casingLayer = L.geoJSON(
-      {
-        type: "FeatureCollection",
-        features: lines.map(line => ({
-          type: "Feature",
-          geometry: { type: "LineString", coordinates: toCoords(line.path) },
-          properties: { kv: line.kv },
-        })),
-      } as GeoJSON.FeatureCollection,
-      {
-        renderer,
-        interactive: false,
-        style: (f) => ({
-          color: "white",
-          weight: casingWeight(f!.properties.kv),
-          opacity: 0.85,
-          fillOpacity: 0,
-        }),
-      } as GeoJSONOptsExt
-    ).addTo(map);
+      type GeoJSONOptsExt = L.GeoJSONOptions & { renderer?: L.Renderer };
 
-    const colorLayer = L.geoJSON(
-      {
-        type: "FeatureCollection",
-        features: lines.map(line => ({
-          type: "Feature",
-          geometry: { type: "LineString", coordinates: toCoords(line.path) },
-          properties: line,
-        })),
-      } as GeoJSON.FeatureCollection,
-      ({
-        renderer,
-        style: (f) => ({
-          color: lineColor(f!.properties.mw),
-          weight: lineWeight(f!.properties.kv),
-          opacity: 0.95,
-          fillOpacity: 0,
-        }),
-      } as GeoJSONOptsExt)
-    ).addTo(map);
+      casingLayer = L.geoJSON(
+        {
+          type: "FeatureCollection",
+          features: lines.map(line => ({
+            type: "Feature",
+            geometry: { type: "LineString", coordinates: toCoords(line.path) },
+            properties: { kv: line.kv },
+          })),
+        } as GeoJSON.FeatureCollection,
+        {
+          renderer,
+          interactive: false,
+          style: (f) => ({
+            color: "white",
+            weight: casingWeight(f!.properties.kv),
+            opacity: 0.85,
+            fillOpacity: 0,
+          }),
+        } as GeoJSONOptsExt
+      ).addTo(map);
 
-    // 共有ツールチップ: bindTooltip を 3,992 回呼ぶ代わりに mousemove 1 リスナーで処理
-    type MouseEvtWithFrom = L.LeafletMouseEvent & {
-      propagatedFrom?: L.Layer & { feature?: GeoJSON.Feature };
-    };
-    const sharedTip = L.tooltip({ sticky: true, opacity: 0.97 });
-    colorLayer.on("mousemove", (ev: L.LeafletEvent) => {
-      const e = ev as MouseEvtWithFrom;
-      const src = e.propagatedFrom;
-      if (!src?.feature) return;
-      const p = src.feature.properties as MatchedLine;
-      const c = lineColor(p.mw);
-      const dc = dmColor(p.dm);
-      sharedTip
-        .setLatLng(e.latlng)
-        .setContent(
-          `<div style="font-size:11px;line-height:1.7;min-width:180px">
-            <p style="font-weight:700;color:#0f172a;margin:0 0 3px;font-size:12px">${p.name ?? "送電線"}</p>
-            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
-              <span style="color:#475569">${p.kv} kV</span>
-              <span style="font-size:9px;font-weight:700;background:${p.ug ? "#e0f2fe" : "#f0fdf4"};color:${p.ug ? "#0369a1" : "#166534"};border-radius:4px;padding:1px 5px">${p.ug ? "地中埋設" : "架空線"}</span>
-            </div>
-            <div style="margin-bottom:4px">
-              <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">逆潮流（発電設備向け）</p>
-              <p style="color:${c};font-weight:700;font-size:13px;margin:0">${p.mw} MW</p>
-            </div>
-            ${p.dm ? `<div style="border-top:1px solid #f1f5f9;padding-top:4px">
-              <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">順潮流（需要家向け）</p>
-              <p style="color:${dc};font-weight:700;font-size:13px;margin:0">${p.dm}</p>
-            </div>` : ""}
-          </div>`
-        );
-      if (!map.hasLayer(sharedTip)) sharedTip.addTo(map);
-    });
-    colorLayer.on("mouseout", () => {
-      if (map.hasLayer(sharedTip)) map.removeLayer(sharedTip);
-    });
+      colorLayer = L.geoJSON(
+        {
+          type: "FeatureCollection",
+          features: lines.map(line => ({
+            type: "Feature",
+            geometry: { type: "LineString", coordinates: toCoords(line.path) },
+            properties: line,
+          })),
+        } as GeoJSON.FeatureCollection,
+        ({
+          renderer,
+          style: (f) => ({
+            color: lineColor(f!.properties.mw),
+            weight: lineWeight(f!.properties.kv),
+            opacity: 0.95,
+            fillOpacity: 0,
+          }),
+        } as GeoJSONOptsExt)
+      ).addTo(map);
+
+      // 共有ツールチップ: bindTooltip を 3,992 回呼ぶ代わりに mousemove 1 リスナーで処理
+      type MouseEvtWithFrom = L.LeafletMouseEvent & {
+        propagatedFrom?: L.Layer & { feature?: GeoJSON.Feature };
+      };
+      sharedTip = L.tooltip({ sticky: true, opacity: 0.97 });
+      colorLayer.on("mousemove", (ev: L.LeafletEvent) => {
+        const e = ev as MouseEvtWithFrom;
+        const src = e.propagatedFrom;
+        if (!src?.feature) return;
+        const p = src.feature.properties as MatchedLine;
+        const c = lineColor(p.mw);
+        const dc = dmColor(p.dm);
+        sharedTip!
+          .setLatLng(e.latlng)
+          .setContent(
+            `<div style="font-size:11px;line-height:1.7;min-width:180px">
+              <p style="font-weight:700;color:#0f172a;margin:0 0 3px;font-size:12px">${p.name ?? "送電線"}</p>
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
+                <span style="color:#475569">${p.kv} kV</span>
+                <span style="font-size:9px;font-weight:700;background:${p.ug ? "#e0f2fe" : "#f0fdf4"};color:${p.ug ? "#0369a1" : "#166534"};border-radius:4px;padding:1px 5px">${p.ug ? "地中埋設" : "架空線"}</span>
+              </div>
+              <div style="margin-bottom:4px">
+                <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">逆潮流（発電設備向け）</p>
+                <p style="color:${c};font-weight:700;font-size:13px;margin:0">${p.mw} MW</p>
+              </div>
+              ${p.dm ? `<div style="border-top:1px solid #f1f5f9;padding-top:4px">
+                <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">順潮流（需要家向け）</p>
+                <p style="color:${dc};font-weight:700;font-size:13px;margin:0">${p.dm}</p>
+              </div>` : ""}
+            </div>`
+          );
+        if (!map.hasLayer(sharedTip!)) sharedTip!.addTo(map);
+      });
+      colorLayer.on("mouseout", () => {
+        if (sharedTip && map.hasLayer(sharedTip)) map.removeLayer(sharedTip);
+      });
+    }, 2000);
 
     return () => {
-      casingLayer.remove();
-      colorLayer.remove();
-      if (map.hasLayer(sharedTip)) map.removeLayer(sharedTip);
+      clearTimeout(timer);
+      casingLayer?.remove();
+      colorLayer?.remove();
+      if (sharedTip && map.hasLayer(sharedTip)) map.removeLayer(sharedTip);
     };
   }, [lines, map]); // eslint-disable-line react-hooks/exhaustive-deps
 
