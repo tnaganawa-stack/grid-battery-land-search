@@ -1,7 +1,7 @@
 "use client";
 
 import "leaflet/dist/leaflet.css";
-import { useEffect, useState, useMemo, useRef, useCallback } from "react";
+import React, { useEffect, useState, useMemo, useRef } from "react";
 import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, CircleMarker, useMap, useMapEvents } from "react-leaflet";
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
@@ -266,6 +266,34 @@ const HAZARD_LAYERS = [
   },
 ] as const;
 
+
+// ─── 物件マーカークリックインターセプター ────────────────────
+// react-leaflet の eventHandlers は再レンダー後にリスナー差し替えが失敗するため、
+// マップコンテナのキャプチャフェーズで直接拾う方式を採用
+function PropertyClickInterceptor({
+  propertiesRef,
+  setStatusTarget,
+}: {
+  propertiesRef: React.MutableRefObject<HomesProperty[]>;
+  setStatusTarget: React.Dispatch<React.SetStateAction<HomesProperty | null>>;
+}) {
+  const map = useMap();
+  useEffect(() => {
+    const container = map.getContainer();
+    const handler = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const markerDiv = target.closest("[data-prop-id]") as HTMLElement | null;
+      if (!markerDiv) return;
+      const id = markerDiv.getAttribute("data-prop-id");
+      if (!id) return;
+      const prop = propertiesRef.current.find(p => p.id === id);
+      if (prop) setStatusTarget(prop);
+    };
+    container.addEventListener("click", handler, true); // キャプチャフェーズ
+    return () => container.removeEventListener("click", handler, true);
+  }, [map]); // map・propertiesRef・setStatusTargetはすべて安定参照 // eslint-disable-line react-hooks/exhaustive-deps
+  return null;
+}
 
 // ─── ビューポートトラッカー（6.6kVカリング用） ───────────────
 function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number; zoom: number }) => void }) {
@@ -558,7 +586,7 @@ function createPropertyIcon(id: string, priceMen: number | null, status?: string
   const typeTag  = type === "低圧" ? "低" : "高";
   return L.divIcon({
     className: "",
-    html: `<div onclick="event.stopPropagation();window.__propClick&&window.__propClick('${id}')" style="
+    html: `<div data-prop-id="${id}" style="
       background:${bg};color:#fff;
       border:2px solid rgba(255,255,255,0.8);
       border-radius:8px;
@@ -597,22 +625,9 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
   const anyHazardOn = HAZARD_LAYERS.some(l => hazardVisibility[l.id]);
 
-  // window.__propClick 経由でクリックを受け取る（react-leaflet の eventHandlers は
-  // 再レンダー後に差し替えが失敗するため、HTML onclick + window 関数を使う）
+  // PropertyClickInterceptor が参照する最新 properties
   const propertiesRef = useRef<HomesProperty[]>(properties);
   propertiesRef.current = properties;
-
-  const handlePropClick = useCallback((id: string) => {
-    const prop = propertiesRef.current.find(p => p.id === id);
-    if (prop) setStatusTarget(prop);
-  }, []);
-
-  useEffect(() => {
-    (window as Window & { __propClick?: (id: string) => void }).__propClick = handlePropClick;
-    return () => {
-      (window as Window & { __propClick?: (id: string) => void }).__propClick = undefined;
-    };
-  }, [handlePropClick]);
 
   function handleStatusSave(id: string, data: StatusData) {
     setProperties(prev => prev.map(p => p.id === id ? { ...p, ...data } : p));
@@ -956,6 +971,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         {/* 県フォーカスコントローラー */}
         <MapFlyController area={selectedArea} fitTrigger={fitTrigger} />
         <ViewportTracker onBoundsChange={setMapBounds} />
+        <PropertyClickInterceptor propertiesRef={propertiesRef} setStatusTarget={setStatusTarget} />
 
         {/* ハザードマップタイルレイヤー */}
         {HAZARD_LAYERS.map(layer => hazardVisibility[layer.id] && (
