@@ -669,35 +669,50 @@ const TransmissionLinesLayer = React.memo(function TransmissionLinesLayer({
           opacity: 0.95,
           fillOpacity: 0,
         }),
-        onEachFeature: (feature, layer) => {
-          const p = feature.properties as MatchedLine;
-          const c = lineColor(p.mw);
-          const dc = dmColor(p.dm);
-          layer.bindTooltip(
-            `<div style="font-size:11px;line-height:1.7;min-width:180px">
-              <p style="font-weight:700;color:#0f172a;margin:0 0 3px;font-size:12px">${p.name ?? "送電線"}</p>
-              <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
-                <span style="color:#475569">${p.kv} kV</span>
-                <span style="font-size:9px;font-weight:700;background:${p.ug ? "#e0f2fe" : "#f0fdf4"};color:${p.ug ? "#0369a1" : "#166534"};border-radius:4px;padding:1px 5px">${p.ug ? "地中埋設" : "架空線"}</span>
-              </div>
-              <div style="margin-bottom:4px">
-                <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">逆潮流（発電設備向け）</p>
-                <p style="color:${c};font-weight:700;font-size:13px;margin:0">${p.mw} MW</p>
-              </div>
-              ${p.dm ? `<div style="border-top:1px solid #f1f5f9;padding-top:4px">
-                <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">順潮流（需要家向け）</p>
-                <p style="color:${dc};font-weight:700;font-size:13px;margin:0">${p.dm}</p>
-              </div>` : ""}
-            </div>`,
-            { sticky: true, opacity: 0.97 }
-          );
-        },
       } as GeoJSONOptsExt)
     ).addTo(map);
+
+    // 共有ツールチップ: bindTooltip を 3,992 回呼ぶ代わりに mousemove 1 リスナーで処理
+    type MouseEvtWithFrom = L.LeafletMouseEvent & {
+      propagatedFrom?: L.Layer & { feature?: GeoJSON.Feature };
+    };
+    const sharedTip = L.tooltip({ sticky: true, opacity: 0.97 });
+    colorLayer.on("mousemove", (ev: L.LeafletEvent) => {
+      const e = ev as MouseEvtWithFrom;
+      const src = e.propagatedFrom;
+      if (!src?.feature) return;
+      const p = src.feature.properties as MatchedLine;
+      const c = lineColor(p.mw);
+      const dc = dmColor(p.dm);
+      sharedTip
+        .setLatLng(e.latlng)
+        .setContent(
+          `<div style="font-size:11px;line-height:1.7;min-width:180px">
+            <p style="font-weight:700;color:#0f172a;margin:0 0 3px;font-size:12px">${p.name ?? "送電線"}</p>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
+              <span style="color:#475569">${p.kv} kV</span>
+              <span style="font-size:9px;font-weight:700;background:${p.ug ? "#e0f2fe" : "#f0fdf4"};color:${p.ug ? "#0369a1" : "#166534"};border-radius:4px;padding:1px 5px">${p.ug ? "地中埋設" : "架空線"}</span>
+            </div>
+            <div style="margin-bottom:4px">
+              <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">逆潮流（発電設備向け）</p>
+              <p style="color:${c};font-weight:700;font-size:13px;margin:0">${p.mw} MW</p>
+            </div>
+            ${p.dm ? `<div style="border-top:1px solid #f1f5f9;padding-top:4px">
+              <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">順潮流（需要家向け）</p>
+              <p style="color:${dc};font-weight:700;font-size:13px;margin:0">${p.dm}</p>
+            </div>` : ""}
+          </div>`
+        );
+      if (!map.hasLayer(sharedTip)) sharedTip.addTo(map);
+    });
+    colorLayer.on("mouseout", () => {
+      if (map.hasLayer(sharedTip)) map.removeLayer(sharedTip);
+    });
 
     return () => {
       casingLayer.remove();
       colorLayer.remove();
+      if (map.hasLayer(sharedTip)) map.removeLayer(sharedTip);
     };
   }, [lines, map]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -753,11 +768,15 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   }, []);
 
   // 送電線の全データ（物件の nearestLine 計算用）
+  // マップ安定後に実行（タイル読み込みをブロックしないよう5秒遅延）
   useEffect(() => {
-    fetch("/api/real-data/transmission-lines", { cache: "no-store" })
-      .then(r => r.json())
-      .then((data: TransmissionLine[]) => setLines(data))
-      .catch(() => {});
+    const timer = setTimeout(() => {
+      fetch("/api/real-data/transmission-lines", { cache: "no-store" })
+        .then(r => r.json())
+        .then((data: TransmissionLine[]) => setLines(data))
+        .catch(() => {});
+    }, 5000);
+    return () => clearTimeout(timer);
   }, []);
 
   // 描画用送電線（ビルド済み静的JSON・一回のみ取得）
