@@ -1,7 +1,7 @@
 "use client";
 
 import "leaflet/dist/leaflet.css";
-import { useEffect, useState, useMemo, useRef } from "react";
+import { useEffect, useState, useMemo, useRef, useCallback } from "react";
 import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, CircleMarker, useMap, useMapEvents } from "react-leaflet";
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
@@ -552,13 +552,13 @@ const STATUS_MARKER_COLORS: Record<string, string> = {
   "失注":   "#dc2626",
 };
 
-function createPropertyIcon(priceMen: number | null, status?: string, type?: string): L.DivIcon {
+function createPropertyIcon(id: string, priceMen: number | null, status?: string, type?: string): L.DivIcon {
   const label    = priceMen != null ? `${priceMen.toLocaleString()}万` : "物件";
   const bg       = STATUS_MARKER_COLORS[status ?? "未着手"] ?? "#6366f1";
   const typeTag  = type === "低圧" ? "低" : "高";
   return L.divIcon({
     className: "",
-    html: `<div style="
+    html: `<div onclick="event.stopPropagation();window.__propClick&&window.__propClick('${id}')" style="
       background:${bg};color:#fff;
       border:2px solid rgba(255,255,255,0.8);
       border-radius:8px;
@@ -596,6 +596,23 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
   const anyHazardOn = HAZARD_LAYERS.some(l => hazardVisibility[l.id]);
+
+  // window.__propClick 経由でクリックを受け取る（react-leaflet の eventHandlers は
+  // 再レンダー後に差し替えが失敗するため、HTML onclick + window 関数を使う）
+  const propertiesRef = useRef<HomesProperty[]>(properties);
+  propertiesRef.current = properties;
+
+  const handlePropClick = useCallback((id: string) => {
+    const prop = propertiesRef.current.find(p => p.id === id);
+    if (prop) setStatusTarget(prop);
+  }, []);
+
+  useEffect(() => {
+    (window as Window & { __propClick?: (id: string) => void }).__propClick = handlePropClick;
+    return () => {
+      (window as Window & { __propClick?: (id: string) => void }).__propClick = undefined;
+    };
+  }, [handlePropClick]);
 
   function handleStatusSave(id: string, data: StatusData) {
     setProperties(prev => prev.map(p => p.id === id ? { ...p, ...data } : p));
@@ -1121,9 +1138,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           <Marker
             key={p.id}
             position={[p.lat, p.lng]}
-            icon={createPropertyIcon(p.priceMen, p.status, p.type)}
+            icon={createPropertyIcon(p.id, p.priceMen, p.status, p.type)}
             zIndexOffset={4000}
-            eventHandlers={{ click: () => setStatusTarget(p) }}
           >
             <Tooltip permanent={false} direction="top" opacity={0.97}>
               <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 200 }}>
