@@ -2,16 +2,15 @@
 
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState, useMemo, useRef } from "react";
-import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, CircleMarker, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Polyline, Tooltip, Marker, GeoJSON, CircleMarker, useMap, useMapEvents } from "react-leaflet";
 import type { TransmissionLine } from "@/types";
 import L from "leaflet";
 import type { GeoJsonObject } from "geojson";
-import gridCapacityAll from "@/data/grid_capacity_all.json";
-import gridCapacityDemand from "@/data/grid_capacity_demand.json";
-import substationsData from "@/data/substations.json";
-import subCapData from "@/data/substation_capacity.json";
+import capLookupRaw from "@/data/cap_lookup.json";
+import demandCapLookupRaw from "@/data/demand_cap_lookup.json";
 import kansaiUpperAreas from "@/data/kansai_upper_areas.json";
 import dist6kvRaw from "@/data/distribution_6kv_geocoded.json";
+import dist6kvGridRaw from "@/data/distribution_6kv_grid.json";
 import { type HomesProperty } from "@/components/PropertyListModal";
 import StatusEditModal from "@/components/StatusEditModal";
 import type { StatusData, PropertyStatus, PropertyType } from "@/components/StatusEditModal";
@@ -24,35 +23,24 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
 });
 
-// ─── 容量データルックアップ ───────────────────────────────────
-type RawLine = { name: string | null; voltageKv: number; availableMw: number | null };
-type CapDataset = { area: string; lines: RawLine[] };
-type DemandLine = { name: string | null; voltageKv: number; demandMw: string | null };
-type DemandDataset = { area: string; lines: DemandLine[] };
+// ─── 容量データルックアップ（静的フラットマップ使用） ──────────
+type CapLookup = { exact: Record<string, number | null>; normalized: Record<string, number | null> };
+type DemandCapLookup = { exact: Record<string, string | null>; normalized: Record<string, string | null> };
+
+const capLookup = capLookupRaw as CapLookup;
+const demandCapLookup = demandCapLookupRaw as DemandCapLookup;
 
 function normalizeLineName(n: string): string {
   return n.replace(/[（(].*?[）)]/g, "").trim();
 }
 
-const CAP_MAP = new Map<string, number | null>(
-  (gridCapacityAll as CapDataset[]).flatMap(ds =>
-    ds.lines.filter(l => l.name).map(l => [l.name as string, l.availableMw])
-  )
-);
-
-const DEMAND_CAP_MAP = new Map<string, string | null>(
-  (gridCapacityDemand as DemandDataset[]).flatMap(ds =>
-    ds.lines.filter(l => l.name).map(l => [l.name as string, l.demandMw])
-  )
-);
-
 function lookupCapSingle(name: string): number | null | undefined {
-  if (CAP_MAP.has(name)) return CAP_MAP.get(name);
+  if (name in capLookup.exact) return capLookup.exact[name];
   const norm = normalizeLineName(name);
-  for (const [k, v] of CAP_MAP) {
-    if (normalizeLineName(k) === norm) return v;
-  }
-  for (const [k, v] of CAP_MAP) {
+  if (norm in capLookup.normalized) return capLookup.normalized[norm];
+  if (norm in capLookup.exact) return capLookup.exact[norm];
+  // 部分一致はまれなので必要時のみスキャン
+  for (const [k, v] of Object.entries(capLookup.exact)) {
     const kn = normalizeLineName(k);
     if (kn.startsWith(norm) || norm.startsWith(kn)) return v;
   }
@@ -70,15 +58,10 @@ function lookupCap(name: string): number | null | undefined {
 }
 
 function lookupDemandCapSingle(name: string): string | null | undefined {
-  if (DEMAND_CAP_MAP.has(name)) return DEMAND_CAP_MAP.get(name);
+  if (name in demandCapLookup.exact) return demandCapLookup.exact[name];
   const norm = normalizeLineName(name);
-  for (const [k, v] of DEMAND_CAP_MAP) {
-    if (normalizeLineName(k) === norm) return v;
-  }
-  for (const [k, v] of DEMAND_CAP_MAP) {
-    const kn = normalizeLineName(k);
-    if (kn.startsWith(norm) || norm.startsWith(kn)) return v;
-  }
+  if (norm in demandCapLookup.normalized) return demandCapLookup.normalized[norm];
+  if (norm in demandCapLookup.exact) return demandCapLookup.exact[norm];
   return undefined;
 }
 
@@ -124,27 +107,31 @@ type SubstationItem = {
   voltageKv: number;
 };
 
-const SUB_CAP_MAP = new Map<string, number>(
-  Object.entries(subCapData as Record<string, number>)
-);
-
-function lookupSubCap(name: string): number {
-  const key = name.replace(/変電所$/, '').trim();
-  const v = SUB_CAP_MAP.get(key);
-  return v !== undefined ? v : -1; // -1 = データなし（未収録変電所）
-}
+// ─── 6.6kV変電所グリッドインデックス（最寄変電所の高速検索） ──
+type GridCell = { n: string; la: number; lo: number; mw: number }[];
+type Grid6kV = { cellSize: number; cells: Record<string, GridCell> };
+const dist6kvGrid = dist6kvGridRaw as Grid6kV;
+const GRID_CELL = dist6kvGrid.cellSize;
 
 function nearestSubstation(
   lat: number, lng: number
 ): { name: string; kv: number; distM: number; capMw: number | null } {
   let best = { name: "", kv: 6.6, distM: Infinity, capMw: null as number | null };
   const cosLat = Math.cos((lat * Math.PI) / 180);
-  for (const sub of dist6kvData) {
-    const dx = (sub.lng - lng) * cosLat * DEG_TO_M;
-    const dy = (sub.lat - lat) * DEG_TO_M;
-    const d = Math.sqrt(dx * dx + dy * dy);
-    if (d < best.distM) {
-      best = { name: sub.name, kv: 6.6, distM: d, capMw: sub.availableMw };
+  const baseLat = Math.floor(lat / GRID_CELL) * GRID_CELL;
+  const baseLng = Math.floor(lng / GRID_CELL) * GRID_CELL;
+  // 自セル＋隣接8セルのみ検索
+  for (let dlat = -1; dlat <= 1; dlat++) {
+    for (let dlng = -1; dlng <= 1; dlng++) {
+      const key = `${(baseLat + dlat * GRID_CELL).toFixed(2)}_${(baseLng + dlng * GRID_CELL).toFixed(2)}`;
+      const cell = dist6kvGrid.cells[key];
+      if (!cell) continue;
+      for (const sub of cell) {
+        const dx = (sub.lo - lng) * cosLat * DEG_TO_M;
+        const dy = (sub.la - lat) * DEG_TO_M;
+        const d = Math.sqrt(dx * dx + dy * dy);
+        if (d < best.distM) best = { name: sub.n, kv: 6.6, distM: d, capMw: sub.mw };
+      }
     }
   }
   return best;
@@ -279,6 +266,21 @@ const HAZARD_LAYERS = [
   },
 ] as const;
 
+
+// ─── ビューポートトラッカー（6.6kVカリング用） ───────────────
+function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number }) => void }) {
+  const updateBounds = (map: L.Map) => {
+    const b = map.getBounds();
+    onBoundsChange({ n: b.getNorth(), s: b.getSouth(), e: b.getEast(), w: b.getWest() });
+  };
+  const map = useMapEvents({
+    moveend: () => updateBounds(map),
+    zoomend: () => updateBounds(map),
+    load:    () => updateBounds(map),
+  });
+  useEffect(() => { updateBounds(map); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  return null;
+}
 
 // ─── 県フォーカスコントローラー ──────────────────────────────
 function MapFlyController({ area, fitTrigger }: { area?: string; fitTrigger?: number }) {
@@ -580,6 +582,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [statusFilter, setStatusFilter] = useState<Set<string>>(new Set(["未着手", "進捗中", "失注"]));
   const [typeFilter, setTypeFilter]     = useState<Set<string>>(new Set(["高圧", "低圧"]));
   const [show6kV, setShow6kV]           = useState(false);
+  const [mapBounds, setMapBounds]       = useState<{ n: number; s: number; e: number; w: number } | null>(null);
   const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
@@ -913,6 +916,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
 
         {/* 県フォーカスコントローラー */}
         <MapFlyController area={selectedArea} fitTrigger={fitTrigger} />
+        <ViewportTracker onBoundsChange={setMapBounds} />
 
         {/* ハザードマップタイルレイヤー */}
         {HAZARD_LAYERS.map(layer => hazardVisibility[layer.id] && (
@@ -1035,8 +1039,14 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           }}
         />
 
-        {/* 6.6kV 配電用変電所マーカー */}
-        {show6kV && dist6kvData.map((sub, i) => {
+        {/* 6.6kV 配電用変電所マーカー（Canvas描画＋ビューポートカリング） */}
+        {show6kV && dist6kvData
+          .filter(sub =>
+            !mapBounds ||
+            (sub.lat <= mapBounds.n && sub.lat >= mapBounds.s &&
+             sub.lng <= mapBounds.e && sub.lng >= mapBounds.w)
+          )
+          .map((sub, i) => {
           const color = dist6kvColor(sub.availableMw);
           const isApprox = sub.geocodeMethod === "approximate" || sub.geocodeMethod === "default-region";
           return (
@@ -1044,6 +1054,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
               key={`6kv-${i}`}
               center={[sub.lat, sub.lng]}
               radius={isApprox ? 4 : 5}
+              renderer={L.canvas()}
               pathOptions={{
                 fillColor: color,
                 fillOpacity: isApprox ? 0.35 : 0.85,
