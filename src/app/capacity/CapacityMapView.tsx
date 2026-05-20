@@ -137,14 +137,14 @@ function lookupSubCap(name: string): number {
 function nearestSubstation(
   lat: number, lng: number
 ): { name: string; kv: number; distM: number; capMw: number | null } {
-  let best = { name: "", kv: 0, distM: Infinity, capMw: -1 as number };
-  for (const sub of substationsData as SubstationItem[]) {
-    const cosLat = Math.cos((lat * Math.PI) / 180);
-    const dx = (sub.coordinates.lng - lng) * cosLat * DEG_TO_M;
-    const dy = (sub.coordinates.lat - lat) * DEG_TO_M;
+  let best = { name: "", kv: 6.6, distM: Infinity, capMw: null as number | null };
+  const cosLat = Math.cos((lat * Math.PI) / 180);
+  for (const sub of dist6kvData) {
+    const dx = (sub.lng - lng) * cosLat * DEG_TO_M;
+    const dy = (sub.lat - lat) * DEG_TO_M;
     const d = Math.sqrt(dx * dx + dy * dy);
     if (d < best.distM) {
-      best = { name: sub.name, kv: sub.voltageKv, distM: d, capMw: lookupSubCap(sub.name) };
+      best = { name: sub.name, kv: 6.6, distM: d, capMw: sub.availableMw };
     }
   }
   return best;
@@ -624,15 +624,17 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
       p => p.lat !== 0 && (
         p.nearestDistM === 0 ||
         p.nearestSubDistM === 0 ||
-        p.nearestSubCapMw === null
+        p.nearestSubCapMw === null ||
+        (p.nearestSubKv !== undefined && p.nearestSubKv !== 6.6)
       )
     );
     if (!needsEnrich) return;
     const enriched = properties.map(p => {
       if (p.lat === 0) return p;
       const needsLine   = p.nearestDistM === 0;
-      const needsSub    = p.nearestSubDistM === 0;
-      const needsSubCap = p.nearestSubCapMw === null;
+      // 6.6kV以外のkV（旧送変電所ベース）なら再計算
+      const needsSub    = p.nearestSubDistM === 0 || (p.nearestSubKv !== undefined && p.nearestSubKv !== 6.6);
+      const needsSubCap = p.nearestSubCapMw === null || (p.nearestSubKv !== undefined && p.nearestSubKv !== 6.6);
       if (!needsLine && !needsSub && !needsSubCap) return p;
       const nb  = needsLine              ? nearestLine(p.lat, p.lng, lines, capByLineId) : null;
       const sub = (needsSub || needsSubCap) ? nearestSubstation(p.lat, p.lng)            : null;
@@ -649,7 +651,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         return p.lat !== 0 && (
           orig?.nearestDistM === 0 ||
           orig?.nearestSubDistM === 0 ||
-          orig?.nearestSubCapMw === null
+          orig?.nearestSubCapMw === null ||
+          (orig?.nearestSubKv !== undefined && orig?.nearestSubKv !== 6.6)
         );
       })
       .forEach(p => {
