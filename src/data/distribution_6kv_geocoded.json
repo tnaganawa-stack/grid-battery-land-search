@@ -15481,9 +15481,9 @@
     "secondaryKv": 6.6,
     "availableMw": 10,
     "source": "東北電力NW",
-    "lat": 38.2703244772389,
-    "lng": 140.88008336814218,
-    "geocodeMethod": "default-region"
+    "lat": 38.6583,
+    "lng": 140.9338,
+    "geocodeMethod": "approximate"
   },
   {
     "name": "松島",
