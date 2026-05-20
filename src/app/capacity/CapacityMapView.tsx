@@ -268,15 +268,14 @@ const HAZARD_LAYERS = [
 
 
 // ─── ビューポートトラッカー（6.6kVカリング用） ───────────────
-function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number }) => void }) {
+function ViewportTracker({ onBoundsChange }: { onBoundsChange: (b: { n: number; s: number; e: number; w: number; zoom: number }) => void }) {
   const updateBounds = (map: L.Map) => {
     const b = map.getBounds();
-    onBoundsChange({ n: b.getNorth(), s: b.getSouth(), e: b.getEast(), w: b.getWest() });
+    onBoundsChange({ n: b.getNorth(), s: b.getSouth(), e: b.getEast(), w: b.getWest(), zoom: map.getZoom() });
   };
   const map = useMapEvents({
     moveend: () => updateBounds(map),
     zoomend: () => updateBounds(map),
-    load:    () => updateBounds(map),
   });
   useEffect(() => { updateBounds(map); }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return null;
@@ -528,7 +527,17 @@ type Dist6kVSubstation = {
   lng: number;
   geocodeMethod?: string; // "approximate" or "default-region" = 推定位置
 };
-const dist6kvData = dist6kvRaw as Dist6kVSubstation[];
+// default-region（府県中心配置）は表示対象外とし件数を削減
+const dist6kvData = (dist6kvRaw as Dist6kVSubstation[]).filter(
+  s => s.geocodeMethod !== "default-region"
+);
+
+// 共有Canvasレンダラー（マーカー全体で1インスタンス）
+let _canvasRenderer: L.Renderer | undefined;
+function getCanvasRenderer(): L.Renderer {
+  if (!_canvasRenderer) _canvasRenderer = L.canvas({ padding: 0.5 });
+  return _canvasRenderer;
+}
 
 function dist6kvColor(mw: number): string {
   if (mw >= 20) return "#16a34a";
@@ -582,7 +591,7 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
   const [statusFilter, setStatusFilter] = useState<Set<string>>(new Set(["未着手", "進捗中", "失注"]));
   const [typeFilter, setTypeFilter]     = useState<Set<string>>(new Set(["高圧", "低圧"]));
   const [show6kV, setShow6kV]           = useState(false);
-  const [mapBounds, setMapBounds]       = useState<{ n: number; s: number; e: number; w: number } | null>(null);
+  const [mapBounds, setMapBounds]       = useState<{ n: number; s: number; e: number; w: number; zoom: number } | null>(null);
   const [hazardVisibility, setHazardVisibility] = useState<Record<string, boolean>>({});
   const [hazardOpacity, setHazardOpacity] = useState(0.7);
   const toggleHazard = (id: string) => setHazardVisibility(prev => ({ ...prev, [id]: !prev[id] }));
@@ -685,6 +694,19 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
     ),
     [properties, statusFilter, typeFilter]
   );
+
+  // 6.6kV変電所：ビューポート内かつズームレベル条件を満たすもののみ（メモ化）
+  const visible6kVSubs = useMemo(() => {
+    if (!show6kV || !mapBounds) return [];
+    const { n, s, e, w, zoom } = mapBounds;
+    // ズーム9未満は高容量(≥10MW)のみ、7未満は非表示
+    const minMw = zoom < 7 ? Infinity : zoom < 9 ? 10 : 0;
+    return dist6kvData.filter(sub =>
+      sub.availableMw >= minMw &&
+      sub.lat <= n && sub.lat >= s &&
+      sub.lng <= e && sub.lng >= w
+    );
+  }, [show6kV, mapBounds]);
 
   // 66kV以上 かつ 空き容量あり（> 0 MW）の線のみ描画
   const matchedLines = useMemo(() => {
@@ -1039,22 +1061,16 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
           }}
         />
 
-        {/* 6.6kV 配電用変電所マーカー（Canvas描画＋ビューポートカリング） */}
-        {show6kV && dist6kvData
-          .filter(sub =>
-            !mapBounds ||
-            (sub.lat <= mapBounds.n && sub.lat >= mapBounds.s &&
-             sub.lng <= mapBounds.e && sub.lng >= mapBounds.w)
-          )
-          .map((sub, i) => {
+        {/* 6.6kV 配電用変電所マーカー（共有Canvas・ビューポート＋ズーム間引き済み） */}
+        {visible6kVSubs.map((sub, i) => {
           const color = dist6kvColor(sub.availableMw);
-          const isApprox = sub.geocodeMethod === "approximate" || sub.geocodeMethod === "default-region";
+          const isApprox = sub.geocodeMethod === "approximate";
           return (
             <CircleMarker
               key={`6kv-${i}`}
               center={[sub.lat, sub.lng]}
               radius={isApprox ? 4 : 5}
-              renderer={L.canvas()}
+              renderer={getCanvasRenderer()}
               pathOptions={{
                 fillColor: color,
                 fillOpacity: isApprox ? 0.35 : 0.85,
