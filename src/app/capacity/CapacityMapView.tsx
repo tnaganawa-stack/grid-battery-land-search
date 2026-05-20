@@ -604,84 +604,104 @@ function fetchMatchedLines(): Promise<MatchedLine[]> {
   return _mlPromise;
 }
 
-// pan/zoom では一切再レンダリングしない静的送電線レイヤー
-// matchedLines が変わらない限り React.memo が bail-out する
-const PolylineLayers = React.memo(function PolylineLayers({
+function dmColor(dm: string | null): string {
+  if (!dm) return "#94a3b8";
+  const m: Record<string, string> = {
+    "~50MW": "#f97316", "50~75MW": "#eab308", "75~100MW": "#22d3ee",
+    "31~100MW": "#d97706", "101~200MW": "#60a5fa", "201~300MW": "#4ade80",
+    "301~1000MW": "#22c55e", "1001MW~": "#15803d",
+  };
+  return m[dm] ?? "#60a5fa";
+}
+
+// 生 Leaflet API で GeoJSON + Canvas の2レイヤーのみ作成
+// react-leaflet の Polyline コンポーネントを使わないため再レンダリングがゼロ
+const TransmissionLinesLayer = React.memo(function TransmissionLinesLayer({
   lines,
 }: {
   lines: MatchedLine[];
 }) {
-  if (!lines.length) return null;
-  return (
-    <>
-      {lines.map(line => (
-        <Polyline
-          key={`casing-${line.id}`}
-          positions={line.path}
-          color="white"
-          weight={casingWeight(line.kv)}
-          opacity={0.85}
-          interactive={false}
-        />
-      ))}
-      {lines.map(line => {
-        const color = lineColor(line.mw);
-        return (
-          <Polyline
-            key={`line-${line.id}`}
-            positions={line.path}
-            color={color}
-            weight={lineWeight(line.kv)}
-            opacity={0.95}
-          >
-            <Tooltip sticky opacity={0.97} direction="top">
-              <div style={{ fontSize: 11, lineHeight: "1.7", minWidth: 180 }}>
-                <p style={{ fontWeight: 700, color: "#0f172a", marginBottom: 3, fontSize: 12 }}>
-                  {line.name || "送電線"}
-                </p>
-                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 6 }}>
-                  <span style={{ color: "#475569" }}>{line.kv} kV</span>
-                  <span style={{
-                    fontSize: 9, fontWeight: 700,
-                    background: line.ug ? "#e0f2fe" : "#f0fdf4",
-                    color:      line.ug ? "#0369a1" : "#166534",
-                    borderRadius: 4, padding: "1px 5px",
-                  }}>
-                    {line.ug ? "地中埋設" : "架空線"}
-                  </span>
-                </div>
-                <div style={{ marginBottom: 4 }}>
-                  <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>逆潮流（発電設備向け）</p>
-                  <p style={{ color, fontWeight: 700, fontSize: 13 }}>
-                    {line.mw} MW
-                  </p>
-                </div>
-                {line.dm && (
-                  <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: 4 }}>
-                    <p style={{ fontSize: 9, color: "#94a3b8", marginBottom: 1 }}>順潮流（需要家向け）</p>
-                    <p style={{
-                      color: line.dm === "~50MW"      ? "#f97316"
-                           : line.dm === "50~75MW"    ? "#eab308"
-                           : line.dm === "75~100MW"   ? "#22d3ee"
-                           : line.dm === "31~100MW"   ? "#d97706"
-                           : line.dm === "101~200MW"  ? "#60a5fa"
-                           : line.dm === "201~300MW"  ? "#4ade80"
-                           : line.dm === "301~1000MW" ? "#22c55e"
-                           : line.dm === "1001MW~"    ? "#15803d"
-                           : "#60a5fa",
-                      fontWeight: 700, fontSize: 13,
-                    }}>
-                      {line.dm}
-                    </p>
-                  </div>
-                )}
+  const map = useMap();
+
+  useEffect(() => {
+    if (!lines.length) return;
+
+    const renderer = L.canvas({ padding: 0.5 });
+    const toCoords = (path: [number, number][]) => path.map(([lat, lng]) => [lng, lat]);
+
+    type GeoJSONOptsExt = L.GeoJSONOptions & { renderer?: L.Renderer };
+
+    const casingLayer = L.geoJSON(
+      {
+        type: "FeatureCollection",
+        features: lines.map(line => ({
+          type: "Feature",
+          geometry: { type: "LineString", coordinates: toCoords(line.path) },
+          properties: { kv: line.kv },
+        })),
+      } as GeoJSON.FeatureCollection,
+      {
+        renderer,
+        interactive: false,
+        style: (f) => ({
+          color: "white",
+          weight: casingWeight(f!.properties.kv),
+          opacity: 0.85,
+          fillOpacity: 0,
+        }),
+      } as GeoJSONOptsExt
+    ).addTo(map);
+
+    const colorLayer = L.geoJSON(
+      {
+        type: "FeatureCollection",
+        features: lines.map(line => ({
+          type: "Feature",
+          geometry: { type: "LineString", coordinates: toCoords(line.path) },
+          properties: line,
+        })),
+      } as GeoJSON.FeatureCollection,
+      ({
+        renderer,
+        style: (f) => ({
+          color: lineColor(f!.properties.mw),
+          weight: lineWeight(f!.properties.kv),
+          opacity: 0.95,
+          fillOpacity: 0,
+        }),
+        onEachFeature: (feature, layer) => {
+          const p = feature.properties as MatchedLine;
+          const c = lineColor(p.mw);
+          const dc = dmColor(p.dm);
+          layer.bindTooltip(
+            `<div style="font-size:11px;line-height:1.7;min-width:180px">
+              <p style="font-weight:700;color:#0f172a;margin:0 0 3px;font-size:12px">${p.name ?? "送電線"}</p>
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
+                <span style="color:#475569">${p.kv} kV</span>
+                <span style="font-size:9px;font-weight:700;background:${p.ug ? "#e0f2fe" : "#f0fdf4"};color:${p.ug ? "#0369a1" : "#166534"};border-radius:4px;padding:1px 5px">${p.ug ? "地中埋設" : "架空線"}</span>
               </div>
-            </Tooltip>
-          </Polyline>
-        );
-      })}
-    </>
-  );
+              <div style="margin-bottom:4px">
+                <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">逆潮流（発電設備向け）</p>
+                <p style="color:${c};font-weight:700;font-size:13px;margin:0">${p.mw} MW</p>
+              </div>
+              ${p.dm ? `<div style="border-top:1px solid #f1f5f9;padding-top:4px">
+                <p style="font-size:9px;color:#94a3b8;margin:0 0 1px">順潮流（需要家向け）</p>
+                <p style="color:${dc};font-weight:700;font-size:13px;margin:0">${p.dm}</p>
+              </div>` : ""}
+            </div>`,
+            { sticky: true, opacity: 0.97 }
+          );
+        },
+      } as GeoJSONOptsExt)
+    ).addTo(map);
+
+    return () => {
+      casingLayer.remove();
+      colorLayer.remove();
+    };
+  }, [lines, map]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  return null;
 });
 
 export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMapViewProps) {
@@ -1055,8 +1075,8 @@ export default function CapacityMapView({ selectedArea, fitTrigger }: CapacityMa
         ))}
 
 
-        {/* 送電線レイヤー（静的JSONから描画、pan/zoomで再レンダリングしない） */}
-        <PolylineLayers lines={matchedLines} />
+        {/* 送電線レイヤー（生Leaflet GeoJSON+Canvas、React再レンダリングなし） */}
+        <TransmissionLinesLayer lines={matchedLines} />
 
         {/* 関西 上位系統増強必要地域（赤枠） */}
         <GeoJSON
